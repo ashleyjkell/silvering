@@ -1,0 +1,75 @@
+﻿check_id,scheme_id,scheme_name,max_storeys,check_type,frequency_months,last_completed,next_due,risk_rating,open_actions,overdue_actions,status,assessor
+BS5001,SCH01,Rosemount Tower,12,Fire risk assessment,12,2026-03-12,2027-03-12,Moderate,11,3,Compliant,Fireguard Compliance Ltd
+BS5002,SCH01,Rosemount Tower,12,Legionella risk assessment,24,2026-08-04,2028-08-02,,1,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5003,SCH01,Rosemount Tower,12,Asbestos re-inspection (communal),12,2025-11-13,2026-11-12,,2,0,Compliant,Asbestos Survey Partners Ltd
+BS5004,SCH01,Rosemount Tower,12,Lift thorough examination (LOLER),6,2026-09-21,2027-03-22,,0,0,Compliant,Liftwise Engineering Ltd
+BS5005,SCH01,Rosemount Tower,12,Communal fire door inspection,3,2026-10-15,2027-01-14,,9,4,Compliant,Silvering building safety team
+BS5006,SCH02,Parkwood Court,5,Fire risk assessment,12,2026-08-25,2027-08-24,Tolerable,5,0,Compliant,Fireguard Compliance Ltd
+BS5007,SCH02,Parkwood Court,5,Legionella risk assessment,24,2025-07-18,2027-07-17,,2,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5008,SCH02,Parkwood Court,5,Asbestos re-inspection (communal),12,2026-08-29,2027-08-28,,0,0,Compliant,Asbestos Survey Partners Ltd
+BS5009,SCH02,Parkwood Court,5,Lift thorough examination (LOLER),6,2026-03-30,2026-09-28,,0,0,Overdue,Liftwise Engineering Ltd
+BS5010,SCH02,Parkwood Court,5,Communal fire door inspection,3,2026-10-21,2027-01-20,,1,0,Compliant,Silvering building safety team
+BS5011,SCH08,Allington Mews,3,Fire risk assessment,24,2025-10-27,2027-10-26,Tolerable,1,0,Compliant,Fireguard Compliance Ltd
+BS5012,SCH08,Allington Mews,3,Legionella risk assessment,24,2026-02-17,2028-02-16,,1,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5013,SCH08,Allington Mews,3,Asbestos re-inspection (communal),12,2026-01-13,2027-01-12,,2,0,Compliant,Asbestos Survey Partners Ltd
+BS5014,SCH10,Bearsted Court,3,Fire risk assessment,12,2026-10-14,2027-10-13,Trivial,0,0,Compliant,Fireguard Compliance Ltd
+BS5015,SCH10,Bearsted Court,3,Legionella risk assessment,24,2026-03-20,2028-03-18,,2,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5016,SCH10,Bearsted Court,3,Asbestos re-inspection (communal),12,2026-03-17,2027-03-16,,1,0,Compliant,Asbestos Survey Partners Ltd
+BS5017,SCH10,Bearsted Court,3,Lift thorough examination (LOLER),6,2026-07-27,2027-01-25,,0,0,Compliant,Liftwise Engineering Ltd
+BS5018,SCH11,Willow House,3,Fire risk assessment,12,2026-07-04,2027-07-03,Tolerable,2,0,Compliant,Fireguard Compliance Ltd
+BS5019,SCH11,Willow House,3,Legionella risk assessment,24,2025-02-13,2027-02-12,,0,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5020,SCH11,Willow House,3,Asbestos re-inspection (communal),12,2026-02-15,2027-02-14,,2,0,Compliant,Asbestos Survey Partners Ltd
+BS5021,SCH11,Willow House,3,Lift thorough examination (LOLER),6,2026-09-28,2027-03-29,,2,0,Compliant,Liftwise Engineering Ltd
+BS5022,SCH12,Linton Lodge,3,Fire risk assessment,12,2026-02-22,2027-02-21,Tolerable,0,0,Compliant,Fireguard Compliance Ltd
+BS5023,SCH12,Linton Lodge,3,Legionella risk assessment,24,2025-10-24,2027-10-23,,1,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5024,SCH12,Linton Lodge,3,Asbestos re-inspection (communal),12,2025-12-24,2026-12-23,,2,0,Compliant,Asbestos Survey Partners Ltd
+BS5025,SCH12,Linton Lodge,3,Lift thorough examination (LOLER),6,2026-07-15,2027-01-13,,2,0,Compliant,Liftwise Engineering Ltd
+BS5026,SCH13,Oakwood Place,2,Fire risk assessment,24,2026-04-01,2028-03-30,Tolerable,6,0,Compliant,Fireguard Compliance Ltd
+BS5027,SCH13,Oakwood Place,2,Legionella risk assessment,24,2025-09-06,2027-09-05,,1,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5028,SCH13,Oakwood Place,2,Asbestos re-inspection (communal),12,2026-03-07,2027-03-06,,2,0,Compliant,Asbestos Survey Partners Ltd
+BS5029,SCH14,Orchard Fields,4,Fire risk assessment,12,2026-09-28,2027-09-27,Tolerable,0,0,Compliant,Fireguard Compliance Ltd
+BS5030,SCH14,Orchard Fields,4,Legionella risk assessment,24,2026-09-28,2028-09-26,,2,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5031,SCH14,Orchard Fields,4,Asbestos re-inspection (communal),12,2026-09-28,2027-09-27,,0,0,Compliant,Asbestos Survey Partners Ltd
+BS5032,SCH14,Orchard Fields,4,Lift thorough examination (LOLER),6,2026-09-28,2027-03-29,,2,0,Compliant,Liftwise Engineering Ltd
+BS5033,SCH14,Orchard Fields,4,Communal fire door inspection,3,2026-09-28,2026-12-28,,4,0,Compliant,Silvering building safety team
+BS5034,SCH15,Hop Pocket Way,3,Fire risk assessment,24,2025-01-18,2027-01-17,Tolerable,6,0,Compliant,Fireguard Compliance Ltd
+BS5035,SCH15,Hop Pocket Way,3,Legionella risk assessment,24,2025-06-15,2027-06-14,,0,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5036,SCH15,Hop Pocket Way,3,Asbestos re-inspection (communal),12,2026-02-04,2027-02-03,,1,0,Compliant,Asbestos Survey Partners Ltd
+BS5037,SCH16,Lenham Meadows,2,Fire risk assessment,24,2025-02-12,2027-02-11,Tolerable,2,0,Compliant,Fireguard Compliance Ltd
+BS5038,SCH16,Lenham Meadows,2,Legionella risk assessment,24,2025-04-15,2027-04-14,,2,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5039,SCH16,Lenham Meadows,2,Asbestos re-inspection (communal),12,2026-04-10,2027-04-09,,1,0,Compliant,Asbestos Survey Partners Ltd
+BS5040,SCH19,Kings Hill Quarter,3,Fire risk assessment,24,2025-05-02,2027-05-01,Tolerable,5,0,Compliant,Fireguard Compliance Ltd
+BS5041,SCH19,Kings Hill Quarter,3,Legionella risk assessment,24,2025-12-25,2027-12-24,,2,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5042,SCH19,Kings Hill Quarter,3,Asbestos re-inspection (communal),12,2026-07-30,2027-07-29,,1,0,Compliant,Asbestos Survey Partners Ltd
+BS5043,SCH20,Snodland Riverside,4,Fire risk assessment,12,2026-09-29,2027-09-28,Tolerable,1,0,Compliant,Fireguard Compliance Ltd
+BS5044,SCH20,Snodland Riverside,4,Legionella risk assessment,24,2026-03-03,2028-03-01,,0,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5045,SCH20,Snodland Riverside,4,Asbestos re-inspection (communal),12,2026-06-22,2027-06-21,,2,0,Compliant,Asbestos Survey Partners Ltd
+BS5046,SCH20,Snodland Riverside,4,Lift thorough examination (LOLER),6,2026-10-11,2027-04-11,,1,0,Compliant,Liftwise Engineering Ltd
+BS5047,SCH20,Snodland Riverside,4,Communal fire door inspection,3,2026-10-05,2027-01-04,,5,0,Compliant,Silvering building safety team
+BS5048,SCH21,Chatham Hill Court,4,Fire risk assessment,12,2025-08-20,2026-08-20,Moderate,5,2,Overdue,Fireguard Compliance Ltd
+BS5049,SCH21,Chatham Hill Court,4,Legionella risk assessment,24,2025-05-26,2027-05-25,,1,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5050,SCH21,Chatham Hill Court,4,Asbestos re-inspection (communal),12,2026-01-23,2027-01-22,,1,0,Compliant,Asbestos Survey Partners Ltd
+BS5051,SCH21,Chatham Hill Court,4,Communal fire door inspection,3,2026-09-08,2026-12-08,,3,0,Compliant,Silvering building safety team
+BS5052,SCH22,Strood Wharf,5,Fire risk assessment,12,2026-01-24,2027-01-23,Tolerable,4,0,Compliant,Fireguard Compliance Ltd
+BS5053,SCH22,Strood Wharf,5,Legionella risk assessment,24,2026-10-09,2028-10-07,,0,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5054,SCH22,Strood Wharf,5,Asbestos re-inspection (communal),12,2026-08-04,2027-08-03,,0,0,Compliant,Asbestos Survey Partners Ltd
+BS5055,SCH22,Strood Wharf,5,Lift thorough examination (LOLER),6,2026-10-03,2027-04-03,,1,0,Compliant,Liftwise Engineering Ltd
+BS5056,SCH22,Strood Wharf,5,Communal fire door inspection,3,2026-09-12,2026-12-12,,3,0,Compliant,Silvering building safety team
+BS5057,SCH23,Kennington Grange,3,Fire risk assessment,24,2025-02-10,2027-02-09,Tolerable,0,0,Compliant,Fireguard Compliance Ltd
+BS5058,SCH23,Kennington Grange,3,Legionella risk assessment,24,2026-10-07,2028-10-05,,2,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5059,SCH23,Kennington Grange,3,Asbestos re-inspection (communal),12,2025-11-26,2026-11-25,,1,0,Compliant,Asbestos Survey Partners Ltd
+BS5060,SCH24,Mill Court,3,Fire risk assessment,24,2025-04-11,2027-04-10,Tolerable,6,0,Compliant,Fireguard Compliance Ltd
+BS5061,SCH24,Mill Court,3,Legionella risk assessment,24,2026-08-25,2028-08-23,,0,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5062,SCH24,Mill Court,3,Asbestos re-inspection (communal),12,2026-03-27,2027-03-26,,2,0,Compliant,Asbestos Survey Partners Ltd
+BS5063,SCH25,Station Road,3,Fire risk assessment,24,2025-07-11,2027-07-10,Tolerable,4,0,Compliant,Fireguard Compliance Ltd
+BS5064,SCH25,Station Road,3,Legionella risk assessment,24,2025-11-16,2027-11-15,,1,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5065,SCH25,Station Road,3,Asbestos re-inspection (communal),12,2026-04-16,2027-04-15,,1,0,Compliant,Asbestos Survey Partners Ltd
+BS5066,SCH28,Week Street Apartments,5,Fire risk assessment,12,2025-12-28,2026-12-27,Tolerable,0,0,Compliant,Fireguard Compliance Ltd
+BS5067,SCH28,Week Street Apartments,5,Legionella risk assessment,24,2026-06-18,2028-06-16,,2,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5068,SCH28,Week Street Apartments,5,Asbestos re-inspection (communal),12,2025-11-17,2026-11-16,,0,0,Compliant,Asbestos Survey Partners Ltd
+BS5069,SCH28,Week Street Apartments,5,Lift thorough examination (LOLER),6,2026-09-14,2027-03-15,,1,0,Compliant,Liftwise Engineering Ltd
+BS5070,SCH28,Week Street Apartments,5,Communal fire door inspection,3,2026-10-03,2027-01-02,,3,0,Compliant,Silvering building safety team
+BS5071,SCH29,Leybourne Court,2,Fire risk assessment,12,2026-02-02,2027-02-01,Tolerable,3,0,Compliant,Fireguard Compliance Ltd
+BS5072,SCH29,Leybourne Court,2,Legionella risk assessment,24,2026-01-08,2028-01-07,,0,0,Compliant,AquaSafe Water Hygiene Ltd
+BS5073,SCH29,Leybourne Court,2,Asbestos re-inspection (communal),12,2025-11-22,2026-11-21,,0,0,Compliant,Asbestos Survey Partners Ltd
+BS5074,SCH29,Leybourne Court,2,Lift thorough examination (LOLER),6,2026-06-09,2026-12-08,,2,0,Compliant,Liftwise Engineering Ltd

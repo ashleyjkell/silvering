@@ -1,0 +1,127 @@
+﻿case_id,reporter_tenancy,scheme_id,patch_officer,scheme_name,opened_date,category,risk_level,risk_assessment_done,officer,actions_taken,closed_date,status,outcome,reporter_satisfied
+ASB-9044,TEN500138,SCH02,Amira Haddad,Parkwood Court,2024-11-04,Harassment or threats,High,1,Gary Doyle,Injunction application,2024-11-28,Closed,Resolved,
+ASB-9059,TEN501788,SCH29,Margaret Ogunleye,Leybourne Court,2024-11-18,Noise,Low,1,Margaret Ogunleye,Injunction application,2025-01-03,Closed,Behaviour stopped,0
+ASB-9021,TEN501740,SCH28,Tom Reed,Week Street Apartments,2024-11-20,Noise,Medium,1,Tom Reed,Mediation referral,2024-12-22,Closed,Resolved,1
+ASB-9076,TEN501113,SCH15,Sasha Kemp,Hop Pocket Way,2024-11-22,Neighbour dispute,Low,1,Sasha Kemp,Mediation referral,2025-01-10,Closed,Resolved,1
+ASB-9029,TEN501455,SCH22,Joel Mensah,Strood Wharf,2024-11-25,Noise,Medium,1,Joel Mensah,Mediation referral,2025-02-16,Closed,Reporter moved,
+ASB-9072,TEN500515,SCH06,Amira Haddad,Shepway Green,2024-11-26,Neighbour dispute,Low,0,Amira Haddad,Warning letter,2025-01-22,Closed,Insufficient evidence,1
+ASB-9083,TEN500514,SCH06,Amira Haddad,Shepway Green,2024-12-18,Neighbour dispute,Medium,0,Amira Haddad,Advice and diary sheets,2025-02-14,Closed,Insufficient evidence,0
+ASB-9088,TEN500447,SCH05,Sasha Kemp,Vinters Rise,2024-12-18,Drugs or drug dealing,Medium,0,Gary Doyle,Noise monitoring app,2025-02-03,Closed,Insufficient evidence,
+ASB-9091,TEN500251,SCH03,Amira Haddad,Brenchley Gardens,2024-12-20,Vandalism or criminal damage,Medium,1,Amira Haddad,Warning letter,2025-03-11,Closed,Legal action,0
+ASB-9007,TEN501805,SCH29,Margaret Ogunleye,Leybourne Court,2025-01-08,Domestic abuse,High,1,Gary Doyle,Noise monitoring app,2025-05-23,Closed,Resolved,1
+ASB-9053,TEN500421,SCH05,Sasha Kemp,Vinters Rise,2025-01-14,Noise,Medium,1,Sasha Kemp,Noise monitoring app,2025-02-12,Closed,Insufficient evidence,0
+ASB-9092,TEN501401,SCH21,Joel Mensah,Chatham Hill Court,2025-01-14,Neighbour dispute,Medium,1,Joel Mensah,Acceptable behaviour agreement,2025-02-26,Closed,Reporter moved,1
+ASB-9055,TEN501225,SCH17,Sasha Kemp,Headcorn & Villages,2025-01-24,Domestic abuse,Low,1,Sasha Kemp,Joint visit with police,2025-01-30,Closed,Reporter moved,0
+ASB-9058,TEN500736,SCH08,Tom Reed,Allington Mews,2025-01-31,Noise,Medium,1,Tom Reed,Closure order (partner-led),2025-04-07,Closed,Behaviour stopped,
+ASB-9036,TEN501435,SCH21,Joel Mensah,Chatham Hill Court,2025-02-05,Noise,Medium,1,Joel Mensah,Acceptable behaviour agreement,2025-03-31,Closed,Legal action,
+ASB-9071,TEN500605,SCH06,Amira Haddad,Shepway Green,2025-02-06,Drugs or drug dealing,Low,0,Gary Doyle,Noise monitoring app,2025-03-30,Closed,Reporter moved,
+ASB-9110,TEN501493,SCH23,Joel Mensah,Kennington Grange,2025-02-06,Pets and animals,Medium,1,Joel Mensah,Closure order (partner-led),2025-03-26,Closed,Insufficient evidence,1
+ASB-9106,TEN500838,SCH10,Margaret Ogunleye,Bearsted Court,2025-02-07,Noise,Medium,1,Margaret Ogunleye,Acceptable behaviour agreement,2025-03-03,Closed,Resolved,0
+ASB-9038,TEN500318,SCH04,Amira Haddad,Heron Way,2025-02-17,Harassment or threats,High,1,Gary Doyle,Acceptable behaviour agreement,2025-02-27,Closed,Insufficient evidence,1
+ASB-9064,TEN501653,SCH27,Tom Reed,Maidstone Town Street Properties,2025-02-18,Pets and animals,Medium,1,Tom Reed,Acceptable behaviour agreement,2025-04-08,Closed,Legal action,1
+ASB-9003,TEN501521,SCH23,Joel Mensah,Kennington Grange,2025-02-27,Hate incident,Low,1,Joel Mensah,Closure order (partner-led),2025-04-30,Closed,Behaviour stopped,
+ASB-9069,TEN500514,SCH06,Amira Haddad,Shepway Green,2025-03-04,Domestic abuse,High,1,Gary Doyle,Injunction application,2025-03-31,Closed,Legal action,1
+ASB-9105,TEN500559,SCH06,Amira Haddad,Shepway Green,2025-03-04,Neighbour dispute,Medium,1,Amira Haddad,Acceptable behaviour agreement,2025-04-12,Closed,Insufficient evidence,0
+ASB-9030,TEN500374,SCH04,Amira Haddad,Heron Way,2025-03-05,Rubbish and fly-tipping,Low,0,Amira Haddad,Acceptable behaviour agreement,2025-05-29,Closed,Behaviour stopped,1
+ASB-9119,TEN500617,SCH06,Amira Haddad,Shepway Green,2025-03-11,Domestic abuse,Medium,0,Amira Haddad,Injunction application,2025-06-05,Closed,Resolved,1
+ASB-9020,TEN501359,SCH19,Joel Mensah,Kings Hill Quarter,2025-03-14,Harassment or threats,High,1,Gary Doyle,Advice and diary sheets,2025-04-07,Closed,No further reports,0
+ASB-9109,TEN501187,SCH16,Sasha Kemp,Lenham Meadows,2025-03-20,Neighbour dispute,Low,0,Sasha Kemp,Joint visit with police,2025-05-02,Closed,Insufficient evidence,
+ASB-9039,TEN501322,SCH19,Joel Mensah,Kings Hill Quarter,2025-04-07,Noise,Medium,1,Joel Mensah,Advice and diary sheets,2025-04-28,Closed,Insufficient evidence,1
+ASB-9011,TEN501285,SCH18,Joel Mensah,Larkfield Close,2025-04-08,Noise,Low,1,Joel Mensah,Mediation referral,2025-05-03,Closed,Insufficient evidence,1
+ASB-9077,TEN501172,SCH16,Sasha Kemp,Lenham Meadows,2025-04-11,Noise,Low,1,Sasha Kemp,Injunction application,2025-07-04,Closed,Resolved,
+ASB-9118,TEN501324,SCH19,Joel Mensah,Kings Hill Quarter,2025-04-15,Drugs or drug dealing,Medium,1,Gary Doyle,Acceptable behaviour agreement,2025-06-24,Closed,No further reports,
+ASB-9028,TEN500093,SCH02,Amira Haddad,Parkwood Court,2025-04-17,Noise,Medium,1,Amira Haddad,Advice and diary sheets,2025-06-11,Closed,Insufficient evidence,1
+ASB-9082,TEN501181,SCH16,Sasha Kemp,Lenham Meadows,2025-04-23,Neighbour dispute,Low,0,Sasha Kemp,Joint visit with police,2025-05-19,Closed,Insufficient evidence,1
+ASB-9066,TEN501174,SCH16,Sasha Kemp,Lenham Meadows,2025-04-25,Pets and animals,High,1,Gary Doyle,Advice and diary sheets,2025-04-30,Closed,Resolved,0
+ASB-9090,TEN500364,SCH04,Amira Haddad,Heron Way,2025-04-25,Hate incident,High,1,Gary Doyle,Warning letter,2025-05-23,Closed,Reporter moved,1
+ASB-9122,TEN500650,SCH06,Amira Haddad,Shepway Green,2025-04-28,Pets and animals,Medium,1,Amira Haddad,Mediation referral,2025-05-18,Closed,Insufficient evidence,
+ASB-9103,TEN500504,SCH05,Sasha Kemp,Vinters Rise,2025-04-30,Noise,Low,1,Sasha Kemp,Injunction application,2025-06-07,Closed,Behaviour stopped,
+ASB-9047,TEN501257,SCH17,Sasha Kemp,Headcorn & Villages,2025-05-06,Vandalism or criminal damage,Low,1,Sasha Kemp,Advice and diary sheets,2025-07-29,Closed,Behaviour stopped,
+ASB-9027,TEN500978,SCH12,Margaret Ogunleye,Linton Lodge,2025-05-08,Noise,Medium,1,Margaret Ogunleye,Warning letter,2025-07-24,Closed,Insufficient evidence,1
+ASB-9074,TEN500615,SCH06,Amira Haddad,Shepway Green,2025-05-23,Domestic abuse,Medium,0,Amira Haddad,Warning letter,2025-07-25,Closed,Resolved,
+ASB-9068,TEN501076,SCH15,Sasha Kemp,Hop Pocket Way,2025-05-27,Noise,Low,1,Sasha Kemp,Advice and diary sheets,2025-06-30,Closed,No further reports,1
+ASB-9079,TEN501635,SCH26,Sasha Kemp,Marden & Staplehurst Cottages,2025-06-12,Noise,Low,0,Sasha Kemp,Acceptable behaviour agreement,2025-06-24,Closed,Resolved,
+ASB-9113,TEN500914,SCH11,Margaret Ogunleye,Willow House,2025-07-02,Harassment or threats,Medium,0,Margaret Ogunleye,Acceptable behaviour agreement,2025-07-28,Closed,Legal action,
+ASB-9126,TEN501084,SCH15,Sasha Kemp,Hop Pocket Way,2025-07-03,Neighbour dispute,Low,1,Sasha Kemp,Advice and diary sheets,2025-09-24,Closed,Reporter moved,
+ASB-9114,TEN500991,SCH13,Tom Reed,Oakwood Place,2025-07-09,Noise,Low,1,Tom Reed,Noise monitoring app,2025-08-19,Closed,Resolved,0
+ASB-9037,TEN501788,SCH29,Margaret Ogunleye,Leybourne Court,2025-07-17,Vandalism or criminal damage,Low,1,Margaret Ogunleye,Advice and diary sheets,2025-10-08,Closed,Resolved,
+ASB-9009,TEN501009,SCH14,Amira Haddad,Orchard Fields,2025-07-21,Domestic abuse,High,1,Gary Doyle,Warning letter,2025-09-09,Closed,Behaviour stopped,1
+ASB-9075,TEN500653,SCH06,Amira Haddad,Shepway Green,2025-08-04,Drugs or drug dealing,High,1,Gary Doyle,Acceptable behaviour agreement,2025-11-05,Closed,Resolved,0
+ASB-9093,TEN500650,SCH06,Amira Haddad,Shepway Green,2025-08-05,Vandalism or criminal damage,High,1,Gary Doyle,Acceptable behaviour agreement,2025-11-16,Closed,Behaviour stopped,
+ASB-9052,TEN500605,SCH06,Amira Haddad,Shepway Green,2025-08-12,Neighbour dispute,Medium,0,Amira Haddad,Acceptable behaviour agreement,2025-10-27,Closed,Legal action,1
+ASB-9095,TEN501342,SCH19,Joel Mensah,Kings Hill Quarter,2025-08-26,Noise,Low,0,Joel Mensah,Joint visit with police,2025-10-10,Closed,Legal action,1
+ASB-9096,TEN500732,SCH08,Tom Reed,Allington Mews,2025-08-29,Noise,Medium,0,Tom Reed,Joint visit with police,2025-11-11,Closed,Reporter moved,1
+ASB-9050,TEN500937,SCH12,Margaret Ogunleye,Linton Lodge,2025-09-02,Domestic abuse,Medium,1,Margaret Ogunleye,Joint visit with police,2025-11-30,Closed,Insufficient evidence,1
+ASB-9099,TEN501592,SCH25,Sasha Kemp,Station Road,2025-09-12,Harassment or threats,High,1,Gary Doyle,Acceptable behaviour agreement,2025-12-27,Closed,Legal action,
+ASB-9108,TEN501568,SCH25,Sasha Kemp,Station Road,2025-09-12,Vandalism or criminal damage,Low,1,Sasha Kemp,Injunction application,2025-10-28,Closed,Legal action,1
+ASB-9001,TEN501272,SCH18,Joel Mensah,Larkfield Close,2025-09-15,Pets and animals,Medium,1,Joel Mensah,Mediation referral,2025-12-06,Closed,Insufficient evidence,
+ASB-9041,TEN501757,SCH28,Tom Reed,Week Street Apartments,2025-09-19,Vandalism or criminal damage,Low,1,Tom Reed,Advice and diary sheets,2025-11-16,Closed,Insufficient evidence,1
+ASB-9023,TEN501594,SCH25,Sasha Kemp,Station Road,2025-10-01,Rubbish and fly-tipping,Medium,1,Sasha Kemp,Joint visit with police,2025-11-17,Closed,Insufficient evidence,0
+ASB-9112,TEN500911,SCH11,Margaret Ogunleye,Willow House,2025-10-08,Harassment or threats,Medium,0,Margaret Ogunleye,Warning letter,2025-10-14,Closed,Legal action,1
+ASB-9022,TEN501129,SCH15,Sasha Kemp,Hop Pocket Way,2025-10-13,Neighbour dispute,Low,1,Sasha Kemp,Mediation referral,2025-11-20,Closed,Behaviour stopped,1
+ASB-9054,TEN500471,SCH05,Sasha Kemp,Vinters Rise,2025-10-14,Harassment or threats,High,1,Gary Doyle,Advice and diary sheets,2026-03-11,Closed,Reporter moved,
+ASB-9057,TEN500660,SCH07,Sasha Kemp,Coxheath Lane,2025-10-14,Vandalism or criminal damage,Low,0,Sasha Kemp,Joint visit with police,2025-12-22,Closed,Resolved,0
+ASB-9025,TEN500826,SCH09,Tom Reed,Ringlestone Crescent,2025-10-17,Noise,Low,1,Tom Reed,Joint visit with police,2025-12-22,Closed,Behaviour stopped,1
+ASB-9117,TEN500291,SCH03,Amira Haddad,Brenchley Gardens,2025-10-17,Neighbour dispute,Medium,1,Amira Haddad,Advice and diary sheets,2025-11-29,Closed,Insufficient evidence,0
+ASB-9043,TEN501706,SCH27,Tom Reed,Maidstone Town Street Properties,2025-10-27,Drugs or drug dealing,Low,1,Gary Doyle,Advice and diary sheets,2026-01-18,Closed,Legal action,
+ASB-9125,TEN500309,SCH03,Amira Haddad,Brenchley Gardens,2025-10-29,Noise,Low,1,Amira Haddad,Warning letter,2025-11-24,Closed,Resolved,
+ASB-9116,TEN501131,SCH15,Sasha Kemp,Hop Pocket Way,2025-11-05,Neighbour dispute,Low,1,Sasha Kemp,Warning letter,2025-12-12,Closed,Reporter moved,1
+ASB-9089,TEN500560,SCH06,Amira Haddad,Shepway Green,2025-11-10,Noise,Low,0,Amira Haddad,Mediation referral,2026-01-26,Closed,Reporter moved,
+ASB-9065,TEN500557,SCH06,Amira Haddad,Shepway Green,2025-11-12,Noise,Low,1,Amira Haddad,Injunction application,2025-11-17,Closed,Behaviour stopped,0
+ASB-9101,TEN500874,SCH10,Margaret Ogunleye,Bearsted Court,2025-11-13,Neighbour dispute,Low,0,Margaret Ogunleye,Injunction application,2026-01-31,Closed,Insufficient evidence,0
+ASB-9016,TEN500159,SCH03,Amira Haddad,Brenchley Gardens,2025-11-19,Vandalism or criminal damage,Low,1,Amira Haddad,Acceptable behaviour agreement,2026-03-02,Closed,Insufficient evidence,0
+ASB-9035,TEN501568,SCH25,Sasha Kemp,Station Road,2025-11-24,Neighbour dispute,Medium,1,Sasha Kemp,Mediation referral,2026-02-22,Closed,Insufficient evidence,1
+ASB-9086,TEN500019,SCH01,Tom Reed,Rosemount Tower,2025-11-24,Noise,Medium,0,Tom Reed,Noise monitoring app,2025-12-24,Closed,Behaviour stopped,1
+ASB-9102,TEN501248,SCH17,Sasha Kemp,Headcorn & Villages,2025-11-24,Harassment or threats,High,1,Gary Doyle,Warning letter,2025-12-04,Closed,Insufficient evidence,0
+ASB-9002,TEN501047,SCH14,Amira Haddad,Orchard Fields,2025-12-02,Noise,Low,1,Amira Haddad,Noise monitoring app,2026-01-27,Closed,No further reports,
+ASB-9048,TEN500006,SCH01,Tom Reed,Rosemount Tower,2025-12-03,Noise,Medium,1,Tom Reed,Injunction application,2025-12-26,Closed,Behaviour stopped,
+ASB-9012,TEN500183,SCH03,Amira Haddad,Brenchley Gardens,2025-12-04,Noise,Medium,0,Amira Haddad,Acceptable behaviour agreement,2026-01-17,Closed,Resolved,1
+ASB-9042,TEN501606,SCH25,Sasha Kemp,Station Road,2025-12-12,Drugs or drug dealing,Low,1,Gary Doyle,Injunction application,2026-02-07,Closed,Legal action,0
+ASB-9104,TEN501776,SCH29,Margaret Ogunleye,Leybourne Court,2025-12-17,Noise,High,1,Gary Doyle,Noise monitoring app,2026-03-13,Closed,Resolved,
+ASB-9032,TEN501286,SCH18,Joel Mensah,Larkfield Close,2025-12-18,Vandalism or criminal damage,Low,1,Joel Mensah,Noise monitoring app,2026-03-15,Closed,Legal action,0
+ASB-9085,TEN501245,SCH17,Sasha Kemp,Headcorn & Villages,2025-12-22,Harassment or threats,High,1,Gary Doyle,Advice and diary sheets,2026-03-01,Closed,Behaviour stopped,1
+ASB-9046,TEN500229,SCH03,Amira Haddad,Brenchley Gardens,2026-01-05,Domestic abuse,High,1,Gary Doyle,Advice and diary sheets,2026-03-04,Closed,Behaviour stopped,1
+ASB-9070,TEN500050,SCH01,Tom Reed,Rosemount Tower,2026-01-13,Noise,Low,0,Tom Reed,Injunction application,2026-01-28,Closed,Resolved,
+ASB-9006,TEN501277,SCH18,Joel Mensah,Larkfield Close,2026-01-23,Noise,Low,1,Joel Mensah,Injunction application,2026-03-11,Closed,Legal action,1
+ASB-9100,TEN500897,SCH11,Margaret Ogunleye,Willow House,2026-02-04,Rubbish and fly-tipping,Low,1,Margaret Ogunleye,Advice and diary sheets,2026-05-09,Closed,Reporter moved,
+ASB-9051,TEN500004,SCH01,Tom Reed,Rosemount Tower,2026-02-06,Harassment or threats,Low,1,Tom Reed,Noise monitoring app,2026-04-18,Closed,Behaviour stopped,
+ASB-9014,TEN500062,SCH01,Tom Reed,Rosemount Tower,2026-02-09,Noise,Medium,0,Tom Reed,Warning letter,2026-03-24,Closed,No further reports,
+ASB-9081,TEN501661,SCH27,Tom Reed,Maidstone Town Street Properties,2026-02-18,Domestic abuse,High,1,Gary Doyle,Joint visit with police,2026-05-17,Closed,Resolved,0
+ASB-9034,TEN501327,SCH19,Joel Mensah,Kings Hill Quarter,2026-02-19,Noise,Medium,1,Joel Mensah,Noise monitoring app,2026-04-24,Closed,Behaviour stopped,
+ASB-9005,TEN501171,SCH16,Sasha Kemp,Lenham Meadows,2026-03-09,Drugs or drug dealing,High,1,Gary Doyle,Closure order (partner-led),2026-07-28,Closed,Resolved,1
+ASB-9120,TEN500381,SCH04,Amira Haddad,Heron Way,2026-04-03,Harassment or threats,Medium,0,Amira Haddad,Closure order (partner-led),2026-05-15,Closed,No further reports,1
+ASB-9115,TEN501431,SCH21,Joel Mensah,Chatham Hill Court,2026-04-07,Noise,Medium,1,Joel Mensah,Joint visit with police,2026-05-13,Closed,Insufficient evidence,0
+ASB-9049,TEN501611,SCH25,Sasha Kemp,Station Road,2026-04-08,Neighbour dispute,Medium,1,Sasha Kemp,Advice and diary sheets,2026-05-18,Closed,No further reports,
+ASB-9078,TEN500934,SCH12,Margaret Ogunleye,Linton Lodge,2026-04-15,Harassment or threats,High,1,Gary Doyle,Joint visit with police,2026-04-24,Closed,Insufficient evidence,
+ASB-9018,TEN500302,SCH03,Amira Haddad,Brenchley Gardens,2026-04-28,Harassment or threats,Low,0,Amira Haddad,Warning letter,2026-05-31,Closed,Resolved,
+ASB-9010,TEN500130,SCH02,Amira Haddad,Parkwood Court,2026-05-01,Noise,Medium,1,Amira Haddad,Advice and diary sheets,2026-06-23,Closed,Reporter moved,
+ASB-9040,TEN500640,SCH06,Amira Haddad,Shepway Green,2026-05-07,Pets and animals,Low,1,Amira Haddad,Acceptable behaviour agreement,2026-07-15,Closed,Behaviour stopped,1
+ASB-9121,TEN501760,SCH28,Tom Reed,Week Street Apartments,2026-05-08,Neighbour dispute,Medium,1,Tom Reed,Warning letter,2026-05-13,Closed,Reporter moved,1
+ASB-9107,TEN500090,SCH02,Amira Haddad,Parkwood Court,2026-05-11,Vandalism or criminal damage,Medium,0,Amira Haddad,Advice and diary sheets,2026-07-01,Closed,Reporter moved,1
+ASB-9124,TEN501283,SCH18,Joel Mensah,Larkfield Close,2026-05-12,Vandalism or criminal damage,Low,0,Joel Mensah,Closure order (partner-led),2026-07-05,Closed,Reporter moved,
+ASB-9061,TEN500338,SCH04,Amira Haddad,Heron Way,2026-05-18,Noise,Medium,1,Amira Haddad,Advice and diary sheets,2026-05-31,Closed,No further reports,0
+ASB-9045,TEN500679,SCH07,Sasha Kemp,Coxheath Lane,2026-06-04,Drugs or drug dealing,Low,1,Gary Doyle,Warning letter,2026-06-09,Closed,Behaviour stopped,1
+ASB-9060,TEN500976,SCH12,Margaret Ogunleye,Linton Lodge,2026-06-12,Hate incident,Medium,0,Margaret Ogunleye,Advice and diary sheets,2026-08-18,Closed,Resolved,
+ASB-9123,TEN501218,SCH17,Sasha Kemp,Headcorn & Villages,2026-06-17,Neighbour dispute,Low,1,Sasha Kemp,Injunction application,2026-08-12,Closed,Insufficient evidence,1
+ASB-9008,TEN500267,SCH03,Amira Haddad,Brenchley Gardens,2026-06-23,Pets and animals,Medium,1,Amira Haddad,Advice and diary sheets,2026-08-08,Closed,Resolved,
+ASB-9024,TEN501281,SCH18,Joel Mensah,Larkfield Close,2026-07-09,Hate incident,High,1,Gary Doyle,Mediation referral,2026-10-15,Closed,Reporter moved,0
+ASB-9019,TEN501810,SCH29,Margaret Ogunleye,Leybourne Court,2026-07-13,Neighbour dispute,Low,1,Margaret Ogunleye,Advice and diary sheets,2026-08-09,Closed,Resolved,
+ASB-9013,TEN501755,SCH28,Tom Reed,Week Street Apartments,2026-07-27,Drugs or drug dealing,Medium,1,Gary Doyle,Mediation referral,2026-08-01,Closed,Reporter moved,
+ASB-9097,TEN501673,SCH27,Tom Reed,Maidstone Town Street Properties,2026-07-27,Hate incident,High,1,Gary Doyle,Acceptable behaviour agreement,2026-10-04,Closed,Insufficient evidence,1
+ASB-9094,TEN501140,SCH16,Sasha Kemp,Lenham Meadows,2026-07-29,Neighbour dispute,High,1,Gary Doyle,Warning letter,,Open,,
+ASB-9067,TEN500762,SCH09,Tom Reed,Ringlestone Crescent,2026-07-30,Noise,Low,0,Tom Reed,Warning letter,2026-09-14,Closed,Behaviour stopped,
+ASB-9063,TEN500580,SCH06,Amira Haddad,Shepway Green,2026-08-04,Rubbish and fly-tipping,Medium,1,Amira Haddad,Injunction application,2026-10-07,Closed,Behaviour stopped,0
+ASB-9015,TEN500271,SCH03,Amira Haddad,Brenchley Gardens,2026-08-07,Pets and animals,Medium,0,Amira Haddad,Injunction application,2026-08-12,Closed,No further reports,
+ASB-9080,TEN501627,SCH26,Sasha Kemp,Marden & Staplehurst Cottages,2026-08-10,Rubbish and fly-tipping,Low,1,Sasha Kemp,Closure order (partner-led),2026-10-05,Closed,Behaviour stopped,1
+ASB-9087,TEN500441,SCH05,Sasha Kemp,Vinters Rise,2026-08-24,Neighbour dispute,Medium,1,Sasha Kemp,Advice and diary sheets,2026-10-03,Closed,Reporter moved,
+ASB-9004,TEN500800,SCH09,Tom Reed,Ringlestone Crescent,2026-08-25,Neighbour dispute,Low,1,Tom Reed,Noise monitoring app,2026-08-30,Closed,No further reports,
+ASB-9033,TEN500555,SCH06,Amira Haddad,Shepway Green,2026-09-21,Drugs or drug dealing,Medium,1,Gary Doyle,Advice and diary sheets,,Open,,
+ASB-9017,TEN501197,SCH16,Sasha Kemp,Lenham Meadows,2026-09-23,Noise,Low,0,Sasha Kemp,Noise monitoring app,2026-09-28,Closed,Resolved,
+ASB-9026,TEN500071,SCH01,Tom Reed,Rosemount Tower,2026-09-28,Harassment or threats,High,1,Gary Doyle,Advice and diary sheets,,Open,,
+ASB-9073,TEN500194,SCH03,Amira Haddad,Brenchley Gardens,2026-10-09,Neighbour dispute,Medium,1,Amira Haddad,Acceptable behaviour agreement,,Open,,
+ASB-9031,TEN500780,SCH09,Tom Reed,Ringlestone Crescent,2026-10-12,Vandalism or criminal damage,Medium,0,Tom Reed,Joint visit with police,,Open,,
+ASB-9056,TEN501605,SCH25,Sasha Kemp,Station Road,2026-10-13,Noise,Low,1,Sasha Kemp,Advice and diary sheets,,Open,,
+ASB-9111,TEN501772,SCH28,Tom Reed,Week Street Apartments,2026-10-13,Noise,Low,1,Tom Reed,Injunction application,,Open,,
+ASB-9098,TEN500424,SCH05,Sasha Kemp,Vinters Rise,2026-10-26,Neighbour dispute,Medium,1,Sasha Kemp,Advice and diary sheets,,Open,,
+ASB-9084,TEN501073,SCH15,Sasha Kemp,Hop Pocket Way,2026-11-02,Noise,Low,1,Sasha Kemp,Advice and diary sheets,,Open,,
+ASB-9062,TEN501349,SCH19,Joel Mensah,Kings Hill Quarter,2026-11-03,Noise,Low,1,Joel Mensah,Advice and diary sheets,,Open,,

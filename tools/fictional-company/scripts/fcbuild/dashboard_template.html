@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<link rel="icon" href="__FAVICON__">
+<style>
+:root{
+  --primary:__PRIMARY__; --secondary:__SECONDARY__; --accent:__ACCENT__; --dark:__DARK__; --light:__LIGHT__;
+  --bg:#faf9f8; --card:#fff; --ink:#242424; --ink2:#616161; --line:#e1dfdd; --hover:#f3f2f1; --sel:#edebe9;
+  --radius:6px; --shadow:0 1.6px 3.6px rgba(0,0,0,.13),0 .3px .9px rgba(0,0,0,.11);
+  font-family:"Segoe UI","Segoe UI Web (West European)",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-size:14px}
+a{color:var(--primary);text-decoration:none}
+a:hover{text-decoration:underline}
+button{font:inherit;cursor:pointer}
+/* ---------- suite bar ---------- */
+.suite{height:48px;background:var(--dark);color:#fff;display:flex;align-items:center;gap:12px;padding:0 12px;position:sticky;top:0;z-index:30}
+.waffle{width:32px;height:32px;display:grid;place-items:center;border-radius:4px}
+.waffle:hover{background:rgba(255,255,255,.12)}
+.suite .brand{display:flex;align-items:center;gap:8px;font-weight:600;font-size:16px;color:#fff;white-space:nowrap}
+.suite .brand img{height:22px}
+.suite .brand .app{font-weight:400;opacity:.85;border-left:1px solid rgba(255,255,255,.3);padding-left:10px}
+.search{flex:1;max-width:560px;margin:0 auto;position:relative}
+.search input{width:100%;height:32px;border-radius:4px;border:0;padding:0 12px 0 34px;background:rgba(255,255,255,.95);font:inherit;color:var(--ink)}
+.search svg{position:absolute;left:10px;top:8px}
+.me{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.me select{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:4px 6px;max-width:190px}
+.me select option{color:#000}
+.avatar{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-weight:600;font-size:12px;color:#fff;background:var(--secondary);flex:none}
+/* ---------- hub nav ---------- */
+.hub{background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:4px;padding:0 20px;height:44px;overflow-x:auto;scrollbar-width:thin}
+.hub .hubname{display:flex;align-items:center;gap:8px;font-weight:600;margin-right:14px;white-space:nowrap;color:var(--ink)}
+.hub .hubname img{width:22px;height:22px}
+.hub a{color:var(--ink);padding:0 9px;font-size:13.5px;height:44px;display:flex;align-items:center;white-space:nowrap;border-bottom:2px solid transparent}
+.hub a:hover{background:var(--hover);text-decoration:none}
+.hub a.on{border-bottom-color:var(--primary);font-weight:600}
+/* ---------- site header ---------- */
+.sitehead{background:#fff;border-bottom:1px solid var(--line);padding:18px 32px 0}
+.sitehead .row{display:flex;align-items:center;gap:16px}
+.sitelogo{width:56px;height:56px;border-radius:8px;display:grid;place-items:center;color:#fff;font-weight:700;font-size:22px;flex:none}
+.sitehead h1{margin:0;font-size:24px;font-weight:600}
+.sitehead .sub{color:var(--ink2);font-size:13px;margin-top:2px}
+.sitenav{display:flex;gap:2px;margin-top:14px;overflow-x:auto}
+.sitenav a{color:var(--ink);padding:10px 12px;border-bottom:2px solid transparent;white-space:nowrap}
+.sitenav a.on{border-bottom-color:var(--primary);font-weight:600}
+.sitenav a:hover{background:var(--hover);text-decoration:none}
+main{padding:24px 32px 64px;max-width:1500px;margin:0 auto}
+/* ---------- web parts ---------- */
+.hero{border-radius:var(--radius);color:#fff;padding:36px 36px;background:linear-gradient(120deg,var(--primary),var(--secondary));position:relative;overflow:hidden;margin-bottom:24px}
+.hero h2{font-size:30px;margin:0 0 6px;font-weight:600}
+.hero p{max-width:760px;margin:0;font-size:15px;opacity:.95;line-height:1.5}
+.hero .tag{display:inline-block;background:rgba(255,255,255,.18);border-radius:999px;padding:3px 10px;font-size:12px;margin-bottom:12px}
+.hero .emb{position:absolute;right:-20px;bottom:-30px;width:220px;opacity:.15}
+.grid{display:grid;gap:20px}
+.g2{grid-template-columns:2fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:1000px){.g2,.g3,.g4{grid-template-columns:1fr}main{padding:16px}.sitehead{padding:14px 16px 0}.me select{display:none}}
+.wp{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px}
+.wp h3{margin:0 0 14px;font-size:18px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
+.wp h3 a{font-size:13px;font-weight:400}
+.kpi{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 18px;border-left:4px solid var(--secondary)}
+.kpi b{display:block;font-size:26px;color:var(--primary);font-weight:600}
+.kpi span{color:var(--ink2);font-size:13px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.tile{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;display:flex;gap:12px;align-items:flex-start;color:var(--ink);transition:box-shadow .15s}
+.tile:hover{box-shadow:0 6px 18px rgba(0,0,0,.14);text-decoration:none}
+.tile .sitelogo{width:40px;height:40px;font-size:15px;border-radius:6px}
+.tile b{display:block;margin-bottom:3px}
+.tile small{color:var(--ink2);line-height:1.35;display:block}
+.news{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.newscard{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;color:var(--ink);display:flex;flex-direction:column}
+.newscard:hover{text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.14)}
+.newscard .img{height:110px;display:grid;place-items:center;color:#fff;font-size:34px;font-weight:700}
+.newscard .bd{padding:12px 14px}
+.newscard .bd b{display:block;line-height:1.35;margin-bottom:6px}
+.newscard .bd small{color:var(--ink2)}
+.qlinks a{display:flex;gap:10px;align-items:center;padding:9px 6px;border-radius:4px;color:var(--ink)}
+.qlinks a:hover{background:var(--hover);text-decoration:none}
+.person{display:flex;gap:10px;align-items:center;padding:8px 4px}
+.person b{display:block;font-weight:600}
+.person small{color:var(--ink2)}
+/* ---------- document library ---------- */
+.cmdbar{display:flex;gap:2px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:4px 6px;margin-bottom:14px;flex-wrap:wrap}
+.cmdbar button,.cmdbar a.btn{background:none;border:0;padding:6px 10px;border-radius:4px;color:var(--ink);display:flex;gap:6px;align-items:center}
+.cmdbar button:hover{background:var(--hover)}
+.cmdbar .sp{flex:1}
+.crumbs{font-size:20px;font-weight:600;margin:4px 0 14px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.crumbs a{color:var(--ink)}
+.crumbs .sep{color:var(--ink2);font-weight:400}
+.lib{width:100%;border-collapse:collapse;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.lib th{text-align:left;font-weight:600;color:var(--ink2);font-size:13px;padding:10px 12px;border-bottom:1px solid var(--line);cursor:pointer;white-space:nowrap;user-select:none}
+.lib td{padding:9px 12px;border-bottom:1px solid #f0efee;vertical-align:middle}
+.lib tr.r:hover td{background:var(--hover);cursor:pointer}
+.lib .nm{display:flex;gap:10px;align-items:center;min-width:260px}
+.lib .muted{color:var(--ink2);font-size:13px;white-space:nowrap}
+.pill{display:inline-block;border-radius:999px;padding:1px 8px;font-size:11.5px;background:var(--sel);color:var(--ink2);white-space:nowrap}
+.pill.conf{background:#fde7e9;color:#a4262c}.pill.pub{background:#dff6dd;color:#107c10}
+.ficon{width:22px;height:22px;flex:none}
+.empty{padding:40px;text-align:center;color:var(--ink2)}
+/* ---------- viewer ---------- */
+.viewer{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:50;display:flex}
+.viewer .pane{background:#f3f2f1;flex:1;display:flex;flex-direction:column;margin:0;min-width:0}
+.vbar{height:48px;background:var(--dark);color:#fff;display:flex;align-items:center;gap:12px;padding:0 12px;flex:none}
+.vbar .t{font-weight:600;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vbar a,.vbar button{color:#fff;background:rgba(255,255,255,.12);border:0;border-radius:4px;padding:6px 12px;font-size:13px}
+.vbar a:hover,.vbar button:hover{background:rgba(255,255,255,.22);text-decoration:none}
+.vbody{flex:1;display:flex;min-height:0}
+.vdoc{flex:1;overflow:auto;padding:28px}
+.vdetails{width:320px;background:#fff;border-left:1px solid var(--line);overflow:auto;padding:18px;flex:none}
+.vdetails h4{margin:16px 0 6px;font-size:13px;color:var(--ink2);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.vdetails dl{margin:0;display:grid;grid-template-columns:110px 1fr;gap:6px 10px;font-size:13px}
+.vdetails dt{color:var(--ink2)}
+.vdetails dd{margin:0;word-break:break-word}
+@media (max-width:900px){.vdetails{display:none}.vdoc{padding:10px}}
+/* previews */
+.pv-doc{background:#fff;max-width:860px;margin:0 auto;padding:56px 64px;box-shadow:var(--shadow);line-height:1.55;border-top:6px solid var(--primary)}
+.pv-doc h1{color:var(--primary);font-size:28px;margin:4px 0 6px;line-height:1.2}
+.pv-doc h2{color:var(--primary);font-size:19px;margin:26px 0 8px}
+.pv-doc h3{color:var(--primary);font-size:16px;margin:20px 0 6px}
+.pv-doc h4{font-size:14.5px;margin:16px 0 4px}
+.pv-label{color:var(--secondary);font-weight:700;font-size:12px;letter-spacing:.06em}
+.pv-sub{color:var(--ink2);font-size:16px;margin-top:0}
+.pv-meta{font-size:12.5px;color:var(--ink2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:6px 0;margin:10px 0 18px}
+.pv-callout{background:var(--light);border-left:4px solid var(--secondary);padding:12px 16px;margin:14px 0;border-radius:2px}
+.pv-cap{font-weight:600;font-size:12.5px;color:var(--ink2);margin-top:12px}
+.pv-tablewrap{overflow-x:auto;margin:8px 0 14px}
+.pv-table{border-collapse:collapse;width:100%;font-size:12.5px}
+.pv-table th{background:var(--primary);color:#fff;text-align:left;padding:6px 8px;font-weight:600;white-space:nowrap}
+.pv-table td{padding:5px 8px;border-bottom:1px solid #eee;vertical-align:top}
+.pv-table tr:nth-child(even) td{background:#fafafa}
+.pv-kv{border-collapse:collapse;font-size:12.5px;margin:6px 0 16px;width:100%}
+.pv-kv th{text-align:left;background:var(--light);width:180px;padding:5px 8px;border:1px solid #e6e6e6}
+.pv-kv td{padding:5px 8px;border:1px solid #e6e6e6}
+.pv-more{font-size:12px;color:var(--ink2)}
+li.l2{margin-left:22px;list-style:circle}
+blockquote{border-left:4px solid var(--accent);margin:14px 0;padding:6px 16px;color:var(--primary);font-size:16px}
+blockquote cite{display:block;color:var(--ink2);font-size:13px;margin-top:6px}
+.pv-deck{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+.slide{aspect-ratio:16/9;background:#fff;box-shadow:var(--shadow);position:relative;overflow:hidden;border-top:6px solid var(--primary)}
+.sl-inner{position:absolute;inset:0;padding:4% 5%;overflow:hidden;font-size:clamp(9px,1.35vw,15px)}
+.sl-title{font-size:2em;font-weight:700;color:var(--primary);margin-bottom:.15em}
+.sl-title:after{content:"";display:block;width:3em;height:.22em;background:var(--accent);margin-top:.35em}
+.sl-sub{color:var(--ink2);font-size:1.1em;margin-top:.4em}
+.slide ul{font-size:1.15em;line-height:1.45;margin-top:.8em}
+.slide.lay-title,.slide.lay-section{border-top:0}
+.slide.lay-title{background:linear-gradient(120deg,var(--primary),var(--secondary))}
+.slide.lay-section{background:var(--dark)}
+.lay-title .sl-inner,.lay-section .sl-inner{display:flex;flex-direction:column;justify-content:center;color:#fff}
+.sl-big{font-size:2.8em;font-weight:700;line-height:1.1}
+.sl-subbig{font-size:1.35em;opacity:.9;margin-top:.4em}
+.sl-n{position:absolute;right:1.2em;bottom:.8em;color:#999;font-size:12px}
+.sl-2col{display:grid;grid-template-columns:1fr 1fr;gap:4%;margin-top:.6em}
+.sl-2col h5{background:var(--light);color:var(--primary);margin:0;padding:.35em .6em;font-size:1.1em}
+.sl-kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:3%;margin-top:1.2em}
+.sl-kpis div{background:var(--light);border-left:.35em solid var(--secondary);padding:.9em}
+.sl-kpis b{display:block;font-size:2.2em;color:var(--primary)}
+.sl-kpis span{font-weight:600;display:block}
+.sl-kpis small{color:var(--ink2)}
+.sl-steps{display:flex;gap:1%;margin-top:1.4em}
+.sl-steps div{flex:1}
+.sl-steps b{display:block;background:var(--primary);color:#fff;padding:.6em;clip-path:polygon(0 0,90% 0,100% 50%,90% 100%,0 100%,10% 50%);text-align:center}
+.sl-steps div:nth-child(even) b{background:var(--secondary)}
+.sl-steps p{font-size:.95em;padding:0 .4em}
+.sl-chartrow{display:flex;gap:4%;margin-top:.8em}
+.sl-chartrow>.sl-chart{flex:2}.sl-chartrow>ul{flex:1;margin-top:0}
+.sl-chart{font-size:.95em}
+.sl-ct{font-weight:600;margin-bottom:.5em;color:var(--ink2)}
+.bar{display:grid;grid-template-columns:32% 1fr 4.5em;align-items:center;gap:.5em;margin:.25em 0}
+.bar span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right;color:var(--ink2)}
+.bar i{display:block;height:1em;background:var(--primary);border-radius:2px}
+.bar em{font-style:normal;font-size:.9em}
+.sl-notes{max-width:980px;background:#fff;padding:8px 14px;border-radius:4px;font-size:13px;color:var(--ink2)}
+.pv-book{background:#fff;box-shadow:var(--shadow);max-width:1200px;margin:0 auto}
+.xl-tabs{display:flex;gap:2px;background:#f3f2f1;border-bottom:1px solid var(--line);padding:4px 4px 0;flex-wrap:wrap}
+.xl-tab{border:0;background:transparent;padding:6px 14px;border-radius:4px 4px 0 0;color:var(--ink2)}
+.xl-tab.on{background:#fff;color:#107c41;font-weight:600;border-bottom:2px solid #107c41}
+.xl-pane{padding:10px}
+.pv-mail,.pv-chat{max-width:900px;margin:0 auto;background:#fff;box-shadow:var(--shadow);padding:22px 26px}
+.pv-mail h1,.pv-chat h1{font-size:20px;margin:0 0 14px}
+.msg{display:flex;gap:12px;padding:14px 0;border-top:1px solid var(--line)}
+.msg .mb{flex:1;min-width:0;line-height:1.5}
+.msg .mh{display:flex;justify-content:space-between;gap:8px}
+.msg .mh span,.mto{color:var(--ink2);font-size:12.5px}
+.msg p{margin:.4em 0}
+.av{width:36px;height:36px;border-radius:50%;background:var(--secondary);color:#fff;display:grid;place-items:center;font-size:12px;font-weight:600;flex:none}
+.att{display:inline-block;border:1px solid var(--line);border-radius:4px;padding:4px 8px;font-size:12px;margin:6px 6px 0 0}
+.rx{display:inline-block;background:var(--sel);border-radius:999px;padding:0 8px;font-size:12px;margin-right:4px}
+/* ---------- list / data grid ---------- */
+.gridwrap{background:#fff;box-shadow:var(--shadow);border-radius:var(--radius);overflow:auto;max-height:70vh}
+.dgrid{border-collapse:collapse;font-size:13px;width:100%}
+.dgrid th{position:sticky;top:0;background:#fff;text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);color:var(--ink2);font-weight:600;white-space:nowrap;cursor:pointer}
+.dgrid td{padding:7px 10px;border-bottom:1px solid #f2f1f0;white-space:nowrap;max-width:320px;overflow:hidden;text-overflow:ellipsis}
+.dgrid tr:hover td{background:var(--hover)}
+.filter{height:32px;border:1px solid var(--line);border-radius:4px;padding:0 10px;font:inherit;min-width:240px}
+/* ---------- org chart ---------- */
+.org ul{padding-left:22px;border-left:1px dashed #ccc;margin:4px 0 4px 16px}
+.org>ul{border-left:0;margin-left:0;padding-left:0}
+.org li{list-style:none;margin:6px 0}
+.org .card{display:inline-flex;gap:10px;align-items:center;background:#fff;box-shadow:var(--shadow);border-radius:6px;padding:7px 12px 7px 8px;cursor:pointer;border-left:3px solid var(--primary)}
+.org .card small{color:var(--ink2);display:block}
+.org details>summary{list-style:none;cursor:pointer}
+.org details>summary::-webkit-details-marker{display:none}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.pcard{background:#fff;box-shadow:var(--shadow);border-radius:6px;padding:14px;display:flex;gap:12px}
+.pcard .av{width:48px;height:48px;font-size:15px}
+.pcard small{display:block;color:var(--ink2)}
+/* outlook-ish */
+.mailui{display:grid;grid-template-columns:360px 1fr;background:#fff;box-shadow:var(--shadow);border-radius:var(--radius);min-height:70vh;overflow:hidden}
+.mlist{border-right:1px solid var(--line);overflow:auto;max-height:78vh}
+.mitem{padding:12px 14px;border-bottom:1px solid #f1f1f1;cursor:pointer;border-left:3px solid transparent}
+.mitem:hover{background:var(--hover)}
+.mitem.on{background:#eff6fc;border-left-color:var(--primary)}
+.mitem b{display:block}
+.mitem .s{color:var(--primary);font-weight:600;font-size:13px;margin:2px 0}
+.mitem small{color:var(--ink2);display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mread{overflow:auto;max-height:78vh;padding:0}
+.mread .pv-mail,.mread .pv-chat{box-shadow:none;max-width:none}
+@media (max-width:900px){.mailui{grid-template-columns:1fr}.mlist{max-height:40vh}}
+/* learning */
+.scard{background:#fff;box-shadow:var(--shadow);border-radius:var(--radius);padding:18px 20px;border-top:4px solid var(--secondary)}
+.scard h4{margin:6px 0 8px;font-size:17px}
+.scard .lvl{font-size:12px;font-weight:600;color:var(--secondary);text-transform:uppercase;letter-spacing:.05em}
+.scard ul,.scard ol{padding-left:20px;margin:6px 0}
+.scard .src a{display:inline-block;margin:2px 6px 2px 0;font-size:12.5px}
+.prompt{background:var(--light);border-radius:4px;padding:8px 10px;font-family:Consolas,monospace;font-size:12.5px;margin:4px 0}
+.ans{filter:blur(5px);transition:filter .2s}
+.lib.ak{table-layout:fixed}.lib.ak td{word-break:break-word;vertical-align:top}.lib.ak th{white-space:normal}
+.reveal .ans{filter:none}
+.banner{background:#fff4ce;border:1px solid #f1dd8f;border-radius:4px;padding:8px 12px;font-size:13px;margin-bottom:16px}
+.md h1,.md h2{color:var(--primary)} .md{line-height:1.6;max-width:900px}
+.tabs{display:flex;gap:4px;margin-bottom:14px;flex-wrap:wrap}
+.tabs button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 14px}
+.tabs button.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+.hl{background:#fff100;color:inherit}
+.pv-img{max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pv-img img{width:100%;height:auto;box-shadow:var(--shadow);background:#fff}
+.pv-meet details{margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
+.pv-meet summary{cursor:pointer}
+.cal-day{font-weight:600;color:var(--ink2);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;padding:12px 14px 4px;background:#faf9f8;border-bottom:1px solid var(--line)}
+.ev{display:flex;gap:10px;align-items:flex-start;padding:8px 4px;border-radius:4px;cursor:pointer}
+.ev:hover{background:var(--hover)}
+.ev .when{min-width:52px;text-align:center;border-left:3px solid var(--primary);padding-left:6px}
+.ev .when b{display:block;font-size:18px;color:var(--primary)}
+.ev small{color:var(--ink2);display:block}
+.badge{display:inline-block;background:var(--primary);color:#fff;border-radius:999px;padding:0 7px;font-size:11px;margin-left:6px;font-weight:600}
+</style>
+</head>
+<body>
+<header class="suite">
+  <div class="waffle" title="App launcher"><svg width="16" height="16" viewBox="0 0 16 16" fill="#fff"><g><rect x="0" y="0" width="4" height="4"/><rect x="6" y="0" width="4" height="4"/><rect x="12" y="0" width="4" height="4"/><rect x="0" y="6" width="4" height="4"/><rect x="6" y="6" width="4" height="4"/><rect x="12" y="6" width="4" height="4"/><rect x="0" y="12" width="4" height="4"/><rect x="6" y="12" width="4" height="4"/><rect x="12" y="12" width="4" height="4"/></g></svg></div>
+  <a class="brand" href="#/"><img id="suiteLogo" alt=""><span class="app">Intranet</span></a>
+  <div class="search"><svg width="16" height="16" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5" stroke="#616161" stroke-width="1.6" fill="none"/><path d="M10.5 10.5L15 15" stroke="#616161" stroke-width="1.6"/></svg>
+    <input id="q" placeholder="Search this tenant" autocomplete="off"></div>
+  <div class="me"><select id="who" title="Viewing as (persona)"></select><div class="avatar" id="meAv">?</div></div>
+</header>
+<nav class="hub" id="hub"></nav>
+<div id="sitehead"></div>
+<main id="main"></main>
+<div id="viewer"></div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const items = Object.fromEntries(D.items.map(i => [i.id, i]));
+const sites = Object.fromEntries(D.sites.map(s => [s.key, s]));
+const people = Object.fromEntries(D.people.map(p => [p.id, p]));
+const tables = Object.fromEntries(D.tables.map(t => [t.name, t]));
+const SITE_COLORS = [D.brand.primary, D.brand.secondary, D.brand.dark, '#8764b8', '#038387', '#ca5010', '#4f6bed', '#986f0b', '#c239b3', '#0078d4'];
+D.sites.forEach((s, i) => s.color = s.color || SITE_COLORS[i % SITE_COLORS.length]);
+const initials = n => String(n||'?').split(/\s+/).filter(w=>/^[A-Za-z0-9]/.test(w)).filter(w=>!/^(and|of|the|&)$/i.test(w)).slice(0,2).map(w=>w[0]).join('').toUpperCase();
+const ukd = v => { if(!v) return ''; const d = new Date(v); return isNaN(d) ? v : d.toLocaleDateString('en-GB', {day:'numeric', month:'short', year:'numeric'}); };
+const rel = v => { const d = new Date(String(v).slice(0,10)), now = new Date(String(D.company.as_of || new Date().toISOString()).slice(0,10)); const days = Math.round((now - d)/864e5);
+  if (isNaN(days)) return ''; if (days < 1) return 'Today'; if (days < 2) return 'Yesterday'; if (days < 7) return days + ' days ago'; return ukd(v); };
+const ICON = {
+  docx:['#185abd','W'], pptx:['#c43e1c','P'], xlsx:['#107c41','X'], pdf:['#d13438','PDF'], email:['#0f6cbd','✉'], chat:['#5b5fc7','T'],
+  csv:['#107c41','CSV'], sqlite:['#5c2d91','DB'], folder:['#e8a33d',''], image:['#8764b8','IMG'], scan:['#d13438','PDF'],
+  meeting:['#c239b3','CAL'], vtt:['#5b5fc7','VTT']};
+const isComms = x => x.type==='email' || x.type==='chat' || x.type==='meeting';
+const asOf = String(D.company.as_of || new Date().toISOString()).slice(0,10);
+const hhmm = v => String(v||'').slice(11,16);
+function ficon(t){ const [c,l] = ICON[t] || ['#605e5c','•'];
+  if (t==='folder') return `<svg class="ficon" viewBox="0 0 24 24"><path d="M2 6a2 2 0 012-2h5l2 2h9a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2z" fill="${c}"/></svg>`;
+  return `<svg class="ficon" viewBox="0 0 24 24"><path d="M5 1h10l5 5v16a1 1 0 01-1 1H5a1 1 0 01-1-1V2a1 1 0 011-1z" fill="#fff" stroke="#c8c6c4"/><rect x="1" y="9" width="${l.length>1?17:12}" height="10" rx="1.5" fill="${c}"/><text x="${l.length>1?9.5:7}" y="16.8" font-size="${l.length>2?5.6:7.5}" font-weight="700" fill="#fff" text-anchor="middle" font-family="Segoe UI,Arial">${l}</text></svg>`; }
+const clsPill = c => !c ? '' : `<span class="pill ${/conf|restrict|secret/i.test(c)?'conf':/public/i.test(c)?'pub':''}">${esc(c)}</span>`;
+const svgUrl = s => 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(s);
+
+/* ---------------- chrome ---------------- */
+$('#suiteLogo').src = svgUrl(D.brand.logo_white_svg);
+document.title = D.company.fictional_name + ' Intranet';
+const hubSite = D.sites.find(s=>s.hub);
+function hubNav(active){
+  if (hubSite && active===hubSite.key) active = 'home';
+  $('#hub').innerHTML = `<a class="hubname" href="#/" style="border:0"><img src="${svgUrl(D.brand.emblem_svg)}" alt="">${esc(D.company.fictional_name)}</a>` +
+   `<a href="#/" class="${active==='home'?'on':''}">Home</a>` +
+   D.sites.filter(s=>!s.hub).map(s => `<a href="#/site/${s.key}" class="${active===s.key?'on':''}">${esc(s.title)}</a>`).join('') +
+   `<a href="#/lists" class="${active==='lists'?'on':''}">Data &amp; Lists</a>` +
+   `<a href="#/people" class="${active==='people'?'on':''}">People</a>` +
+   `<a href="#/mail" class="${active==='mail'?'on':''}">Mail, Teams &amp; Calendar</a>` +
+   `<a href="#/learning" class="${active==='learning'?'on':''}">Learning Hub</a>`;
+}
+function siteHead(site, tab){
+  if (!site){ $('#sitehead').innerHTML=''; return; }
+  const libs = site.libraries.map((l,i)=>`<a href="#/site/${site.key}/lib/${i}" class="${tab==='lib'+i?'on':''}">${esc(l.title)}</a>`).join('');
+  const lists = (site.lists||[]).map(n=>`<a href="#/list/${n}" class="${tab==='list'+n?'on':''}">${esc(tables[n]?.title||n)}</a>`).join('');
+  // the hub is the home page: just its library bar, no site title block
+  if (site.hub){ $('#sitehead').innerHTML = `<div class="sitehead" style="padding-top:0"><nav class="sitenav" style="margin-top:0"><a href="#/" class="${tab==='home'?'on':''}">Home</a>${libs}${lists}</nav></div>`; return; }
+  $('#sitehead').innerHTML = `<div class="sitehead"><div class="row"><div class="sitelogo" style="background:${site.color}">${esc(initials(site.title))}</div>
+   <div><h1>${esc(site.title)}</h1><div class="sub">${esc(site.description||'')}</div></div></div>
+   <nav class="sitenav"><a href="#/site/${site.key}" class="${tab==='home'?'on':''}">Home</a>${libs}${lists}</nav></div>`;
+}
+// persona picker
+const whoSel = $('#who');
+whoSel.innerHTML = `<option value="">Viewing as: Visitor</option>` + D.people.map(p=>`<option value="${p.id}">${esc(p.name)} — ${esc(p.title)}</option>`).join('');
+let me = ''; try { me = localStorage.getItem('fc_me_'+D.company.slug) || ''; } catch(e){}
+whoSel.value = me; setMe();
+whoSel.onchange = () => { me = whoSel.value; try{localStorage.setItem('fc_me_'+D.company.slug, me);}catch(e){} setMe(); route(); };
+function setMe(){ $('#meAv').textContent = me ? initials(people[me].name) : '?'; $('#meAv').title = me ? people[me].name : 'Visitor'; }
+
+/* ---------------- shared bits ---------------- */
+function fileRows(list, opts={}){
+  if (!list.length) return `<div class="empty">This folder is empty.</div>`;
+  return `<table class="lib"><thead><tr><th data-k="title">Name</th><th data-k="modified">Modified</th><th data-k="modified_by">Modified By</th>${opts.site?'<th>Site</th>':''}<th>Classification</th></tr></thead><tbody>` +
+    list.map(x => x.folder !== undefined && x.isFolder ?
+      `<tr class="r" onclick="location.hash='${x.href}'"><td><div class="nm">${ficon('folder')}<span>${esc(x.name)}</span></div></td><td class="muted">${rel(x.modified)}</td><td class="muted"></td>${opts.site?'<td></td>':''}<td></td></tr>` :
+      `<tr class="r" onclick="openFile('${x.id}')"><td><div class="nm">${ficon(x.icon||x.type)}<span>${esc(x.filename)}</span></div></td><td class="muted">${rel(x.modified)}</td><td class="muted">${esc(x.modified_by||x.author||'')}</td>${opts.site?`<td class="muted">${esc(sites[x.site]?.title||'')}</td>`:''}<td>${clsPill(x.classification)}</td></tr>`
+    ).join('') + `</tbody></table>`;
+}
+function personRow(p){ return p ? `<div class="person"><div class="avatar">${esc(initials(p.name))}</div><div><b>${esc(p.name)}</b><small>${esc(p.title)}</small><br><small><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></small></div></div>` : ''; }
+const newsColors = i => [D.brand.primary, D.brand.secondary, D.brand.dark, D.brand.accent][i%4];
+function newsCards(list){
+  return `<div class="news">` + list.map((x,i)=>`<a class="newscard" href="javascript:openFile('${x.id}')"><div class="img" style="background:linear-gradient(135deg,${newsColors(i)},${newsColors(i+1)})">${ficon(x.icon||x.type).replace('class="ficon"','class="ficon" style="width:46px;height:46px"')}</div><div class="bd"><b>${esc(x.title)}</b><small>${esc(sites[x.site]?.title||'')} · ${rel(x.modified)}</small></div></a>`).join('') + `</div>`;
+}
+const isNews = x => /news|announcement|update|bulletin|newsletter/i.test((x.category||'') + ' ' + (x.library||''));
+
+/* ---------------- views ---------------- */
+function viewHome(){
+  hubNav('home'); siteHead(hubSite, 'home');
+  const c = D.company, recent = [...D.items].filter(i=>!isComms(i)).sort((a,b)=>String(b.modified).localeCompare(String(a.modified)));
+  const mine = me ? recent.filter(i=>i.author_id===me || i.modified_by_id===me).slice(0,6) : [];
+  const news = recent.filter(isNews).slice(0,4);
+  $('#main').innerHTML = `
+  <section class="hero"><img class="emb" src="${svgUrl(D.brand.emblem_white_svg)}" alt=""><span class="tag">${esc(c.sector||'')}</span>
+    <h2>Welcome to ${esc(c.fictional_name)}${me?', '+esc(people[me].name.split(' ')[0]):''}</h2><p>${esc(c.tagline||'')} ${esc(c.description||'')}</p></section>
+  <div class="banner">⚠️ <b>Fictional training environment.</b> ${esc(c.fictional_name)} is an invented organisation. Any resemblance in structure to real companies is for training purposes; all people, figures and records are made up.</div>
+  <div class="grid g4" style="margin-bottom:20px">
+    ${(c.kpis||[]).slice(0,4).map(k=>`<div class="kpi"><b>${esc(k.value)}</b><span>${esc(k.label)}</span></div>`).join('')}
+  </div>
+  <div class="grid g2">
+    <div class="grid" style="align-content:start">
+      ${news.length?`<div class="wp"><h3>News</h3>${newsCards(news)}</div>`:''}
+      <div class="wp"><h3>Sites</h3><div class="tiles">${D.sites.filter(s=>!s.hub).map(s=>`<a class="tile" href="#/site/${s.key}"><div class="sitelogo" style="background:${s.color}">${esc(initials(s.title))}</div><div><b>${esc(s.title)}</b><small>${esc((s.description||'').slice(0,90))}</small></div></a>`).join('')}</div></div>
+      <div class="wp"><h3>Recent documents <a href="#/search?q=">See all</a></h3>${fileRows(recent.slice(0,10),{site:1})}</div>
+    </div>
+    <div class="grid" style="align-content:start">
+      ${me?`<div class="wp"><h3>My files</h3>${mine.length?fileRows(mine):'<div class="muted">No files authored by this persona.</div>'}</div>`:''}
+      ${upcoming().length?`<div class="wp"><h3>Upcoming events <a href="#/calendar">Calendar</a></h3>${upcoming().slice(0,5).map(evRow).join('')}</div>`:''}
+      <div class="wp qlinks"><h3>Quick links</h3>
+        <a href="#/learning">🎓 Learning Hub &amp; scenarios</a><a href="#/people">👥 People directory &amp; org chart</a>
+        <a href="#/lists">🗂️ Data, lists &amp; databases</a><a href="#/mail">✉️ Mail &amp; Teams archive</a><a href="#/calendar">📅 Calendar &amp; meetings</a>
+        ${D.zip_file && location.protocol.startsWith('http')?`<a href="${esc(D.zip_file)}">⤓ Download the full pack (.zip)</a>`:''}<a href="#/about">🏢 About ${esc(c.fictional_name)}</a>
+        ${(c.quick_links||[]).map(q=>`<a href="${q.href?esc(q.href):'#/search?q='+encodeURIComponent(q.label)}">🔗 ${esc(q.label)}</a>`).join('')}</div>
+      <div class="wp"><h3>Leadership</h3>${D.people.filter(p=>!p.manager).concat(D.people.filter(p=>p.manager && people[p.manager] && !people[p.manager].manager)).slice(0,7).map(personRow).join('')}</div>
+    </div>
+  </div>`;
+}
+
+function viewSite(key){
+  const s = sites[key]; if (!s || s.hub) return viewHome();
+  hubNav(key); siteHead(s, 'home');
+  const its = D.items.filter(i=>i.site===key).sort((a,b)=>String(b.modified).localeCompare(String(a.modified)));
+  const news = its.filter(isNews).slice(0,3);
+  const head = people[s.head];
+  const team = D.people.filter(p=>p.department===key && p.id!==s.head).slice(0,6);
+  $('#main').innerHTML = `
+  <section class="hero" style="background:linear-gradient(120deg,${s.color},${D.brand.primary})"><h2>${esc(s.title)}</h2><p>${esc(s.description||'')}</p></section>
+  <div class="grid g2">
+    <div class="grid" style="align-content:start">
+      ${news.length?`<div class="wp"><h3>News</h3>${newsCards(news)}</div>`:''}
+      <div class="wp"><h3>Documents</h3>${fileRows(its.filter(i=>!isComms(i)).slice(0,12))}</div>
+    </div>
+    <div class="grid" style="align-content:start">
+      <div class="wp qlinks"><h3>Libraries &amp; lists</h3>${s.libraries.map((l,i)=>`<a href="#/site/${key}/lib/${i}">${ficon('folder')} ${esc(l.title)} <span class="muted" style="margin-left:auto">${l.count}</span></a>`).join('')}
+        ${(s.lists||[]).map(n=>`<a href="#/list/${n}">🗂️ ${esc(tables[n]?.title||n)} <span class="muted" style="margin-left:auto">${tables[n]?.row_count||''}</span></a>`).join('')}</div>
+      <div class="wp"><h3>Site contacts</h3>${personRow(head)}${team.map(personRow).join('')}</div>
+    </div>
+  </div>`;
+}
+
+function viewLib(key, li, path){
+  const s = sites[key], lib = s?.libraries[+li]; if (!lib) return viewSite(key);
+  hubNav(key); siteHead(s, 'lib'+li);
+  const folder = (path||[]).join('/');
+  const inLib = D.items.filter(i=>i.site===key && i.library===lib.title);
+  const here = [], sub = {};
+  inLib.forEach(i => {
+    const f = i.folder || '';
+    if (f === folder) here.push(i);
+    else if (!folder || f.startsWith(folder + '/')) {
+      const name = (folder ? f.slice(folder.length+1) : f).split('/')[0];
+      if (!sub[name] || String(i.modified) > String(sub[name])) sub[name] = i.modified;
+    }
+  });
+  let sortK = window._sortK || 'title', sortD = window._sortD || 1;
+  here.sort((a,b)=>String(a[sortK]==='title'?a.filename:a[sortK]).localeCompare(String(b[sortK]==='title'?b.filename:b[sortK]))*sortD);
+  const folders = Object.keys(sub).sort().map(n=>({isFolder:1, folder:n, name:n, modified:sub[n], href:`#/site/${key}/lib/${li}/${[...(path||[]),n].map(encodeURIComponent).join('/')}`}));
+  const crumbs = [`<a href="#/site/${key}/lib/${li}">${esc(lib.title)}</a>`].concat((path||[]).map((p,i)=>`<span class="sep">›</span><a href="#/site/${key}/lib/${li}/${path.slice(0,i+1).map(encodeURIComponent).join('/')}">${esc(p)}</a>`)).join(' ');
+  $('#main').innerHTML = `
+    <div class="cmdbar"><button disabled>＋ New</button><button disabled>⤒ Upload</button><button disabled>⟳ Sync</button><button onclick="copyLink()">🔗 Copy link</button><span class="sp"></span><span class="muted">${inLib.length} items</span></div>
+    <div class="crumbs">${crumbs}</div>${lib.description?`<p class="muted" style="margin-top:-6px">${esc(lib.description)}</p>`:''}
+    ${fileRows([...folders, ...here])}`;
+  document.querySelectorAll('.lib th[data-k]').forEach(th => th.onclick = () => { const k = th.dataset.k; window._sortD = (window._sortK===k? -(window._sortD||1) : 1); window._sortK = k; viewLib(key, li, path); });
+}
+function copyLink(){ try{ navigator.clipboard.writeText(location.href); }catch(e){} }
+
+function viewLists(){
+  hubNav('lists'); siteHead(null);
+  $('#main').innerHTML = `<h2 style="margin-top:0">Data, lists &amp; databases</h2>
+   <p class="muted">Structured data held in ${esc(D.company.fictional_name)}'s line-of-business systems. Each table ships as SQLite (<code>Databases/${esc(D.db_file)}</code>), CSV and an Excel workbook; tables marked <span class="pill">SharePoint list</span> are also provisioned as lists.</p>
+   <div class="tiles">${D.tables.map(t=>`<a class="tile" href="#/list/${t.name}"><div class="sitelogo" style="background:${sites[t.site]?.color||D.brand.primary}">${ficon('sqlite').replace('class="ficon"','class="ficon" style="width:24px;height:24px"')}</div><div><b>${esc(t.title)}</b><small>${t.row_count.toLocaleString()} rows · ${esc(t.system||'')}${t.sharepoint_list?' · <span class="pill">SharePoint list</span>':''}</small><small>${esc(t.description||'')}</small></div></a>`).join('')}</div>
+   <div class="wp" style="margin-top:20px"><h3>Downloads</h3><div class="qlinks">
+     <a href="Databases/${esc(D.db_file)}">${ficon('sqlite')} ${esc(D.db_file)} (SQLite)</a><a href="Databases/${esc(D.xlsx_file)}">${ficon('xlsx')} ${esc(D.xlsx_file)} (all tables)</a>${D.zip_file && location.protocol.startsWith('http')?`<a href="${esc(D.zip_file)}">⤓ ${esc(D.zip_file)} (whole pack)</a>`:''}
+     ${D.tables.map(t=>`<a href="Databases/csv/${t.name}.csv">${ficon('csv')} ${t.name}.csv</a>`).join('')}</div></div>`;
+}
+
+function viewList(name){
+  const t = tables[name]; if (!t) return viewLists();
+  const s = sites[t.site];
+  hubNav(s ? s.key : 'lists'); siteHead(s, 'list'+name);
+  let q = '', sortI = -1, dir = 1;
+  const draw = () => {
+    let rows = t.rows;
+    if (q) { const ql = q.toLowerCase(); rows = rows.filter(r=>r.some(v=>String(v??'').toLowerCase().includes(ql))); }
+    if (sortI>=0) rows = [...rows].sort((a,b)=>{ const x=a[sortI], y=b[sortI]; return (typeof x==='number'&&typeof y==='number' ? x-y : String(x??'').localeCompare(String(y??'')))*dir; });
+    $('#gridbody').innerHTML = rows.slice(0,500).map(r=>`<tr>${r.map(v=>`<td title="${esc(v)}">${esc(v)}</td>`).join('')}</tr>`).join('');
+    $('#gcount').textContent = `${rows.length.toLocaleString()} of ${t.row_count.toLocaleString()} rows` + (t.rows.length<t.row_count?` (first ${t.rows.length.toLocaleString()} embedded; full data in CSV/SQLite)`:'') + (rows.length>500?' · showing first 500':'');
+  };
+  $('#main').innerHTML = `
+    <div class="cmdbar"><button disabled>＋ New</button><button disabled>✎ Edit in grid view</button><a class="btn" href="Databases/csv/${t.name}.csv">⤓ Export CSV</a><span class="sp"></span><input class="filter" id="gq" placeholder="Filter rows…"></div>
+    <div class="crumbs">${esc(t.title)}</div><p class="muted" style="margin-top:-6px">${esc(t.description||'')} ${t.system?'· Source system: <b>'+esc(t.system)+'</b>':''} · <span id="gcount"></span></p>
+    <div class="gridwrap"><table class="dgrid"><thead><tr>${t.columns.map((c,i)=>`<th data-i="${i}">${esc(c)}</th>`).join('')}</tr></thead><tbody id="gridbody"></tbody></table></div>`;
+  $('#gq').oninput = e => { q = e.target.value; draw(); };
+  document.querySelectorAll('.dgrid th').forEach(th => th.onclick = () => { const i=+th.dataset.i; dir = sortI===i ? -dir : 1; sortI = i; draw(); });
+  draw();
+}
+
+function viewPeople(){
+  hubNav('people'); siteHead(null);
+  const kids = {}; D.people.forEach(p => { (kids[p.manager||'_root'] ||= []).push(p); });
+  const node = p => `<li><details ${!p.manager || (people[p.manager] && !people[p.manager].manager) ? 'open':''}><summary><span class="card" onclick="event.preventDefault();showPerson('${p.id}')"><span class="avatar">${esc(initials(p.name))}</span><span><b>${esc(p.name)}</b><small>${esc(p.title)}</small></span></span>${kids[p.id]?` <span class="muted">▾ ${kids[p.id].length}</span>`:''}</summary>${kids[p.id]?'<ul>'+kids[p.id].map(node).join('')+'</ul>':''}</details></li>`;
+  const roots = (kids['_root']||[]);
+  $('#main').innerHTML = `<div class="tabs"><button class="on" id="t1">Org chart</button><button id="t2">Directory</button></div>
+   <div id="pv1" class="org"><ul>${roots.map(node).join('')}</ul></div>
+   <div id="pv2" hidden><input class="filter" id="pq" placeholder="Search people, roles, departments…" style="margin-bottom:12px"><div class="dir" id="dir"></div></div>`;
+  const drawDir = (q='') => { const ql=q.toLowerCase(); $('#dir').innerHTML = D.people.filter(p=>!ql||JSON.stringify(p).toLowerCase().includes(ql)).map(p=>`<div class="pcard" onclick="showPerson('${p.id}')" style="cursor:pointer"><div class="av">${esc(initials(p.name))}</div><div><b>${esc(p.name)}</b><small>${esc(p.title)}</small><small>${esc(sites[p.department]?.title||p.department||'')} · ${esc(p.location||'')}</small></div></div>`).join(''); };
+  drawDir(); $('#pq').oninput = e => drawDir(e.target.value);
+  $('#t1').onclick = () => { $('#t1').className='on'; $('#t2').className=''; $('#pv1').hidden=false; $('#pv2').hidden=true; };
+  $('#t2').onclick = () => { $('#t2').className='on'; $('#t1').className=''; $('#pv2').hidden=false; $('#pv1').hidden=true; };
+}
+function showPerson(id){
+  const p = people[id]; if (!p) return;
+  const authored = D.items.filter(i=>i.author_id===id).slice(0,12);
+  const reports = D.people.filter(x=>x.manager===id);
+  $('#viewer').innerHTML = `<div class="viewer" onclick="if(event.target===this)closeViewer()"><div class="pane" style="max-width:760px;margin-left:auto">
+   <div class="vbar"><span class="t">${esc(p.name)}</span><button onclick="closeViewer()">✕ Close</button></div>
+   <div class="vdoc"><div class="wp"><div class="person"><div class="avatar" style="width:72px;height:72px;font-size:22px">${esc(initials(p.name))}</div><div><b style="font-size:20px">${esc(p.name)}</b><small>${esc(p.title)} · ${esc(sites[p.department]?.title||p.department||'')}</small><br><small>${esc(p.email)} · ${esc(p.phone||'')} · ${esc(p.location||'')}</small></div></div>
+   ${p.bio?`<p>${esc(p.bio)}</p>`:''}${p.persona_notes?`<div class="pv-callout"><b>Persona notes (trainer)</b><br>${esc(p.persona_notes)}</div>`:''}
+   <h4>Reports to</h4>${p.manager?personRow(people[p.manager]):'<span class="muted">—</span>'}
+   ${reports.length?`<h4>Direct reports (${reports.length})</h4>${reports.map(personRow).join('')}`:''}
+   ${authored.length?`<h4>Documents authored</h4>${fileRows(authored,{site:1})}`:''}</div></div></div></div>`;
+}
+
+const meetings = () => D.items.filter(i=>i.type==='meeting');
+const upcoming = () => meetings().filter(m=>String(m.start).slice(0,10)>=asOf).sort((a,b)=>String(a.start).localeCompare(String(b.start)));
+function evRow(m){ const d = new Date(m.start);
+  return `<div class="ev" onclick="openFile('${m.id}')"><div class="when"><b>${d.getDate()}</b><small>${d.toLocaleDateString('en-GB',{month:'short'})}</small></div><div><b>${esc(m.title)}</b><small>${hhmm(m.start)}–${hhmm(m.end)} · ${esc(m.location)}</small><small>${esc(m.organiser)}${m.recurrence?' · '+esc(m.recurrence):''}</small></div></div>`; }
+function viewCalendar(){
+  hubNav('mail'); siteHead(null);
+  const up = upcoming(), past = meetings().filter(m=>String(m.start).slice(0,10)<asOf).sort((a,b)=>String(b.start).localeCompare(String(a.start)));
+  const group = list => { let last=''; return list.map(m=>{ const day = new Date(m.start).toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'}); const h = day!==last?`<div class="cal-day">${day}</div>`:''; last=day;
+    return h + `<div class="mitem" data-id="${m.id}"><b>${esc(m.title)}${m.has_transcript?'<span class="badge">Recap</span>':''}</b><div class="s">${hhmm(m.start)}–${hhmm(m.end)} · ${esc(m.location)}</div><small>${esc(m.organiser)} · ${m.attendee_count} invited${m.recurrence?' · '+esc(m.recurrence):''}</small></div>`; }).join(''); };
+  $('#main').innerHTML = mailTabs('calendar') + `<div class="mailui"><div class="mlist">${up.length?`<div class="cal-day" style="color:var(--primary)">Upcoming</div>`+group(up):''}${past.length?`<div class="cal-day" style="color:var(--primary)">Past meetings</div>`+group(past):''}${!up.length&&!past.length?'<div class="empty">No meetings.</div>':''}</div><div class="mread" id="mread"><div class="empty">Select a meeting</div></div></div>`;
+  const open = id => { document.querySelectorAll('.mitem').forEach(e=>e.classList.toggle('on', e.dataset.id===id)); $('#mread').innerHTML = items[id].preview + `<div style="padding:10px 26px"><a href="${esc(items[id].path)}">⤓ Download calendar invite (.ics)</a></div>`; };
+  document.querySelectorAll('.mitem').forEach(e => e.onclick = () => open(e.dataset.id));
+  const first = up[0] || past[0]; if (first) open(first.id);
+}
+function mailTabs(kind){ const n = t => D.items.filter(i=>i.type===t).length;
+  return `<div class="tabs"><button class="${kind==='email'?'on':''}" onclick="location.hash='#/mail'">✉️ Outlook (${n('email')})</button><button class="${kind==='chat'?'on':''}" onclick="location.hash='#/chat'">💬 Teams (${n('chat')})</button><button class="${kind==='calendar'?'on':''}" onclick="location.hash='#/calendar'">📅 Calendar (${n('meeting')})</button></div>`; }
+function viewMail(tab, box){
+  hubNav('mail'); siteHead(null);
+  const kind = tab==='chat' ? 'chat' : 'email';
+  const boxes = [...new Set(D.items.filter(i=>i.type==='email' && i.mailbox).map(i=>i.mailbox))].sort();
+  box = kind==='email' && boxes.includes(box) ? box : '';
+  const list = D.items.filter(i=>i.type===kind && (kind!=='email' || (i.mailbox||'')===box)).sort((a,b)=>String(b.modified).localeCompare(String(a.modified)));
+  const folders = kind==='email' && boxes.length ? `<div class="tabs" style="margin-top:-6px">` +
+    [['', 'Inbox'], ...boxes.map(b=>[b, b])].map(([k,l])=>`<button class="${k===box?'on':''}" onclick="location.hash='#/mail/${encodeURIComponent(k)}'">${k?'📥':'✉️'} ${esc(l)} (${D.items.filter(i=>i.type==='email'&&(i.mailbox||'')===k).length})</button>`).join('') + `</div>` : '';
+  $('#main').innerHTML = mailTabs(kind) + folders + `
+   <div class="mailui"><div class="mlist">${list.map((m,i)=>`<div class="mitem" data-id="${m.id}"><b>${esc(m.author||'')}</b><div class="s">${esc(m.title)}</div><small>${rel(m.modified)} · ${esc(m.snippet||m.summary||'')}</small></div>`).join('') || '<div class="empty">Nothing here.</div>'}</div><div class="mread" id="mread"><div class="empty">Select an item to read</div></div></div>`;
+  const open = id => { document.querySelectorAll('.mitem').forEach(e=>e.classList.toggle('on', e.dataset.id===id)); $('#mread').innerHTML = items[id].preview + `<div style="padding:10px 26px"><a href="${esc(items[id].path)}">Open source folder / file</a></div>`; };
+  document.querySelectorAll('.mitem').forEach(e => e.onclick = () => open(e.dataset.id));
+  if (list[0]) open(list[0].id);
+}
+
+function viewLearning(tab){
+  hubNav('learning'); siteHead(null);
+  const sc = D.scenarios || [];
+  const levels = [...new Set(sc.map(s=>s.level))];
+  const link = id => items[id] ? `<a href="javascript:openFile('${id}')">${ficon(items[id].icon||items[id].type).replace('class="ficon"','class="ficon" style="width:14px;height:14px;vertical-align:-2px"')} ${esc(items[id].filename)}</a>` : tables[id] ? `<a href="#/list/${id}">🗂️ ${esc(tables[id].title)}</a>` : seriesLink(id);
+  function seriesLink(id){ const fs = D.items.filter(i=>i.id.startsWith(id+'-') && /-\d{3}$/.test(i.id)); if (!fs.length) return `<span class="muted">${esc(id)}</span>`;
+    const f = fs[0], li = sites[f.site]?.libraries.findIndex(l=>l.title===f.library), top = (f.folder||'').split('/')[0];
+    return `<a href="#/site/${f.site}/lib/${li}${top?'/'+encodeURIComponent(top):''}">${ficon('folder').replace('class="ficon"','class="ficon" style="width:14px;height:14px;vertical-align:-2px"')} ${esc(top||f.library)} (${fs.length} files)</a>`; }
+  const body = tab==='answers' ? `
+    <p class="muted">Ground-truth answers for checking agent responses. Answers are blurred until revealed — click <b>Reveal</b> (trainers only).</p>
+    <div class="cmdbar"><button onclick="document.getElementById('ak').classList.toggle('reveal')">👁 Reveal / hide answers</button><span class="sp"></span><input class="filter" id="akq" placeholder="Filter questions…"></div>
+    <div id="ak"><table class="lib ak"><colgroup><col style="width:44px"><col style="width:120px"><col style="width:34%"><col style="width:30%"><col></colgroup><thead><tr><th>#</th><th>Category</th><th>Question</th><th>Answer</th><th>Source</th></tr></thead><tbody>
+    ${(D.facts||[]).map((f,i)=>`<tr data-t="${esc((f.question+' '+f.category).toLowerCase())}"><td class="muted">${i+1}</td><td><span class="pill">${esc(f.category||'')}</span></td><td>${esc(f.question)}</td><td class="ans"><b>${esc(f.answer)}</b>${f.notes?`<br><small class="muted">${esc(f.notes)}</small>`:''}</td><td>${(f.sources||[]).map(link).join('<br>')}</td></tr>`).join('')}</tbody></table></div>`
+  : tab==='brief' ? `<div class="wp md">${D.research_html||'<p>No research brief.</p>'}</div>`
+  : `<p class="muted">Hands-on scenarios that use ${esc(D.company.fictional_name)}'s data. Each card lists the persona you play, the data sources to ground on and how to know you've succeeded.</p>
+     <div class="tabs" id="lvl"><button class="on" data-l="">All (${sc.length})</button>${levels.map(l=>`<button data-l="${esc(l)}">${esc(l)}</button>`).join('')}</div>
+     <div class="grid g3" id="cards">${sc.map(s=>`<div class="scard" data-l="${esc(s.level)}"><div class="lvl">${esc(s.level)} · ${esc(s.id)}${s.module?' · '+esc(s.module):''}</div><h4>${esc(s.title)}</h4>
+       ${s.persona&&people[s.persona]?`<div class="muted" style="margin-bottom:6px">You are <a href="javascript:showPerson('${s.persona}')">${esc(people[s.persona].name)}</a>, ${esc(people[s.persona].title)}</div>`:''}
+       <p>${esc(s.context||'')}</p><p><b>Goal:</b> ${esc(s.goal||'')}</p>
+       ${s.task_steps?`<b>Steps</b><ol>${s.task_steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:''}
+       ${s.sample_prompts?`<b>Try prompts like</b>${s.sample_prompts.map(x=>`<div class="prompt">${esc(x)}</div>`).join('')}`:''}
+       ${s.success_criteria?`<b>Success looks like</b><ul>${s.success_criteria.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
+       <div class="src"><b>Data sources</b><br>${(s.data_sources||[]).map(link).join('')}</div></div>`).join('')}</div>`;
+  $('#main').innerHTML = `<section class="hero"><h2>Learning Hub</h2><p>Scenarios, a ground-truth answer key and the background brief for the ${esc(D.company.fictional_name)} training environment.</p></section>
+    <div class="tabs"><button class="${!tab?'on':''}" onclick="location.hash='#/learning'">🎯 Scenarios</button><button class="${tab==='answers'?'on':''}" onclick="location.hash='#/answers'">✅ Answer key</button><button class="${tab==='brief'?'on':''}" onclick="location.hash='#/brief'">📄 Company brief</button></div>${body}`;
+  if (!tab) document.querySelectorAll('#lvl button').forEach(b => b.onclick = () => { document.querySelectorAll('#lvl button').forEach(x=>x.classList.toggle('on', x===b)); document.querySelectorAll('#cards .scard').forEach(c => c.hidden = b.dataset.l && c.dataset.l !== b.dataset.l); });
+  if (tab==='answers') $('#akq').oninput = e => { const q=e.target.value.toLowerCase(); document.querySelectorAll('#ak tbody tr').forEach(r => r.hidden = q && !r.dataset.t.includes(q)); };
+}
+
+function viewAbout(){
+  hubNav('home'); siteHead(null);
+  const c = D.company, b = D.brand;
+  $('#main').innerHTML = `<section class="hero"><h2>About ${esc(c.fictional_name)}</h2><p>${esc(c.description||'')}</p></section>
+  <div class="grid g2"><div class="wp"><h3>Company profile</h3><table class="pv-kv">
+   ${[['Legal name',c.legal_name],['Sector',c.sector],['Founded',c.founded],['Headquarters',[c.hq?.line1,c.hq?.city,c.hq?.postcode].filter(Boolean).join(', ')],['Company number',c.company_number],['Financial year end',c.financial_year_end],['Employees',c.headcount],['Revenue',c.revenue_label],['Website',c.domain]].filter(r=>r[1]).map(r=>`<tr><th>${esc(r[0])}</th><td>${esc(r[1])}</td></tr>`).join('')}</table>
+   ${(c.values||[]).length?`<h3 style="margin-top:20px">Our values</h3><ul>${c.values.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`:''}
+   ${(c.timeline||[]).length?`<h3 style="margin-top:20px">Timeline</h3><table class="pv-kv">${c.timeline.map(t=>`<tr><th>${esc(t.date)}</th><td>${esc(t.event)}</td></tr>`).join('')}</table>`:''}
+   ${(c.systems||[]).length?`<h3 style="margin-top:20px">Systems we use</h3><table class="pv-kv">${c.systems.map(t=>`<tr><th>${esc(t.name)}</th><td>${esc(t.purpose||'')}</td></tr>`).join('')}</table>`:''}
+   ${(c.glossary||[]).length?`<h3 style="margin-top:20px">Glossary</h3><table class="pv-kv">${c.glossary.map(t=>`<tr><th>${esc(t.term)}</th><td>${esc(t.definition)}</td></tr>`).join('')}</table>`:''}
+  </div>
+  <div class="grid" style="align-content:start"><div class="wp"><h3>Brand</h3><img src="${svgUrl(b.logo_svg)}" style="max-width:100%;height:60px" alt="logo">
+   <div style="background:${b.primary};padding:14px;border-radius:6px;margin:12px 0"><img src="${svgUrl(b.logo_white_svg)}" style="height:40px" alt=""></div>
+   ${['primary','secondary','accent','dark','light'].map(k=>`<div style="display:flex;gap:10px;align-items:center;margin:6px 0"><span style="width:36px;height:36px;border-radius:6px;background:${b[k]};border:1px solid #ddd"></span><span><b>${k}</b><br><span class="muted">${b[k]}</span></span></div>`).join('')}
+   <p class="muted">Fonts: ${esc(b.font_heading)} / ${esc(b.font_body)} · Brand kit files in <code>Brand Kit/</code></p></div>
+   ${(c.offices||[]).length?`<div class="wp"><h3>Offices</h3>${c.offices.map(o=>`<p><b>${esc(o.name)}</b><br><span class="muted">${esc(o.address||'')}</span></p>`).join('')}</div>`:''}</div></div>`;
+}
+
+function viewSearch(q){
+  hubNav(''); siteHead(null);
+  $('#q').value = q;
+  const ql = q.toLowerCase().trim();
+  const terms = ql.split(/\s+/).filter(Boolean);
+  const score = i => { const hay = (i.title+' '+i.filename+' '+(i.tags||[]).join(' ')+' '+(i.summary||'')).toLowerCase(), body = (i.text||'').toLowerCase();
+    let s = 0; for (const t of terms){ if (hay.includes(t)) s += 5; else if (body.includes(t)) s += 1; else return 0; } return s || (terms.length?0:1); };
+  const res = D.items.map(i=>[score(i),i]).filter(r=>r[0]>0).sort((a,b)=>b[0]-a[0]||String(b[1].modified).localeCompare(String(a[1].modified))).map(r=>r[1]);
+  const ppl = terms.length ? D.people.filter(p=>terms.every(t=>(p.name+' '+p.title+' '+p.department).toLowerCase().includes(t))) : [];
+  const tbl = terms.length ? D.tables.filter(t=>terms.every(x=>(t.title+' '+t.description+' '+t.columns.join(' ')).toLowerCase().includes(x))) : [];
+  $('#main').innerHTML = `<h2 style="margin-top:0">${q?`Results for “${esc(q)}”`:'All content'}</h2>
+   ${ppl.length?`<div class="wp" style="margin-bottom:16px"><h3>People</h3><div class="dir">${ppl.slice(0,8).map(p=>`<div class="pcard" onclick="showPerson('${p.id}')" style="cursor:pointer"><div class="av">${esc(initials(p.name))}</div><div><b>${esc(p.name)}</b><small>${esc(p.title)}</small></div></div>`).join('')}</div></div>`:''}
+   ${tbl.length?`<div class="wp" style="margin-bottom:16px"><h3>Lists &amp; data</h3>${tbl.map(t=>`<div><a href="#/list/${t.name}">🗂️ ${esc(t.title)}</a> <span class="muted">${t.row_count} rows</span></div>`).join('')}</div>`:''}
+   <div class="muted" style="margin-bottom:8px">${res.length} files</div>${fileRows(res,{site:1})}`;
+}
+
+/* ---------------- file viewer ---------------- */
+function openFile(id){
+  const i = items[id]; if (!i) return;
+  const site = sites[i.site];
+  const lib = site?.libraries.findIndex(l=>l.title===i.library);
+  $('#viewer').innerHTML = `<div class="viewer"><div class="pane">
+    <div class="vbar">${ficon(i.icon||i.type)}<span class="t">${esc(i.filename)}</span><a href="${esc(i.path)}" target="_blank">⤓ Open / download</a><button onclick="toggleDetails()">ⓘ Details</button><button onclick="closeViewer()">✕ Close</button></div>
+    <div class="vbody"><div class="vdoc">${i.preview || '<div class="empty">No preview available.</div>'}</div>
+    <aside class="vdetails" id="vdet"><b style="font-size:16px">${esc(i.title)}</b>
+      <h4>Information</h4><dl>
+        <dt>Type</dt><dd>${esc((i.type||'').toUpperCase())}${i.category?' · '+esc(i.category):''}</dd>
+        <dt>Location</dt><dd>${site?`<a href="#/site/${site.key}${lib>=0?'/lib/'+lib:''}" onclick="closeViewer()">${esc(site.title)}</a>`:''}${i.library?' › '+esc(i.library):i.type==='meeting'?' › Calendar':''}${i.folder?' › '+esc(i.folder):''}</dd>
+        <dt>Created by</dt><dd>${i.author_id?`<a href="javascript:showPerson('${i.author_id}')">${esc(i.author)}</a>`:esc(i.author||'')}</dd>
+        <dt>Created</dt><dd>${ukd(i.created)}</dd><dt>Modified</dt><dd>${ukd(i.modified)}${i.modified_by?' by '+esc(i.modified_by):''}</dd>
+        ${i.version?`<dt>Version</dt><dd>${esc(i.version)}</dd>`:''}${i.status?`<dt>Status</dt><dd>${esc(i.status)}</dd>`:''}
+        <dt>Sensitivity</dt><dd>${clsPill(i.classification)}</dd>
+        ${i.review_date?`<dt>Next review</dt><dd>${ukd(i.review_date)}</dd>`:''}
+        ${(i.tags||[]).length?`<dt>Tags</dt><dd>${i.tags.map(t=>`<span class="pill">${esc(t)}</span>`).join(' ')}</dd>`:''}
+      </dl>${i.summary?`<h4>Description</h4><p style="font-size:13px">${esc(i.summary)}</p>`:''}
+      <h4>File path</h4><code style="font-size:11.5px;word-break:break-all">${esc(i.path)}</code></aside></div></div></div>`;
+  document.querySelectorAll('.xl-tab').forEach(b => b.onclick = () => { const root = b.closest('.pv-book'); root.querySelectorAll('.xl-tab').forEach(x=>x.classList.toggle('on', x===b)); root.querySelectorAll('.xl-pane').forEach(p=>p.hidden = p.dataset.i!==b.dataset.i); });
+  document.body.style.overflow='hidden';
+}
+function toggleDetails(){ const d=$('#vdet'); d.style.display = d.style.display==='none' ? '' : 'none'; }
+function closeViewer(){ $('#viewer').innerHTML=''; document.body.style.overflow=''; }
+document.addEventListener('keydown', e => { if (e.key==='Escape') closeViewer(); });
+
+/* ---------------- router ---------------- */
+function route(){
+  closeViewer();
+  const h = decodeURIComponent(location.hash.slice(1) || '/');
+  const [path, qs] = h.split('?'); const parts = path.split('/').filter(Boolean);
+  window.scrollTo(0,0);
+  if (!parts.length) return viewHome();
+  switch(parts[0]){
+    case 'site': return parts[2]==='lib' ? viewLib(parts[1], parts[3], parts.slice(4)) : viewSite(parts[1]);
+    case 'lists': return viewLists();
+    case 'list': return viewList(parts[1]);
+    case 'people': return viewPeople();
+    case 'mail': return viewMail('email', parts[1]||'');
+    case 'chat': return viewMail('chat');
+    case 'calendar': return viewCalendar();
+    case 'learning': return viewLearning('');
+    case 'answers': return viewLearning('answers');
+    case 'brief': return viewLearning('brief');
+    case 'about': return viewAbout();
+    case 'search': return viewSearch(new URLSearchParams(qs||'').get('q')||'');
+    case 'file': viewHome(); return openFile(parts[1]);
+  }
+  viewHome();
+}
+$('#q').addEventListener('keydown', e => { if (e.key==='Enter') location.hash = '#/search?q=' + encodeURIComponent(e.target.value); });
+window.addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>

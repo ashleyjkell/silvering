@@ -1,0 +1,191 @@
+[
+ {
+  "id": "inb-mailbox-routing-guide",
+  "type": "docx",
+  "title": "Shared Mailbox Triage & Routing Guide",
+  "site": "customer",
+  "library": "Contact Centre",
+  "folder": "Procedures",
+  "category": "Procedure",
+  "doc_type_label": "Procedure",
+  "tags": ["shared mailbox", "triage", "routing", "SLA", "Awaab's Law", "safeguarding", "phishing", "fraud", "customer services", "repairs", "rents"],
+  "summary": "How the Customer Services, Repairs and Rents & Income shared mailboxes are checked, categorised, prioritised and routed, including safeguarding, Awaab's Law, phishing and fraud escalation rules.",
+  "author": "P030",
+  "owner": "P003",
+  "modified_by": "P030",
+  "approved_by": "P003",
+  "created": "2025-03-10",
+  "modified": "2026-10-12",
+  "version": "3.1",
+  "status": "Approved",
+  "review_date": "2027-04-30",
+  "classification": "Internal",
+  "version_history": [
+   {"version": "1.0", "date": "2025-03-10", "by": "P030", "change": "First version for customerservices@ and repairs@"},
+   {"version": "2.0", "date": "2025-10-20", "by": "P030", "change": "Awaab's Law escalation added ahead of 27 October 2025; rents@ mailbox added"},
+   {"version": "3.0", "date": "2026-07-01", "by": "P012", "change": "Complaint, member enquiry and Ombudsman timescales aligned with the Complaint Handling Code; Critical priority added"},
+   {"version": "3.1", "date": "2026-10-12", "by": "P030", "change": "Supplier bank-detail fraud, Breathing Space and AI/automation section added for the Copilot pilot"}
+  ],
+  "blocks": [
+   {"h1": "1. Purpose and scope"},
+   {"p": "Our three shared mailboxes are often the first contact a resident, partner or supplier has with {{company.fictional_name}}. Emails that are missed or sit in the wrong place have led to complaints, Ombudsman findings and, in the worst cases, risk to residents. This guide sets out who checks each mailbox, how every email is **categorised**, **prioritised** and **routed**, the response times we commit to, and the red flags that must be dealt with before anything else."},
+   {"p": "It applies to contact centre advisers, repairs planners, income officers, their cover, and anyone building a Copilot agent, Outlook rule or Power Automate flow that reads these mailboxes. Every email must end up with **one category, one priority and one owner**, recorded in Keystone (or FieldLoop for repairs)."},
+   {"h1": "2. Our shared mailboxes"},
+   {"table": {
+     "columns": ["Mailbox", "What it is for", "Checked by", "Cover"],
+     "rows": [
+      ["customerservices@silvering-homes.org.uk", "General enquiries, tenancy questions, complaints by email, compliments, partner agencies, councillors and MPs", "{{person:P030}}, Customer Service Team Leader, and the advisers", "{{person:P031}}, Customer Service Adviser"],
+      ["repairs@silvering-homes.org.uk", "Repair reports and chasers, appointment changes, damp and mould reports, contractor updates, MySilvering notifications", "{{person:P018}}, Repairs Planning Manager, and the planners", "{{person:P031}}, Customer Service Adviser"],
+      ["rents@silvering-homes.org.uk", "Rent payments, Universal Credit and DWP correspondence, payment arrangements, hardship, service charges, remittances", "{{person:P029}}, Income Officer (rota)", "{{person:P015}}, Income Manager"]
+     ],
+     "caption": "Table 1 - Shared mailboxes and who checks them"}},
+   {"bullets": [
+     "Mailboxes are checked at **08:30, 12:00 and 16:30** on working days. The Monday 08:30 check covers everything that arrived over the weekend.",
+     "The mailboxes are **not monitored out of hours**. The auto-acknowledgement tells senders to phone for emergencies (gas: 0800 111 999; repairs and Careline out of hours: 01622 900 100; danger to life: 999).",
+     "Emails that arrive after the 16:30 check are not seen until the next morning, so the 08:30 check must start with a **red-flag scan** of everything received overnight."
+   ]},
+   {"h1": "3. How to triage an email"},
+   {"numbered": [
+     "**Scan for red flags first** (section 6): gas, danger to life, a resident not seen, domestic abuse or safeguarding, damp and mould affecting a child or vulnerable person, phishing and bank-detail changes. Read the **whole** email - disclosures are often buried in the middle of a routine rent or repair query.",
+     "**Categorise** using one of the categories in Table 2. If an email raises two issues, triage the more serious one and create a second task for the other.",
+     "**Prioritise** using Table 3. Vulnerability, children, older residents living alone and repeat contact all move an email up.",
+     "**Check history** in Keystone and FieldLoop: is there an open complaint, damp case, repair job or arrears action? Add to the existing case rather than opening a new one.",
+     "**Route** to the owner in Table 4 and record the owner and due date. Move the email to the 'Actioned' folder.",
+     "**Reply or acknowledge** only if this mailbox owns the response. Never reply to phishing, fraud or media emails."
+   ]},
+   {"h1": "4. Categories"},
+   {"table": {
+     "columns": ["Category", "Use for"],
+     "rows": [
+      ["Emergency repair", "Gas smell, flooding, water near electrics, no heating or hot water for a vulnerable household, unsafe structure, insecure home"],
+      ["Repair request", "A new non-emergency repair, including MySilvering portal requests"],
+      ["Repair follow-up", "Chasers, appointment changes, contractor cancellations"],
+      ["Damp & mould", "Any report of damp, mould or condensation - always assessed under Awaab's Law"],
+      ["Building safety", "Fire doors, lifts, communal fire safety, Rosemount Tower (higher-risk building) issues"],
+      ["New build defect", "Defects in new homes within the defects liability period (Orchard Fields - Castlemere Construction)"],
+      ["Contractor & supplier", "Quotes, invoices, completion reports, variations"],
+      ["Complaint", "Expressions of dissatisfaction, new or about an existing case; Housing Ombudsman correspondence"],
+      ["Member enquiry", "Emails from councillors, MPs and their caseworkers"],
+      ["Media enquiry", "Journalists and press"],
+      ["Tenancy & neighbourhood", "ASB, mutual exchange, lettings, bereavement and end of tenancy, general tenancy questions"],
+      ["Safeguarding & welfare", "Concern about a person's safety: domestic abuse, a resident not seen, self-neglect, child or adult at risk"],
+      ["Rent & Universal Credit", "Payments, refunds, statements, DWP Landlord Portal tasks, APAs, Housing Benefit"],
+      ["Arrears & hardship", "Hardship fund, debt advice, Breathing Space, anything on an account at NOSP or court stage"],
+      ["Home ownership & service charges", "Shared ownership, staircasing, leaseholders, service and support charges"],
+      ["Data protection request", "Subject access and other UK GDPR rights requests"],
+      ["Compliment & feedback", "Thanks and suggestions"],
+      ["Information only", "Auto-replies, newsletters, system notices, marketing"],
+      ["Phishing / fraud", "Suspicious links, credential requests, lookalike domains, bank-detail changes"]
+     ],
+     "caption": "Table 2 - Triage categories"}},
+   {"h1": "5. Priorities and response times"},
+   {"table": {
+     "columns": ["Priority", "Meaning", "Response time", "Examples"],
+     "rows": [
+      ["Critical", "Possible risk to life or serious harm", "Act within 1 hour - phone, don't email", "Gas smell; resident not seen for days; water round a light fitting; damp and mould emergency hazard"],
+      ["Urgent", "Serious risk, safeguarding, statutory or same-day deadline", "Same working day", "Domestic abuse disclosure; phishing; bank-detail change; Breathing Space; fire door in Rosemount Tower; no heating; media deadline"],
+      ["High", "Time-critical or high-impact", "1 working day", "Hardship request on a NOSP account; councillor/MP enquiry; Ombudsman threat; subject access request; damp and mould report"],
+      ["Normal", "Routine resident or supplier request", "3 working days", "Repair chaser; mutual exchange; payment arrangement; quotation"],
+      ["Low", "No reply needed, or information only", "5 working days or none", "Compliments; newsletters; auto-replies; remittances"]
+     ],
+     "caption": "Table 3 - Priorities"}},
+   {"table": {
+     "columns": ["Type", "Timescale"],
+     "rows": [
+      ["Stage 1 complaint", "Acknowledge within 5 working days; respond within 10 working days of acknowledgement"],
+      ["Stage 2 complaint", "Acknowledge within 5 working days; respond within 20 working days of acknowledgement"],
+      ["Councillor / MP enquiry", "Acknowledge within 1 working day; respond within 10 working days, signed off by a director"],
+      ["Housing Ombudsman request", "By the date the Ombudsman sets (usually 15 working days)"],
+      ["Subject access request", "One calendar month from receipt - forward to Information Governance the same day"],
+      ["DWP Landlord Portal task", "By the task due date"],
+      ["Emergency repair", "Attend within 4 hours, make safe within 24 hours"],
+      ["Awaab's Law emergency hazard", "Make safe within 24 hours of becoming aware"],
+      ["Awaab's Law significant damp and mould", "Investigate within 10 working days; written summary within 3 working days of investigation; safety works start within 5 working days"]
+     ],
+     "caption": "Table 4 - Fixed timescales"}},
+   {"callout": "The clock starts when the email arrives in the mailbox, not when somebody reads it. An email received at 22:00 on a Wednesday about an emergency hazard must be made safe by 22:00 on Thursday.", "title": "When does the clock start?"},
+   {"h1": "6. Routing table"},
+   {"table": {
+     "columns": ["Category / situation", "Route to", "Notes"],
+     "rows": [
+      ["Emergency repair, repair request, repair follow-up", "{{person:P018}}, Repairs Planning Manager", "Raise or update the FieldLoop job; check the priority is right"],
+      ["Gas smell or carbon monoxide", "{{person:P018}} (emergency job) and {{person:P023}}, Compliance Officer (Gas & Electrical)", "Phone the resident first: advise 0800 111 999 and leaving the home"],
+      ["Damp & mould", "{{person:P020}}, Damp & Mould Surveyor", "Escalate emergencies to {{person:P008}}, Head of Repairs"],
+      ["Building safety, lifts, fire doors", "{{person:P022}}, Building Safety Manager", "Rosemount Tower is our only higher-risk building"],
+      ["New build defect (Orchard Fields)", "{{person:P034}}, Development Manager", "Reported to Castlemere Construction; Repairs provides temporary heaters etc. if needed"],
+      ["Contractor quotes and updates", "The contract manager in the suppliers register (e.g. Brightline: {{person:P023}}; Weald Roofing and ClearFlow: {{person:P008}}; Castlemere: {{person:P034}}; Liftwise: {{person:P022}})", "Invoices need a FieldLoop job number before they go to Finance"],
+      ["Supplier invoices and remittances", "{{person:P016}}, Financial Controller", ""],
+      ["New stage 1 complaint", "{{person:P032}}, Complaints Officer", "Log in Keystone"],
+      ["Existing complaint, stage 2, Ombudsman", "The case handler, or {{person:P012}}, Customer Resolutions Manager", "Never open a duplicate complaint"],
+      ["Councillor / MP enquiry", "{{person:P012}} to log; service owner drafts", "Director sign-off"],
+      ["Media", "{{person:P037}}, Communications Manager", "No one else comments"],
+      ["ASB", "Patch Housing Officer (Brenchley Gardens, Shepway Green, Heron Way: {{person:P025}})", "Complex cases: {{person:P026}}"],
+      ["Domestic abuse", "{{person:P026}}, ASB & Tenancy Enforcement Officer (domestic abuse lead)", "Plus {{person:P011}} as safeguarding lead"],
+      ["Safeguarding & welfare (general needs)", "{{person:P011}}, Head of Neighbourhoods (safeguarding lead)", ""],
+      ["SilverLiving residents, Careline, bereavement in SilverLiving", "{{person:P027}}, SilverLiving Coordinator", ""],
+      ["Mutual exchange and lettings", "{{person:P028}}, Lettings Officer", ""],
+      ["Rent, UC, APAs, payment arrangements", "The Income Officer for the account (Ryan Tait, Sam Odukoya or Priya Chauhan)", "Check the officer in Keystone"],
+      ["Hardship, Breathing Space, NOSP or court-stage accounts", "{{person:P015}}, Income Manager", ""],
+      ["Shared ownership and staircasing", "{{person:P035}}, Sales & Shared Ownership Officer", ""],
+      ["Data protection requests", "Information Governance (People, IT & Data) - dpo@silvering-homes.org.uk", ""],
+      ["Compliments", "{{person:P033}}, Resident Involvement & Insight Officer", "Also tell the staff member and their manager"],
+      ["Phishing", "{{person:P014}}, IT & Data Manager", "Use the Report phishing button"],
+      ["Bank-detail change requests", "{{person:P016}}, Financial Controller, and {{person:P014}}", "Never change details from an email"]
+     ],
+     "caption": "Table 5 - Routing"}},
+   {"h1": "7. Red flags and escalation"},
+   {"h2": "7.1 Danger to life"},
+   {"bullets": [
+     "**Gas smell:** phone the resident immediately. Tell them not to use switches or flames, to open windows, turn off the gas at the meter if safe, leave the home and call the National Gas Emergency Service on 0800 111 999. Then raise an emergency job. Never just reply by email.",
+     "**Water near electrics, sparking, burning smell:** Emergency priority, whatever the original job says. If a job has been logged at the wrong priority, change it and tell the planner.",
+     "**A resident not seen or not answering**, especially an older person living alone: Critical. Contact the SilverLiving Coordinator or Careline for an immediate welfare check; if there is no answer, follow the forced-entry procedure and call 999."
+   ]},
+   {"h2": "7.2 Safeguarding and domestic abuse"},
+   {"bullets": [
+     "Read every email in full. A disclosure is often in the middle of a rent query or repair chaser.",
+     "Route domestic abuse disclosures the same day to the domestic abuse lead and the safeguarding lead. Do not reply with details of the disclosure, do not send letters to the address if the resident says the perpetrator reads post, and update the contact preference.",
+     "Pause arrears escalation and home visits until the domestic abuse lead has completed a risk assessment.",
+     "Forward safeguarding emails only to the named leads. Do not paste them into Teams chats, other documents or Copilot prompts outside the pilot's approved agent."
+   ]},
+   {"h2": "7.3 Damp and mould - Awaab's Law"},
+   {"bullets": [
+     "Every damp, mould or condensation report is a Damp & mould email, even if the resident says 'not urgent'. Never reply with 'open your windows' advice alone.",
+     "**Emergency hazard** - for example extensive mould in a room where a baby, a person with a respiratory condition or an older resident sleeps: Critical. The home must be made safe within 24 hours (treatment, temporary room or decant).",
+     "**Significant hazard:** investigate within 10 working days, send the written summary within 3 working days of the investigation, and start safety works within 5 working days.",
+     "Check for previous damp cases at the address. A recurrence after treatment is a sign the cause wasn't fixed and should be escalated to the Head of Repairs.",
+     "Damp reported through a complaint, a councillor or MP, a TSM survey or an operative still needs a damp case to be opened - a complaint on its own does not start the investigation."
+   ]},
+   {"h2": "7.4 Complaints, the Ombudsman and elected members"},
+   {"bullets": [
+     "If a resident says they will go to the Housing Ombudsman or their MP, treat it as High. Contact them within 1 working day and remind them of their right to go to the Ombudsman. Never discourage it.",
+     "Always check Keystone for an open complaint and add new contacts to it."
+   ]},
+   {"h2": "7.5 Arrears and statutory notices"},
+   {"bullets": [
+     "Any email from a resident whose account is at NOSP served, court action or possession stage goes to the Income Manager the same day.",
+     "**Breathing Space** (Debt Respite Scheme) notifications are statutory. Record the moratorium the same day and stop all enforcement and arrears contact for the debt. Ongoing rent remains due.",
+     "Long leaseholders are not served a NOSP for rent arrears; their service charge arrears are recovered under the lease."
+   ]},
+   {"h1": "8. Phishing and fraud"},
+   {"bullets": [
+     "Warning signs: urgency or threats ('suspension tomorrow'), links asking you to sign in, a sender domain that is close to but not the same as the real one, no named sender, attachments you didn't expect.",
+     "Our genuine suppliers' domains are in the contracts register; check the domain character by character. For example, Keystone Software emails come from keystonesoftware.co.uk and Weald Roofing from wealdroofing.co.uk.",
+     "**Phishing:** don't click, reply or forward to colleagues. Use the Outlook Report phishing button, tell IT the same day, then delete.",
+     "**Bank-detail changes:** never act on an email. Finance verifies by phoning the supplier on the number already held in Northway Finance Cloud, not the number in the email, and holds payments until confirmed. Treat any bank-detail change sent to a non-finance mailbox as suspicious.",
+     "Never send an auto-reply or acknowledgement to a suspected fraudster - it confirms the mailbox is live."
+   ]},
+   {"h1": "9. Using Copilot and automation"},
+   {"p": "During the Copilot pilot, staff may use Copilot in Outlook to summarise and suggest a category, priority and owner for shared-mailbox emails. The person checking the mailbox remains responsible for the triage decision."},
+   {"bullets": [
+     "Copilot suggestions must be checked against this guide. A one-line summary can miss a buried disclosure, so read flagged emails in full.",
+     "Automated flows may **apply categories, move information-only mail and post alerts** that show the mailbox, time and category only - never the content of the email.",
+     "Automated flows must **not** reply to, forward or summarise safeguarding emails, act on bank-detail changes, click links, send replies to media, complainants or data requests, or close repair jobs.",
+     "Where a model's confidence is low, leave the email uncategorised for a person.",
+     "Triage logs and test sets should use email IDs and tenancy references only, not vulnerability details."
+   ]},
+   {"h1": "10. Monitoring"},
+   {"p": "The Customer Service Team Leader samples 20 triaged emails a month for accuracy and timeliness and reports to the Director of Customer Experience. Missed red flags are logged as learning and reviewed at the weekly complaints case review."},
+   {"signature": "P003", "date": "2026-10-12"}
+  ]
+ }
+]

@@ -1,0 +1,215 @@
+﻿void_id,uprn,property_ref,scheme_id,scheme_name,tenure,void_start,void_reason,void_type,works_completed,let_date,status,days_void,weekly_rent,rent_loss_gbp,void_supervisor,lettings_officer
+VD3108,100022440121,SVH10121,SCH02,Parkwood Court,Social rent,2024-11-04,Death of tenant,Standard,2024-11-09,2024-11-14,Let,10,130.63,186.61,Steve Harlow,Chloe Benson
+VD3196,100022441696,SVH11696,SCH27,Maidstone Town Street Properties,Social rent,2024-11-05,Death of tenant,Standard,2024-11-17,2024-11-27,Let,22,125.56,394.62,Steve Harlow,Chloe Benson
+VD3123,100022441210,SVH11210,SCH16,Lenham Meadows,Affordable rent,2024-11-08,Moved into care,Standard,2024-11-27,2024-12-01,Let,23,286.21,940.4,Steve Harlow,Chloe Benson
+VD3147,100022441000,SVH11000,SCH13,Oakwood Place,Older persons & supported,2024-11-11,Death of tenant,Major works,2024-12-25,2025-01-03,Let,53,109.3,827.56,Steve Harlow,Chloe Benson
+VD3028,100022441498,SVH11498,SCH22,Strood Wharf,Affordable rent,2024-11-22,Death of tenant,Major works,2025-01-23,2025-01-24,Let,63,196.96,1772.64,Steve Harlow,Chloe Benson
+VD3178,100022441115,SVH11115,SCH15,Hop Pocket Way,Affordable rent,2024-11-27,Abandonment,Standard,2024-12-07,2024-12-13,Let,16,250.59,572.78,Steve Harlow,Chloe Benson
+VD3192,100022441118,SVH11118,SCH15,Hop Pocket Way,Affordable rent,2024-12-03,Transfer to another Silvering home,Standard,2024-12-15,2024-12-20,Let,17,247.8,601.8,Steve Harlow,Chloe Benson
+VD3078,100022441753,SVH11753,SCH27,Maidstone Town Street Properties,Social rent,2024-12-06,Death of tenant,Standard,2024-12-18,2024-12-19,Let,13,121.18,225.05,Steve Harlow,Chloe Benson
+VD3126,100022440660,SVH10660,SCH07,Coxheath Lane,Social rent,2024-12-06,Death of tenant,Standard,2024-12-19,2024-12-20,Let,14,131.85,263.7,Steve Harlow,Chloe Benson
+VD3162,100022440484,SVH10484,SCH05,Vinters Rise,Social rent,2024-12-06,Death of tenant,Major works,2025-01-26,2025-02-02,Let,58,114.83,951.45,Steve Harlow,Chloe Benson
+VD3168,100022440144,SVH10144,SCH02,Parkwood Court,Social rent,2024-12-16,Death of tenant,Standard,2024-12-21,2024-12-28,Let,12,126.51,216.87,Steve Harlow,Chloe Benson
+VD3101,100022441239,SVH11239,SCH17,Headcorn & Villages,Social rent,2024-12-18,Transfer to another Silvering home,Standard,2025-01-07,2025-01-18,Let,31,119.82,530.63,Steve Harlow,Chloe Benson
+VD3044,100022440873,SVH10873,SCH10,Bearsted Court,Older persons & supported,2024-12-20,Moved into care,Standard,2024-12-26,2025-01-01,Let,12,115.05,197.23,Steve Harlow,Chloe Benson
+VD3059,100022441222,SVH11222,SCH16,Lenham Meadows,Affordable rent,2024-12-23,Death of tenant,Major works,2025-02-13,2025-02-20,Let,59,243.2,2049.83,Steve Harlow,Chloe Benson
+VD3095,100022440037,SVH10037,SCH01,Rosemount Tower,Social rent,2024-12-23,Moved into care,Standard,2025-01-07,2025-01-14,Let,22,130.35,409.67,Steve Harlow,Chloe Benson
+VD3023,100022440888,SVH10888,SCH10,Bearsted Court,Older persons & supported,2024-12-26,Death of tenant,Major works,2025-01-15,2025-01-23,Let,28,116.97,467.88,Steve Harlow,Chloe Benson
+VD3047,100022441424,SVH11424,SCH21,Chatham Hill Court,Social rent,2024-12-27,Moved into care,Standard,2025-01-10,2025-01-17,Let,21,119.68,359.04,Steve Harlow,Chloe Benson
+VD3102,100022440439,SVH10439,SCH05,Vinters Rise,Social rent,2024-12-30,Abandonment,Standard,2025-01-19,2025-01-25,Let,26,147.37,547.37,Steve Harlow,Chloe Benson
+VD3125,100022441697,SVH11697,SCH27,Maidstone Town Street Properties,Social rent,2024-12-31,Transfer to another Silvering home,Standard,2025-01-04,2025-01-12,Let,12,119.0,204.0,Steve Harlow,Chloe Benson
+VD3189,100022440229,SVH10229,SCH03,Brenchley Gardens,Social rent,2025-01-06,Eviction,Standard,2025-01-25,2025-02-05,Let,30,132.25,566.79,Steve Harlow,Chloe Benson
+VD3053,100022441251,SVH11251,SCH17,Headcorn & Villages,Social rent,2025-01-09,Other,Standard,2025-01-24,2025-02-04,Let,26,144.79,537.79,Steve Harlow,Chloe Benson
+VD3176,100022441109,SVH11109,SCH15,Hop Pocket Way,Affordable rent,2025-01-14,Other,Standard,2025-02-05,2025-02-10,Let,27,197.59,762.13,Steve Harlow,Chloe Benson
+VD3098,100022441339,SVH11339,SCH19,Kings Hill Quarter,Affordable rent,2025-01-20,Moved into care,Standard,2025-02-02,2025-02-07,Let,18,250.79,644.89,Steve Harlow,Chloe Benson
+VD3159,100022440957,SVH10957,SCH12,Linton Lodge,Older persons & supported,2025-01-21,Death of tenant,Standard,2025-02-04,2025-02-13,Let,23,113.48,372.86,Steve Harlow,Chloe Benson
+VD3193,100022441484,SVH11484,SCH22,Strood Wharf,Affordable rent,2025-01-23,Moved to another landlord or private,Standard,2025-02-02,2025-02-05,Let,13,253.27,470.36,Steve Harlow,Chloe Benson
+VD3050,100022440990,SVH10990,SCH12,Linton Lodge,Older persons & supported,2025-01-27,Death of tenant,Major works,2025-03-09,2025-03-14,Let,46,117.52,772.27,Steve Harlow,Chloe Benson
+VD3202,100022441439,SVH11439,SCH21,Chatham Hill Court,Social rent,2025-01-27,Transfer to another Silvering home,Standard,2025-02-12,2025-02-23,Let,27,119.02,459.08,Steve Harlow,Chloe Benson
+VD3205,100022441658,SVH11658,SCH26,Marden & Staplehurst Cottages,Social rent,2025-01-29,Death of tenant,Standard,2025-02-10,2025-02-14,Let,16,144.58,330.47,Steve Harlow,Chloe Benson
+VD3151,100022440747,SVH10747,SCH08,Allington Mews,Social rent,2025-01-31,Moved to another landlord or private,Standard,2025-02-09,2025-02-17,Let,17,134.59,326.86,Steve Harlow,Chloe Benson
+VD3016,100022441573,SVH11573,SCH24,Mill Court,Social rent,2025-02-05,Transfer to another Silvering home,Standard,2025-02-14,2025-02-21,Let,16,134.76,308.02,Steve Harlow,Chloe Benson
+VD3122,100022440866,SVH10866,SCH10,Bearsted Court,Older persons & supported,2025-02-05,Moved into care,Major works,2025-03-04,2025-03-17,Let,40,110.89,633.66,Steve Harlow,Chloe Benson
+VD3077,100022440467,SVH10467,SCH05,Vinters Rise,Social rent,2025-02-06,Eviction,Major works,2025-03-27,2025-04-09,Let,62,140.7,1246.2,Steve Harlow,Chloe Benson
+VD3104,100022441685,SVH11685,SCH27,Maidstone Town Street Properties,Social rent,2025-02-06,Other,Standard,2025-02-24,2025-03-02,Let,24,143.79,492.99,Steve Harlow,Chloe Benson
+VD3096,100022441764,SVH11764,SCH28,Week Street Apartments,Market rent,2025-02-12,Death of tenant,Standard,2025-02-16,2025-02-19,Let,7,360.69,360.69,Steve Harlow,Chloe Benson
+VD3152,100022440872,SVH10872,SCH10,Bearsted Court,Older persons & supported,2025-02-14,Moved into care,Standard,2025-03-02,2025-03-12,Let,26,116.5,432.71,Steve Harlow,Chloe Benson
+VD3064,100022440262,SVH10262,SCH03,Brenchley Gardens,Social rent,2025-03-04,Other,Standard,2025-03-17,2025-03-27,Let,23,133.82,439.69,Steve Harlow,Chloe Benson
+VD3133,100022440486,SVH10486,SCH05,Vinters Rise,Social rent,2025-03-11,Eviction,Major works,2025-04-03,2025-04-06,Let,26,147.59,548.19,Steve Harlow,Chloe Benson
+VD3022,100022440537,SVH10537,SCH06,Shepway Green,Social rent,2025-03-20,Moved into care,Standard,2025-03-29,2025-04-04,Let,15,131.49,281.76,Steve Harlow,Chloe Benson
+VD3030,100022441603,SVH11603,SCH25,Station Road,Affordable rent,2025-03-21,Death of tenant,Major works,2025-04-18,2025-04-24,Let,34,246.49,1197.24,Steve Harlow,Chloe Benson
+VD3046,100022441083,SVH11083,SCH15,Hop Pocket Way,Affordable rent,2025-03-26,Transfer to another Silvering home,Standard,2025-04-14,2025-04-21,Let,26,226.42,840.99,Steve Harlow,Chloe Benson
+VD3057,100022441213,SVH11213,SCH16,Lenham Meadows,Affordable rent,2025-03-27,Death of tenant,Major works,2025-04-17,2025-04-24,Let,28,190.28,761.12,Steve Harlow,Chloe Benson
+VD3092,100022440457,SVH10457,SCH05,Vinters Rise,Social rent,2025-03-31,Moved into care,Standard,2025-04-07,2025-04-13,Let,13,114.64,212.9,Steve Harlow,Chloe Benson
+VD3018,100022440796,SVH10796,SCH09,Ringlestone Crescent,Social rent,2025-04-01,Death of tenant,Standard,2025-04-15,2025-04-23,Let,22,130.76,410.96,Steve Harlow,Chloe Benson
+VD3190,100022440672,SVH10672,SCH07,Coxheath Lane,Social rent,2025-04-01,Death of tenant,Standard,2025-04-14,2025-04-19,Let,18,159.41,409.91,Steve Harlow,Chloe Benson
+VD3207,100022441753,SVH11753,SCH27,Maidstone Town Street Properties,Social rent,2025-04-04,Moved into care,Major works,2025-04-20,2025-04-22,Let,18,121.18,311.61,Steve Harlow,Chloe Benson
+VD3143,100022440612,SVH10612,SCH06,Shepway Green,Social rent,2025-04-08,Moved to another landlord or private,Standard,2025-04-29,2025-05-16,Let,38,115.72,628.19,Steve Harlow,Chloe Benson
+VD3203,100022441096,SVH11096,SCH15,Hop Pocket Way,Affordable rent,2025-04-08,Death of tenant,Standard,2025-04-18,2025-04-25,Let,17,223.59,543.0,Steve Harlow,Chloe Benson
+VD3201,100022440983,SVH10983,SCH12,Linton Lodge,Older persons & supported,2025-04-09,Moved into care,Standard,2025-04-20,2025-04-25,Let,16,116.15,265.49,Steve Harlow,Chloe Benson
+VD3199,100022441275,SVH11275,SCH17,Headcorn & Villages,Social rent,2025-04-10,Death of tenant,Standard,2025-04-25,2025-05-02,Let,22,138.22,434.41,Steve Harlow,Chloe Benson
+VD3184,100022441139,SVH11139,SCH15,Hop Pocket Way,Affordable rent,2025-04-23,Transfer to another Silvering home,Standard,2025-05-07,2025-05-12,Let,19,243.73,661.55,Steve Harlow,Chloe Benson
+VD3099,100022440974,SVH10974,SCH12,Linton Lodge,Older persons & supported,2025-04-24,Moved to family,Standard,2025-05-12,2025-05-15,Let,21,109.18,327.54,Steve Harlow,Chloe Benson
+VD3004,100022440227,SVH10227,SCH03,Brenchley Gardens,Social rent,2025-04-28,Moved to another landlord or private,Standard,2025-05-16,2025-05-17,Let,19,144.32,391.73,Steve Harlow,Chloe Benson
+VD3180,100022441804,SVH11804,SCH29,Leybourne Court,Older persons & supported,2025-04-28,Death of tenant,Major works,2025-05-26,2025-05-29,Let,31,109.59,485.33,Steve Harlow,Chloe Benson
+VD3086,100022441250,SVH11250,SCH17,Headcorn & Villages,Social rent,2025-04-29,Transfer to another Silvering home,Major works,2025-06-18,2025-06-25,Let,57,130.3,1061.01,Steve Harlow,Chloe Benson
+VD3109,100022440758,SVH10758,SCH09,Ringlestone Crescent,Social rent,2025-05-07,Death of tenant,Standard,2025-05-19,2025-05-27,Let,20,131.67,376.2,Steve Harlow,Chloe Benson
+VD3003,100022441816,SVH11816,SCH29,Leybourne Court,Older persons & supported,2025-05-09,Death of tenant,Standard,2025-05-23,2025-05-24,Let,15,116.6,249.86,Steve Harlow,Chloe Benson
+VD3100,100022441305,SVH11305,SCH18,Larkfield Close,Social rent,2025-05-14,Moved into care,Standard,2025-05-26,2025-05-28,Let,14,138.25,276.5,Steve Harlow,Chloe Benson
+VD3181,100022440736,SVH10736,SCH08,Allington Mews,Social rent,2025-05-15,Death of tenant,Standard,2025-05-28,2025-06-03,Let,19,130.58,354.43,Steve Harlow,Chloe Benson
+VD3204,100022440773,SVH10773,SCH09,Ringlestone Crescent,Social rent,2025-05-15,Death of tenant,Major works,2025-06-27,2025-07-06,Let,52,138.51,1028.93,Steve Harlow,Chloe Benson
+VD3106,100022441760,SVH11760,SCH27,Maidstone Town Street Properties,Social rent,2025-05-16,Other,Standard,2025-06-02,2025-06-15,Let,30,142.13,609.13,Steve Harlow,Chloe Benson
+VD3191,100022440108,SVH10108,SCH02,Parkwood Court,Social rent,2025-05-19,Abandonment,Major works,2025-06-18,2025-06-23,Let,35,122.25,611.25,Steve Harlow,Chloe Benson
+VD3009,100022441778,SVH11778,SCH28,Week Street Apartments,Market rent,2025-05-21,Moved to another landlord or private,Standard,2025-06-04,2025-06-13,Let,23,283.45,931.34,Steve Harlow,Chloe Benson
+VD3170,100022440975,SVH10975,SCH12,Linton Lodge,Older persons & supported,2025-05-21,Moved to family,Standard,2025-06-09,2025-06-16,Let,26,114.73,426.14,Steve Harlow,Chloe Benson
+VD3214,100022440220,SVH10220,SCH03,Brenchley Gardens,Social rent,2025-05-22,Moved to another landlord or private,Major works,2025-07-10,2025-07-13,Let,52,141.99,1054.78,Steve Harlow,Chloe Benson
+VD3183,100022441743,SVH11743,SCH27,Maidstone Town Street Properties,Social rent,2025-06-06,Other,Standard,2025-06-26,2025-07-03,Let,27,125.33,483.42,Steve Harlow,Chloe Benson
+VD3063,100022440822,SVH10822,SCH09,Ringlestone Crescent,Social rent,2025-06-10,Moved to another landlord or private,Standard,2025-06-19,2025-06-26,Let,16,112.79,257.81,Steve Harlow,Chloe Benson
+VD3079,100022441294,SVH11294,SCH18,Larkfield Close,Social rent,2025-06-11,Moved to another landlord or private,Standard,2025-06-21,2025-06-28,Let,17,116.88,283.85,Steve Harlow,Chloe Benson
+VD3037,100022440119,SVH10119,SCH02,Parkwood Court,Social rent,2025-06-17,Moved to another landlord or private,Standard,2025-07-04,2025-07-13,Let,26,134.12,498.16,Steve Harlow,Chloe Benson
+VD3014,100022440780,SVH10780,SCH09,Ringlestone Crescent,Social rent,2025-06-25,Moved to another landlord or private,Standard,2025-07-16,2025-07-25,Let,30,141.24,605.31,Steve Harlow,Chloe Benson
+VD3116,100022440373,SVH10373,SCH04,Heron Way,Affordable rent,2025-06-25,Moved to another landlord or private,Standard,2025-07-12,2025-07-16,Let,21,186.47,559.41,Steve Harlow,Chloe Benson
+VD3024,100022441699,SVH11699,SCH27,Maidstone Town Street Properties,Social rent,2025-07-03,Transfer to another Silvering home,Major works,2025-08-10,2025-08-18,Let,46,139.5,916.71,Steve Harlow,Chloe Benson
+VD3112,100022441085,SVH11085,SCH15,Hop Pocket Way,Affordable rent,2025-07-07,Death of tenant,Standard,2025-07-15,2025-07-24,Let,17,219.49,533.05,Steve Harlow,Chloe Benson
+VD3146,100022440369,SVH10369,SCH04,Heron Way,Social rent,2025-07-07,Moved into care,Standard,2025-07-11,2025-07-14,Let,7,132.48,132.48,Steve Harlow,Chloe Benson
+VD3093,100022441791,SVH11791,SCH28,Week Street Apartments,Market rent,2025-07-10,Transfer to another Silvering home,Standard,2025-07-16,2025-07-19,Let,9,431.02,554.17,Steve Harlow,Chloe Benson
+VD3200,100022440218,SVH10218,SCH03,Brenchley Gardens,Social rent,2025-07-10,Abandonment,Standard,2025-07-22,2025-07-28,Let,18,148.24,381.19,Steve Harlow,Chloe Benson
+VD3007,100022441684,SVH11684,SCH27,Maidstone Town Street Properties,Social rent,2025-07-14,Moved to another landlord or private,Standard,2025-07-27,2025-08-02,Let,19,116.77,316.95,Steve Harlow,Chloe Benson
+VD3206,100022440790,SVH10790,SCH09,Ringlestone Crescent,Social rent,2025-07-15,Other,Standard,2025-07-31,2025-08-08,Let,24,127.55,437.31,Steve Harlow,Chloe Benson
+VD3049,100022441228,SVH11228,SCH17,Headcorn & Villages,Social rent,2025-07-24,Death of tenant,Major works,2025-09-08,2025-09-16,Let,54,136.0,1049.14,Steve Harlow,Chloe Benson
+VD3026,100022441421,SVH11421,SCH20,Snodland Riverside,Social rent,2025-07-25,Moved to another landlord or private,Standard,2025-08-09,2025-08-12,Let,18,122.34,314.59,Steve Harlow,Chloe Benson
+VD3166,100022441808,SVH11808,SCH29,Leybourne Court,Older persons & supported,2025-07-25,Moved into care,Standard,2025-07-29,2025-08-11,Let,17,111.48,270.74,Steve Harlow,Chloe Benson
+VD3067,100022440627,SVH10627,SCH06,Shepway Green,Social rent,2025-08-05,Moved into care,Standard,2025-08-23,2025-09-03,Let,29,140.1,580.41,Steve Harlow,Chloe Benson
+VD3110,100022441636,SVH11636,SCH25,Station Road,Affordable rent,2025-08-08,Death of tenant,Standard,2025-08-18,2025-08-19,Let,11,281.24,441.95,Steve Harlow,Chloe Benson
+VD3195,100022440665,SVH10665,SCH07,Coxheath Lane,Social rent,2025-08-08,Abandonment,Standard,2025-08-27,2025-09-11,Let,34,142.13,690.35,Steve Harlow,Chloe Benson
+VD3001,100022440508,SVH10508,SCH05,Vinters Rise,Social rent,2025-08-13,Moved into care,Standard,2025-09-07,2025-09-12,Let,30,118.25,506.79,Steve Harlow,Chloe Benson
+VD3062,100022440851,SVH10851,SCH10,Bearsted Court,Older persons & supported,2025-08-14,Death of tenant,Standard,2025-08-28,2025-09-01,Let,18,112.44,289.13,Steve Harlow,Chloe Benson
+VD3188,100022441827,SVH11827,SCH29,Leybourne Court,Older persons & supported,2025-08-19,Moved to family,Standard,2025-09-09,2025-09-10,Let,22,115.4,362.69,Steve Harlow,Chloe Benson
+VD3002,100022440656,SVH10656,SCH06,Shepway Green,Social rent,2025-08-22,Moved to another landlord or private,Standard,2025-09-11,2025-09-17,Let,26,134.53,499.68,Steve Harlow,Chloe Benson
+VD3141,100022441277,SVH11277,SCH17,Headcorn & Villages,Social rent,2025-08-25,Death of tenant,Major works,2025-09-05,2025-09-15,Let,21,147.05,441.15,Steve Harlow,Chloe Benson
+VD3070,100022441293,SVH11293,SCH18,Larkfield Close,Social rent,2025-08-28,Death of tenant,Standard,2025-09-03,2025-09-07,Let,10,126.0,180.0,Steve Harlow,Chloe Benson
+VD3032,100022441814,SVH11814,SCH29,Leybourne Court,Older persons & supported,2025-09-02,Death of tenant,Standard,2025-09-08,2025-09-14,Let,12,111.82,191.69,Steve Harlow,Chloe Benson
+VD3115,100022441745,SVH11745,SCH27,Maidstone Town Street Properties,Social rent,2025-09-10,Other,Major works,2025-10-23,2025-10-25,Let,45,147.26,946.67,Steve Harlow,Chloe Benson
+VD3119,100022440032,SVH10032,SCH01,Rosemount Tower,Social rent,2025-09-11,Moved to another landlord or private,Standard,2025-10-01,2025-10-10,Let,29,122.67,508.2,Steve Harlow,Chloe Benson
+VD3185,100022440784,SVH10784,SCH09,Ringlestone Crescent,Social rent,2025-09-11,Death of tenant,Standard,2025-09-27,2025-10-01,Let,20,145.95,417.0,Steve Harlow,Chloe Benson
+VD3155,100022441347,SVH11347,SCH19,Kings Hill Quarter,Affordable rent,2025-09-15,Transfer to another Silvering home,Major works,2025-10-20,2025-10-26,Let,41,244.56,1432.42,Steve Harlow,Chloe Benson
+VD3175,100022441656,SVH11656,SCH26,Marden & Staplehurst Cottages,Social rent,2025-09-18,Death of tenant,Major works,2025-11-07,2025-11-11,Let,54,142.95,1102.76,Steve Harlow,Chloe Benson
+VD3019,100022441683,SVH11683,SCH27,Maidstone Town Street Properties,Social rent,2025-09-19,Abandonment,Standard,2025-09-30,2025-10-07,Let,18,122.91,316.05,Steve Harlow,Chloe Benson
+VD3156,100022440459,SVH10459,SCH05,Vinters Rise,Social rent,2025-09-24,Moved to another landlord or private,Major works,2025-10-30,2025-11-05,Let,42,144.77,868.62,Steve Harlow,Chloe Benson
+VD3060,100022441200,SVH11200,SCH16,Lenham Meadows,Affordable rent,2025-10-03,Eviction,Standard,2025-10-18,2025-10-21,Let,18,194.87,501.09,Steve Harlow,Chloe Benson
+VD3045,100022441615,SVH11615,SCH25,Station Road,Affordable rent,2025-10-10,Transfer to another Silvering home,Standard,2025-10-20,2025-10-25,Let,15,226.04,484.37,Steve Harlow,Chloe Benson
+VD3017,100022440174,SVH10174,SCH03,Brenchley Gardens,Social rent,2025-10-17,Death of tenant,Major works,2025-11-17,2025-11-26,Let,40,112.62,643.54,Steve Harlow,Chloe Benson
+VD3020,100022440944,SVH10944,SCH12,Linton Lodge,Older persons & supported,2025-10-17,Death of tenant,Major works,2025-11-29,2025-11-30,Let,44,113.97,716.38,Steve Harlow,Chloe Benson
+VD3066,100022440019,SVH10019,SCH01,Rosemount Tower,Social rent,2025-10-21,Moved to another landlord or private,Standard,2025-11-02,2025-11-11,Let,21,125.51,376.53,Steve Harlow,Chloe Benson
+VD3076,100022441704,SVH11704,SCH27,Maidstone Town Street Properties,Social rent,2025-10-21,Death of tenant,Major works,2025-12-02,2025-12-13,Let,53,144.1,1091.04,Steve Harlow,Chloe Benson
+VD3090,100022441688,SVH11688,SCH27,Maidstone Town Street Properties,Social rent,2025-10-28,Moved into care,Standard,2025-11-11,2025-11-12,Let,15,146.83,314.64,Steve Harlow,Chloe Benson
+VD3010,100022441164,SVH11164,SCH16,Lenham Meadows,Affordable rent,2025-11-10,Death of tenant,Major works,2025-11-25,2025-12-05,Let,25,251.79,899.25,Steve Harlow,Chloe Benson
+VD3107,100022441286,SVH11286,SCH17,Headcorn & Villages,Social rent,2025-11-10,Death of tenant,Major works,2025-12-18,2025-12-27,Let,47,145.52,977.06,Steve Harlow,Chloe Benson
+VD3132,100022441256,SVH11256,SCH17,Headcorn & Villages,Social rent,2025-11-13,Other,Major works,2025-12-22,2026-01-02,Let,50,118.74,848.14,Steve Harlow,Chloe Benson
+VD3025,100022441282,SVH11282,SCH17,Headcorn & Villages,Social rent,2025-11-14,Moved to another landlord or private,Standard,2025-12-05,2025-12-14,Let,30,125.16,536.4,Steve Harlow,Chloe Benson
+VD3130,100022441328,SVH11328,SCH18,Larkfield Close,Social rent,2025-11-14,Moved to another landlord or private,Standard,2025-12-02,2025-12-08,Let,24,134.63,461.59,Steve Harlow,Chloe Benson
+VD3134,100022440955,SVH10955,SCH12,Linton Lodge,Older persons & supported,2025-11-18,Death of tenant,Major works,2025-12-14,2025-12-15,Let,27,114.82,442.88,Steve Harlow,Chloe Benson
+VD3194,100022440500,SVH10500,SCH05,Vinters Rise,Social rent,2025-11-18,Death of tenant,Major works,2025-12-28,2025-12-31,Let,43,131.4,807.17,Steve Harlow,Chloe Benson
+VD3187,100022441083,SVH11083,SCH15,Hop Pocket Way,Affordable rent,2025-11-19,Moved to another landlord or private,Standard,2025-12-01,2025-12-10,Let,21,226.42,679.26,Steve Harlow,Chloe Benson
+VD3173,100022440963,SVH10963,SCH12,Linton Lodge,Older persons & supported,2025-11-21,Other,Major works,2025-12-23,2025-12-26,Let,35,116.94,584.7,Steve Harlow,Chloe Benson
+VD3165,100022440759,SVH10759,SCH09,Ringlestone Crescent,Social rent,2025-11-24,Transfer to another Silvering home,Standard,2025-12-09,2025-12-10,Let,16,120.39,275.18,Steve Harlow,Chloe Benson
+VD3043,100022441389,SVH11389,SCH19,Kings Hill Quarter,Affordable rent,2025-12-04,Transfer to another Silvering home,Standard,2025-12-21,2026-01-03,Let,30,227.45,974.79,Steve Harlow,Chloe Benson
+VD3055,100022440013,SVH10013,SCH01,Rosemount Tower,Social rent,2025-12-09,Abandonment,Standard,2025-12-21,2025-12-28,Let,19,131.47,356.85,Steve Harlow,Chloe Benson
+VD3083,100022440557,SVH10557,SCH06,Shepway Green,Social rent,2025-12-09,Transfer to another Silvering home,Major works,2026-01-27,2026-02-03,Let,56,118.66,949.28,Steve Harlow,Chloe Benson
+VD3172,100022440800,SVH10800,SCH09,Ringlestone Crescent,Social rent,2025-12-10,Transfer to another Silvering home,Standard,2025-12-26,2026-01-10,Let,31,129.44,573.23,Steve Harlow,Chloe Benson
+VD3209,100022441274,SVH11274,SCH17,Headcorn & Villages,Social rent,2025-12-11,Other,Standard,2025-12-16,2025-12-20,Let,9,147.18,189.23,Steve Harlow,Chloe Benson
+VD3150,100022440977,SVH10977,SCH12,Linton Lodge,Older persons & supported,2025-12-12,Death of tenant,Standard,2025-12-29,2025-12-30,Let,18,117.08,301.06,Steve Harlow,Chloe Benson
+VD3080,100022440006,SVH10006,SCH01,Rosemount Tower,Social rent,2025-12-15,Other,Standard,2025-12-30,2026-01-10,Let,26,126.73,470.71,Steve Harlow,Chloe Benson
+VD3157,100022441838,SVH11838,SCH29,Leybourne Court,Older persons & supported,2025-12-16,Other,Standard,2025-12-30,2026-01-07,Let,22,115.41,362.72,Steve Harlow,Chloe Benson
+VD3169,100022440347,SVH10347,SCH04,Heron Way,Social rent,2025-12-17,Moved to another landlord or private,Standard,2025-12-29,2026-01-11,Let,25,143.67,513.11,Steve Harlow,Chloe Benson
+VD3006,100022440155,SVH10155,SCH03,Brenchley Gardens,Social rent,2025-12-18,Death of tenant,Standard,2025-12-31,2026-01-05,Let,18,130.01,334.31,Steve Harlow,Chloe Benson
+VD3041,100022441213,SVH11213,SCH16,Lenham Meadows,Affordable rent,2025-12-18,Moved into care,Standard,2026-01-02,2026-01-03,Let,16,190.28,434.93,Steve Harlow,Chloe Benson
+VD3145,100022440616,SVH10616,SCH06,Shepway Green,Social rent,2025-12-19,Other,Standard,2026-01-02,2026-01-12,Let,24,127.91,438.55,Steve Harlow,Chloe Benson
+VD3153,100022440368,SVH10368,SCH04,Heron Way,Social rent,2025-12-24,Death of tenant,Major works,2026-02-04,2026-02-07,Let,45,144.05,926.04,Steve Harlow,Chloe Benson
+VD3135,100022441536,SVH11536,SCH23,Kennington Grange,Affordable rent,2025-12-25,Eviction,Major works,2026-02-04,2026-02-13,Let,50,217.64,1554.57,Steve Harlow,Chloe Benson
+VD3113,100022440880,SVH10880,SCH10,Bearsted Court,Older persons & supported,2025-12-26,Moved into care,Standard,2026-01-09,2026-01-14,Let,19,109.88,298.25,Steve Harlow,Chloe Benson
+VD3056,100022440770,SVH10770,SCH09,Ringlestone Crescent,Affordable rent,2026-01-01,Moved into care,Standard,2026-01-22,2026-01-25,Let,24,229.01,785.18,Steve Harlow,Chloe Benson
+VD3114,100022441678,SVH11678,SCH27,Maidstone Town Street Properties,Social rent,2026-01-02,Death of tenant,Major works,2026-02-13,2026-02-15,Let,44,126.39,794.45,Steve Harlow,Chloe Benson
+VD3054,100022440240,SVH10240,SCH03,Brenchley Gardens,Social rent,2026-01-05,Abandonment,Major works,2026-02-02,2026-02-14,Let,40,145.52,831.54,Steve Harlow,Chloe Benson
+VD3074,100022440947,SVH10947,SCH12,Linton Lodge,Older persons & supported,2026-01-12,Death of tenant,Major works,2026-03-03,2026-03-16,Let,63,111.01,999.09,Steve Harlow,Chloe Benson
+VD3118,100022441373,SVH11373,SCH19,Kings Hill Quarter,Affordable rent,2026-01-14,Transfer to another Silvering home,Standard,2026-01-27,2026-02-03,Let,20,184.95,528.43,Steve Harlow,Chloe Benson
+VD3186,100022440598,SVH10598,SCH06,Shepway Green,Social rent,2026-01-16,Death of tenant,Major works,2026-02-21,2026-02-22,Let,37,115.45,610.24,Steve Harlow,Chloe Benson
+VD3171,100022441286,SVH11286,SCH17,Headcorn & Villages,Social rent,2026-01-21,Death of tenant,Major works,2026-03-15,2026-03-22,Let,60,145.52,1247.31,Steve Harlow,Chloe Benson
+VD3038,100022441717,SVH11717,SCH27,Maidstone Town Street Properties,Social rent,2026-01-23,Moved into care,Major works,2026-03-02,2026-03-03,Let,39,141.68,789.36,Steve Harlow,Chloe Benson
+VD3072,100022441131,SVH11131,SCH15,Hop Pocket Way,Affordable rent,2026-01-27,Transfer to another Silvering home,Standard,2026-02-12,2026-02-14,Let,18,248.87,639.95,Steve Harlow,Chloe Benson
+VD3089,100022440063,SVH10063,SCH01,Rosemount Tower,Social rent,2026-01-29,Transfer to another Silvering home,Standard,2026-02-14,2026-03-02,Let,32,117.32,536.32,Steve Harlow,Chloe Benson
+VD3031,100022440622,SVH10622,SCH06,Shepway Green,Social rent,2026-01-30,Moved to another landlord or private,Standard,2026-02-10,2026-02-22,Let,23,122.06,401.05,Steve Harlow,Chloe Benson
+VD3161,100022441138,SVH11138,SCH15,Hop Pocket Way,Affordable rent,2026-02-05,Other,Standard,2026-02-14,2026-02-20,Let,15,245.1,525.21,Steve Harlow,Chloe Benson
+VD3197,100022441165,SVH11165,SCH16,Lenham Meadows,Affordable rent,2026-02-09,Moved into care,Standard,2026-02-21,2026-02-24,Let,15,187.2,401.14,Steve Harlow,Chloe Benson
+VD3212,100022440958,SVH10958,SCH12,Linton Lodge,Older persons & supported,2026-02-09,Moved into care,Standard,2026-02-21,2026-02-28,Let,19,120.96,328.32,Steve Harlow,Chloe Benson
+VD3158,100022440764,SVH10764,SCH09,Ringlestone Crescent,Social rent,2026-02-10,Transfer to another Silvering home,Major works,2026-03-11,2026-03-15,Let,33,128.08,603.81,Steve Harlow,Chloe Benson
+VD3198,100022440689,SVH10689,SCH07,Coxheath Lane,Social rent,2026-02-12,Moved to another landlord or private,Standard,2026-02-26,2026-03-02,Let,18,143.75,369.64,Steve Harlow,Chloe Benson
+VD3013,100022441310,SVH11310,SCH18,Larkfield Close,Social rent,2026-02-13,Transfer to another Silvering home,Standard,2026-03-04,2026-03-10,Let,25,129.01,460.75,Steve Harlow,Chloe Benson
+VD3167,100022440832,SVH10832,SCH09,Ringlestone Crescent,Social rent,2026-02-19,Abandonment,Major works,2026-04-15,2026-04-20,Let,60,144.99,1242.77,Steve Harlow,Chloe Benson
+VD3177,100022441822,SVH11822,SCH29,Leybourne Court,Older persons & supported,2026-02-20,Moved into care,Standard,2026-03-05,2026-03-07,Let,15,113.51,243.24,Steve Harlow,Chloe Benson
+VD3131,100022440806,SVH10806,SCH09,Ringlestone Crescent,Social rent,2026-02-24,Moved into care,Standard,2026-03-16,2026-03-28,Let,32,116.78,533.85,Steve Harlow,Chloe Benson
+VD3058,100022440949,SVH10949,SCH12,Linton Lodge,Older persons & supported,2026-02-27,Moved into care,Standard,2026-03-03,2026-03-05,Let,6,117.05,100.33,Steve Harlow,Chloe Benson
+VD3033,100022441154,SVH11154,SCH15,Hop Pocket Way,Affordable rent,2026-03-09,Abandonment,Major works,2026-04-16,2026-04-19,Let,41,249.11,1459.07,Steve Harlow,Chloe Benson
+VD3035,100022440254,SVH10254,SCH03,Brenchley Gardens,Affordable rent,2026-03-11,Moved into care,Standard,2026-03-21,2026-03-24,Let,13,216.27,401.64,Steve Harlow,Chloe Benson
+VD3042,100022440024,SVH10024,SCH01,Rosemount Tower,Social rent,2026-03-11,Transfer to another Silvering home,Standard,2026-03-23,2026-03-27,Let,16,129.19,295.29,Steve Harlow,Chloe Benson
+VD3139,100022440131,SVH10131,SCH02,Parkwood Court,Social rent,2026-03-11,Transfer to another Silvering home,Standard,2026-03-23,2026-04-06,Let,26,120.83,448.8,Steve Harlow,Chloe Benson
+VD3048,100022440727,SVH10727,SCH08,Allington Mews,Social rent,2026-03-12,Transfer to another Silvering home,Standard,2026-03-22,2026-03-30,Let,18,125.86,323.64,Steve Harlow,Chloe Benson
+VD3015,100022441222,SVH11222,SCH16,Lenham Meadows,Affordable rent,2026-03-17,Other,Major works,2026-05-05,2026-05-12,Let,56,243.2,1945.6,Steve Harlow,Chloe Benson
+VD3069,100022440024,SVH10024,SCH01,Rosemount Tower,Social rent,2026-03-17,Death of tenant,Major works,2026-04-17,2026-04-22,Let,36,129.19,664.41,Steve Harlow,Chloe Benson
+VD3144,100022440028,SVH10028,SCH01,Rosemount Tower,Social rent,2026-03-20,Death of tenant,Standard,2026-04-04,2026-04-14,Let,25,112.36,401.29,Steve Harlow,Chloe Benson
+VD3164,100022441382,SVH11382,SCH19,Kings Hill Quarter,Affordable rent,2026-03-20,Other,Standard,2026-04-01,2026-04-11,Let,22,193.01,606.6,Steve Harlow,Chloe Benson
+VD3081,100022440030,SVH10030,SCH01,Rosemount Tower,Social rent,2026-03-24,Abandonment,Major works,2026-05-23,2026-05-27,Let,64,119.13,1089.19,Steve Harlow,Chloe Benson
+VD3111,100022440193,SVH10193,SCH03,Brenchley Gardens,Social rent,2026-03-25,Transfer to another Silvering home,Standard,2026-04-12,2026-04-13,Let,19,117.55,319.06,Steve Harlow,Chloe Benson
+VD3085,100022440088,SVH10088,SCH01,Rosemount Tower,Social rent,2026-04-08,Death of tenant,Major works,2026-05-24,2026-05-26,Let,48,127.03,871.06,Steve Harlow,Chloe Benson
+VD3103,100022441220,SVH11220,SCH16,Lenham Meadows,Affordable rent,2026-04-08,Moved to another landlord or private,Standard,2026-04-23,2026-04-29,Let,21,225.87,677.61,Steve Harlow,Chloe Benson
+VD3097,100022441524,SVH11524,SCH23,Kennington Grange,Affordable rent,2026-04-13,Other,Standard,2026-04-26,2026-05-01,Let,18,227.66,585.41,Steve Harlow,Chloe Benson
+VD3136,100022440517,SVH10517,SCH06,Shepway Green,Social rent,2026-04-15,Other,Major works,2026-05-13,2026-05-23,Let,38,126.28,685.52,Steve Harlow,Chloe Benson
+VD3027,100022440970,SVH10970,SCH12,Linton Lodge,Older persons & supported,2026-05-01,Death of tenant,Major works,2026-05-21,2026-05-31,Let,30,117.07,501.73,Steve Harlow,Chloe Benson
+VD3163,100022441359,SVH11359,SCH19,Kings Hill Quarter,Affordable rent,2026-05-06,Death of tenant,Major works,2026-06-15,2026-07-03,Let,58,221.05,1831.56,Steve Harlow,Chloe Benson
+VD3040,100022440252,SVH10252,SCH03,Brenchley Gardens,Social rent,2026-05-08,Moved into care,Standard,2026-05-23,2026-06-03,Let,26,114.95,426.96,Steve Harlow,Chloe Benson
+VD3021,100022440874,SVH10874,SCH10,Bearsted Court,Older persons & supported,2026-05-11,Death of tenant,Standard,2026-05-29,2026-06-08,Let,28,111.06,444.24,Steve Harlow,Chloe Benson
+VD3052,100022440743,SVH10743,SCH08,Allington Mews,Social rent,2026-05-20,Moved to another landlord or private,Standard,2026-06-13,2026-06-22,Let,33,138.63,653.54,Steve Harlow,Chloe Benson
+VD3142,100022440236,SVH10236,SCH03,Brenchley Gardens,Social rent,2026-05-25,Death of tenant,Major works,2026-06-19,2026-07-02,Let,38,127.98,694.75,Steve Harlow,Chloe Benson
+VD3124,100022441623,SVH11623,SCH25,Station Road,Affordable rent,2026-05-26,Moved into care,Standard,2026-06-10,2026-06-27,Let,32,257.98,1179.34,Steve Harlow,Chloe Benson
+VD3068,100022441162,SVH11162,SCH16,Lenham Meadows,Affordable rent,2026-05-28,Death of tenant,Standard,2026-06-05,2026-06-24,Let,27,182.44,703.7,Steve Harlow,Chloe Benson
+VD3149,100022441775,SVH11775,SCH28,Week Street Apartments,Market rent,2026-05-28,Eviction,Standard,2026-06-05,2026-06-17,Let,20,358.26,1023.6,Steve Harlow,Chloe Benson
+VD3005,100022441506,SVH11506,SCH22,Strood Wharf,Affordable rent,2026-05-29,Abandonment,Standard,2026-06-21,2026-07-11,Let,43,192.72,1183.85,Steve Harlow,Chloe Benson
+VD3061,100022441823,SVH11823,SCH29,Leybourne Court,Older persons & supported,2026-06-08,Death of tenant,Major works,2026-07-13,2026-07-23,Let,45,116.76,750.6,Steve Harlow,Chloe Benson
+VD3128,100022440214,SVH10214,SCH03,Brenchley Gardens,Social rent,2026-06-08,Moved into care,Major works,2026-06-18,2026-06-30,Let,22,131.49,413.25,Steve Harlow,Chloe Benson
+VD3138,100022440430,SVH10430,SCH05,Vinters Rise,Social rent,2026-06-08,Death of tenant,Major works,2026-07-13,2026-07-31,Let,53,155.86,1180.08,Steve Harlow,Chloe Benson
+VD3154,100022441697,SVH11697,SCH27,Maidstone Town Street Properties,Social rent,2026-06-08,Moved into care,Standard,2026-06-17,2026-06-25,Let,17,119.0,289.0,Steve Harlow,Chloe Benson
+VD3011,100022440896,SVH10896,SCH11,Willow House,Older persons & supported,2026-06-11,Death of tenant,Standard,2026-06-21,2026-06-25,Let,14,114.52,229.04,Steve Harlow,Chloe Benson
+VD3094,100022441104,SVH11104,SCH15,Hop Pocket Way,Affordable rent,2026-06-12,Transfer to another Silvering home,Standard,2026-06-24,2026-07-10,Let,28,197.8,791.2,Steve Harlow,Chloe Benson
+VD3073,100022440762,SVH10762,SCH09,Ringlestone Crescent,Social rent,2026-06-16,Death of tenant,Major works,2026-07-09,2026-07-30,Let,44,122.99,773.08,Steve Harlow,Chloe Benson
+VD3091,100022441682,SVH11682,SCH27,Maidstone Town Street Properties,Social rent,2026-06-17,Moved into care,Standard,2026-07-04,2026-07-12,Let,25,147.77,527.75,Steve Harlow,Chloe Benson
+VD3208,100022441236,SVH11236,SCH17,Headcorn & Villages,Social rent,2026-07-06,Transfer to another Silvering home,Standard,2026-07-17,2026-08-02,Let,27,146.06,563.37,Steve Harlow,Chloe Benson
+VD3087,100022440867,SVH10867,SCH10,Bearsted Court,Older persons & supported,2026-07-20,Moved into care,Standard,2026-07-27,2026-08-08,Let,19,113.09,306.96,Steve Harlow,Chloe Benson
+VD3182,100022441761,SVH11761,SCH28,Week Street Apartments,Market rent,2026-07-24,Moved to another landlord or private,Standard,2026-08-10,2026-08-23,Let,30,289.1,1239.0,Steve Harlow,Chloe Benson
+VD3120,100022441545,SVH11545,SCH23,Kennington Grange,Affordable rent,2026-07-29,Eviction,Major works,2026-08-30,2026-09-14,Let,47,290.15,1948.15,Steve Harlow,Chloe Benson
+VD3210,100022441793,SVH11793,SCH28,Week Street Apartments,Market rent,2026-08-03,Death of tenant,Standard,2026-08-20,2026-08-30,Let,27,291.32,1123.66,Steve Harlow,Chloe Benson
+VD3105,100022440033,SVH10033,SCH01,Rosemount Tower,Social rent,2026-08-04,Moved into care,Standard,2026-08-24,2026-09-14,Let,41,128.91,755.04,Steve Harlow,Chloe Benson
+VD3213,100022441238,SVH11238,SCH17,Headcorn & Villages,Social rent,2026-08-04,Other,Standard,2026-08-19,2026-09-03,Let,30,151.77,650.44,Steve Harlow,Chloe Benson
+VD3117,100022441803,SVH11803,SCH29,Leybourne Court,Older persons & supported,2026-08-06,Death of tenant,Standard,2026-08-18,2026-08-29,Let,23,109.95,361.26,Steve Harlow,Chloe Benson
+VD3211,100022440954,SVH10954,SCH12,Linton Lodge,Older persons & supported,2026-08-10,Death of tenant,Standard,2026-08-26,2026-09-09,Let,30,116.63,499.84,Steve Harlow,Chloe Benson
+VD3039,100022440259,SVH10259,SCH03,Brenchley Gardens,Social rent,2026-08-12,Moved into care,Standard,2026-08-19,2026-08-27,Let,15,134.33,287.85,Steve Harlow,Chloe Benson
+VD3137,100022440949,SVH10949,SCH12,Linton Lodge,Older persons & supported,2026-08-18,Death of tenant,Standard,2026-09-05,2026-09-20,Let,33,117.05,551.81,Steve Harlow,Chloe Benson
+VD3179,100022440007,SVH10007,SCH01,Rosemount Tower,Social rent,2026-08-20,Abandonment,Major works,2026-09-10,2026-09-26,Let,37,122.92,649.72,Steve Harlow,Chloe Benson
+VD3121,100022441003,SVH11003,SCH13,Oakwood Place,Older persons & supported,2026-08-21,Death of tenant,Standard,2026-09-06,2026-09-19,Let,29,116.32,481.9,Steve Harlow,Chloe Benson
+VD3065,100022440302,SVH10302,SCH03,Brenchley Gardens,Social rent,2026-08-24,Eviction,Major works,2026-10-14,2026-10-27,Let,64,128.7,1176.69,Steve Harlow,Chloe Benson
+VD3034,100022441606,SVH11606,SCH25,Station Road,Affordable rent,2026-08-25,Death of tenant,Major works,2026-10-01,2026-10-22,Let,58,226.9,1880.03,Steve Harlow,Chloe Benson
+VD3160,100022440761,SVH10761,SCH09,Ringlestone Crescent,Social rent,2026-08-25,Death of tenant,Major works,2026-10-16,2026-10-24,Let,60,148.04,1268.91,Steve Harlow,Chloe Benson
+VD3071,100022440715,SVH10715,SCH08,Allington Mews,Social rent,2026-09-02,Death of tenant,Major works,2026-09-21,2026-10-05,Let,33,131.35,619.22,Steve Harlow,Chloe Benson
+VD3174,100022440925,SVH10925,SCH11,Willow House,Older persons & supported,2026-09-04,Moved into care,Standard,2026-09-11,2026-09-21,Let,17,110.56,268.5,Steve Harlow,Chloe Benson
+VD3036,100022440345,SVH10345,SCH04,Heron Way,Social rent,2026-09-07,Moved into care,Standard,2026-09-19,2026-09-28,Let,21,127.97,383.91,Steve Harlow,Chloe Benson
+VD3088,100022440950,SVH10950,SCH12,Linton Lodge,Older persons & supported,2026-09-08,Moved to family,Standard,2026-09-18,2026-10-02,Let,24,113.42,388.87,Steve Harlow,Chloe Benson
+VD3082,100022440149,SVH10149,SCH03,Brenchley Gardens,Social rent,2026-09-10,Death of tenant,Standard,2026-09-21,2026-10-07,Let,27,159.89,616.72,Steve Harlow,Chloe Benson
+VD3129,100022441766,SVH11766,SCH28,Week Street Apartments,Market rent,2026-09-11,Eviction,Standard,2026-09-30,2026-10-13,Let,32,369.61,1689.65,Steve Harlow,Chloe Benson
+VD3051,100022441463,SVH11463,SCH22,Strood Wharf,Affordable rent,2026-09-22,Moved to another landlord or private,Major works,2026-10-17,2026-10-23,Let,31,189.64,839.83,Steve Harlow,Chloe Benson
+VD3029,100022440906,SVH10906,SCH11,Willow House,Older persons & supported,2026-10-08,Moved into care,Standard,2026-10-20,2026-10-27,Let,19,115.97,314.78,Steve Harlow,Chloe Benson
+VD3084,100022441637,SVH11637,SCH26,Marden & Staplehurst Cottages,Social rent,2026-10-12,Death of tenant,Standard,2026-10-23,,Ready to let,24,138.81,475.92,Steve Harlow,Chloe Benson
+VD3127,100022440304,SVH10304,SCH03,Brenchley Gardens,Social rent,2026-10-22,Abandonment,Major works,,,Works in progress,14,145.27,290.54,Steve Harlow,Chloe Benson
+VD3140,100022440112,SVH10112,SCH02,Parkwood Court,Social rent,2026-10-22,Transfer to another Silvering home,Standard,2026-10-31,,Ready to let,14,114.78,229.56,Steve Harlow,Chloe Benson
+VD3075,100022441194,SVH11194,SCH16,Lenham Meadows,Affordable rent,2026-10-23,Moved into care,Standard,2026-11-02,,Ready to let,13,258.04,479.22,Steve Harlow,Chloe Benson
+VD3012,100022440438,SVH10438,SCH05,Vinters Rise,Social rent,2026-10-27,Eviction,Major works,,,Works in progress,9,131.66,169.28,Steve Harlow,Chloe Benson
+VD3008,100022440216,SVH10216,SCH03,Brenchley Gardens,Social rent,2026-10-28,Other,Major works,,,Works in progress,8,145.78,166.61,Steve Harlow,Chloe Benson
+VD3148,100022441351,SVH11351,SCH19,Kings Hill Quarter,Affordable rent,2026-11-02,Other,Standard,,,Works in progress,3,260.73,111.74,Steve Harlow,Chloe Benson

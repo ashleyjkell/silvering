@@ -1,0 +1,30 @@
+﻿scheme_id,scheme_name,scheme_type,local_authority,homes,repairs_12m,open_repairs,overdue_repairs,damp_cases_12m,open_damp_cases,complaints_12m,arrears_gbp,tsm_overall_pct,tsm_responses
+SCH01,Rosemount Tower,General needs block,Maidstone,88,196,13,1,7,0,6,12551.0,74.3,35
+SCH02,Parkwood Court,General needs block,Maidstone,60,119,5,1,4,0,4,10102.0,80.0,30
+SCH03,Brenchley Gardens,General needs estate,Maidstone,164,785,43,8,38,6,23,26785.0,59.5,74
+SCH04,Heron Way,General needs estate,Maidstone,100,192,5,0,8,0,6,18664.0,70.2,57
+SCH05,Vinters Rise,General needs estate,Maidstone,96,145,5,1,2,1,6,12503.0,66.7,36
+SCH06,Shepway Green,General needs estate,Maidstone,150,243,9,2,12,1,5,37589.0,77.1,70
+SCH07,Coxheath Lane,General needs estate,Maidstone,54,83,6,0,1,0,3,13030.0,69.2,26
+SCH08,Allington Mews,General needs block,Maidstone,36,71,6,2,2,0,1,13808.0,91.7,12
+SCH09,Ringlestone Crescent,General needs estate,Maidstone,92,154,5,0,4,0,1,16662.0,74.5,47
+SCH10,Bearsted Court,Sheltered (SilverLiving),Maidstone,48,91,4,2,4,0,3,2131.0,82.1,28
+SCH11,Willow House,Sheltered (SilverLiving),Maidstone,42,77,5,0,1,0,2,2345.0,100.0,13
+SCH12,Linton Lodge,Extra care (SilverLiving),Maidstone,60,100,2,0,2,0,7,5993.0,88.5,26
+SCH13,Oakwood Place,Supported housing,Maidstone,18,33,0,0,0,0,0,1545.0,87.5,8
+SCH14,Orchard Fields,New build mixed tenure,Maidstone,62,96,48,4,1,0,4,9109.0,83.3,18
+SCH15,Hop Pocket Way,New build mixed tenure,Maidstone,84,119,9,1,1,0,1,21797.0,68.8,32
+SCH16,Lenham Meadows,New build mixed tenure,Maidstone,70,39,0,0,1,0,6,17589.0,75.0,28
+SCH17,Headcorn & Villages,Street properties,Maidstone,62,123,9,1,5,0,4,13243.0,74.4,39
+SCH18,Larkfield Close,General needs estate,Tonbridge & Malling,48,96,5,1,5,1,2,8082.0,78.9,19
+SCH19,Kings Hill Quarter,New build mixed tenure,Tonbridge & Malling,58,86,1,0,0,0,4,19821.0,88.5,26
+SCH20,Snodland Riverside,General needs block,Tonbridge & Malling,30,50,3,2,3,0,3,6311.0,100.0,9
+SCH21,Chatham Hill Court,General needs block,Medway,40,62,5,0,6,1,2,3468.0,54.5,22
+SCH22,Strood Wharf,New build mixed tenure,Medway,46,49,2,0,0,0,2,6507.0,64.5,31
+SCH23,Kennington Grange,New build mixed tenure,Ashford,52,78,6,0,0,0,2,8545.0,80.0,25
+SCH24,Mill Court,General needs block,Swale,28,43,1,0,0,0,1,3583.0,91.7,12
+SCH25,Station Road,New build mixed tenure,Tunbridge Wells,48,38,2,1,1,0,7,14074.0,63.3,30
+SCH26,Marden & Staplehurst Cottages,Street properties,Maidstone,34,79,2,0,1,0,2,5165.0,63.0,27
+SCH27,Maidstone Town Street Properties,Street properties,Maidstone,90,163,8,0,2,0,6,20573.0,80.0,50
+SCH28,Week Street Apartments,Market rent,Maidstone,40,49,2,0,0,0,4,5921.0,,0
+SCH29,Leybourne Court,Sheltered (SilverLiving),Tonbridge & Malling,40,69,2,0,1,0,1,1362.0,90.0,30

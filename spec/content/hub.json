@@ -1,0 +1,574 @@
+[
+  {
+    "id": "hub-news-orchard-fields-first-residents",
+    "type": "docx",
+    "title": "Welcome home: first residents move into Orchard Fields",
+    "site": "hub", "library": "News", "category": "News", "doc_type_label": "CEO Update",
+    "author": "P001", "owner": "P037", "modified_by": "P037", "approved_by": "P001",
+    "created": "2026-10-09", "modified": "2026-10-12", "version": "1.0", "status": "Approved",
+    "classification": "Internal", "doc_control": false,
+    "tags": ["Orchard Fields", "new homes", "development", "lettings", "CEO update"],
+    "summary": "Catherine Ellwood's all-staff post marking the first residents moving into Orchard Fields phase 1, with thanks to the teams involved and an honest note on defects and homes still awaiting let.",
+    "blocks": [
+      {"p": "*Published 12 October 2026 - Catherine Ellwood, Chief Executive*"},
+      {"p": "On Tuesday 6 October Mark Thomas collected the keys to Flat 1, Orchard Fields - the first of our new homes at the edge of Maidstone to be let. By the end of last week a dozen households had moved in, and I spent Friday afternoon walking the scheme with Tom Lyle, Chloe Benson and some of our newest residents. Seeing a family unpack in a warm, A-rated home they can afford is the reason most of us came into housing."},
+      {"h2": "What Orchard Fields phase 1 gives Maidstone"},
+      {"bullets": [
+        "**{{sql:SELECT homes FROM developments WHERE dev_id = 'DEV01'}} new homes**: {{sql:SELECT tenure_mix FROM developments WHERE dev_id = 'DEV01'}}",
+        "Air source heat pumps, solar panels and triple glazing throughout - every home is EPC A or B",
+        "Built by Castlemere Construction under a design and build contract, with {{sql:SELECT homes_england_grant_gbp FROM developments WHERE dev_id = 'DEV01'|gbp}} of Homes England grant",
+        "Phases 2 and 3 will add a further 102 homes and a community hub by 2029"
+      ]},
+      {"h2": "Thank you"},
+      {"p": "This scheme has been four years in the making. Particular thanks go to Paul Whitaker, who has lived and breathed this site since the groundworks; to Chloe and the lettings team, who have run viewings in the evenings so working households could attend; to Kirsty Lambert for the first shared ownership reservations; and to Steve Harlow's voids team, who have been on site checking every home before handover."},
+      {"h2": "Being honest about what is not right yet"},
+      {"p": "Not everything has gone to plan. Castlemere handed over the homes with a long defects list, and we will not let a home until our own team has signed it off. At the time of writing **{{fact:newbuild_awaiting_let}} homes** are still awaiting let. That costs us rent every week, but it is the right call: a resident's first week in a new home should not be spent waiting for a snagging operative."},
+      {"callout": "If a new Orchard Fields resident contacts you about a defect, log it in Keystone against the property with the category 'New build defect' so Paul's team can pass it to Castlemere under the defects liability period. Please do not raise it as an ordinary FieldLoop repair.", "title": "One ask of everyone"},
+      {"p": "Home First is our promise that every home we provide is safe, warm and well looked after. Orchard Fields is what that looks like when we build from scratch. Our job now is to bring the same standard to the homes we have owned for twenty years. Catherine"}
+    ]
+  },
+  {
+    "id": "hub-news-rsh-result",
+    "type": "docx",
+    "title": "Our regulatory judgement: what C2 means and what happens next",
+    "site": "hub", "library": "News", "category": "News", "doc_type_label": "CEO Update",
+    "author": "P001", "owner": "P037", "modified_by": "P037", "approved_by": "P006",
+    "created": "2026-03-25", "modified": "2026-03-26", "version": "1.0", "status": "Approved",
+    "classification": "Internal", "doc_control": false,
+    "tags": ["RSH", "regulator", "C2", "consumer standards", "damp and mould", "complaints"],
+    "summary": "CEO message to all staff explaining the March 2026 Regulator of Social Housing judgement (C2 / G1 / V2), what it means and the improvement plan that follows.",
+    "blocks": [
+      {"p": "*Published 26 March 2026 - Catherine Ellwood, Chief Executive*"},
+      {"p": "Yesterday the Regulator of Social Housing published its judgement following the inspection of Silvering Homes in early March. I want you to hear about it from me, in plain English, before you read about it anywhere else."},
+      {"h2": "The grades"},
+      {"table": {"columns": ["Area", "Grade", "What it means"], "rows": [
+        ["Governance", "G1", "The highest grade. The regulator is satisfied our board and governance arrangements meet its requirements."],
+        ["Financial viability", "V2", "We meet the requirements but have less headroom than we would like to respond to adverse events - mainly because of investment in our existing homes and higher interest costs."],
+        ["Consumer standards", "C2", "There are some weaknesses in how we deliver the outcomes residents should expect, and we need to improve."]
+      ], "caption": "RSH judgement, March 2026"}},
+      {"h2": "Why C2"},
+      {"p": "The regulator found that we know our homes and our residents well, that our building safety compliance is strong and that residents told inspectors our staff are kind and approachable. It also found two weaknesses that we already knew about and must now fix properly:"},
+      {"bullets": [
+        "**Damp and mould** - we were not always investigating quickly enough, keeping residents informed or following up after works, especially at Brenchley Gardens.",
+        "**Complaint handling** - stage 1 responses were not always on time, and we were not consistently learning from complaints."
+      ]},
+      {"h2": "What happens next"},
+      {"numbered": [
+        "Joanne Pike has pulled together an RSH improvement action plan, which the board approved on 24 March. It is in the Board & Governance site, and every action has a named owner and a date.",
+        "Gareth Price is leading a damp and mould improvement programme ahead of Awaab's Law, which already applies to us.",
+        "Rachel Dunmore is reviewing the complaints process against the Housing Ombudsman's Complaint Handling Code, with an extra complaints officer starting in May.",
+        "The Customer Experience Committee will check our progress at every meeting, and residents on the Customer Insight Group will help us test whether things are really changing."
+      ]},
+      {"quote": "A C2 is not a verdict on the people who work here. It is a fair description of two things we have not yet got right for residents. We will get them right.", "by": "Catherine Ellwood"},
+      {"p": "I will hold two open Q&A sessions on Teams - Thursday 2 April at 12:30 and Tuesday 7 April at 16:00. Bring any question you like."}
+    ]
+  },
+  {
+    "id": "hub-news-copilot-pilot-launch",
+    "type": "docx",
+    "title": "Copilot pilot goes live for 30 colleagues",
+    "site": "hub", "library": "News", "category": "News", "doc_type_label": "Announcement",
+    "author": "P005", "owner": "P037", "modified_by": "P014", "approved_by": "P001",
+    "created": "2026-10-15", "modified": "2026-10-19", "version": "1.1", "status": "Approved",
+    "classification": "Internal", "doc_control": false,
+    "tags": ["Copilot", "AI", "pilot", "digital", "data protection"],
+    "summary": "Announcement of the Microsoft 365 Copilot pilot launching on 19 October 2026: who is in it, what it is for and the rules on vulnerability data.",
+    "version_history": [
+      {"version": "1.0", "date": "2026-10-15", "by": "P037", "change": "First draft"},
+      {"version": "1.1", "date": "2026-10-19", "by": "P014", "change": "Updated pilot numbers and support details"}
+    ],
+    "blocks": [
+      {"p": "*Published 19 October 2026 - Simone Achterberg, Director of People & Change*"},
+      {"p": "From today, 30 colleagues across Silvering Homes are using Microsoft 365 Copilot as part of a twelve-week pilot. Copilot is an AI assistant built into Outlook, Teams, Word, Excel and PowerPoint. It can summarise a long email thread, draft a letter, pull together notes from a Teams meeting or help analyse a spreadsheet - using only the information you already have permission to see."},
+      {"h2": "Who is in the pilot"},
+      {"bullets": [
+        "The Executive Team and Joanne Pike's governance team",
+        "Six colleagues from Customer Experience, including the complaints team",
+        "Repairs planners, the damp and mould surveyors and the voids supervisor",
+        "Two housing officers and the income team leader",
+        "Finance, development and HR business partners",
+        "Craig Whitmore's IT & Data team, who will support everyone else"
+      ]},
+      {"h2": "What we want to learn"},
+      {"p": "We want to know where Copilot genuinely saves time for residents' benefit - shorter waits for a stage 1 response, clearer damp and mould summaries within the Awaab's Law timescales, board papers that are ready on time - and where it does not. Pilot users will log their time savings each week and join a fortnightly show-and-tell."},
+      {"h2": "The rules"},
+      {"p": "Everyone in the pilot has completed the *Copilot Essentials* e-learning and signed the AI & Copilot Acceptable Use Policy. The most important rule is about the information we hold on residents' vulnerabilities and health."},
+      {"callout": "Copilot drafts; you decide. Never ask Copilot to list, profile or filter residents by vulnerability, health, ethnicity or other special category data, and check every draft before it reaches a resident. If Copilot shows you something you should not be able to see, stop and tell IT straight away.", "title": "The one rule to remember"},
+      {"p": "Craig and his team have spent September tightening SharePoint permissions and applying sensitivity labels to libraries that hold case files, so Copilot can only show you what you are already entitled to open. If the pilot goes well, we will bring a proposal to the board in early 2027 to extend Copilot more widely. Simone"}
+    ]
+  },
+  {
+    "id": "hub-news-staff-awards",
+    "type": "docx",
+    "title": "Silvering Stars 2026: our staff awards winners",
+    "site": "hub", "library": "News", "category": "News", "doc_type_label": "News",
+    "author": "P037", "owner": "P037", "modified_by": "P037", "approved_by": "P005",
+    "created": "2026-07-10", "modified": "2026-07-13", "version": "1.0", "status": "Approved",
+    "classification": "Internal", "doc_control": false,
+    "tags": ["awards", "recognition", "values", "staff"],
+    "summary": "Winners of the 2026 Silvering Stars staff awards, presented at the summer staff conference at Linton Lodge, one for each of our values.",
+    "blocks": [
+      {"p": "*Published 13 July 2026 - Lucy Carver, Communications Manager*"},
+      {"p": "More than 60 colleagues joined us at Linton Lodge on Friday for the summer staff conference and the Silvering Stars awards. Residents from the Customer Insight Group read every one of the 94 nominations and chose the winners with the Executive Team."},
+      {"table": {"columns": ["Award", "Winner", "Why"], "rows": [
+        ["We care", "Margaret Ogunleye, SilverLiving Coordinator", "Organised daily welfare calls to every SilverLiving resident during the June heatwave and spotted two residents who needed urgent help."],
+        ["We listen and act", "Mark Pennington, Complaints Officer", "Rewrote our stage 1 response letter with residents so that it explains what we will do, by when, in plain English."],
+        ["We take pride", "Lee Barton, Multi-trade Operative", "Nominated by four separate residents for leaving every home cleaner than he found it, and for mentoring our two apprentices."],
+        ["We own it", "Ellie Novak, Damp & Mould Surveyor", "Took on a second patch while we recruited, and built the daily breach report that the whole team now uses."],
+        ["Team of the year", "Income Recovery team", "Supported hundreds of households through the move to Universal Credit and set up more than 80 direct payments to us."],
+        ["Resident's choice", "Zainab Ali, Customer Service Adviser", "Chosen by residents for 'the warmest voice on the phone'."]
+      ]}},
+      {"p": "Congratulations to all our winners, and thank you to everyone who took the time to nominate a colleague. Photos from the day are in the Brand & Comms library."}
+    ]
+  },
+  {
+    "id": "hub-expenses-policy",
+    "type": "docx",
+    "title": "Expenses Policy",
+    "site": "hub", "library": "Company Policies", "folder": "Finance",
+    "category": "Policy", "doc_type_label": "Policy",
+    "author": "P016", "owner": "P002", "modified_by": "P016", "approved_by": "P001",
+    "created": "2023-04-03", "modified": "2026-04-01", "version": "4.0", "status": "Approved",
+    "review_date": "2028-03-31", "classification": "Internal",
+    "tags": ["expenses", "mileage", "subsistence", "Northway Finance Cloud", "travel"],
+    "summary": "Rules for claiming business travel, mileage, meals and accommodation, including the 45p mileage rate, meal caps and the ban on claiming alcohol.",
+    "version_history": [
+      {"version": "3.0", "date": "2023-04-03", "by": "P016", "change": "Rewritten for move to Northway Finance Cloud"},
+      {"version": "3.1", "date": "2024-04-01", "by": "P016", "change": "Overnight caps updated"},
+      {"version": "4.0", "date": "2026-04-01", "by": "P016", "change": "Mileage rate raised from 40p to 45p per mile; meal caps updated; receipts must be photographed in the app; alcohol ban clarified"}
+    ],
+    "blocks": [
+      {"h1": "1. Purpose and scope"},
+      {"p": "Silvering Homes is a charitable housing association funded mainly by residents' rents. Every pound we spend on expenses is a pound not spent on homes, so we expect colleagues to travel and spend as if it were their own money. This policy explains what you can claim, how much and how."},
+      {"p": "It applies to all employees, apprentices, agency workers engaged for more than four weeks, and non-executive board and committee members. It does not cover purchases for work (materials, tools, equipment), which must go through a purchase order."},
+      {"h1": "2. Principles"},
+      {"bullets": [
+        "Only claim costs you have actually incurred, wholly and necessarily, while doing Silvering business.",
+        "Use the cheapest practical option. Teams is the default for meetings between offices.",
+        "Claims must be submitted in Northway Finance Cloud within **30 days** of the expense. Claims older than 90 days will not be paid.",
+        "Every claim needs an itemised receipt, photographed in the Northway app. A card slip on its own is not a receipt.",
+        "Your line manager approves your claim; directors' claims are approved by the Chief Executive, and the Chief Executive's by the Chair."
+      ]},
+      {"h1": "3. Mileage"},
+      {"p": "Use a pool van or pool car where one is available. If you use your own vehicle for business you must have business use on your insurance and a valid MOT."},
+      {"table": {"columns": ["Vehicle", "Rate", "Notes"], "rows": [
+        ["Car or van - first 10,000 business miles in the tax year", "45p per mile", "HMRC approved rate. Includes fuel, wear and tear."],
+        ["Car or van - over 10,000 business miles", "25p per mile", ""],
+        ["Motorcycle", "24p per mile", ""],
+        ["Bicycle", "20p per mile", "We encourage it for town-centre visits."],
+        ["Passenger supplement", "5p per passenger per mile", "Only for colleagues travelling on Silvering business."]
+      ], "caption": "Mileage rates from 1 April 2026"}},
+      {"p": "You can only claim miles beyond your normal commute. If you travel from home to a resident's property and back, deduct your usual return journey to your normal base (Kingsgate House, the Aylesford depot or Linton Lodge). Record the start and end postcode and the purpose of each journey."},
+      {"h1": "4. Meals and subsistence"},
+      {"p": "You can claim for a meal only when your work takes you away from your normal base and away from home for the periods below. These are maximum amounts including VAT and a reasonable tip - not allowances."},
+      {"table": {"columns": ["Meal", "When you can claim", "Maximum"], "rows": [
+        ["Breakfast", "You left home before 06:30 for business travel", "£8.00"],
+        ["Lunch", "You were away from your base for more than 5 hours, including 12:00-14:00", "£10.00"],
+        ["Evening meal", "You returned home after 20:00, or are staying overnight", "£25.00"]
+      ], "caption": "Meal caps"}},
+      {"callout": "**Alcohol is never reimbursed** - not with a meal, not at a team celebration and not when entertaining a partner. If a receipt includes alcohol, deduct it before you claim. Claims that include alcohol will be returned unpaid.", "title": "No alcohol"},
+      {"h1": "5. Accommodation"},
+      {"p": "Overnight stays need prior approval from your director. Book through the finance team's travel account wherever possible."},
+      {"bullets": ["Outside London: up to £120 per night, room only", "London: up to £180 per night, room only", "Staying with friends or family: a flat £25 per night, no receipt needed"]},
+      {"h1": "6. Public transport, parking and other costs"},
+      {"bullets": [
+        "Rail: standard class, booked in advance where possible. Use a railcard if you have one.",
+        "Taxis: only when there is no reasonable alternative, for safety reasons (for example late at night) or when carrying heavy equipment. Record the reason.",
+        "Parking: claim actual cost; keep the ticket or app receipt. Parking fines and penalty charges are never reimbursed.",
+        "Training and conferences: must be approved in PeoplePath before booking."
+      ]},
+      {"h1": "7. Gifts, hospitality and entertaining"},
+      {"p": "Entertaining external people at Silvering's expense is rare and needs prior approval from a director. Gifts and hospitality you receive must be declared in the register held by the Head of Governance, in line with the Code of Conduct."},
+      {"h1": "8. Checks and misuse"},
+      {"p": "Finance carries out monthly sample checks of claims and reports trends to the Audit & Assurance Committee each year. A false or inflated claim is a disciplinary matter and may be gross misconduct. Over-payments will be recovered through payroll."},
+      {"kv": [["Policy owner", "{{person:P002}}, {{person:P002.title}}"], ["Contact", "{{person:P016}}, {{person:P016.title}} - {{person:P016.email}}"], ["Approved by", "Executive Team, 23 March 2026"], ["Next review", "March 2028"]]}
+    ]
+  },
+  {
+    "id": "hub-code-of-conduct",
+    "type": "docx",
+    "title": "Code of Conduct",
+    "site": "hub", "library": "Company Policies", "folder": "People",
+    "category": "Policy", "doc_type_label": "Policy",
+    "author": "P013", "owner": "P005", "modified_by": "P036", "approved_by": "P006",
+    "created": "2021-09-01", "modified": "2025-06-18", "version": "3.1", "status": "Approved",
+    "review_date": "2026-09-30", "classification": "Internal",
+    "tags": ["code of conduct", "behaviour", "conflicts of interest", "gifts", "values"],
+    "summary": "The standards of behaviour expected of every Silvering colleague and board member, including conflicts of interest, gifts and hospitality, social media and relationships with residents.",
+    "version_history": [
+      {"version": "3.0", "date": "2023-07-12", "by": "P013", "change": "Aligned with NHF Code of Governance 2020"},
+      {"version": "3.1", "date": "2025-06-18", "by": "P036", "change": "Social media section updated"}
+    ],
+    "blocks": [
+      {"h1": "1. Why we have a Code of Conduct"},
+      {"p": "Residents trust us with their homes, their money and often very personal information. This Code sets out how we keep that trust. It applies to all staff, board and committee members, agency workers, volunteers and contractors working on our behalf. It sits alongside our values: We care, We listen and act, We take pride, and We own it."},
+      {"h1": "2. Treating people with respect"},
+      {"bullets": [
+        "Treat residents, colleagues and partners with courtesy, whatever the circumstances. We do not tolerate harassment, bullying or discrimination of any kind.",
+        "Respect residents' homes: show your ID badge, arrive when you said you would, and leave the home as you found it.",
+        "Never make assumptions about a resident because of their tenure, age, disability, background or the way they communicate.",
+        "If a resident is abusive or threatening, you may end the conversation or visit. Report it to your manager and record it in Keystone."
+      ]},
+      {"h1": "3. Conflicts of interest"},
+      {"p": "You must declare any interest that could, or could appear to, influence your work. Examples include a relative who is a tenant or applicant, a business interest in a supplier, or a second job with another landlord or contractor. Declarations are made on the register held by the Head of Governance & Company Secretary and are reviewed every year."},
+      {"p": "You must not take part in any decision about a lettings application, repair, complaint, contract or job application where you have a personal interest."},
+      {"h1": "4. Gifts and hospitality"},
+      {"bullets": [
+        "Never accept cash or vouchers from residents, suppliers or anyone seeking business with us.",
+        "Small tokens of thanks from residents (a box of biscuits, a card) may be accepted and shared with the team.",
+        "Any gift or hospitality worth more than **£25** must be declared on the register within 5 working days, whether accepted or declined.",
+        "Never accept hospitality from a supplier during a procurement exercise."
+      ]},
+      {"h1": "5. Using Silvering money and resources"},
+      {"p": "Use pool vehicles, phones, laptops and fuel cards for Silvering business only. Expenses must be claimed in line with the Expenses Policy. For example, mileage in your own car is paid at **40p per mile**, and meals only when you are working away from your base."},
+      {"h1": "6. Information and confidentiality"},
+      {"p": "Only access resident and colleague records you need for your job. Looking up a neighbour, relative or a well-known person in Keystone out of curiosity is a serious breach of this Code and of data protection law. Follow the Information Security Basics guide and the AI & Copilot Acceptable Use Policy."},
+      {"h1": "7. Social media and speaking publicly"},
+      {"p": "You are welcome to say you work for Silvering Homes. Do not post about residents, cases, complaints or colleagues, even without names, and never respond to a resident's complaint on social media - pass it to the Communications Manager. Only the Chief Executive and Communications Manager speak to the media on our behalf."},
+      {"h1": "8. Speaking up"},
+      {"p": "If you see something that breaches this Code, puts a resident at risk, or looks like fraud, raise it with your manager, any director or the Chair of the Audit & Assurance Committee under our Whistleblowing Policy. You will not suffer any detriment for raising a genuine concern."},
+      {"h1": "9. Breaches"},
+      {"p": "Breaches of this Code will be dealt with under the Disciplinary Policy for staff and the Board Members' Code for non-executives."},
+      {"kv": [["Policy owner", "{{person:P005}}"], ["Approved by", "Board, 9 July 2025"], ["Next review", "September 2026"]]}
+    ]
+  },
+  {
+    "id": "hub-ai-copilot-policy",
+    "type": "docx",
+    "title": "AI & Copilot Acceptable Use Policy",
+    "site": "hub", "library": "Company Policies", "folder": "IT & Data",
+    "category": "Policy", "doc_type_label": "Policy",
+    "author": "P014", "owner": "P005", "modified_by": "P014", "approved_by": "P001",
+    "created": "2026-08-20", "modified": "2026-10-06", "version": "1.0", "status": "Approved",
+    "review_date": "2027-04-30", "classification": "Internal",
+    "tags": ["AI", "Copilot", "acceptable use", "data protection", "special category data", "vulnerability"],
+    "summary": "Rules for using Microsoft 365 Copilot and other AI tools at Silvering, with specific controls for residents' vulnerability and special category data.",
+    "version_history": [
+      {"version": "0.3", "date": "2026-09-02", "by": "P014", "change": "Draft for Data Steering Committee"},
+      {"version": "1.0", "date": "2026-10-06", "by": "P014", "change": "Approved by Executive Team for the pilot"}
+    ],
+    "blocks": [
+      {"h1": "1. Purpose"},
+      {"p": "This policy sets out how colleagues may use Microsoft 365 Copilot and other artificial intelligence (AI) tools for Silvering work. AI can help us respond to residents faster and write more clearly. Used carelessly, it can expose personal information, invent facts or produce letters that are wrong or unkind. This policy is about getting the benefit safely."},
+      {"h1": "2. Scope"},
+      {"p": "It applies to everyone with a Silvering Microsoft 365 account, including pilot users of Copilot from 19 October 2026, and to any AI tool used for Silvering business, including free tools on personal devices."},
+      {"h1": "3. Approved tools"},
+      {"bullets": [
+        "**Microsoft 365 Copilot** (with your Silvering login) is approved for pilot users. It works within our Microsoft 365 tenant and respects SharePoint and Teams permissions.",
+        "**Copilot Chat with the green shield** (signed in with your work account) is approved for all staff for general drafting with no personal data.",
+        "Free public AI tools (for example ChatGPT, Gemini or other chatbots signed in with a personal account) **must not** be used with any Silvering information.",
+        "New AI tools or Copilot agents must be approved by the IT & Data Manager and, where they process personal data, the Data Steering Committee."
+      ]},
+      {"h1": "4. Residents' vulnerability and special category data"},
+      {"p": "We hold sensitive information about residents to deliver services safely: vulnerability flags, health and disability, safeguarding concerns, domestic abuse, ethnicity, religion and sexual orientation, and criminal offence data from ASB cases. UK GDPR calls much of this *special category* data. The following rules apply in addition to our Data Protection Policy."},
+      {"numbered": [
+        "**Do not ask Copilot to list, filter, rank or profile residents** by vulnerability, health, disability, ethnicity or any other special category characteristic. For example, 'list all tenants with mental health flags at Brenchley Gardens' is not allowed. Reports of this kind must come from Keystone through the approved Power BI reports.",
+        "**Do not paste vulnerability or health details into prompts** unless it is essential to the task in front of you (for example, adjusting the tone of a single letter to a resident with a learning disability) and then include only the minimum.",
+        "**Never put special category data into a document, email or chat that is shared more widely than it needs to be.** Copilot can surface anything you can open. If a summary contains vulnerability information, check who it will be shared with before sending.",
+        "**Safeguarding referrals, domestic abuse case notes and Careline records must not be summarised or drafted with Copilot** during the pilot. These libraries are labelled *Highly Confidential* and excluded from Copilot.",
+        "**Decisions about residents remain human decisions.** Copilot must not be used to decide priority, eligibility, enforcement action, compensation or the outcome of a complaint. It may help you draft the explanation once a person has decided.",
+        "If Copilot shows you information about a resident or colleague that you should not be able to see, **stop, do not share it, and report it to the IT Service Desk** within 24 hours. This is treated as a near miss, not a disciplinary matter."
+      ]},
+      {"h1": "5. Checking what Copilot produces"},
+      {"bullets": [
+        "You are responsible for anything you send, whoever drafted it.",
+        "Check every fact, date and number against the source system - Copilot can make things up.",
+        "Letters to residents must follow the Plain-English Writing Guide and the resident letter template.",
+        "Board and committee papers drafted with Copilot must say so on the cover paper."
+      ]},
+      {"h1": "6. Meetings and transcription"},
+      {"p": "Tell attendees at the start of a meeting if it is being recorded or transcribed. Do not transcribe meetings with residents, safeguarding or case conferences, disciplinary or grievance hearings, or legal advice sessions."},
+      {"h1": "7. Breaches"},
+      {"p": "Deliberate misuse - for example, using Copilot to look up information about a neighbour, or pasting resident data into a public AI tool - will be dealt with under the Disciplinary Policy and may be reported to the ICO."},
+      {"kv": [["Policy owner", "{{person:P005}}"], ["Technical lead", "{{person:P014}}"], ["Data Protection Officer", "{{person:P007}} (interim)"], ["Next review", "April 2027, or at the end of the pilot"]]}
+    ]
+  },
+  {
+    "id": "hub-infosec-basics",
+    "type": "pdf",
+    "title": "Information Security Basics",
+    "site": "hub", "library": "Company Policies", "folder": "IT & Data",
+    "category": "Guide", "doc_type_label": "Staff Guide",
+    "author": "P014", "owner": "P014", "modified_by": "P014", "approved_by": "P005",
+    "created": "2024-11-18", "modified": "2026-02-09", "version": "2.2", "status": "Approved",
+    "review_date": "2027-02-28", "classification": "Internal",
+    "tags": ["cyber security", "phishing", "passwords", "MFA", "data protection"],
+    "summary": "A short guide to keeping Silvering systems and resident data safe: passwords and MFA, phishing, devices, sharing files and reporting incidents.",
+    "doc_control": true,
+    "blocks": [
+      {"h1": "Ten things every colleague must do"},
+      {"numbered": [
+        "Use a passphrase of at least 14 characters for your Silvering account, and never reuse it anywhere else.",
+        "Approve multi-factor authentication (MFA) prompts only when you are signing in yourself. An unexpected prompt means someone has your password - report it.",
+        "Lock your screen (Windows key + L) whenever you leave your desk, including at the depot and Linton Lodge.",
+        "Keep resident information in Keystone, FieldLoop and SharePoint - not on your desktop, a USB stick or personal email.",
+        "Share files with a link to a named person rather than 'anyone with the link'.",
+        "Check the sensitivity label before you share: Public, Internal, Confidential or Highly Confidential.",
+        "Think before you click. Hover over links and check the sender's address.",
+        "Never give your password to anyone, including IT. We will never ask for it.",
+        "Report a lost or stolen phone or laptop to the Service Desk immediately, day or night.",
+        "Report any data breach - an email to the wrong person, a lost letter, a document left in a resident's home - to the IT Service Desk within 24 hours."
+      ]},
+      {"h1": "Spotting phishing"},
+      {"p": "Most attacks on housing associations start with an email. Common tricks we have seen this year include fake invoices from suppliers asking us to change bank details, fake Microsoft sign-in pages and messages that appear to come from the Chief Executive asking for gift cards."},
+      {"table": {"columns": ["Warning sign", "Example"], "rows": [
+        ["Urgency or secrecy", "'Please process this today and don't mention it to finance'"],
+        ["A change of bank details", "A supplier asks us to pay into a new account - always phone the supplier on a number we already hold"],
+        ["Look-alike addresses", "silvering-homes.co or si1vering-homes.org.uk"],
+        ["Unexpected attachments", "'Scanned document.html' or a zip file"],
+        ["Requests to sign in", "A link to 'view a shared document' that asks for your password again"]
+      ]}},
+      {"p": "Use the **Report** button in Outlook to send suspicious emails to IT. Do not forward them to colleagues."},
+      {"h1": "Working in residents' homes"},
+      {"bullets": [
+        "Keep your tablet locked and in your possession. Do not let residents use it.",
+        "Do not photograph documents, medication or personal items unless it is necessary for the job (for example, evidence of damp and mould) - and then only the area you need.",
+        "Photos go straight into FieldLoop, not your camera roll."
+      ]},
+      {"h1": "Incidents"},
+      {"p": "We must report serious personal data breaches to the ICO within 72 hours of becoming aware of them, so speed matters. Report first, explain later. Contact the IT Service Desk on extension 4400 or servicedesk@silvering-homes.org.uk."}
+    ]
+  },
+  {
+    "id": "hub-safeguarding-policy-summary",
+    "type": "docx",
+    "title": "Safeguarding Adults and Children Policy - staff summary",
+    "site": "hub", "library": "Company Policies", "folder": "Safeguarding",
+    "category": "Policy", "doc_type_label": "Policy Summary",
+    "author": "P011", "owner": "P003", "modified_by": "P027", "approved_by": "P001",
+    "created": "2024-12-02", "modified": "2026-05-14", "version": "2.0", "status": "Approved",
+    "review_date": "2027-05-31", "classification": "Internal",
+    "tags": ["safeguarding", "adults at risk", "children", "domestic abuse", "self-neglect", "hoarding"],
+    "summary": "A two-page summary of the Safeguarding Adults and Children Policy: what safeguarding means at Silvering, signs to look for, and exactly what to do if you have a concern.",
+    "blocks": [
+      {"h1": "Safeguarding is everyone's job"},
+      {"p": "Our operatives, surveyors, housing officers and contact centre advisers are often the only professionals who see inside a resident's home. That means we may be the first to notice that a child or an adult is being harmed or is at risk. You do not need to be sure, and you do not need to investigate. You need to notice, record and report."},
+      {"h2": "Signs to look out for"},
+      {"bullets": [
+        "Unexplained injuries, or a resident who seems frightened of someone in the household",
+        "A home in very poor condition: severe hoarding, no heating or food, or signs of self-neglect",
+        "Children who seem unsupervised, hungry or out of school during the day",
+        "Someone else controlling the resident's money, phone or contact with us",
+        "Signs of cuckooing - a vulnerable resident's home taken over by others, often for drug dealing",
+        "Damp and mould in a home where there is a baby, an older person or someone with a respiratory condition, where the resident is not able to report it themselves"
+      ]},
+      {"h2": "What to do"},
+      {"numbered": [
+        "If someone is in immediate danger, call **999**.",
+        "Make sure you and the resident are safe. Do not confront an alleged abuser.",
+        "Write down what you saw and heard, in the person's own words, with the date and time.",
+        "Tell a Designated Safeguarding Officer **the same working day** (Nadia Rahman, Margaret Ogunleye or Owen Fletcher), or the duty manager out of hours.",
+        "Complete the safeguarding concern form in Keystone. The DSO will decide whether to make a referral to the county council's adult or children's services."
+      ]},
+      {"callout": "Do not promise a resident that you will keep what they tell you secret. Explain that you may need to share it to keep them or others safe.", "title": "Confidentiality"},
+      {"h2": "Records and information sharing"},
+      {"p": "Safeguarding records are kept in the restricted safeguarding area of Keystone and the Highly Confidential safeguarding library. They must not be copied into general case notes, emails, Teams chats or Copilot prompts."},
+      {"h2": "Training"},
+      {"p": "All staff complete safeguarding awareness training at induction and every two years. Frontline staff complete the enhanced module every year. Training records are held in PeoplePath."},
+      {"kv": [["Lead director", "{{person:P003}}"], ["Lead DSO", "{{person:P011}}"], ["Full policy", "Neighbourhoods & Tenancy site > SilverLiving"]]}
+    ]
+  },
+  {
+    "id": "hub-tpl-resident-letter",
+    "type": "docx",
+    "title": "Template - Letter to a resident",
+    "site": "hub", "library": "Templates", "folder": "Letters",
+    "category": "Template", "doc_type_label": "Template",
+    "author": "P037", "owner": "P037", "modified_by": "P032", "approved_by": "P003",
+    "created": "2025-02-11", "modified": "2026-06-30", "version": "2.1", "status": "Approved",
+    "classification": "Internal", "doc_control": false,
+    "tags": ["template", "letter", "residents", "plain English"],
+    "summary": "The standard Silvering letter template for writing to residents, with guidance on structure, tone and what every letter must include.",
+    "blocks": [
+      {"callout": "Delete the guidance in square brackets before sending. Read the Plain-English Writing Guide first. Aim for a reading age of 9 to 11 and no more than one page.", "title": "How to use this template"},
+      {"p": "[Resident's full name]\n[Address line 1]\n[Town]\n[Postcode]"},
+      {"p": "Your reference: [tenancy reference]   Our reference: [case or job number]\nDate: [date in full, for example 5 November 2026]"},
+      {"p": "Dear [Mr/Mrs/Ms/Mx Surname - or first name if that is how they asked to be addressed],"},
+      {"h3": "[A heading that says what the letter is about, for example: Your damp and mould inspection]"},
+      {"p": "[Opening: one or two sentences saying why you are writing. Start with what matters most to the resident.]"},
+      {"p": "[What happens next: who, what, when. Use a short bulleted list if there are several steps. Give real dates, not 'in due course'.]"},
+      {"p": "[What the resident needs to do, if anything, and by when.]"},
+      {"p": "[How to contact us: name a person where you can, with a direct phone number or email.]"},
+      {"p": "If you need this letter in another language, in large print or read to you, please call us on 01622 000 400 or email customerservices@silvering-homes.org.uk."},
+      {"p": "Yours sincerely,"},
+      {"p": "[Your name]\n[Your job title]\n[Direct phone or email]"},
+      {"h3": "Checklist before you send"},
+      {"bullets": ["Is the name and address right, and is this the resident's preferred way of hearing from us (check contact preference in Keystone)?", "Have you said sorry clearly, if we have got something wrong?", "Is every date a real date?", "Have you avoided jargon (no 'void', 'HHSRS', 'stage 1', 'NOSP' without explanation)?", "Have you left out anything the resident does not need - especially other people's information?"]}
+    ]
+  },
+  {
+    "id": "hub-tpl-board-cover-paper",
+    "type": "docx",
+    "title": "Template - Board and committee cover paper",
+    "site": "hub", "library": "Templates", "folder": "Governance",
+    "category": "Template", "doc_type_label": "Template",
+    "author": "P007", "owner": "P007", "modified_by": "P007", "approved_by": "P006",
+    "created": "2024-09-02", "modified": "2026-04-20", "version": "3.0", "status": "Approved",
+    "classification": "Internal", "doc_control": false,
+    "tags": ["template", "board paper", "cover sheet", "governance", "committee"],
+    "summary": "The mandatory cover paper for every report to the Board or a committee, setting out purpose, recommendations, links to Home First and the risk register, and assurance.",
+    "blocks": [
+      {"callout": "Every paper to the Board or a committee must use this cover sheet. Maximum two pages, plus appendices. Papers must reach the Governance team **10 working days** before the meeting. Late papers need the Chair's agreement.", "title": "Rules"},
+      {"kv": [
+        ["Meeting", "[Board / Audit & Assurance Committee / Customer Experience Committee / Treasury & Finance Committee / Governance & Remuneration Committee]"],
+        ["Date of meeting", "[dd Month yyyy]"],
+        ["Agenda item", "[number]"],
+        ["Title", "[short title]"],
+        ["Author", "[name, job title]"],
+        ["Executive lead", "[director]"],
+        ["Purpose", "[For decision / For approval / For assurance / For information]"],
+        ["Classification", "[Open / Confidential]"],
+        ["Copilot used in drafting?", "[Yes / No - if yes, author confirms all facts checked against source]"]
+      ]},
+      {"h2": "1. Purpose and summary"},
+      {"p": "[Three to five sentences. What is this paper about, and what do you want the Board or committee to do? The reader should understand the issue from this section alone.]"},
+      {"h2": "2. Recommendations"},
+      {"p": "The [Board/Committee] is asked to:"},
+      {"numbered": ["[note / approve / agree / delegate...]", "[...]"]},
+      {"h2": "3. Key points"},
+      {"p": "[The facts, trends and issues. Use figures with a time period and a comparison - for example, 'this month', 'last month', 'same month last year', 'target'. Give a RAG rating where there is a target.]"},
+      {"h2": "4. Residents' voice"},
+      {"p": "[How have residents shaped this, or how will it affect them? Include insight from complaints, TSMs, the Customer Insight Group or scrutiny.]"},
+      {"h2": "5. Links to Home First and the strategic risk register"},
+      {"table": {"columns": ["Home First priority", "Strategic risk", "Effect on risk"], "rows": [["[Safe, warm homes / A listening landlord / More homes / Strong foundations]", "[SR..]", "[Reduces / No change / Increases]"]]}},
+      {"h2": "6. Regulatory and legal"},
+      {"p": "[Consumer standards, Awaab's Law, Complaint Handling Code, Building Safety Act, NHF Code of Governance, data protection - as relevant.]"},
+      {"h2": "7. Financial implications"},
+      {"p": "[Cost, budget line, effect on the business plan and covenants. Confirmed with Finance? Yes/No.]"},
+      {"h2": "8. Equality, diversity and inclusion"},
+      {"p": "[Any group of residents or staff affected differently? Has an equality impact assessment been done?]"},
+      {"h2": "9. Assurance"},
+      {"p": "[What is the source of the evidence in this paper, and has it been checked independently (internal audit, external review, data quality check)?]"}
+    ]
+  },
+  {
+    "id": "hub-tpl-meeting-minutes",
+    "type": "docx",
+    "title": "Template - Meeting minutes",
+    "site": "hub", "library": "Templates", "folder": "Governance",
+    "category": "Template", "doc_type_label": "Template",
+    "author": "P039", "owner": "P007", "modified_by": "P039", "approved_by": "P007",
+    "created": "2024-09-02", "modified": "2025-11-10", "version": "2.0", "status": "Approved",
+    "classification": "Internal", "doc_control": false,
+    "tags": ["template", "minutes", "actions", "meetings"],
+    "summary": "Standard template for minutes of board, committee and internal management meetings, with an action log format.",
+    "blocks": [
+      {"kv": [["Meeting", "[name]"], ["Date and time", "[dd Month yyyy, hh:mm-hh:mm]"], ["Location", "[room / Microsoft Teams]"], ["Chair", "[name]"], ["Minutes taken by", "[name]"]]},
+      {"h2": "Present"},
+      {"p": "[Names and roles. For board meetings list members first, then in attendance.]"},
+      {"h2": "Apologies"},
+      {"p": "[Names]"},
+      {"h2": "1. Welcome, apologies and declarations of interest"},
+      {"p": "[Record any declarations and how they were managed - for example, the member left the room for item 7.]"},
+      {"h2": "2. Minutes of the previous meeting and matters arising"},
+      {"p": "[Approved as a correct record / approved subject to the following amendments.]"},
+      {"h2": "3. [Item title]"},
+      {"p": "[Summary of the discussion: the key points, challenge and assurance given. Minutes record decisions and reasons, not every word said.]"},
+      {"p": "**Resolved / Agreed:** [decision]"},
+      {"h2": "Action log"},
+      {"actions": [{"action": "[What will be done - start with a verb]", "owner": "P039", "due": "2026-12-01", "status": "Open"}]},
+      {"h2": "Date of next meeting"},
+      {"p": "[dd Month yyyy]"},
+      {"callout": "Circulate draft minutes to the Chair within 5 working days. Actions go into the action log tracker on the same day.", "title": "Timescales"}
+    ]
+  },
+  {
+    "id": "hub-brand-guidelines",
+    "type": "pptx",
+    "title": "Silvering Homes Brand Guidelines",
+    "site": "hub", "library": "Brand & Comms", "folder": "Brand",
+    "category": "Guidelines", "doc_type_label": "Brand Guidelines",
+    "author": "P037", "owner": "P037", "modified_by": "P037", "approved_by": "P005",
+    "created": "2025-01-20", "modified": "2026-04-08", "version": "2.0", "status": "Approved",
+    "classification": "Internal",
+    "tags": ["brand", "logo", "colours", "tone of voice", "typography"],
+    "summary": "How to use the Silvering Homes logo, colours, fonts, photography and tone of voice, for staff and agencies.",
+    "slides": [
+      {"layout": "title", "title": "Silvering Homes Brand Guidelines", "subtitle": "Local homes, listening landlord.", "meta": "Version 2.0 - April 2026 - Communications", "notes": "Owner: Lucy Carver, Communications Manager. Use for induction and for briefing agencies and contractors who produce signage or resident materials."},
+      {"layout": "bullets", "title": "Our brand in one sentence", "bullets": ["A local landlord that listens, is honest when things go wrong, and takes pride in residents' homes", "Personality: warm, straightforward, practical, local", "Never corporate jargon, never cheerful when the news is bad", "We talk about 'residents' and 'homes' - not 'customers', 'units' or 'stock' in anything residents see"], "notes": "The Home First corporate plan refreshed the brand in April 2026. The chevrons in the logo represent rooftops."},
+      {"layout": "two_column", "title": "Logo", "left": {"heading": "Do", "bullets": ["Use the chevron symbol with the lower-case 'silvering' wordmark", "Keep clear space equal to the height of one chevron", "Use the white logo on Slate Teal or photography with a dark overlay", "Minimum width 30 mm in print, 140 px on screen"]}, "right": {"heading": "Don't", "bullets": ["Stretch, rotate or recolour the logo", "Add 'Homes' in a different font", "Use the 2005 house-and-tree logo - it still appears on some estate signs, report them to Comms", "Place the logo on busy photography"]}, "notes": "Logo files are in Brand & Comms > Brand > Logos. Old signage is being replaced as part of the estate signage programme."},
+      {"layout": "table", "title": "Colour palette", "table": {"columns": ["Name", "Hex", "Use"], "rows": [["Slate Teal (primary)", "#2C5F6E", "Logo, headings, primary buttons"], ["Silver Grey (secondary)", "#7D8B97", "Secondary text, chart series"], ["Hop Gold (accent)", "#E09F3E", "Call-outs and highlights - never body text on white"], ["Charcoal (dark)", "#1B2D34", "Body text, dark backgrounds"], ["Mist (light)", "#F1F4F5", "Panels and backgrounds"]]}, "notes": "Hop Gold on white fails WCAG contrast for text. Slate Teal on Mist passes AA."},
+      {"layout": "bullets", "title": "Typography", "bullets": ["Headings: Segoe UI Semibold", "Body: Segoe UI, minimum 12 pt in letters, 14 pt for SilverLiving residents", "Left-aligned text only - never justified", "Sentence case for headings", "Avoid capitals, italics and underlining for emphasis - use bold sparingly"]},
+      {"layout": "steps", "title": "Tone of voice", "steps": [{"label": "Human", "text": "Write as if speaking to a neighbour. Use 'we' and 'you'."}, {"label": "Clear", "text": "Short sentences, everyday words, real dates."}, {"label": "Honest", "text": "If we got it wrong, say sorry and say what we will do."}, {"label": "Respectful", "text": "Never blame residents - especially for condensation."}, {"label": "Local", "text": "Name the estate, the street, the officer."}], "notes": "See the Plain-English Writing Guide for detailed examples and before-and-after rewrites."},
+      {"layout": "bullets", "title": "Photography", "bullets": ["Real residents and real Silvering colleagues, with signed consent forms", "Show homes and estates as they are - no stock images of glossy flats", "Never photograph residents' children without written parental consent", "No photos inside residents' homes for publicity without consent of every adult present"]},
+      {"layout": "bullets", "title": "Where to get help", "bullets": ["Templates: Silvering Hub > Templates", "Logos, photos and the Doorstep magazine archive: Brand & Comms library", "Signage and vehicle livery: request through Lucy Carver", "Anything that will be seen by the media or published on social media: Communications team first"]}
+    ]
+  },
+  {
+    "id": "hub-plain-english-guide",
+    "type": "docx",
+    "title": "Plain-English Writing Guide for resident letters",
+    "site": "hub", "library": "Brand & Comms", "folder": "Writing",
+    "category": "Guide", "doc_type_label": "Guide",
+    "author": "P003", "owner": "P037", "modified_by": "P032", "approved_by": "P003",
+    "created": "2025-03-04", "modified": "2026-07-22", "version": "1.3", "status": "Approved",
+    "review_date": "2027-07-31", "classification": "Internal",
+    "tags": ["plain English", "writing", "letters", "residents", "complaints", "tone"],
+    "summary": "Practical guidance and before-and-after examples for writing letters and emails residents understand first time, including damp and mould and complaint responses.",
+    "blocks": [
+      {"h1": "Why it matters"},
+      {"p": "One in six adults in England has very poor literacy skills, and many of our residents speak English as a second language. Our Tenant Satisfaction Measures show that residents who feel kept informed are much more likely to be satisfied overall. A clear letter prevents a phone call, a complaint and, sometimes, an Ombudsman case."},
+      {"h1": "The ten rules"},
+      {"numbered": [
+        "Put the most important thing first.",
+        "Keep sentences to 15-20 words on average.",
+        "Use 'we' and 'you'.",
+        "Use active verbs: 'we will fix your boiler', not 'the boiler will be repaired'.",
+        "Give a real date and time, not 'shortly' or 'in due course'.",
+        "Explain what the resident needs to do in a separate, clear section.",
+        "Say sorry plainly if we got something wrong. Do not say 'we apologise for any inconvenience'.",
+        "Avoid jargon and abbreviations (see the swap list).",
+        "Never blame the resident for damp and mould or suggest it is their 'lifestyle'.",
+        "Read it aloud before you send it."
+      ]},
+      {"h1": "Swap list"},
+      {"table": {"columns": ["Instead of", "Write"], "rows": [
+        ["void property", "empty home"],
+        ["HHSRS Category 1 hazard", "a serious risk to your health or safety"],
+        ["We are in receipt of your correspondence", "Thank you for your letter"],
+        ["Please be advised that", "(delete)"],
+        ["Stage 1 complaint response", "Our reply to your complaint"],
+        ["NOSP", "a notice that we may go to court to end your tenancy"],
+        ["remedial works", "repairs"],
+        ["lifestyle condensation", "(never use)"],
+        ["in due course", "by [date]"]
+      ]}},
+      {"h1": "Before and after: damp and mould"},
+      {"quote": "Further to the inspection undertaken at the above property on the 14th inst., please be advised that the surveyor has identified condensation-related mould growth. Tenants are advised to ventilate adequately. Remedial works will be scheduled in due course.", "by": "Before"},
+      {"quote": "Thank you for letting Ellie Novak into your home on 14 October. Ellie found mould in your bedroom and bathroom. This is caused by moisture that cannot escape, because the extractor fan in your bathroom is not working well enough. We will fit a new fan and treat the mould on 21 October between 8am and 12pm. Ellie will call you two weeks later to check it has worked.", "by": "After"},
+      {"h1": "Awaab's Law letters"},
+      {"p": "When we investigate a significant damp and mould hazard, we must send the resident a written summary within **3 working days** of the investigation. It must say what we found, whether there is a significant hazard, what we will do and when, and what happens if we cannot do it in time. Use the damp and mould summary template in the Repairs & Maintenance site."},
+      {"h1": "Complaint responses"},
+      {"p": "Every stage 1 reply must answer each point the resident raised, say clearly whether we have upheld the complaint, explain what we will do to put it right, and tell them how to escalate to stage 2 and to the Housing Ombudsman."}
+    ]
+  },
+  {
+    "id": "hub-doorstep-autumn-2026",
+    "type": "pdf",
+    "title": "Doorstep - resident magazine, Autumn 2026",
+    "site": "hub", "library": "Brand & Comms", "folder": "Doorstep",
+    "category": "Newsletter", "doc_type_label": "Resident Magazine",
+    "author": "P037", "owner": "P037", "modified_by": "P033", "approved_by": "P003",
+    "created": "2026-09-14", "modified": "2026-10-01", "version": "1.0", "status": "Published",
+    "classification": "Public", "doc_control": false,
+    "tags": ["Doorstep", "resident magazine", "newsletter", "damp and mould", "winter", "Orchard Fields"],
+    "summary": "The autumn 2026 edition of Doorstep, sent to every household: damp and mould advice, winter readiness, Orchard Fields, our TSM results and how residents can get involved.",
+    "blocks": [
+      {"h1": "Hello from Catherine"},
+      {"p": "Welcome to the autumn edition of Doorstep. In March the Regulator of Social Housing told us that we need to get better at dealing with damp and mould and with complaints. You told us the same thing in our satisfaction survey. This edition explains what we are changing, and how you can hold us to it. - Catherine Ellwood, Chief Executive"},
+      {"h1": "Damp and mould: tell us early"},
+      {"p": "Damp and mould is not your fault, and we want to know about it. From October 2025 the law changed so that landlords must investigate serious damp and mould within 10 working days and start safety works within 5 working days of the investigation. We now have two specialist surveyors and a dedicated damp team."},
+      {"bullets": ["Report it on MySilvering, by phone on 01622 000 400, or tell any Silvering colleague who visits", "Take a photo if you can - it helps us decide how quickly to come", "We will write to you within 3 working days of our visit to tell you what we found and what we will do"]},
+      {"h1": "Get ready for winter"},
+      {"bullets": ["Bleed your radiators and check your boiler pressure - videos on MySilvering", "Know where your stop tap is", "Struggling with energy bills? Our money advice team can help with grants and the Warm Home Discount", "SilverLiving residents: your coordinator will call you in November to check you are ready"]},
+      {"h1": "Our new homes at Orchard Fields"},
+      {"p": "The first residents moved into our 62 new homes at Orchard Fields in October. Every home has a heat pump and solar panels. Phase 2 is being built now."},
+      {"h1": "How did we do? Your satisfaction survey results"},
+      {"p": "Last year {{fact:tsm_overall_2526}} of tenants were satisfied with our service overall, and {{fact:tsm_repairs_2526}} with our repairs service. But only {{fact:tsm_complaints_2526}} of people who complained were satisfied with how we handled it. That is not good enough, and our new complaints team is working to change it."},
+      {"h1": "Have your say"},
+      {"p": "Join the Customer Insight Group, take part in a scrutiny review, or become a Street Champion on your estate. Contact Grace Osei, Resident Involvement & Insight Officer, on 01622 000 455 or getinvolved@silvering-homes.org.uk. We pay for your time with shopping vouchers and cover travel and childcare costs."},
+      {"h1": "Useful numbers"},
+      {"kv": [["Customer Services and repairs", "01622 000 400 (24 hours for emergencies)"], ["MySilvering", "my.silvering-homes.org.uk"], ["Careline (SilverLiving)", "01622 000 499"], ["Housing Ombudsman", "0300 111 3000"]]}
+    ]
+  }
+]

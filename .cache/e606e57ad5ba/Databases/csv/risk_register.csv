@@ -1,0 +1,13 @@
+﻿risk_id,risk,category,owner,inherent_score,residual_score,appetite,trend,key_controls,last_reviewed
+SR01,Failure to meet Awaab's Law timescales for damp and mould,Compliance / Consumer,P004,20,15,Averse,Rising,Dedicated damp team; daily FieldLoop breach report; second surveyor recruited Sep 2025,2026-10-14
+SR02,Consumer standards: failure to move from C2 to C1,Regulatory,P001,20,12,Averse,Stable,RSH action plan; monthly exec tracking; Customer Experience Committee oversight,2026-10-14
+SR03,"Building safety failure (fire, gas, electrical, water, asbestos, lifts)",Health & safety,P004,25,10,Averse,Rising,Assure360 tracking; external FRAs; BSR registration for Rosemount Tower,2026-10-14
+SR04,Loss of financial headroom (interest cover covenant),Financial,P002,16,12,Cautious,Rising,Monthly covenant forecast; stress testing; investment programme phasing,2026-10-14
+SR05,Rent arrears increase as Universal Credit migration completes,Financial,P011,12,9,Cautious,Rising,Income team triage; APA requests; hardship fund,2026-10-14
+SR06,Inability to recruit and retain skilled trades,People,P005,16,12,Open,Rising,Market supplement for electricians; apprenticeship scheme; subcontractor framework,2026-10-14
+SR07,Development cost overrun or contractor failure,Development,P010,16,9,Cautious,Stable,Fixed-price D&B contracts; contractor financial checks; contingency 5%,2026-10-14
+SR08,Data breach or cyber attack,Information,P005,20,10,Averse,Stable,MFA; Cyber Essentials Plus; phishing training; Copilot sensitivity labels pilot,2026-10-14
+SR09,Poor complaint handling leads to Ombudsman findings,Consumer,P003,16,12,Averse,Rising,Complaint Handling Code self-assessment; weekly case review; extra officer,2026-10-14
+SR10,Stock condition data incomplete or out of date,Assets,P009,12,9,Cautious,Stable,Rolling 20% survey programme; Power BI coverage dashboard,2026-10-14
+SR11,Net zero and EPC C by 2030 not affordable,Assets,P009,12,9,Open,Stable,SHDF wave 3 bid; retrofit pilot at Coxheath Lane,2026-07-15
+SR12,IT system change (CRM / housing system) disrupts services,Operational,P005,12,8,Cautious,New,Phased plan; data migration testing; business readiness group,2026-10-14

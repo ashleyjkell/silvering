@@ -1,0 +1,2166 @@
+[
+ {
+  "id": "rep-repairs-policy",
+  "type": "docx",
+  "title": "Repairs and Maintenance Policy",
+  "site": "repairs",
+  "library": "Repairs Procedures",
+  "folder": "Policies",
+  "category": "Policy",
+  "author": "P008",
+  "owner": "P008",
+  "modified_by": "P018",
+  "approved_by": "P004",
+  "created": "2023-02-14",
+  "modified": "2026-04-22",
+  "version": "4.1",
+  "status": "Approved",
+  "review_date": "2027-04-30",
+  "classification": "Public",
+  "tags": [
+   "repairs",
+   "priorities",
+   "emergency",
+   "recharges",
+   "access",
+   "right to repair"
+  ],
+  "summary": "Sets out Silvering's repair responsibilities, the four repair priorities and target times, appointments, access, recharges and how residents can report a repair.",
+  "version_history": [
+   {
+    "version": "3.0",
+    "date": "2023-02-14",
+    "by": "P008",
+    "change": "Full rewrite after move to in-house repairs service"
+   },
+   {
+    "version": "4.0",
+    "date": "2025-10-20",
+    "by": "P008",
+    "change": "Aligned with Awaab's Law (in force 27 Oct 2025); damp and mould now cross-refers to Damp & Mould Policy; routine target changed from 20 working days to 28 calendar days"
+   },
+   {
+    "version": "4.1",
+    "date": "2026-04-22",
+    "by": "P018",
+    "change": "Recharge tariff updated for 2026/27; MySilvering photo upload added; no-access process clarified"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose and scope"
+   },
+   {
+    "p": "This policy explains how {{company.fictional_name}} keeps its homes safe, in good repair and compliant with the law. It applies to all rented homes (social rent, affordable rent, older persons and supported, and market rent) and to the communal areas of blocks where we are the freeholder. Shared owners and leaseholders are responsible for repairs inside their own homes; their lease sets out what we repair in the building structure and communal areas."
+   },
+   {
+    "p": "Repairs are delivered mainly by our in-house team of multi-trade operatives based at the Aylesford depot and scheduled through FieldLoop. Specialist work (drainage, roofing, some electrical work and gas servicing overflow) is carried out by approved subcontractors under the Subcontractor Management Procedure."
+   },
+   {
+    "h1": "2. Legal and regulatory framework"
+   },
+   {
+    "bullets": [
+     "Landlord and Tenant Act 1985, section 11 (structure, exterior and installations for water, gas, electricity, sanitation and heating)",
+     "Homes (Fitness for Human Habitation) Act 2018",
+     "Housing Act 2004 and the Housing Health and Safety Rating System (HHSRS)",
+     "Hazards in Social Housing (Prescribed Requirements) (England) Regulations 2025 - Awaab's Law, in force from 27 October 2025",
+     "Gas Safety (Installation and Use) Regulations 1998 and the Electrical Safety Standards that apply to social landlords",
+     "The Regulator of Social Housing's Safety and Quality Standard, and the Decent Homes Standard",
+     "The Housing Ombudsman's Complaint Handling Code"
+    ]
+   },
+   {
+    "h1": "3. Who is responsible for what"
+   },
+   {
+    "table": {
+     "columns": [
+      "Item",
+      "Silvering repairs",
+      "Resident repairs"
+     ],
+     "rows": [
+      [
+       "Structure, roof, walls, windows, external doors",
+       "Yes",
+       "Replacing glass broken by the resident or their visitors"
+      ],
+      [
+       "Heating, hot water, boilers, storage heaters",
+       "Yes, including annual gas safety check",
+       "Bleeding radiators, topping up boiler pressure"
+      ],
+      [
+       "Electrical wiring, sockets, fixed lights",
+       "Yes",
+       "Light bulbs, plugs and fuses in appliances"
+      ],
+      [
+       "Kitchen units and worktops",
+       "Yes",
+       "Minor adjustments to cupboard hinges"
+      ],
+      [
+       "Internal doors",
+       "Repairs to frames and hinges",
+       "Door handles, damage, replacing for decoration"
+      ],
+      [
+       "Blocked sinks, baths and toilets",
+       "Where caused by a defect",
+       "Where caused by misuse (rechargeable)"
+      ],
+      [
+       "Fences and gates",
+       "Boundary fences we installed",
+       "Garden gates and sheds"
+      ],
+      [
+       "Decoration",
+       "After our repair work (making good)",
+       "All internal decoration"
+      ],
+      [
+       "Damp and mould",
+       "Investigating causes and fixing them (see Damp & Mould Policy)",
+       "Reporting promptly, using extractor fans, not blocking vents"
+      ]
+     ],
+     "caption": "Table 1 - Summary of repair responsibilities (full list in the Resident Handbook)"
+    }
+   },
+   {
+    "h1": "4. Repair priorities and target times"
+   },
+   {
+    "p": "Every repair is given a priority when it is reported. The contact centre adviser or repairs planner uses the FieldLoop question set to decide the priority. If in doubt, the higher priority is used. Target times run from the moment the repair is reported, not from when it is logged."
+   },
+   {
+    "table": {
+     "columns": [
+      "Priority",
+      "Definition",
+      "Target",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Emergency",
+       "An immediate risk to health, safety or security, or serious damage to the building",
+       "Attend and make safe within 24 hours (follow-on work raised as Urgent or Routine)",
+       "Total loss of heating or hot water in winter or where a vulnerable resident lives; uncontrollable leak; dangerous electrics; gas smell (also call the National Gas Emergency line); insecure front door; blocked only toilet; Awaab's Law emergency hazard"
+      ],
+      [
+       "Urgent",
+       "A defect that causes significant inconvenience or could get worse quickly",
+       "Complete within 5 working days",
+       "Partial loss of heating; leaking pipe that can be contained; broken window catch where a child lives; electric shower not working (with no other way to wash)"
+      ],
+      [
+       "Routine",
+       "A repair that does not cause an immediate risk or serious inconvenience",
+       "Complete within 28 calendar days",
+       "Dripping tap; loose kitchen unit; sticking internal door; cracked plaster; gutter overflowing"
+      ],
+      [
+       "Planned",
+       "Larger or non-urgent work that is better grouped or needs specialist planning",
+       "Complete within 90 calendar days",
+       "Fence renewal; external redecoration; replacing a kitchen unit run; drainage survey"
+      ]
+     ],
+     "caption": "Table 2 - Repair priorities"
+    }
+   },
+   {
+    "callout": "Any report of damp and mould is triaged under the Damp & Mould Policy and Awaab's Law timescales, not just this table. Advisers must ask the damp screening questions (children, health conditions, extent of mould) on every call that mentions damp, mould, condensation or leaks.",
+    "title": "Damp and mould"
+   },
+   {
+    "h2": "4.1 Vulnerability"
+   },
+   {
+    "p": "Where the Keystone tenancy record shows a vulnerability flag, or the resident tells us about a health condition, disability, age over 75 or young children, the adviser should consider raising the priority. For example, a routine heating fault for a resident with a respiratory condition becomes Urgent; a total loss of heating for any resident over 75 between October and April is an Emergency. Careline and SilverLiving residents are always triaged with the scheme coordinator."
+   },
+   {
+    "h1": "5. Reporting a repair"
+   },
+   {
+    "bullets": [
+     "MySilvering app or portal (24/7, with photo upload since April 2026)",
+     "Phone the contact centre (8am-6pm weekdays); out of hours, emergencies only via the same number",
+     "Email repairs@silvering-homes.org.uk (non-emergency only)",
+     "Tell a housing officer, SilverLiving coordinator or an operative during a visit"
+    ]
+   },
+   {
+    "h1": "6. Appointments"
+   },
+   {
+    "p": "We offer appointments for all Routine and Urgent repairs: morning (8am-12pm), afternoon (12pm-4pm), school run (9.30am-2.30pm) or first/last of the day. Residents receive a text reminder the day before and when the operative is on the way. If we have to cancel an appointment, we will contact the resident before the slot starts and rebook at their convenience."
+   },
+   {
+    "h1": "7. Access"
+   },
+   {
+    "p": "Residents must give reasonable access for repairs and safety checks. If we cannot get in at a booked appointment, the operative leaves a calling card and the job returns to the planners' no-access queue. We will try to contact the resident by phone and text within one working day and offer a new appointment. After two failed appointments for a repair, the job is closed and the resident is asked to re-report it - **unless** the repair is a safety issue, a damp and mould case or a statutory check, in which case it is referred to the housing officer and the no-access process in the Compliance Access Procedure applies (warning letters, joint visit, and as a last resort an injunction)."
+   },
+   {
+    "h1": "8. Recharges"
+   },
+   {
+    "p": "We will recharge residents for repairs caused by deliberate damage, neglect or misuse, for lock changes and lost keys, for clearing items left in empty homes, and for out-of-hours call-outs that turn out to be the resident's responsibility. We will not recharge where damage was caused by domestic abuse, a crime with a crime reference number, or a disability-related reason. Recharges are approved by the Repairs Planning Manager and collected by the Income team; they never affect rent arrears action."
+   },
+   {
+    "table": {
+     "columns": [
+      "Recharge item (2026/27)",
+      "Charge"
+     ],
+     "rows": [
+      [
+       "Lock change (lost keys)",
+       "£95"
+      ],
+      [
+       "Out-of-hours call-out (resident responsibility)",
+       "£75"
+      ],
+      [
+       "Boarding up after resident damage",
+       "£140"
+      ],
+      [
+       "Clearing a blocked toilet caused by misuse",
+       "£65"
+      ],
+      [
+       "Replacing internal door",
+       "£180"
+      ],
+      [
+       "Clearing a void per cubic metre",
+       "£48"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "9. Right to Repair and compensation"
+   },
+   {
+    "p": "Secure and assured tenants may claim compensation under our Right to Repair scheme if a qualifying small repair (under £250) is not completed within the prescribed time. Compensation for missed appointments is £20 per appointment, credited to the rent account on request. Wider compensation is considered through the complaints process."
+   },
+   {
+    "h1": "10. Quality and performance"
+   },
+   {
+    "bullets": [
+     "10% of completed jobs are post-inspected by a supervisor (100% of subcontractor jobs over £500)",
+     "Residents get a text satisfaction survey after each job; results feed the TSM repairs measures (TP02, TP03)",
+     "Performance is reported monthly to the Executive Team and quarterly to the Customer Experience Committee"
+    ]
+   },
+   {
+    "h1": "11. Related documents"
+   },
+   {
+    "bullets": [
+     "Damp & Mould Policy (v3.0)",
+     "Awaab's Law Procedure",
+     "Void Lettable Standard",
+     "Subcontractor Management Procedure",
+     "Van Stock and Job Sheet Procedure",
+     "Compliance Access Procedure",
+     "Complaints Policy"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rep-damp-mould-policy",
+  "type": "docx",
+  "title": "Damp and Mould Policy",
+  "site": "repairs",
+  "library": "Damp & Mould",
+  "folder": "Policy",
+  "category": "Policy",
+  "author": "P008",
+  "owner": "P004",
+  "modified_by": "P020",
+  "approved_by": "P001",
+  "created": "2023-06-05",
+  "modified": "2025-10-24",
+  "version": "3.0",
+  "status": "Approved",
+  "review_date": "2026-10-27",
+  "classification": "Public",
+  "tags": [
+   "damp",
+   "mould",
+   "Awaab's Law",
+   "HHSRS",
+   "written summary",
+   "policy"
+  ],
+  "summary": "Silvering's zero-tolerance approach to damp and mould, updated for Awaab's Law with the legal timescales for emergency hazards, investigations, written summaries and safety works.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2023-06-05",
+    "by": "P008",
+    "change": "First standalone damp and mould policy following the Housing Ombudsman spotlight report"
+   },
+   {
+    "version": "2.0",
+    "date": "2024-09-16",
+    "by": "P008",
+    "change": "Dedicated damp surveyor role; 10-day inspection target; follow-up visit at 6 months"
+   },
+   {
+    "version": "2.1",
+    "date": "2025-03-11",
+    "by": "P020",
+    "change": "Added vulnerability screening questions and dehumidifier loan scheme"
+   },
+   {
+    "version": "3.0",
+    "date": "2025-10-24",
+    "by": "P020",
+    "change": "Rewritten for Awaab's Law (from 27 Oct 2025): statutory timescales, written summary, alternative accommodation, record keeping. Approved by the Board 22 Oct 2025"
+   }
+  ],
+  "blocks": [
+   {
+    "callout": "This policy is due for review on 27 October 2026, one year after Awaab's Law came into force. The review is in progress (owner: Director of Property) and this version remains in force until it is replaced.",
+    "title": "Review status"
+   },
+   {
+    "h1": "1. Our commitment"
+   },
+   {
+    "p": "Damp and mould can cause serious harm, particularly to children, older people and anyone with a respiratory condition or weakened immune system. {{company.fictional_name}} takes a zero-tolerance approach: we will never blame residents' lifestyles, we will act on every report, and we will fix the cause, not just treat the mould."
+   },
+   {
+    "h1": "2. Scope"
+   },
+   {
+    "p": "This policy covers all homes let on social and affordable rent, older persons and supported housing, and market rent. For shared owners and leaseholders it applies to damp arising from the structure or communal parts we are responsible for. It covers reports from any source: residents, housing officers, operatives, complaints, TSM survey comments, councillors and MPs."
+   },
+   {
+    "h1": "3. Awaab's Law timescales"
+   },
+   {
+    "p": "From 27 October 2025 the Hazards in Social Housing (Prescribed Requirements) (England) Regulations 2025 set legal timescales for damp and mould hazards. These are **maximum** timescales; we aim to act sooner wherever we can. Working days exclude weekends and bank holidays."
+   },
+   {
+    "table": {
+     "columns": [
+      "Stage",
+      "Legal requirement",
+      "Silvering standard"
+     ],
+     "rows": [
+      [
+       "Emergency hazard (significant risk of harm, e.g. extensive black mould in a baby's bedroom, water through electrics)",
+       "Investigate and make safe within 24 hours",
+       "Same: surveyor or operative attends within 24 hours; decant considered at the visit"
+      ],
+      [
+       "Investigate a potential significant hazard",
+       "Within 10 working days of becoming aware",
+       "Within 10 working days; target 5 working days where a child or vulnerable resident lives"
+      ],
+      [
+       "Written summary of findings to the resident",
+       "Within 3 working days of the investigation concluding",
+       "Within 3 working days, by the resident's preferred contact method"
+      ],
+      [
+       "Start safety works for a significant hazard",
+       "Within 5 working days of the investigation concluding (or as soon as reasonably practicable where longer works are needed)",
+       "Within 5 working days; temporary measures (dehumidifier, mould wash) on the day of the investigation"
+      ],
+      [
+       "Alternative accommodation",
+       "If the home cannot be made safe within the timescales",
+       "Offered at no cost to the resident; Head of Neighbourhoods arranges"
+      ]
+     ],
+     "caption": "Table 1 - Awaab's Law and Silvering timescales"
+    }
+   },
+   {
+    "h1": "4. How we triage a report"
+   },
+   {
+    "numbered": [
+     "The adviser or officer logs the report in FieldLoop as a damp and mould job and asks the screening questions: Where is the mould? How much? Is anyone in the home under 5, over 75, pregnant, or living with a respiratory, heart or immune condition?",
+     "If the answers suggest an emergency hazard, the job is raised as Emergency and the duty surveyor is called directly.",
+     "All other reports go to the damp and mould team, who book an investigation within the 10-working-day window. FieldLoop starts the Awaab's Law clock automatically.",
+     "Each case is given a case number (DM) and is tracked on the daily breach report."
+    ]
+   },
+   {
+    "h1": "5. The investigation"
+   },
+   {
+    "p": "Investigations are carried out by one of our two damp and mould surveyors. The surveyor will: inspect every room, the loft and the outside of the building; take moisture and humidity readings and photographs; check ventilation, extractor fans, heating and insulation; look at the repairs history for the home and the block; and talk to the household about their health and who lives there. The surveyor assesses the hazard using HHSRS principles and records whether it is a **significant** hazard (Awaab's Law applies) or not significant."
+   },
+   {
+    "h1": "6. The written summary"
+   },
+   {
+    "p": "Within 3 working days of the investigation we send the resident a written summary. It must set out: what we found; whether there is a significant hazard; what work we will do and when; the expected timescales; what interim measures are in place; and who to contact. It is written in plain English and is available in other formats and languages on request. A copy is saved in the property's Damp & Mould record on SharePoint and linked in Keystone. The summary is still required where we find no significant hazard - in that case it explains why and what we will do anyway."
+   },
+   {
+    "h1": "7. Works and follow-up"
+   },
+   {
+    "bullets": [
+     "Safety works (e.g. mould treatment, fan installation, leak repair) start within 5 working days of the investigation.",
+     "Longer works (e.g. roof, damp-proof course, insulation) are scheduled with a target date in the written summary; interim measures stay in place.",
+     "Every case gets a post-works check within 4 weeks and a follow-up visit or call at 6 months.",
+     "Cases are closed only when the surveyor confirms the cause is fixed and the resident has been told."
+    ]
+   },
+   {
+    "h1": "8. Alternative accommodation"
+   },
+   {
+    "p": "Where a home cannot be made safe within the legal timescales, or the works require it, we will offer suitable alternative accommodation (a decant) at our cost, including removals and reasonable expenses. The resident keeps their tenancy and returns once the home is safe."
+   },
+   {
+    "h1": "9. Record keeping and reporting"
+   },
+   {
+    "p": "We keep a full record of every report, investigation, summary, work order and communication for at least 6 years. A daily breach report goes to the Head of Repairs; monthly performance goes to the Executive Team; quarterly reporting goes to the Customer Experience Committee and the Board."
+   },
+   {
+    "h1": "10. Roles"
+   },
+   {
+    "kv": [
+     [
+      "Director of Property",
+      "Policy owner; accountable to the Board"
+     ],
+     [
+      "Head of Repairs & Maintenance",
+      "Delivery and the daily breach report"
+     ],
+     [
+      "Damp & Mould Surveyors",
+      "Investigations, hazard decisions and written summaries"
+     ],
+     [
+      "Repairs Planning Manager",
+      "Scheduling works within timescales"
+     ],
+     [
+      "Housing Officers",
+      "Spotting damp at visits, supporting residents, access issues"
+     ],
+     [
+      "Head of Neighbourhoods",
+      "Alternative accommodation"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rep-awaabs-process-map",
+  "type": "pptx",
+  "title": "Awaab's Law Procedure - Process Map",
+  "site": "repairs",
+  "library": "Damp & Mould",
+  "folder": "Procedures",
+  "category": "Procedure",
+  "author": "P020",
+  "owner": "P008",
+  "modified_by": "P020",
+  "created": "2025-09-02",
+  "modified": "2025-09-26",
+  "version": "0.9",
+  "status": "Draft",
+  "classification": "Internal",
+  "tags": [
+   "Awaab's Law",
+   "process map",
+   "damp",
+   "procedure",
+   "draft"
+  ],
+  "summary": "Draft process map for handling damp and mould reports under Awaab's Law, from report to case closure, prepared for staff briefings in September 2025.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Awaab's Law procedure",
+    "subtitle": "Damp and mould: from report to closure",
+    "meta": "DRAFT v0.9 - Ellie Novak, Damp & Mould Surveyor - September 2025",
+    "notes": "Draft prepared for the September 2025 team briefings, before the policy was finalised. Check timescales against the approved Damp and Mould Policy."
+   },
+   {
+    "layout": "kpis",
+    "title": "The clocks we work to",
+    "kpis": [
+     {
+      "value": "24 hrs",
+      "label": "Emergency hazard made safe",
+      "note": "From the report"
+     },
+     {
+      "value": "14 days",
+      "label": "Investigate",
+      "note": "Calendar days from report"
+     },
+     {
+      "value": "5 days",
+      "label": "Written summary",
+      "note": "Working days after the visit"
+     },
+     {
+      "value": "5 days",
+      "label": "Start safety works",
+      "note": "Working days after the visit"
+     }
+    ],
+    "notes": "These were our working assumptions from the consultation draft of the regulations. To be confirmed when the final regulations and our policy are approved."
+   },
+   {
+    "layout": "steps",
+    "title": "Step by step",
+    "steps": [
+     {
+      "label": "1. Report",
+      "text": "Any channel. Adviser asks screening questions and raises a DM job in FieldLoop. Clock starts."
+     },
+     {
+      "label": "2. Triage",
+      "text": "Emergency? Call the duty surveyor now. Otherwise book investigation."
+     },
+     {
+      "label": "3. Investigate",
+      "text": "Surveyor visit: readings, photos, cause, household health, HHSRS hazard decision."
+     },
+     {
+      "label": "4. Summary",
+      "text": "Written summary to resident: findings, works, dates, contact."
+     },
+     {
+      "label": "5. Works",
+      "text": "Safety works start; interim measures (dehumidifier, mould wash) same day."
+     },
+     {
+      "label": "6. Close",
+      "text": "Post-works check at 4 weeks; 6-month follow-up; close case."
+     }
+    ]
+   },
+   {
+    "layout": "two_column",
+    "title": "Who does what",
+    "left": {
+     "heading": "Contact centre and housing officers",
+     "bullets": [
+      "Ask the screening questions every time",
+      "Never say 'open a window' as the answer",
+      "Flag children and health conditions",
+      "Report damp you see on any visit"
+     ]
+    },
+    "right": {
+     "heading": "Damp team and planners",
+     "bullets": [
+      "Surveyor owns the hazard decision",
+      "Surveyor writes the summary",
+      "Planners book works inside the window",
+      "Daily breach report by 9am"
+     ]
+    }
+   },
+   {
+    "layout": "bullets",
+    "title": "When we cannot get in",
+    "bullets": [
+     "Two attempts at different times of day, by phone, text and letter",
+     "Housing officer visit within 2 working days",
+     "Record every attempt in FieldLoop - the clock does not stop for no access unless we can evidence reasonable attempts",
+     "Escalate to Head of Repairs after the third failed attempt"
+    ]
+   },
+   {
+    "layout": "bullets",
+    "title": "Still to confirm",
+    "bullets": [
+     "Final timescales once regulations are laid",
+     "Template for the written summary (with Comms)",
+     "Decant budget and authority",
+     "FieldLoop clock configuration"
+    ],
+    "notes": "Open questions at September 2025. Superseded in part by the Damp and Mould Policy v3.0 approved October 2025."
+   }
+  ]
+ },
+ {
+  "id": "rep-void-standard",
+  "type": "docx",
+  "title": "Void Lettable Standard and Void Process",
+  "site": "repairs",
+  "library": "Voids",
+  "folder": "Standards",
+  "category": "Procedure",
+  "author": "P021",
+  "owner": "P008",
+  "modified_by": "P021",
+  "approved_by": "P008",
+  "created": "2024-03-04",
+  "modified": "2026-02-09",
+  "version": "2.2",
+  "status": "Approved",
+  "review_date": "2027-02-28",
+  "classification": "Internal",
+  "tags": [
+   "voids",
+   "lettable standard",
+   "empty homes",
+   "key to key",
+   "lettings"
+  ],
+  "summary": "The minimum standard every empty home must meet before it is let, and the end-to-end void process from notice to sign-up with targets.",
+  "version_history": [
+   {
+    "version": "2.0",
+    "date": "2024-03-04",
+    "by": "P021",
+    "change": "New lettable standard agreed with Resident Panel"
+   },
+   {
+    "version": "2.1",
+    "date": "2025-04-14",
+    "by": "P021",
+    "change": "Added damp and mould check and EICR on every void"
+   },
+   {
+    "version": "2.2",
+    "date": "2026-02-09",
+    "by": "P021",
+    "change": "Decoration vouchers increased; major works void definition clarified"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "An empty home is lost rent and a family waiting. This document sets the standard every home must meet before we let it and the process the voids team, lettings and contractors follow. At 5 November 2026 there were {{fact:voids_current}} homes in the void process; the average void period over the last 12 months was {{fact:void_days_avg_12m}} days and rent loss was {{fact:void_rent_loss_12m}}."
+   },
+   {
+    "h1": "2. Targets"
+   },
+   {
+    "table": {
+     "columns": [
+      "Measure",
+      "Standard void",
+      "Major works void"
+     ],
+     "rows": [
+      [
+       "Keys to works complete",
+       "10 calendar days",
+       "35 calendar days"
+      ],
+      [
+       "Works complete to let",
+       "7 calendar days",
+       "7 calendar days"
+      ],
+      [
+       "Key to key (total)",
+       "21 calendar days",
+       "45 calendar days"
+      ]
+     ]
+    }
+   },
+   {
+    "p": "A void is classed as **major works** where it needs a new kitchen or bathroom, rewiring, structural or damp works over £3,000, or asbestos removal."
+   },
+   {
+    "h1": "3. The lettable standard"
+   },
+   {
+    "h2": "3.1 Safety (every home, no exceptions)"
+   },
+   {
+    "bullets": [
+     "New gas safety record (LGSR) and boiler service; gas capped until sign-up and reconnected at sign-up",
+     "New EICR (Electrical Installation Condition Report) with any C1/C2 items fixed",
+     "Hard-wired, interlinked smoke alarms on every floor and a carbon monoxide alarm next to any fuel-burning appliance",
+     "Asbestos survey checked; no works in an area containing asbestos without a refurbishment survey",
+     "Damp and mould check by a surveyor with moisture readings; any mould treated and cause fixed",
+     "Locks changed on all external doors; three sets of keys"
+    ]
+   },
+   {
+    "h2": "3.2 Clean, secure and working"
+   },
+   {
+    "bullets": [
+     "All rubbish, furniture and belongings removed (including loft, shed and garden)",
+     "Professionally cleaned, including kitchen, bathroom, windows and floors",
+     "All windows open, close and lock; all glazing intact",
+     "Kitchen: at least two base units, one wall unit, worktop, sink and space for cooker with a cooker point",
+     "Bathroom: working bath or shower, toilet and basin, all with seals renewed",
+     "Heating and hot water working in every room",
+     "Garden clear and safe; boundary fences in reasonable repair"
+    ]
+   },
+   {
+    "h2": "3.3 Decoration"
+   },
+   {
+    "p": "Walls and ceilings must be sound and free of stains. Where decoration is poor, the new tenant receives a B&Q decoration voucher (£25 per room, maximum £150) instead of a full redecoration. Homes for SilverLiving, supported housing or residents with a disability are fully redecorated."
+   },
+   {
+    "h1": "4. Void process"
+   },
+   {
+    "numbered": [
+     "**Notice received** (Lettings): pre-void inspection booked within 5 working days; photos and recharges noted; tenant advised on clearing the home.",
+     "**Keys returned** (Lettings): void opened in Keystone; utilities and meter readings recorded; Voids Supervisor notified the same day.",
+     "**Void inspection** (Voids Supervisor, day 1-2): works order raised in FieldLoop; standard or major works decided; damp check and EICR booked.",
+     "**Works** (operatives and contractors): clearance first, then trades in sequence; daily progress in FieldLoop.",
+     "**Post-works inspection** (Voids Supervisor): signed off against this standard; any failures fixed within 2 days.",
+     "**Ready to let** (Lettings): viewings within 2 working days; sign-up and gas reconnection."
+    ]
+   },
+   {
+    "h1": "5. New-build handovers"
+   },
+   {
+    "p": "New homes at Orchard Fields are let under the developer handover checklist, not this standard. Defects found at handover are logged with Castlemere Construction through the Development team; the voids team only attends if a defect makes the home unlettable."
+   }
+  ]
+ },
+ {
+  "id": "rep-performance-report-oct26",
+  "type": "docx",
+  "title": "Repairs Performance Report - October 2026",
+  "site": "repairs",
+  "library": "Performance",
+  "folder": "2026-27/Monthly reports",
+  "category": "Report",
+  "author": "P018",
+  "owner": "P008",
+  "modified_by": "P008",
+  "approved_by": "P004",
+  "created": "2026-11-02",
+  "modified": "2026-11-04",
+  "version": "1.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "tags": [
+   "repairs",
+   "performance",
+   "routine repairs",
+   "October 2026",
+   "Awaab's Law",
+   "Brightline"
+  ],
+  "summary": "Monthly repairs and damp and mould performance for October 2026, explaining why routine repairs in target fell from May 2026 and the recovery plan.",
+  "blocks": [
+   {
+    "h1": "1. Summary"
+   },
+   {
+    "p": "October was the busiest month for repair reports in two years ({{sql:SELECT reported FROM monthly_repairs WHERE month = '2026-10'}} reported, driven by the first cold snap and Orchard Fields defects being logged as repairs). Emergency performance stayed strong at {{sql:SELECT emergency_pct FROM monthly_repairs WHERE month = '2026-10'}}% in target. Routine repairs remain the problem: {{fact:routine_in_target_oct26}}. The average routine job now takes {{sql:SELECT routine_avg_days FROM monthly_repairs WHERE month = '2026-10'}} days against a 28-day target and {{sql:SELECT routine_avg_days FROM monthly_repairs WHERE month = '2025-10'}} days a year ago."
+   },
+   {
+    "kv": [
+     [
+      "Repairs completed in target (last 12 months)",
+      "{{fact:repairs_in_target_12m}}"
+     ],
+     [
+      "Emergency repairs in target (last 12 months)",
+      "{{fact:emergency_in_target_12m}}"
+     ],
+     [
+      "First-time fix (last 12 months)",
+      "{{fact:first_time_fix_12m}}"
+     ],
+     [
+      "Open repairs today",
+      "{{fact:repairs_open}}"
+     ],
+     [
+      "Brenchley Gardens repairs in target (12 months)",
+      "{{fact:brenchley_in_target}}"
+     ],
+     [
+      "Awaab's Law cases with a timescale breach",
+      "{{fact:damp_breaches}} of {{fact:damp_cases_awaab}} ({{fact:rep_awaab_breach_rate}})"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Monthly trend"
+   },
+   {
+    "table": {
+     "sql": "SELECT month AS Month, reported AS Reported, completed AS Completed, pct_in_target AS \"All in target %\", emergency_pct AS \"Emergency %\", urgent_pct AS \"Urgent %\", routine_pct AS \"Routine %\", routine_avg_days AS \"Routine avg days\", first_time_fix_pct AS \"First-time fix %\" FROM monthly_repairs WHERE month >= '2025-11' ORDER BY month",
+     "caption": "Table 1 - Repairs performance, November 2025 to October 2026 (source: monthly_repairs, FieldLoop)"
+    }
+   },
+   {
+    "h1": "3. Why routine repairs fell from May 2026"
+   },
+   {
+    "p": "Routine performance held between 85% and 92% for 18 months, then fell from {{sql:SELECT routine_pct FROM monthly_repairs WHERE month = '2026-04'}}% in April to {{sql:SELECT routine_pct FROM monthly_repairs WHERE month = '2026-06'}}% in June and has not recovered. Three causes combined:"
+   },
+   {
+    "numbered": [
+     "**Trade vacancies.** Two electrician posts have been vacant since March 2026 and the plasterer post since May. With only two in-house electricians left, routine electrical work was rationed behind emergencies and EICR remedials. Routine electrical jobs completed in target from May to October fell to {{fact:rep_electrical_routine_6m}}.",
+     "**More work sent to Brightline Electrical.** To cover the gap we sent more electrical work to our subcontractor. Brightline's jobs are completed in target only {{fact:rep_brightline_in_target}} of the time, they do not always return job numbers on invoices, and FieldLoop is not updated until the invoice arrives - so jobs look open (and late) for longer than they really are.",
+     "**Summer leave.** Leave was not staggered across trades. In August three of the five carpenters and two plumbers were off in the same fortnight, and routine jobs were pushed back to protect emergency and urgent work."
+    ]
+   },
+   {
+    "table": {
+     "sql": "SELECT trade AS Trade, COUNT(CASE WHEN completed_date >= '2025-05-01' AND completed_date < '2025-11-01' THEN 1 END) AS \"Jobs May-Oct 2025\", ROUND(100.0 * AVG(CASE WHEN completed_date >= '2025-05-01' AND completed_date < '2025-11-01' THEN in_target END), 1) AS \"In target May-Oct 2025 (%)\", COUNT(CASE WHEN completed_date >= '2026-05-01' AND completed_date < '2026-11-01' THEN 1 END) AS \"Jobs May-Oct 2026\", ROUND(100.0 * AVG(CASE WHEN completed_date >= '2026-05-01' AND completed_date < '2026-11-01' THEN in_target END), 1) AS \"In target May-Oct 2026 (%)\" FROM repairs WHERE status = 'Completed' AND priority = 'Routine' GROUP BY trade ORDER BY 5",
+     "caption": "Table 2 - Routine repairs completed in target by trade, May-October 2025 vs May-October 2026"
+    }
+   },
+   {
+    "p": "Every trade is down, not just electrical, which tells us this is a capacity and scheduling problem across the service rather than a single-trade issue. Damp and mould follow-on works and roofing (Weald Roofing, whose contract ends in December) are also weak."
+   },
+   {
+    "h1": "4. Contractors"
+   },
+   {
+    "table": {
+     "sql": "SELECT contractor AS Contractor, COUNT(*) AS Jobs, SUM(status = 'Completed') AS Completed, ROUND(100.0 * AVG(in_target), 1) AS \"In target %\", ROUND(SUM(cost_gbp), 0) AS \"Cost (£)\" FROM repairs WHERE contractor IS NOT NULL AND reported_date >= '2026-05-01' GROUP BY contractor ORDER BY Jobs DESC",
+     "format": {
+      "Cost (£)": "gbp"
+     },
+     "caption": "Table 3 - Subcontractor jobs reported since 1 May 2026"
+    }
+   },
+   {
+    "h1": "5. Damp and mould (Awaab's Law)"
+   },
+   {
+    "p": "Since Awaab's Law came into force we have handled {{fact:damp_cases_awaab}} cases under the regulations. {{fact:damp_breaches}} breached at least one timescale. The most common failure is a late written summary ({{fact:rep_summary_late}} cases), which is an administrative failure we can fix: surveyors are writing summaries at the end of the week rather than the end of each day. {{fact:rep_awaiting_summary_overdue}} open cases are still waiting for a written summary months after the investigation - these are being completed this week."
+   },
+   {
+    "table": {
+     "sql": "SELECT COALESCE(timescale_breach, 'No breach') AS Outcome, COUNT(*) AS Cases FROM damp_mould_cases WHERE awaabs_law = 1 GROUP BY 1 ORDER BY Cases DESC",
+     "caption": "Table 4 - Awaab's Law cases by timescale outcome"
+    }
+   },
+   {
+    "h1": "6. Recovery plan"
+   },
+   {
+    "actions": [
+     {
+      "action": "Recruit two electricians with the market supplement approved by ExCo (adverts live 14 Oct)",
+      "owner": "P013",
+      "due": "2026-12-18",
+      "status": "In progress"
+     },
+     {
+      "action": "Agency plasterer for 12 weeks to clear the plastering and damp follow-on backlog",
+      "owner": "P008",
+      "due": "2026-11-09",
+      "status": "In progress"
+     },
+     {
+      "action": "Brightline to return job numbers on every invoice and update FieldLoop within 48 hours (contract variation)",
+      "owner": "P038",
+      "due": "2026-11-30",
+      "status": "Open"
+     },
+     {
+      "action": "Saturday overtime blitz on routine jobs older than 28 days at Brenchley Gardens",
+      "owner": "P018",
+      "due": "2026-11-28",
+      "status": "Open"
+     },
+     {
+      "action": "Leave planning rule: no more than one operative per trade off at the same time from 2027",
+      "owner": "P008",
+      "due": "2026-12-31",
+      "status": "Open"
+     },
+     {
+      "action": "Surveyors to send written summaries the same day as the investigation",
+      "owner": "P020",
+      "due": "2026-11-06",
+      "status": "Open"
+     }
+    ]
+   },
+   {
+    "p": "We expect routine performance to recover to 75% by January and 85% by March 2027 if the electrician posts are filled before Christmas."
+   }
+  ]
+ },
+ {
+  "id": "rep-dashboard-workbook",
+  "type": "xlsx",
+  "title": "Repairs Dashboard 2026-27",
+  "site": "repairs",
+  "library": "Performance",
+  "folder": "2026-27",
+  "category": "Report",
+  "author": "P018",
+  "owner": "P018",
+  "modified_by": "P018",
+  "created": "2026-04-06",
+  "modified": "2026-11-04",
+  "version": "7",
+  "status": "Live",
+  "classification": "Internal",
+  "tags": [
+   "repairs",
+   "dashboard",
+   "KPIs",
+   "FieldLoop",
+   "monthly"
+  ],
+  "summary": "Working dashboard of repairs KPIs from FieldLoop: monthly trend, priority and trade breakdowns, scheme league table, open jobs and contractors.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Repairs Dashboard 2026-27 - maintained by Kwame Asante, Repairs Planning Manager",
+     "Source: FieldLoop export refreshed weekly (Monday 7am). Last refresh 4 November 2026.",
+     "Targets: Emergency 24 hours; Urgent 5 working days; Routine 28 calendar days; Planned 90 days.",
+     "In target = completed on or before the target date. Open jobs are excluded from in-target figures.",
+     "Note: Brightline Electrical jobs show as open until the invoice is matched - treat the Open jobs tab with care."
+    ]
+   },
+   {
+    "name": "Monthly",
+    "sql": "SELECT month AS Month, reported AS Reported, completed AS Completed, pct_in_target AS \"All %\", emergency_pct AS \"Emergency %\", urgent_pct AS \"Urgent %\", routine_pct AS \"Routine %\", routine_avg_days AS \"Routine avg days\", first_time_fix_pct AS \"FTF %\", cost_gbp AS \"Cost\" FROM monthly_repairs ORDER BY month",
+    "format": {
+     "Cost": "gbp"
+    },
+    "chart": {
+     "type": "line",
+     "cat_col": "Month",
+     "val_cols": [
+      "Emergency %",
+      "Urgent %",
+      "Routine %"
+     ],
+     "title": "Repairs in target by priority"
+    }
+   },
+   {
+    "name": "By priority",
+    "sql": "SELECT priority AS Priority, COUNT(*) AS Completed, ROUND(AVG(in_target), 3) AS \"In target\", ROUND(AVG(days_to_complete), 1) AS \"Avg days\" FROM repairs WHERE status = 'Completed' AND completed_date >= '2025-11-05' GROUP BY priority ORDER BY Completed DESC",
+    "format": {
+     "In target": "pct"
+    }
+   },
+   {
+    "name": "By trade",
+    "sql": "SELECT trade AS Trade, COUNT(*) AS Completed, ROUND(AVG(in_target), 3) AS \"In target\", ROUND(AVG(first_time_fix), 3) AS \"First-time fix\", ROUND(SUM(cost_gbp), 0) AS Cost FROM repairs WHERE status = 'Completed' AND completed_date >= '2025-11-05' GROUP BY trade ORDER BY \"In target\"",
+    "format": {
+     "In target": "pct",
+     "First-time fix": "pct",
+     "Cost": "gbp"
+    },
+    "chart": {
+     "type": "bar",
+     "cat_col": "Trade",
+     "val_cols": [
+      "In target"
+     ],
+     "title": "In target by trade (12 months)"
+    }
+   },
+   {
+    "name": "By scheme",
+    "sql": "SELECT scheme_name AS Scheme, homes AS Homes, repairs_12m AS \"Repairs 12m\", ROUND(1.0 * repairs_12m / homes, 2) AS \"Repairs per home\", open_repairs AS \"Open\", overdue_repairs AS \"Overdue\", damp_cases_12m AS \"Damp cases 12m\", tsm_overall_pct AS \"TSM overall %\" FROM scheme_summary ORDER BY \"Repairs per home\" DESC"
+   },
+   {
+    "name": "Open jobs",
+    "sql": "SELECT job_no AS \"Job no\", substr(reported_date, 1, 10) AS Reported, scheme_name AS Scheme, address_line1 AS Address, trade AS Trade, description AS Description, priority AS Priority, target_date AS Target, status AS Status, COALESCE(operative, contractor) AS \"Assigned to\", overdue AS Overdue FROM repairs WHERE status NOT IN ('Completed', 'Cancelled') ORDER BY target_date"
+   },
+   {
+    "name": "Contractors",
+    "sql": "SELECT contractor AS Contractor, substr(reported_date, 1, 7) AS Month, COUNT(*) AS Jobs, ROUND(AVG(in_target), 3) AS \"In target\", ROUND(SUM(cost_gbp), 0) AS Cost FROM repairs WHERE contractor IS NOT NULL AND reported_date >= '2026-01-01' GROUP BY 1, 2 ORDER BY 1, 2",
+    "format": {
+     "In target": "pct",
+     "Cost": "gbp"
+    }
+   }
+  ]
+ },
+ {
+  "id": "rep-brenchley-deep-dive",
+  "type": "pptx",
+  "title": "Brenchley Gardens - Repairs and Damp Deep-Dive",
+  "site": "repairs",
+  "library": "Performance",
+  "folder": "Deep dives",
+  "category": "Report",
+  "author": "P008",
+  "owner": "P004",
+  "modified_by": "P024",
+  "created": "2026-09-29",
+  "modified": "2026-10-12",
+  "version": "1.1",
+  "status": "Final",
+  "classification": "Internal",
+  "tags": [
+   "Brenchley Gardens",
+   "deep dive",
+   "damp",
+   "repairs",
+   "estate",
+   "SCH03"
+  ],
+  "summary": "Deep-dive into repairs, damp and mould, complaints and satisfaction at Brenchley Gardens (SCH03) for the Executive Team, with root causes and an estate action plan.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Brenchley Gardens",
+    "subtitle": "Repairs and damp deep-dive",
+    "meta": "Executive Team - 14 October 2026 - Daniel Kerr and Jess Moreland",
+    "notes": "Requested by Gareth after the September board pack highlighted Brenchley again. Data from FieldLoop, Keystone and the TSM survey, refreshed 12 October."
+   },
+   {
+    "layout": "kpis",
+    "title": "Brenchley at a glance",
+    "kpis": [
+     {
+      "value": "{{fact:brenchley_homes}}",
+      "label": "Homes (1964 estate)",
+      "note": "Flats, maisonettes and houses"
+     },
+     {
+      "value": "{{sql:SELECT repairs_12m FROM scheme_summary WHERE scheme_id = 'SCH03'}}",
+      "label": "Repairs in 12 months",
+      "note": "Highest of any scheme"
+     },
+     {
+      "value": "{{fact:brenchley_in_target}}",
+      "label": "Repairs in target",
+      "note": "Organisation: {{fact:repairs_in_target_12m}}"
+     },
+     {
+      "value": "{{fact:damp_brenchley_share}}",
+      "label": "Share of all damp cases",
+      "note": "Last 12 months"
+     },
+     {
+      "value": "{{sql:SELECT complaints_12m FROM scheme_summary WHERE scheme_id = 'SCH03'}}",
+      "label": "Complaints in 12 months"
+     },
+     {
+      "value": "{{fact:tsm_brenchley_overall}}",
+      "label": "TSM overall satisfaction",
+      "note": "Organisation: {{fact:tsm_overall_2526}}"
+     }
+    ]
+   },
+   {
+    "layout": "chart",
+    "title": "Repairs per home: Brenchley versus the rest",
+    "chart": {
+     "type": "bar",
+     "title": "Repairs per home, last 12 months (top 10 schemes)",
+     "sql": "SELECT scheme_name, ROUND(1.0 * repairs_12m / homes, 2) AS \"Repairs per home\" FROM scheme_summary ORDER BY 2 DESC LIMIT 10",
+     "labels": true
+    },
+    "notes": "Brenchley residents report almost three times as many repairs per home as the average estate."
+   },
+   {
+    "layout": "chart",
+    "title": "What goes wrong at Brenchley",
+    "chart": {
+     "type": "bar",
+     "title": "Brenchley repairs by trade since November 2025",
+     "sql": "SELECT trade, COUNT(*) AS Jobs FROM repairs WHERE scheme_id = 'SCH03' AND reported_date >= '2025-11-01' GROUP BY trade ORDER BY Jobs DESC",
+     "labels": true
+    }
+   },
+   {
+    "layout": "table",
+    "title": "Damp and mould at Brenchley",
+    "table": {
+     "sql": "SELECT cause AS Cause, COUNT(*) AS Cases, SUM(hazard_level != 'Not significant') AS \"Significant or emergency\", SUM(children_in_household) AS \"Homes with children\" FROM damp_mould_cases WHERE scheme_id = 'SCH03' GROUP BY cause ORDER BY Cases DESC"
+    },
+    "notes": "Condensation dominates, but on this estate it is a building problem: 1960s solid walls, cold bridging at concrete balconies, no mechanical extract in most kitchens and bathrooms, and single-pipe heating in the maisonettes."
+   },
+   {
+    "layout": "chart",
+    "title": "Routine repairs in target - Brenchley versus all homes",
+    "chart": {
+     "type": "line",
+     "title": "Routine repairs completed in target (%)",
+     "sql": "SELECT substr(completed_date, 1, 7) AS Month, ROUND(100.0 * AVG(CASE WHEN scheme_id = 'SCH03' THEN in_target END), 1) AS Brenchley, ROUND(100.0 * AVG(in_target), 1) AS \"All homes\" FROM repairs WHERE status = 'Completed' AND priority = 'Routine' AND completed_date >= '2025-11-01' AND completed_date < '2026-11-01' GROUP BY 1 ORDER BY 1"
+    }
+   },
+   {
+    "layout": "bullets",
+    "title": "Root causes",
+    "bullets": [
+     "Building fabric: no planned investment since a 2009 window programme; the 2021 stock condition survey recommended roof and insulation works that were deferred",
+     "Ventilation: only 38% of homes have working mechanical extract in kitchen and bathroom",
+     "Repeat jobs: the same homes come back - one in four repairs is a repeat within 90 days",
+     "Capacity: Brenchley is a third of our damp workload with two surveyors for the whole stock",
+     "Trust: residents told us at the September estate walkabout that they have stopped reporting because 'nothing happens'"
+    ]
+   },
+   {
+    "layout": "steps",
+    "title": "Estate action plan",
+    "steps": [
+     {
+      "label": "Now",
+      "text": "Saturday repairs blitz on overdue routine jobs; same-day written summaries"
+     },
+     {
+      "label": "Nov-Dec",
+      "text": "Fit humidity-controlled extract fans in every home without one (164 homes surveyed)"
+     },
+     {
+      "label": "Jan 2027",
+      "text": "Stock condition re-survey of the whole estate (100%)"
+     },
+     {
+      "label": "2027/28",
+      "text": "Retrofit business case: external wall insulation, roofs, ventilation - SHDF bid"
+     },
+     {
+      "label": "Ongoing",
+      "text": "Monthly estate surgery with housing officer, surveyor and planner"
+     },
+     {
+      "label": "Report",
+      "text": "Quarterly Brenchley update to Customer Experience Committee"
+     }
+    ]
+   },
+   {
+    "layout": "bullets",
+    "title": "Decisions for the Executive Team",
+    "bullets": [
+     "Approve £96,000 from the planned works contingency for extract fans",
+     "Approve 100% re-survey of Brenchley in January (Asset team)",
+     "Agree Brenchley as the first retrofit priority in the Asset Management Strategy"
+    ],
+    "notes": "Outcome 14 Oct: all three approved. Fans to be fitted by in-house multi-trades with electrician support once the vacancies are filled. Priti to bring the retrofit case to the March 2027 board."
+   }
+  ]
+ },
+ {
+  "id": "rep-subcontractor-procedure",
+  "type": "docx",
+  "title": "Subcontractor Management Procedure",
+  "site": "repairs",
+  "library": "Contractors",
+  "folder": "Procedures",
+  "category": "Procedure",
+  "author": "P038",
+  "owner": "P008",
+  "modified_by": "P008",
+  "approved_by": "P004",
+  "created": "2024-05-20",
+  "modified": "2026-06-15",
+  "version": "2.0",
+  "status": "Approved",
+  "review_date": "2027-06-30",
+  "classification": "Internal",
+  "tags": [
+   "subcontractors",
+   "contractors",
+   "Brightline",
+   "invoices",
+   "quality",
+   "procurement"
+  ],
+  "summary": "How repairs work is passed to subcontractors, how they are vetted, instructed, monitored and paid, including invoice matching and quality checks.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2024-05-20",
+    "by": "P038",
+    "change": "First issue"
+   },
+   {
+    "version": "2.0",
+    "date": "2026-06-15",
+    "by": "P008",
+    "change": "Added overflow rules for electrical work, FieldLoop update deadline and invoice matching rules after Brightline issues"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "We use subcontractors for specialist trades and to cover peaks in demand. Residents should not be able to tell the difference: subcontractors work to our Repairs Policy, our timescales and our standards of behaviour. This procedure applies to all repairs and compliance subcontractors listed in the approved supplier list maintained by Procurement."
+   },
+   {
+    "h1": "2. Approved subcontractors"
+   },
+   {
+    "table": {
+     "sql": "SELECT supplier_name AS Subcontractor, category AS \"Work covered\", contract_end AS \"Contract end\", performance_rag AS RAG FROM suppliers WHERE supplier_id IN ('SUP01', 'SUP02', 'SUP03', 'SUP04', 'SUP14') ORDER BY supplier_name",
+     "format": {
+      "Contract end": "date"
+     },
+     "caption": "Table 1 - Repairs subcontractors (source: supplier register)"
+    }
+   },
+   {
+    "h1": "3. Vetting"
+   },
+   {
+    "bullets": [
+     "Public liability (£10m) and employer's liability (£10m) insurance, checked annually",
+     "Gas Safe registration (gas work) or NICEIC / NAPIT registration (electrical work) for every operative",
+     "Enhanced DBS checks for anyone working in SilverLiving or supported housing",
+     "Signed Silvering Code of Conduct and data sharing agreement",
+     "Health and safety: RAMS submitted and approved before first job"
+    ]
+   },
+   {
+    "h1": "4. Instructing work"
+   },
+   {
+    "numbered": [
+     "Planner raises the job in FieldLoop and assigns it to the subcontractor. A purchase order is created automatically in Northway.",
+     "The subcontractor receives the job through the FieldLoop subcontractor portal with the job number, priority, target date and access notes.",
+     "The subcontractor must accept the job within 4 working hours (1 hour for emergencies) and book the appointment directly with the resident.",
+     "When the job is complete, the subcontractor updates FieldLoop with completion date, notes and photos **within 48 hours**."
+    ]
+   },
+   {
+    "h2": "4.1 Electrical overflow"
+   },
+   {
+    "p": "While we have electrician vacancies, routine and urgent electrical repairs that cannot be booked in-house within 10 working days are passed to Brightline Electrical. EICR work in occupied homes is passed only with approval of the Compliance Officer."
+   },
+   {
+    "h1": "5. Invoices"
+   },
+   {
+    "p": "Invoices must quote the FieldLoop job number and the purchase order number for every line. Invoices without a job number are returned unpaid. The Repairs Planning Manager matches invoices against completed jobs weekly; any invoice line for a job not marked complete in FieldLoop is queried. Variations over £250 need prior approval by a planner."
+   },
+   {
+    "h1": "6. Quality and performance"
+   },
+   {
+    "bullets": [
+     "Post-inspection of 100% of jobs over £500 and 10% of all others",
+     "Monthly KPI return: jobs received, completed in target, first-time fix, recalls, complaints",
+     "Quarterly contract meeting with the contract manager; RAG rating reviewed",
+     "Two consecutive Red quarters triggers a formal improvement notice"
+    ]
+   },
+   {
+    "h1": "7. Behaviour"
+   },
+   {
+    "p": "Subcontractor staff must carry Silvering ID, wear overshoes, introduce themselves, and never discuss a resident's affairs. Complaints about subcontractors are handled through our complaints process; the subcontractor must respond to us within 3 working days."
+   }
+  ]
+ },
+ {
+  "id": "rep-van-stock-procedure",
+  "type": "docx",
+  "title": "Van Stock and Job Sheet Procedure",
+  "site": "repairs",
+  "library": "Repairs Procedures",
+  "folder": "Operatives",
+  "category": "Procedure",
+  "author": "P018",
+  "owner": "P018",
+  "modified_by": "P018",
+  "approved_by": "P008",
+  "created": "2025-01-13",
+  "modified": "2025-11-03",
+  "version": "1.3",
+  "status": "Approved",
+  "review_date": "2026-11-30",
+  "classification": "Internal",
+  "tags": [
+   "van stock",
+   "job sheet",
+   "operatives",
+   "FieldLoop",
+   "first-time fix",
+   "paper job sheet"
+  ],
+  "summary": "How operatives manage van stock, complete jobs on the FieldLoop app and use paper job sheets when the app is unavailable.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2025-01-13",
+    "by": "P018",
+    "change": "FieldLoop go-live"
+   },
+   {
+    "version": "1.3",
+    "date": "2025-11-03",
+    "by": "P018",
+    "change": "Paper job sheet fallback and 24-hour keying rule; damp observation box added"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Why it matters"
+   },
+   {
+    "p": "Fixing a repair on the first visit is better for residents and cheaper for us. Our first-time fix rate over the last 12 months was {{fact:first_time_fix_12m}}. The most common reason for a second visit is that the operative did not have the part on the van."
+   },
+   {
+    "h1": "2. Van stock"
+   },
+   {
+    "bullets": [
+     "Each van carries a standard stock list for the operative's trade (see appendix in FieldLoop)",
+     "Operatives scan items used against the job in FieldLoop; stock is replenished from the depot every Tuesday and Friday",
+     "Monthly stock check by the Repairs Planning Manager or deputy; variances over £50 investigated",
+     "Parts not on the van are ordered through the planners - the job status is set to Awaiting parts with an expected date"
+    ]
+   },
+   {
+    "h1": "3. Completing a job on FieldLoop"
+   },
+   {
+    "numbered": [
+     "Mark 'on my way' (sends the resident a text)",
+     "Arrive, introduce yourself, show ID",
+     "Record work done, materials, time on site and photos before/after",
+     "Record any further work needed and raise a follow-on job",
+     "Record any damp, mould, safety or safeguarding concern (mandatory question)",
+     "Ask the resident to sign on the device; mark complete"
+    ]
+   },
+   {
+    "h1": "4. Paper job sheets"
+   },
+   {
+    "p": "If the app is not working (no signal in basements, device failure), use a paper job sheet from the van pack. The sheet must record the job number, address, arrival and departure times, work done, materials, further work, any damp or safety observation and the resident's signature."
+   },
+   {
+    "callout": "Paper job sheets must be handed to the planners and keyed into FieldLoop within 24 hours. Until they are keyed, FieldLoop still shows the job as open and the resident may be chased or sent a survey in error. Scanned sheets are saved in Repairs Procedures/Job Sheets but are image-only and cannot be searched.",
+    "title": "24-hour keying rule"
+   },
+   {
+    "h1": "5. Damp and safety observations"
+   },
+   {
+    "p": "Every operative is a pair of eyes in the home. If you see damp or mould, a gas or electrical danger, signs of hoarding, neglect or abuse, record it and phone the planners before you leave. The planner will raise a damp and mould case (which starts the Awaab's Law clock) or make the right referral."
+   }
+  ]
+ },
+ {
+  "id": "rep-awaab-summaries",
+  "type": "series",
+  "site": "repairs",
+  "library": "Damp & Mould",
+  "folder": "Written Summaries/{{row.scheme_name}}",
+  "sql": "SELECT d.*, t.postcode, CASE d.hazard_level WHEN 'Emergency' THEN 'an emergency hazard' WHEN 'Significant' THEN 'a significant hazard' ELSE 'not a significant hazard' END AS hazard_text, CASE WHEN d.works_due IS NULL THEN 'No safety works are required because we did not find a significant hazard. We will still carry out the improvement works below as routine repairs.' ELSE 'Because we found a hazard, we must start safety works by ' || strftime('%d/%m/%Y', d.works_due) || '.' END AS works_text, CASE d.cause WHEN 'Condensation (ventilation)' THEN 'Install a humidity-controlled extractor fan in the kitchen and bathroom, check the trickle vents on all windows and treat the affected areas with a fungicidal wash and mould-resistant paint.' WHEN 'Plumbing leak' THEN 'Trace and repair the leak, dry out the affected area with a dehumidifier, then replaster and make good where needed.' WHEN 'Penetrating damp' THEN 'Repair the external defect allowing water in (pointing, render or sealant), then treat and redecorate the affected walls once dry.' WHEN 'Roof or gutter defect' THEN 'Repair the roof covering and clear or replace the guttering, then treat and make good the internal ceiling and walls.' WHEN 'Rising damp' THEN 'Carry out a specialist damp survey and install or repair the damp-proof course, then replaster with a breathable plaster.' ELSE 'Improve insulation at the cold spots identified, treat the mould and fit a humidity-controlled fan.' END AS works_plan FROM damp_mould_cases d JOIN tenancies t USING(tenancy_ref) WHERE d.awaabs_law = 1 AND d.summary_sent_date IS NOT NULL ORDER BY d.reported_date LIMIT 8",
+  "filename": "Written summary - {{row.case_id}} {{row.address_line1}}",
+  "author": "P020",
+  "classification": "Confidential",
+  "category": "Letter",
+  "doc_type_label": "Awaab's Law written summary",
+  "tags": [
+   "Awaab's Law",
+   "written summary",
+   "damp",
+   "mould",
+   "resident letter"
+  ],
+  "template": {
+   "type": "docx",
+   "title": "Written summary of our damp and mould investigation - {{row.address_line1}}",
+   "created": "{{row.summary_sent_date}}",
+   "modified": "{{row.summary_sent_date}}",
+   "version": "1.0",
+   "status": "Sent",
+   "doc_control": false,
+   "summary": "Awaab's Law written summary for case {{row.case_id}} at {{row.address_line1}} ({{row.scheme_name}}): {{row.hazard_level}} hazard, cause {{row.cause}}.",
+   "blocks": [
+    {
+     "kv": [
+      [
+       "To",
+       "{{row.lead_tenant}}"
+      ],
+      [
+       "Address",
+       "{{row.address_line1}}, Maidstone area {{row.postcode}}"
+      ],
+      [
+       "Our reference",
+       "{{row.case_id}} / {{row.tenancy_ref}}"
+      ],
+      [
+       "Date of this letter",
+       "{{row.summary_sent_date|date}}"
+      ],
+      [
+       "Surveyor",
+       "{{row.surveyor}}"
+      ]
+     ]
+    },
+    {
+     "p": "Dear {{row.lead_tenant}},"
+    },
+    {
+     "p": "Thank you for letting us know about damp and mould in your home. This letter is your **written summary** of our investigation, which we are required to send you under Awaab's Law. It tells you what we found, what we are going to do, and when."
+    },
+    {
+     "h2": "What we found"
+    },
+    {
+     "p": "{{row.surveyor}} visited your home on {{row.investigated_date|date}}. The main cause of the damp and mould is: **{{row.cause}}**. Having assessed the risk to your household's health, we have decided that this is **{{row.hazard_text}}** under the Housing Health and Safety Rating System."
+    },
+    {
+     "h2": "What we will do"
+    },
+    {
+     "p": "{{row.works_plan}}"
+    },
+    {
+     "p": "{{row.works_text}}"
+    },
+    {
+     "h2": "In the meantime"
+    },
+    {
+     "bullets": [
+      "We can lend you a dehumidifier free of charge - call us to arrange delivery",
+      "Keep the doors of rooms with mould closed and use the extractor fans we have provided",
+      "Wipe away mould with the kit the surveyor left; do not brush it, as this spreads spores",
+      "If anyone in your home becomes unwell, or the mould spreads quickly, call us straight away on our repairs line - we will treat it as an emergency"
+     ]
+    },
+    {
+     "h2": "If you are not happy"
+    },
+    {
+     "p": "If you disagree with our findings or we do not keep to these dates, please contact your surveyor first. You can also make a complaint through MySilvering, by phone or in writing, and you can contact the Housing Ombudsman at any time."
+    },
+    {
+     "p": "Yours sincerely,"
+    },
+    {
+     "p": "**{{row.surveyor}}**, Damp & Mould Surveyor, on behalf of {{company.fictional_name}}"
+    },
+    {
+     "p": "*This summary is available in large print, other languages and audio. Please ask.*"
+    }
+   ]
+  }
+ },
+ {
+  "id": "rep-scan-jobsheet-rj405857",
+  "type": "scan",
+  "format": "pdf",
+  "quality": "poor",
+  "title": "Paper job sheet RJ405857 - 75 Brenchley Gardens (Lee Barton)",
+  "site": "repairs",
+  "library": "Repairs Procedures",
+  "folder": "Job Sheets/2026-11",
+  "category": "Job sheet",
+  "doc_type_label": "Operative job sheet (scanned)",
+  "author": "P019",
+  "created": "2026-11-04",
+  "modified": "2026-11-04",
+  "classification": "Confidential",
+  "tags": [
+   "job sheet",
+   "scanned",
+   "Lee Barton",
+   "Brenchley Gardens",
+   "leak",
+   "damp observation"
+  ],
+  "summary": "Handwritten paper job sheet completed by plumber Lee Barton when FieldLoop had no signal; records a leak under the bath, a further visit and a damp observation. Image only - not yet keyed into FieldLoop.",
+  "letterhead": true,
+  "show_title": true,
+  "blocks": [
+   {
+    "p": "**Paper job sheet** - use only when FieldLoop is unavailable. Hand to planners within 24 hours."
+   },
+   {
+    "form": [
+     [
+      "Job number",
+      "RJ405857"
+     ],
+     [
+      "Address",
+      "75 Brenchley Gardens"
+     ],
+     [
+      "Resident",
+      "{{sql:SELECT lead_tenant FROM tenancies WHERE address_line1 = '75 Brenchley Gardens'}}"
+     ],
+     [
+      "Date",
+      "04/11/2026"
+     ],
+     [
+      "Arrived",
+      "08:20"
+     ],
+     [
+      "Left",
+      "09:55"
+     ],
+     [
+      "Operative",
+      "Lee Barton - van SV14"
+     ],
+     [
+      "Reason FieldLoop not used",
+      "No signal - app froze, tablet dead by 8.30"
+     ]
+    ],
+    "ink": "blue"
+   },
+   {
+    "h3": "Work carried out"
+   },
+   {
+    "hand": "Leak under bath from waste trap + cracked overflow. Replaced trap (40mm). Overflow is old style - not on van. Water has soaked chipboard floor by bath, soft underfoot. Isolated, put tray under, told res not to use bath - shower over basin ok.",
+    "ink": "blue"
+   },
+   {
+    "h3": "Materials used"
+   },
+   {
+    "form": [
+     [
+      "40mm bath trap",
+      "1"
+     ],
+     [
+      "PTFE / silicone",
+      "1 tube"
+     ]
+    ],
+    "ink": "blue"
+   },
+   {
+    "h3": "Further work needed"
+   },
+   {
+    "checks": [
+     [
+      "Further visit needed",
+      true
+     ],
+     [
+      "Parts to order",
+      true
+     ],
+     [
+      "Another trade needed",
+      true
+     ]
+    ]
+   },
+   {
+    "hand": "Need: bath overflow kit + new floor panel 1 sq m - carpenter. Plasterer for ceiling of kitchen below? stain approx 40cm. PRIORITY URGENT pls.",
+    "ink": "blue"
+   },
+   {
+    "h3": "Damp / mould / safety observation"
+   },
+   {
+    "checks": [
+     [
+      "Damp or mould seen",
+      true
+     ],
+     [
+      "Gas or electrical concern",
+      false
+     ],
+     [
+      "Safeguarding concern",
+      false
+     ]
+    ]
+   },
+   {
+    "hand": "Black mould back bedroom ceiling corner + window reveal. Grandson (1) stays most wks - cot in that room. Res says reported in summer? Pls raise DM case - LB",
+    "ink": "red"
+   },
+   {
+    "signature": "P019",
+    "date": "2026-11-04"
+   },
+   {
+    "form": [
+     [
+      "Resident signature",
+      "S. Gibson (signed)"
+     ]
+    ],
+    "ink": "blue"
+   },
+   {
+    "stamp": "Received - planners",
+    "date": "2026-11-05"
+   }
+  ]
+ },
+ {
+  "id": "rep-img-standup-whiteboard",
+  "type": "image",
+  "kind": "whiteboard",
+  "site": "repairs",
+  "library": "Performance",
+  "folder": "Daily stand-up",
+  "title": "Whiteboard - daily repairs stand-up 4 November 2026",
+  "heading": "Daily stand-up - Wed 4/11",
+  "author": "P018",
+  "created": "2026-11-04",
+  "modified": "2026-11-04",
+  "classification": "Internal",
+  "tags": [
+   "whiteboard",
+   "stand-up",
+   "depot",
+   "photo",
+   "actions"
+  ],
+  "summary": "Photo of the depot whiteboard from the 4 November daily repairs stand-up: today's pressures, Awaab's Law clocks, and actions with initials.",
+  "columns": [
+   {
+    "heading": "Today",
+    "items": [
+     "21 ops in, 2 off sick (JO, AH)",
+     "!3 emergencies o/night - all made safe",
+     "Orchard Fields - 6 defect jobs, send to Castlemere?",
+     "Brenchley Sat blitz - 14 vols so far"
+    ]
+   },
+   {
+    "heading": "Awaab clocks",
+    "items": [
+     "!DM1188 88 Brenchley - works start late",
+     "DM1084 Flat 47 - inv due 6/11 (Thu)",
+     "DM1120 / DM1020 - inv due 11-12/11",
+     "!3 summaries still not sent - EN",
+     "~DM1097 Vinters - done"
+    ]
+   },
+   {
+    "heading": "Brightline",
+    "items": [
+     "!14 jobs invoiced w/o job no.",
+     "Darren call Thurs",
+     "Flat 121 sockets - chase",
+     "~Price list v2"
+    ]
+   },
+   {
+    "heading": "Actions",
+    "items": [
+     "KA - invoice match by Fri",
+     "EN - summaries same day from now",
+     "DK - agency plasterer start 9/11",
+     "SH - 2 voids ready Mon"
+    ]
+   }
+  ],
+  "footer": "Next stand-up 07:45 Thu - KA"
+ },
+ {
+  "id": "rep-img-routine-chart",
+  "type": "image",
+  "kind": "chart",
+  "format": "png",
+  "site": "repairs",
+  "library": "Performance",
+  "folder": "Charts",
+  "title": "Chart - routine repairs in target by month",
+  "author": "P024",
+  "created": "2026-11-03",
+  "modified": "2026-11-03",
+  "classification": "Internal",
+  "tags": [
+   "chart",
+   "routine repairs",
+   "in target",
+   "trend"
+  ],
+  "summary": "Line chart of the percentage of routine repairs completed within 28 days each month since November 2024, showing the fall from May 2026.",
+  "chart": {
+   "type": "line",
+   "title": "Routine repairs completed in target (%)",
+   "sql": "SELECT month AS Month, routine_pct AS \"Routine in target %\" FROM monthly_repairs ORDER BY month"
+  }
+ },
+ {
+  "id": "rep-email-brightline-invoices",
+  "type": "email",
+  "subject": "Brightline invoices October - missing job numbers and two recalls",
+  "summary": "Kwame Asante queries Brightline Electrical's October invoices (no job numbers, jobs still open in FieldLoop) and a quality issue; Brightline responds and Daniel Kerr escalates to a contract meeting.",
+  "importance": "high",
+  "sharepoint_copy": {
+   "site": "repairs",
+   "library": "Contractors",
+   "folder": "Brightline Electrical"
+  },
+  "messages": [
+   {
+    "from": "P018",
+    "to": [
+     {
+      "name": "Darren Wilkes",
+      "email": "darren.wilkes@brightline-electrical.co.uk"
+     }
+    ],
+    "cc": [
+     "P023",
+     "P038"
+    ],
+    "date": "2026-10-29T16:12",
+    "body": "Hi Darren,\n\nI've been through your October invoices (BEL-10871 to BEL-10889) against FieldLoop and I can't pay most of them as they stand.\n\n1. 14 invoice lines have no FieldLoop job number, only an address and 'electrical works'. Our procedure (and your contract) says every line must have the job number and PO. I've attached the list.\n\n2. At least six of those jobs are still showing as open in FieldLoop because nobody has closed them on the portal. That means they're showing as late in our figures and residents are getting chased by our contact centre for jobs you've done.\n\n3. Two recalls: Flat 16 Parkwood Court (light fitting replaced, failed again after four days) and 64 Catherine Station (socket left without a faceplate - resident has a toddler). Lee found the second one when he was there on a plumbing job.\n\nCan you get me corrected invoices with job numbers and close the jobs on the portal by Wednesday? And please send an engineer back to Catherine Station tomorrow - that one is a safety issue.\n\nThanks,\nKwame"
+   },
+   {
+    "from": {
+     "name": "Darren Wilkes",
+     "email": "darren.wilkes@brightline-electrical.co.uk"
+    },
+    "to": [
+     "P018"
+    ],
+    "cc": [
+     "P023"
+    ],
+    "date": "2026-10-30T08:47",
+    "body": "Morning Kwame,\n\nApologies - we've had a new admin starting and the job numbers weren't being carried across from the portal into our invoicing system. I'll get corrected invoices to you by Tuesday.\n\nCatherine Station is booked for 11am today, Marcin is going and he'll send you photos.\n\nParkwood Court - the fitting was the one your stores supplied, so I'm not sure that's on us, but we'll look again at no charge.\n\nOn the portal: to be honest our lads find it slow and the login times out. Can we have a call about that? We've doubled the work we do for you since the summer and it's the same two engineers.\n\nRegards,\nDarren Wilkes\nContracts Manager, Brightline Electrical Ltd"
+   },
+   {
+    "from": "P018",
+    "to": [
+     "P008"
+    ],
+    "cc": [],
+    "date": "2026-10-30T09:30",
+    "body": "Dan - FYI below. They've fixed the safety one, but I don't think the job number thing will go away while they're this stretched. He says it's still two engineers, and we've more than doubled what we send them since May.\n\nThis is a big part of why our routine electrical figures look so bad. Can we take it to a proper contract meeting rather than me chasing invoices every month?\n\nK"
+   },
+   {
+    "from": "P008",
+    "to": [
+     "P018",
+     "P038",
+     "P023"
+    ],
+    "cc": [
+     "P004"
+    ],
+    "date": "2026-10-30T11:05",
+    "body": "Agreed. Ben - please set up a contract review with Brightline for the week of 9 November. I want on the agenda:\n\n- invoice matching (no job number, no payment - no exceptions from 1 December)\n- FieldLoop portal updates within 48 hours, as per the procedure\n- capacity: can they actually take what we're sending, or do we need a second overflow contractor\n- recalls and post-inspection results\n\nRob - can you pull their EICR remedial completion rate too, as I want to know whether the compliance work is affected.\n\nThanks,\nDan"
+   }
+  ]
+ },
+ {
+  "id": "rep-email-damp-escalation",
+  "type": "email",
+  "subject": "URGENT - damp and mould, 88 Brenchley Gardens (DM1188) - toddler in household",
+  "summary": "Housing officer Amira Haddad escalates a resident's damp and mould report at 88 Brenchley Gardens after a home visit; the surveyor and Head of Repairs respond on the late investigation and works.",
+  "importance": "high",
+  "sharepoint_copy": {
+   "site": "repairs",
+   "library": "Damp & Mould",
+   "folder": "Case correspondence"
+  },
+  "messages": [
+   {
+    "from": "P025",
+    "to": [
+     "P020",
+     "P008"
+    ],
+    "cc": [
+     "P011"
+    ],
+    "date": "2026-10-20T15:42",
+    "body": "Hi Ellie, Dan,\n\nI visited Sally Newton at 88 Brenchley Gardens today for a tenancy visit. She reported damp on 2 October (DM1188) and nobody has been out yet. She has a two-year-old and the back bedroom - where the little one sleeps - has black mould across the ceiling and behind the wardrobe. The window reveals are wet. I took photos (attached to the Keystone record).\n\nMs Newton says she was told on the phone to 'keep the windows open and wipe it down'. She's now talking to her councillor.\n\nBy my count the 10 working days ran out on Friday 16th. Can someone get out to her this week please? I've told her I'd chase today.\n\nThanks,\nAmira\nHousing Officer, Maidstone South"
+   },
+   {
+    "from": "P020",
+    "to": [
+     "P025"
+    ],
+    "cc": [
+     "P008"
+    ],
+    "date": "2026-10-20T17:05",
+    "body": "Hi Amira,\n\nThank you - and sorry. This one was booked for the 15th but Marcus was moved to an emergency at Shepway Green and it didn't get rebooked. That's on us.\n\nI'll go myself tomorrow morning (21st) at 9.30. I'll bring a dehumidifier and a mould kit. If it's as bad as your photos look I'll treat it as significant and we'll get the fan in and mould treatment done inside the 5 days.\n\nI'll send her the written summary the same day.\n\nEllie"
+   },
+   {
+    "from": "P008",
+    "to": [
+     "P020",
+     "P025"
+    ],
+    "cc": [
+     "P011",
+     "P032"
+    ],
+    "date": "2026-10-22T08:15",
+    "body": "Thanks both.\n\nEllie - I've seen your notes. Significant hazard, condensation with cold bridging at the balcony slab. Summary went yesterday, which is good. I've asked Kwame to book the fan and the mould treatment for Sunday so we're inside the works deadline of the 28th.\n\nThis is recorded as an investigation breach in the breach report. Mark - Ms Newton may well complain; if she does please make sure the stage 1 response acknowledges the missed visit and the advice she was given on the phone. That advice is exactly what the policy says we must never say. I'll raise it with Hannah for the contact centre refresher.\n\nAmira - thank you for pushing this.\n\nDan"
+   },
+   {
+    "from": "P025",
+    "to": [
+     "P008",
+     "P020"
+    ],
+    "cc": [],
+    "date": "2026-10-26T10:20",
+    "body": "Quick update - Ms Newton says the fan went in yesterday and the room already feels drier. She's still waiting for someone to come back about the wardrobe (it's ruined) and the bedding. Who should I speak to about a goodwill payment?\n\nAmira"
+   }
+  ]
+ },
+ {
+  "id": "rep-chat-planners",
+  "type": "chat",
+  "title": "Repairs - Planners",
+  "team": "Repairs & Maintenance",
+  "channel": "Planners",
+  "summary": "Repairs planners' channel, 2-4 November 2026: no-access jobs, the Brenchley Saturday blitz, overdue written summaries, Brightline jobs and agency plasterer.",
+  "sharepoint_copy": {
+   "site": "repairs",
+   "library": "Performance",
+   "folder": "Teams/Planners"
+  },
+  "messages": [
+   {
+    "from": "P018",
+    "time": "2026-11-02T07:52",
+    "text": "Morning all. Cold weekend = 31 new jobs overnight in the queue, 9 heating. Bradley can you take heating triage first, anyone over 75 or with a vuln flag goes to Urgent minimum."
+   },
+   {
+    "from": "P021",
+    "time": "2026-11-02T08:10",
+    "text": "Two voids at Shepway Green ready for post-inspection today. Can I borrow Kayleigh for snagging this afternoon?"
+   },
+   {
+    "from": "P018",
+    "time": "2026-11-02T08:14",
+    "text": "Yes, after her 12-4 at Orchard Fields."
+   },
+   {
+    "from": "P020",
+    "time": "2026-11-02T09:31",
+    "text": "Breach report flagged 3 cases still 'awaiting written summary': DM1160, DM1005 (both Brenchley) and DM1171 Shepway. These were investigated ages ago - Dec, Jan and March. I genuinely think the summaries were written but never logged as sent. Checking the SharePoint folder now.",
+    "reactions": [
+     "😬 2"
+    ]
+   },
+   {
+    "from": "P020",
+    "time": "2026-11-02T10:05",
+    "text": "Not there. They were never sent. I'll write all three today and get them out by email and post."
+   },
+   {
+    "from": "P008",
+    "time": "2026-11-02T10:11",
+    "text": "Thanks Ellie. Please note them on the breach log honestly - don't backdate anything. I'll tell Gareth before the Exec meeting."
+   },
+   {
+    "from": "P018",
+    "time": "2026-11-02T11:40",
+    "text": "Brenchley Saturday blitz 14th and 28th: 14 operatives volunteered so far. I've pulled every routine job at SCH03 older than 28 days - 43 open, 8 overdue. Will group by block so we're not driving round in circles."
+   },
+   {
+    "from": "P019",
+    "time": "2026-11-02T12:02",
+    "text": "Put me down for both. Can someone make sure the overflow kits are on the van this time though, last blitz I lost half a day going back to the depot",
+    "reactions": [
+     "👍 4"
+    ]
+   },
+   {
+    "from": "P018",
+    "time": "2026-11-03T08:20",
+    "text": "Brightline update: Darren says corrected invoices tomorrow. Flat 121 Brenchley (sockets) was assigned to them on the 3rd - nobody has accepted it on the portal yet."
+   },
+   {
+    "from": "P008",
+    "time": "2026-11-03T08:41",
+    "text": "If it's not accepted by midday, bring it back in-house. Justin has a gap Thursday PM."
+   },
+   {
+    "from": "P018",
+    "time": "2026-11-03T13:05",
+    "text": "Done - Justin Thursday 1pm. Brightline notified."
+   },
+   {
+    "from": "P021",
+    "time": "2026-11-03T15:30",
+    "text": "Agency plasterer confirmed for Mon 9th, 12 weeks. First week all damp follow-on at Brenchley please, there are 7 waiting."
+   },
+   {
+    "from": "P019",
+    "time": "2026-11-04T10:12",
+    "text": "Tablet died at 75 Brenchley this morning, no signal anyway. Paper sheet in the tray. Leak under bath, needs overflow kit + carpenter for the floor. Also black mould in the back bedroom, there is a cot in there for her grandson. She says she reported it in the summer. Can someone raise a DM case?"
+   },
+   {
+    "from": "P018",
+    "time": "2026-11-04T10:20",
+    "text": "Thanks Lee. Will key the sheet first thing tomorrow, I'm out at Orchard Fields all afternoon."
+   },
+   {
+    "from": "P020",
+    "time": "2026-11-04T10:26",
+    "text": "@Kwame please don't wait for the sheet to raise the damp case - the Awaab clock starts when we're told, which was 10.12 today. I'll raise it now and go Friday.",
+    "reactions": [
+     "👍 3"
+    ]
+   },
+   {
+    "from": "P008",
+    "time": "2026-11-04T16:55",
+    "text": "Reminder: stand-up 07:45 tomorrow. Bring your no-access lists."
+   }
+  ]
+ },
+ {
+  "id": "mtg-rep-standup-2026-11-04",
+  "type": "meeting",
+  "title": "Daily repairs stand-up",
+  "organiser": "P008",
+  "attendees": [
+   "P018",
+   "P020",
+   "P021",
+   "P019",
+   {
+    "name": "Bradley Jordan",
+    "email": "bradley.jordan@silvering-homes.org.uk"
+   }
+  ],
+  "start": "2026-11-04T07:45",
+  "duration": 15,
+  "location": "Aylesford depot - planning office",
+  "recurrence": "daily",
+  "site": "repairs",
+  "library": "Performance",
+  "classification": "Internal",
+  "tags": [
+   "stand-up",
+   "daily",
+   "depot",
+   "Awaab's Law",
+   "Brightline"
+  ],
+  "summary": "Daily depot stand-up on 4 November 2026: overnight emergencies, Awaab's Law clocks, Brightline invoices and job acceptance, Brenchley Saturday blitz and agency plasterer.",
+  "agenda": [
+   "Overnight and today",
+   "Awaab's Law clocks",
+   "Contractors",
+   "Voids",
+   "Actions"
+  ],
+  "transcript": [
+   {
+    "from": "P008",
+    "text": "Right, quarter to, let's go. Quick one today, I've got Exec at ten. Kwame, overnight?"
+   },
+   {
+    "from": "P018",
+    "text": "Three emergencies overnight. Burst pipe at 62 Shepway Green, water through the ceiling at 129 Shepway, and a no-heating at Linton Lodge. All made safe, all done by the out-of-hours guys. Dennis did two of them, so he's in late today."
+   },
+   {
+    "from": "P008",
+    "text": "Fine. Who's off?"
+   },
+   {
+    "from": "P018",
+    "text": "Justin and Aimee off sick. So we're down one of our two sparks again today, which, yeah."
+   },
+   {
+    "from": "P008",
+    "text": "Which hurts. Okay. Anything Justin had that's a must-do?"
+   },
+   {
+    "from": "P018",
+    "text": "Two EICR remedials, I'll ask Rob if Pamela can take them, and the rest I'll push to tomorrow and Friday."
+   },
+   {
+    "from": "P008",
+    "text": "Ellie, clocks."
+   },
+   {
+    "from": "P020",
+    "text": "So. DM1188, 88 Brenchley. Works were due by the 28th, they started the 25th, so that's fine, but it's already logged as an investigation breach because of the missed visit. Ms Newton wants to talk about compensation for the wardrobe."
+   },
+   {
+    "from": "P008",
+    "text": "Send that one to Owen's team as a goodwill request, not a complaint, unless she wants it as a complaint."
+   },
+   {
+    "from": "P020",
+    "text": "Will do. Then DM1084, Flat 47 Brenchley, investigation due Thursday - that's tomorrow - I'm going this afternoon. DM1120 and DM1020 are due the 11th and 12th, both booked for Monday."
+   },
+   {
+    "from": "P021",
+    "text": "Flat 47's the one with the overdue EICR as well, isn't it?"
+   },
+   {
+    "from": "P020",
+    "text": "Is it? Oh. I didn't know that."
+   },
+   {
+    "from": "P021",
+    "text": "Yeah, it's on Rob's list. Four no-accesses or something."
+   },
+   {
+    "from": "P008",
+    "text": "Ellie, if you're getting in, can you ring Rob from the doorstep and see if he can get someone round the same day? That's exactly the sort of thing we should be joining up."
+   },
+   {
+    "from": "P020",
+    "text": "Yep. And the three old summaries - they've all gone out now, by email and post, yesterday. I've logged them as late, sent the 3rd."
+   },
+   {
+    "from": "P008",
+    "text": "Good. And from now on?"
+   },
+   {
+    "from": "P020",
+    "text": "Same day as the visit. Me and Marcus both. I've made a template on the tablet so we can do it in the van."
+   },
+   {
+    "from": "P008",
+    "text": "Brilliant. Kwame, Brightline."
+   },
+   {
+    "from": "P018",
+    "text": "Fourteen invoice lines with no job number. Darren says corrected invoices today, I'll believe it when I see it. Flat 121 sockets - they never accepted it, so we've brought it back in, Justin Thursday... although Justin's off, so, hmm, I'll look at that."
+   },
+   {
+    "from": "P008",
+    "text": "Ben's setting up the contract meeting for week of the ninth. I want the invoice match done by Friday so I've got the numbers."
+   },
+   {
+    "from": "P018",
+    "text": "By Friday, yes."
+   },
+   {
+    "from": {
+     "name": "Bradley Jordan",
+     "email": "bradley.jordan@silvering-homes.org.uk"
+    },
+    "text": "Oh and Orchard Fields - six more jobs in, they're all defects really, not repairs. Do I send them to Castlemere?"
+   },
+   {
+    "from": "P008",
+    "text": "If it's inside the defects period, yes, through Paul in Development. We're not paying for Castlemere's snagging. Log them, tag them 'defect', send the list to Paul."
+   },
+   {
+    "from": "P021",
+    "text": "Voids - two at Shepway ready for Monday, the Heron Way one's waiting on the EICR. And the agency plasterer starts Monday the ninth."
+   },
+   {
+    "from": "P008",
+    "text": "Put him on the damp follow-ons at Brenchley first week. Lee, anything?"
+   },
+   {
+    "from": "P019",
+    "text": "Just the vans. If we're doing the blitz Saturday after next, can we have overflow kits and a few waste traps on every plumber's van? Last time I lost half a day."
+   },
+   {
+    "from": "P018",
+    "text": "I'll do a stock list for the blitz."
+   },
+   {
+    "from": "P008",
+    "text": "Lovely. Saturday blitz numbers, Kwame?"
+   },
+   {
+    "from": "P018",
+    "text": "Fourteen volunteers. Forty-three open jobs at Brenchley, eight overdue. I'll group them by block."
+   },
+   {
+    "from": "P008",
+    "text": "Great. That's it. Thanks all. Off you go."
+   }
+  ],
+  "recap": {
+   "summary": "Short stand-up covering three overnight emergencies (all made safe), sickness leaving one in-house electrician, Awaab's Law cases due this week, the three late written summaries now sent, Brightline invoice and job-acceptance problems, Orchard Fields defects and the Brenchley Saturday blitz.",
+   "topics": [
+    {
+     "title": "Overnight and staffing",
+     "text": "Three emergencies made safe overnight. Justin Owen and Aimee Harrison off sick, leaving one in-house electrician; EICR remedials to be passed to Pamela Nash if possible."
+    },
+    {
+     "title": "Awaab's Law clocks",
+     "text": "DM1188 works started within deadline but logged as an investigation breach; DM1084 investigation due 5 Nov (visit today); DM1120 and DM1020 booked for Monday. Three overdue summaries sent 3 Nov and logged as late. Surveyors now send summaries the same day. Flat 47 Brenchley also has an overdue EICR - surveyor to try to arrange a joint visit."
+    },
+    {
+     "title": "Brightline Electrical",
+     "text": "14 invoice lines with no job number; Flat 121 sockets job never accepted so brought back in-house, but the allocated electrician is now off sick. Contract meeting week of 9 Nov."
+    },
+    {
+     "title": "Orchard Fields and voids",
+     "text": "Six new Orchard Fields jobs are defects: tag and pass to Development for Castlemere. Two Shepway Green voids ready Monday. Agency plasterer starts 9 Nov on Brenchley damp follow-ons."
+    }
+   ],
+   "decisions": [
+    "Orchard Fields defects inside the defects period go to Castlemere via Development, not to our operatives",
+    "Written summaries to be sent the same day as the investigation",
+    "Agency plasterer's first week on Brenchley damp follow-on works"
+   ],
+   "actions": [
+    {
+     "action": "Complete Brightline invoice match ahead of the contract meeting",
+     "owner": "P018",
+     "due": "2026-11-06"
+    },
+    {
+     "action": "Reallocate Flat 121 Brenchley sockets job (Justin off sick)",
+     "owner": "P018",
+     "due": "2026-11-04"
+    },
+    {
+     "action": "Raise goodwill request for DM1188 wardrobe and bedding with Customer Resolutions",
+     "owner": "P020",
+     "due": "2026-11-06"
+    },
+    {
+     "action": "Ask Rob Quinlan to attend Flat 47 Brenchley for the overdue EICR during the damp visit",
+     "owner": "P020",
+     "due": "2026-11-04"
+    },
+    {
+     "action": "Stock list for the Brenchley Saturday blitz (overflow kits, waste traps)",
+     "owner": "P018",
+     "due": "2026-11-12"
+    },
+    {
+     "action": "Send Orchard Fields defect list to Paul Whitaker",
+     "owner": "P018",
+     "due": "2026-11-05"
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,996 @@
+{
+  "fictional_name": "Silvering Homes",
+  "legal_name": "Silvering Homes Ltd",
+  "pack_name": "Silvering Homes Training Pack",
+  "slug": "silvering",
+  "domain": "silvering-homes.org.uk",
+  "site_prefix": "SVH",
+  "as_of": "2026-11-05",
+  "sector": "Social housing (housing association)",
+  "tagline": "Local homes, listening landlord.",
+  "description": "Silvering Homes is a community-based housing association in mid Kent, owning and managing about 1,840 homes for social rent, affordable rent, shared ownership, older people and market rent. It was set up in 2005 to take over the borough council's homes, runs its own in-house repairs service, and builds around 40 new homes a year, with homes for sale through its subsidiary Silvering Places Ltd.",
+  "founded": "2005",
+  "company_number": "Community Benefit Society no. 8417 · RSH registration LH4917",
+  "financial_year_end": "31 March",
+  "headcount": 74,
+  "revenue_label": "£14.6m turnover (2025/26)",
+  "hq": {
+    "line1": "Kingsgate House, 14 Fremlin Walk",
+    "city": "Maidstone",
+    "postcode": "ME14 1QZ"
+  },
+  "offices": [
+    {
+      "name": "Aylesford repairs depot",
+      "address": "Unit 6, Mills Road Trade Park, Aylesford ME20 7NA"
+    },
+    {
+      "name": "Linton Lodge (independent living hub)",
+      "address": "Linton Road, Loose, Maidstone ME15 0AB"
+    }
+  ],
+  "values": [
+    "We care",
+    "We listen and act",
+    "We take pride",
+    "We own it"
+  ],
+  "kpis": [
+    {
+      "label": "Homes owned & managed",
+      "value": "{{fact:homes_total}}"
+    },
+    {
+      "label": "Overall satisfaction (TSM 2025/26)",
+      "value": "{{fact:tsm_overall_2526}}"
+    },
+    {
+      "label": "Repairs completed in target (12 months)",
+      "value": "{{fact:repairs_in_target_12m}}"
+    },
+    {
+      "label": "Current tenant arrears",
+      "value": "{{fact:arrears_pct}}"
+    }
+  ],
+  "quick_links": [
+    {
+      "label": "Damp and mould policy"
+    },
+    {
+      "label": "Complaints policy"
+    },
+    {
+      "label": "Repairs priorities"
+    },
+    {
+      "label": "Expenses policy"
+    },
+    {
+      "label": "Tenancy agreement"
+    },
+    {
+      "label": "Brand guidelines"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2005",
+      "event": "Silvering Homes formed when 1,520 council homes transfer from the borough council after a tenant ballot."
+    },
+    {
+      "date": "2011",
+      "event": "First new-build homes completed at Allington Mews."
+    },
+    {
+      "date": "2016",
+      "event": "Silvering Places Ltd set up to build homes for market sale."
+    },
+    {
+      "date": "2019",
+      "event": "Hop Pocket Way, the largest mixed-tenure scheme to date (84 homes), completes."
+    },
+    {
+      "date": "2021",
+      "event": "Repairs brought in-house; the outsourced maintenance contract ends and the Aylesford depot opens."
+    },
+    {
+      "date": "Apr 2024",
+      "event": "Northway Finance Cloud replaces the legacy finance system."
+    },
+    {
+      "date": "Nov 2024",
+      "event": "FieldLoop contract signed for repairs scheduling and mobile working."
+    },
+    {
+      "date": "Apr 2025",
+      "event": "First full year of Tenant Satisfaction Measures under the new Customer Promise."
+    },
+    {
+      "date": "Oct 2025",
+      "event": "Awaab's Law comes into force for damp and mould and emergency hazards."
+    },
+    {
+      "date": "Mar 2026",
+      "event": "Regulator of Social Housing inspection: C2 / G1 / V2. Damp and mould and complaint handling are the areas to improve."
+    },
+    {
+      "date": "Apr 2026",
+      "event": "Corporate Plan 2026-2030 'Home First' launched; rents rise 4.8% (CPI + 1%)."
+    },
+    {
+      "date": "Oct 2026",
+      "event": "First residents move into Orchard Fields phase 1 (62 homes)."
+    }
+  ],
+  "systems": [
+    {
+      "name": "Keystone Housing",
+      "purpose": "Housing management system: properties, tenancies, rent accounts, ASB cases, lettings and voids."
+    },
+    {
+      "name": "FieldLoop",
+      "purpose": "Repairs scheduling and mobile working for in-house operatives: jobs, appointments, van stock, job sheets."
+    },
+    {
+      "name": "Assure360",
+      "purpose": "Compliance and building safety: gas, electrical, fire, water, asbestos and lift certificates and actions."
+    },
+    {
+      "name": "Northway Finance Cloud",
+      "purpose": "Finance, purchase ledger, budgets and expenses (since April 2024)."
+    },
+    {
+      "name": "MySilvering",
+      "purpose": "Resident portal and app: report a repair, pay rent, view balance, raise a complaint."
+    },
+    {
+      "name": "PeoplePath",
+      "purpose": "HR, payroll, absence and training records."
+    },
+    {
+      "name": "SwapNest",
+      "purpose": "Mutual exchange matching service for tenants who want to swap homes."
+    },
+    {
+      "name": "Microsoft 365",
+      "purpose": "Outlook, Teams, SharePoint, OneDrive, Copilot and Power BI."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "TSM",
+      "definition": "Tenant Satisfaction Measures: 22 measures every social landlord reports to the Regulator each year (12 from a tenant survey, 10 from management data)."
+    },
+    {
+      "term": "RSH",
+      "definition": "Regulator of Social Housing. Grades landlords on consumer standards (C1-C4), governance (G1-G4) and viability (V1-V4)."
+    },
+    {
+      "term": "Awaab's Law",
+      "definition": "Legal timescales for social landlords to investigate and fix damp and mould and emergency hazards (in force from 27 October 2025)."
+    },
+    {
+      "term": "HHSRS",
+      "definition": "Housing Health and Safety Rating System: how hazards in a home are assessed."
+    },
+    {
+      "term": "Decent Homes Standard",
+      "definition": "Minimum standard for social homes: free of serious hazards, in reasonable repair, modern facilities, reasonable warmth."
+    },
+    {
+      "term": "LGSR",
+      "definition": "Landlord Gas Safety Record: annual gas safety check, required every 12 months."
+    },
+    {
+      "term": "EICR",
+      "definition": "Electrical Installation Condition Report: required at least every 5 years."
+    },
+    {
+      "term": "FRA",
+      "definition": "Fire Risk Assessment of a block's communal areas."
+    },
+    {
+      "term": "HRB",
+      "definition": "Higher-risk building: 18m+ or 7+ storeys with 2+ homes, registered with the Building Safety Regulator. Rosemount Tower is Silvering's only HRB."
+    },
+    {
+      "term": "Void",
+      "definition": "An empty home between tenancies. Void days and rent loss are key performance measures."
+    },
+    {
+      "term": "LCRA / LCHO",
+      "definition": "Low cost rental accommodation (social, affordable and older persons' rent) / low cost home ownership (shared ownership). TSMs are reported separately for each."
+    },
+    {
+      "term": "UC / APA",
+      "definition": "Universal Credit / Alternative Payment Arrangement (housing costs paid direct to the landlord)."
+    },
+    {
+      "term": "NOSP",
+      "definition": "Notice of Seeking Possession: the formal notice before court action for rent arrears."
+    },
+    {
+      "term": "Stage 1 / Stage 2",
+      "definition": "The two stages of the complaints process under the Housing Ombudsman's Complaint Handling Code."
+    },
+    {
+      "term": "Mutual exchange",
+      "definition": "Two tenants swapping homes with their landlords' permission."
+    },
+    {
+      "term": "SilverLiving",
+      "definition": "Silvering's independent living service for residents aged 55+ in its four sheltered and extra-care schemes."
+    },
+    {
+      "term": "Careline",
+      "definition": "Silvering's 24/7 alarm and emergency response service for older and vulnerable residents."
+    }
+  ],
+  "brand": {
+    "primary": "#2C5F6E",
+    "secondary": "#7D8B97",
+    "accent": "#E09F3E",
+    "dark": "#1B2D34",
+    "light": "#F1F4F5",
+    "logo_shape": "chevrons",
+    "logo_text": "silvering",
+    "monogram": "S",
+    "font_heading": "Segoe UI Semibold",
+    "font_body": "Segoe UI"
+  },
+  "mailboxes": [
+    {
+      "address": "customerservices@silvering-homes.org.uk",
+      "name": "Customer Services",
+      "owner": "customer",
+      "description": "Public contact address: general enquiries, tenancy questions, complaints that arrive by email, compliments, partner agencies, councillors and MPs."
+    },
+    {
+      "address": "repairs@silvering-homes.org.uk",
+      "name": "Repairs",
+      "owner": "repairs",
+      "description": "Repair reports and follow-ups from residents, contractor updates, appointment changes, damp and mould reports, MySilvering portal notifications."
+    },
+    {
+      "address": "rents@silvering-homes.org.uk",
+      "name": "Rents & Income",
+      "owner": "tenancy",
+      "description": "Rent payments, Universal Credit and DWP correspondence, payment arrangements, hardship requests, service charge queries, remittances."
+    }
+  ],
+  "departments": [
+    {
+      "id": "hub",
+      "name": "Silvering Hub",
+      "hub": true,
+      "head": "P001",
+      "description": "The intranet home page: news, policies everyone needs, templates, brand and comms, and everything for new starters.",
+      "libraries": [
+        {
+          "name": "News"
+        },
+        {
+          "name": "Company Policies"
+        },
+        {
+          "name": "Templates"
+        },
+        {
+          "name": "Brand & Comms"
+        },
+        {
+          "name": "New Starters"
+        }
+      ]
+    },
+    {
+      "id": "board",
+      "name": "Board & Governance",
+      "site_alias": "Board",
+      "head": "P001",
+      "description": "Board and committee papers, the corporate plan, risk and assurance, and regulatory evidence. Restricted to the executive team, governance team and board members.",
+      "libraries": [
+        {
+          "name": "Board Packs"
+        },
+        {
+          "name": "Committees"
+        },
+        {
+          "name": "Strategy"
+        },
+        {
+          "name": "Risk & Assurance"
+        },
+        {
+          "name": "Regulatory"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Finance & Treasury",
+      "site_alias": "Finance",
+      "head": "P002",
+      "description": "Management accounts, the business plan and budgets, rent setting and service charges, procurement and supplier invoices.",
+      "libraries": [
+        {
+          "name": "Management Accounts"
+        },
+        {
+          "name": "Budgets & Business Plan"
+        },
+        {
+          "name": "Rent & Service Charges"
+        },
+        {
+          "name": "Procurement"
+        },
+        {
+          "name": "Invoices"
+        }
+      ]
+    },
+    {
+      "id": "customer",
+      "name": "Customer Experience",
+      "site_alias": "Customer",
+      "head": "P003",
+      "description": "Contact centre, complaints and resolutions, Tenant Satisfaction Measures and insight, and resident involvement and scrutiny.",
+      "libraries": [
+        {
+          "name": "Contact Centre"
+        },
+        {
+          "name": "Complaints"
+        },
+        {
+          "name": "Insight & TSM"
+        },
+        {
+          "name": "Resident Involvement"
+        }
+      ]
+    },
+    {
+      "id": "tenancy",
+      "name": "Neighbourhoods & Tenancy",
+      "site_alias": "Neighbourhoods",
+      "head": "P011",
+      "description": "Housing officers, tenancy management, anti-social behaviour, lettings, income recovery and the SilverLiving independent living service.",
+      "libraries": [
+        {
+          "name": "Tenancy Management"
+        },
+        {
+          "name": "ASB"
+        },
+        {
+          "name": "Lettings"
+        },
+        {
+          "name": "Income Recovery"
+        },
+        {
+          "name": "SilverLiving"
+        }
+      ]
+    },
+    {
+      "id": "repairs",
+      "name": "Repairs & Maintenance",
+      "site_alias": "Repairs",
+      "head": "P008",
+      "description": "The in-house repairs service: procedures and priorities, damp and mould, voids, contractors and performance.",
+      "libraries": [
+        {
+          "name": "Repairs Procedures"
+        },
+        {
+          "name": "Damp & Mould"
+        },
+        {
+          "name": "Voids"
+        },
+        {
+          "name": "Contractors"
+        },
+        {
+          "name": "Performance"
+        }
+      ]
+    },
+    {
+      "id": "assets",
+      "name": "Assets & Building Safety",
+      "site_alias": "Assets",
+      "head": "P009",
+      "description": "Stock condition, the asset strategy, planned works and the 'big six' compliance areas, including Rosemount Tower's building safety case.",
+      "libraries": [
+        {
+          "name": "Compliance Certificates"
+        },
+        {
+          "name": "Fire Safety"
+        },
+        {
+          "name": "Building Safety Case"
+        },
+        {
+          "name": "Stock Condition"
+        },
+        {
+          "name": "Planned Works"
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "name": "Development & Sales",
+      "site_alias": "Development",
+      "head": "P010",
+      "description": "New homes: scheme appraisals, Homes England grant, Orchard Fields and the pipeline, and shared ownership sales.",
+      "libraries": [
+        {
+          "name": "Schemes"
+        },
+        {
+          "name": "Appraisals"
+        },
+        {
+          "name": "Shared Ownership Sales"
+        },
+        {
+          "name": "Homes England"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "name": "People, IT & Data",
+      "site_alias": "People",
+      "head": "P005",
+      "description": "HR policies and the handbook, recruitment, learning, IT and data, information governance and the AI pilot.",
+      "libraries": [
+        {
+          "name": "HR Policies"
+        },
+        {
+          "name": "Recruitment"
+        },
+        {
+          "name": "Learning & Development"
+        },
+        {
+          "name": "IT & Data"
+        },
+        {
+          "name": "Information Governance"
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "P001",
+      "name": "Catherine Ellwood",
+      "title": "Chief Executive",
+      "department": "board",
+      "manager": null,
+      "email": "catherine.ellwood@silvering-homes.org.uk",
+      "phone": "+44 1632 960 101",
+      "location": "Maidstone",
+      "start_date": "2019-09-02",
+      "bio": "Joined in 2019 from a larger London housing association where she was Director of Operations. Leads the executive team and the 'Home First' corporate plan.",
+      "persona_notes": "Calm, values-driven, very conscious of the C2 grade. Wants the resident's voice in every paper. Asks 'what would this feel like if it were your mum's flat?' Needs board-ready summaries at short notice."
+    },
+    {
+      "id": "P002",
+      "name": "Martin Okafor",
+      "title": "Director of Finance & Resources",
+      "department": "finance",
+      "manager": "P001",
+      "email": "martin.okafor@silvering-homes.org.uk",
+      "phone": "+44 1632 960 102",
+      "location": "Maidstone",
+      "start_date": "2017-01-09",
+      "bio": "Chartered accountant (ACA) who has worked in housing finance for 15 years. Responsible for finance, treasury, procurement and the development appraisal model.",
+      "persona_notes": "Precise and cautious; worried about the V2 grade and the cost of the damp and mould programme. Wants numbers reconciled before they go anywhere. Will ask 'which version of the business plan is this?'"
+    },
+    {
+      "id": "P003",
+      "name": "Rachel Dunmore",
+      "title": "Director of Customer Experience",
+      "department": "customer",
+      "manager": "P001",
+      "email": "rachel.dunmore@silvering-homes.org.uk",
+      "phone": "+44 1632 960 103",
+      "location": "Maidstone",
+      "start_date": "2021-04-12",
+      "bio": "Started her career as a housing officer, then led customer services at a utility company. Owns complaints, the contact centre, TSMs, neighbourhoods and resident involvement.",
+      "persona_notes": "Energetic, data-curious, impatient with jargon. Champions plain-English letters. Under pressure on complaint handling times and TSM complaints satisfaction."
+    },
+    {
+      "id": "P004",
+      "name": "Gareth Price",
+      "title": "Director of Property",
+      "department": "repairs",
+      "manager": "P001",
+      "email": "gareth.price@silvering-homes.org.uk",
+      "phone": "+44 1632 960 104",
+      "location": "Aylesford depot",
+      "start_date": "2020-06-01",
+      "bio": "Building surveyor (MRICS) who led the move of repairs in-house in 2021. Responsible for repairs, voids, assets, compliance and building safety.",
+      "persona_notes": "Practical and protective of his trades teams. Knows Brenchley Gardens is a problem and wants the money to fix it properly. Prefers a phone call to an email."
+    },
+    {
+      "id": "P005",
+      "name": "Simone Achterberg",
+      "title": "Director of People & Change",
+      "department": "people",
+      "manager": "P001",
+      "email": "simone.achterberg@silvering-homes.org.uk",
+      "phone": "+44 1632 960 105",
+      "location": "Maidstone",
+      "start_date": "2022-02-14",
+      "bio": "Joined from the NHS where she led a digital transformation programme. Responsible for HR, IT, data, communications and the Copilot pilot.",
+      "persona_notes": "Enthusiastic about AI but anxious about data protection, especially vulnerability data. Sponsor of the Copilot pilot. Asks for 'one thing we can stop doing'."
+    },
+    {
+      "id": "P006",
+      "name": "Hilary Brandwood",
+      "title": "Chair of the Board",
+      "department": "board",
+      "manager": null,
+      "email": "hilary.brandwood@silvering-homes.org.uk",
+      "phone": "+44 1632 960 106",
+      "location": "Board member (non-executive)",
+      "start_date": "2021-07-01",
+      "bio": "Non-executive chair; former local authority chief executive. Chairs the board and the Governance & Remuneration Committee.",
+      "persona_notes": "Board perspective: wants assurance, not reassurance. Reads every paper and asks where the evidence is. Will spot a number that doesn't match last quarter."
+    },
+    {
+      "id": "P007",
+      "name": "Joanne Pike",
+      "title": "Head of Governance & Company Secretary",
+      "department": "board",
+      "manager": "P001",
+      "email": "joanne.pike@silvering-homes.org.uk",
+      "phone": "+44 1632 960 107",
+      "location": "Maidstone",
+      "start_date": "2016-03-07",
+      "bio": "Runs the board and committee cycle, the risk register, regulatory returns and the NHF Code of Governance compliance check.",
+      "persona_notes": "Organised, deadline-driven, worried about late papers. Has to turn messy reports into consistent cover sheets. Keeper of the RSH inspection action plan."
+    },
+    {
+      "id": "P008",
+      "name": "Daniel Kerr",
+      "title": "Head of Repairs & Maintenance",
+      "department": "repairs",
+      "manager": "P004",
+      "email": "daniel.kerr@silvering-homes.org.uk",
+      "phone": "+44 1632 960 108",
+      "location": "Aylesford depot",
+      "start_date": "2021-05-04",
+      "bio": "Former multi-trade operative who became repairs manager when the service came in-house. Manages the operatives, planners, damp and mould team and voids.",
+      "persona_notes": "Direct, hates paperwork, fiercely loyal to his team. Behind on routine repairs since the summer because of vacancies. Wants Copilot to 'write the reports so I can get out on site'."
+    },
+    {
+      "id": "P009",
+      "name": "Priti Banerjee",
+      "title": "Head of Assets & Building Safety",
+      "department": "assets",
+      "manager": "P004",
+      "email": "priti.banerjee@silvering-homes.org.uk",
+      "phone": "+44 1632 960 109",
+      "location": "Maidstone",
+      "start_date": "2018-10-15",
+      "bio": "Asset manager and fire safety specialist. Owns the stock condition data, planned works programme, compliance and the Rosemount Tower building safety case.",
+      "persona_notes": "Meticulous, risk-focused. Keeps her own spreadsheets because she doesn't trust Keystone. Pain point: the EICR backlog and getting access to homes."
+    },
+    {
+      "id": "P010",
+      "name": "Tom Lyle",
+      "title": "Head of Development & Sales",
+      "department": "development",
+      "manager": "P002",
+      "email": "tom.lyle@silvering-homes.org.uk",
+      "phone": "+44 1632 960 110",
+      "location": "Maidstone",
+      "start_date": "2015-08-03",
+      "bio": "Development surveyor responsible for new homes, Homes England grant, the Orchard Fields scheme and shared ownership sales through Silvering Places.",
+      "persona_notes": "Optimistic deal-maker; his appraisals assume a lot. Hates being asked to cut the programme. Needs help summarising long contractor reports."
+    },
+    {
+      "id": "P011",
+      "name": "Nadia Rahman",
+      "title": "Head of Neighbourhoods",
+      "department": "tenancy",
+      "manager": "P003",
+      "email": "nadia.rahman@silvering-homes.org.uk",
+      "phone": "+44 1632 960 111",
+      "location": "Maidstone",
+      "start_date": "2018-01-08",
+      "bio": "Leads housing officers, ASB, lettings, income recovery and the SilverLiving service.",
+      "persona_notes": "Warm but firm. Worried about rising arrears as tenants move to Universal Credit and about ASB case recording. Wants consistent case notes."
+    },
+    {
+      "id": "P012",
+      "name": "Owen Fletcher",
+      "title": "Customer Resolutions Manager",
+      "department": "customer",
+      "manager": "P003",
+      "email": "owen.fletcher@silvering-homes.org.uk",
+      "phone": "+44 1632 960 112",
+      "location": "Maidstone",
+      "start_date": "2022-09-05",
+      "bio": "Manages the complaints team, Housing Ombudsman cases and the Complaint Handling Code self-assessment.",
+      "persona_notes": "Methodical, a stickler for the Code. Drowning in stage 1 responses; wants a consistent, empathetic template. Knows response times slipped over the summer."
+    },
+    {
+      "id": "P013",
+      "name": "Lauren Hughes",
+      "title": "Head of People",
+      "department": "people",
+      "manager": "P005",
+      "email": "lauren.hughes@silvering-homes.org.uk",
+      "phone": "+44 1632 960 113",
+      "location": "Maidstone",
+      "start_date": "2019-03-18",
+      "bio": "Leads HR, recruitment, learning and wellbeing. Working on the hard-to-fill trades vacancies.",
+      "persona_notes": "Pragmatic, people-first. Struggling to recruit electricians and damp and mould operatives. Wants better job adverts and onboarding."
+    },
+    {
+      "id": "P014",
+      "name": "Craig Whitmore",
+      "title": "IT & Data Manager",
+      "department": "people",
+      "manager": "P005",
+      "email": "craig.whitmore@silvering-homes.org.uk",
+      "phone": "+44 1632 960 114",
+      "location": "Maidstone",
+      "start_date": "2017-11-20",
+      "bio": "Runs the small IT team, the Keystone and FieldLoop integrations, Power BI and the Copilot pilot technical set-up.",
+      "persona_notes": "Cautious; keeps saying 'Copilot only shows you what you can already see'. Worried about oversharing in SharePoint. Wants the data quality fixed first."
+    },
+    {
+      "id": "P015",
+      "name": "Bev Saunders",
+      "title": "Income Manager",
+      "department": "tenancy",
+      "manager": "P011",
+      "email": "bev.saunders@silvering-homes.org.uk",
+      "phone": "+44 1632 960 115",
+      "location": "Maidstone",
+      "start_date": "2012-06-11",
+      "bio": "Has worked in rent collection since the stock transfer. Leads the income officers and the Universal Credit and hardship support work.",
+      "persona_notes": "Experienced, unflappable, a bit sceptical of new tech. Knows every APA rule. Wants arrears letters that are firm but kind."
+    },
+    {
+      "id": "P016",
+      "name": "Ian Mackie",
+      "title": "Financial Controller",
+      "department": "finance",
+      "manager": "P002",
+      "email": "ian.mackie@silvering-homes.org.uk",
+      "phone": "+44 1632 960 116",
+      "location": "Maidstone",
+      "start_date": "2016-05-23",
+      "bio": "Runs month-end, management accounts, the purchase ledger and the audit.",
+      "persona_notes": "Detail-oriented, dry humour. Hates late invoices from contractors. Wants variance commentary drafted from the numbers."
+    },
+    {
+      "id": "P017",
+      "name": "Sophie Grant",
+      "title": "Management Accountant",
+      "department": "finance",
+      "manager": "P016",
+      "email": "sophie.grant@silvering-homes.org.uk",
+      "phone": "+44 1632 960 117",
+      "location": "Maidstone",
+      "start_date": "2023-01-16",
+      "bio": "Prepares monthly management accounts, budget-holder reports and the repairs cost analysis.",
+      "persona_notes": "Learner persona. Quick with Excel, new to housing. Asks a lot of 'why do we count it like that?' questions."
+    },
+    {
+      "id": "P018",
+      "name": "Kwame Asante",
+      "title": "Repairs Planning Manager",
+      "department": "repairs",
+      "manager": "P008",
+      "email": "kwame.asante@silvering-homes.org.uk",
+      "phone": "+44 1632 960 118",
+      "location": "Aylesford depot",
+      "start_date": "2021-07-19",
+      "bio": "Leads the repairs planners and schedulers, manages FieldLoop appointments and the routine repairs backlog.",
+      "persona_notes": "Juggling too many jobs and too few operatives. Lives in FieldLoop exports. Wants a daily summary of what's late and why."
+    },
+    {
+      "id": "P019",
+      "name": "Lee Barton",
+      "title": "Multi-trade Operative (Plumbing)",
+      "department": "repairs",
+      "manager": "P018",
+      "email": "lee.barton@silvering-homes.org.uk",
+      "phone": "+44 1632 960 119",
+      "location": "Field-based",
+      "start_date": "2021-05-04",
+      "bio": "Plumber and multi-trade operative who transferred in from the old contractor. Covers Maidstone south and Brenchley Gardens.",
+      "persona_notes": "Learner persona. Works from a phone and a van. Wants to dictate job notes and get the parts list sorted without going back to the depot."
+    },
+    {
+      "id": "P020",
+      "name": "Ellie Novak",
+      "title": "Damp & Mould Surveyor",
+      "department": "repairs",
+      "manager": "P008",
+      "email": "ellie.novak@silvering-homes.org.uk",
+      "phone": "+44 1632 960 120",
+      "location": "Field-based",
+      "start_date": "2024-02-05",
+      "bio": "Carries out damp and mould investigations and writes the Awaab's Law written summaries for residents.",
+      "persona_notes": "Thorough, overloaded, cares deeply about families with children. Writing summaries within three working days is her biggest struggle."
+    },
+    {
+      "id": "P021",
+      "name": "Steve Harlow",
+      "title": "Voids Supervisor",
+      "department": "repairs",
+      "manager": "P008",
+      "email": "steve.harlow@silvering-homes.org.uk",
+      "phone": "+44 1632 960 121",
+      "location": "Aylesford depot",
+      "start_date": "2014-09-01",
+      "bio": "Manages empty homes from keys back to ready-to-let, including clearance and major works voids.",
+      "persona_notes": "Old-school, knows every property. Frustrated by lettings delays after his team finish. Wants a single view of each void."
+    },
+    {
+      "id": "P022",
+      "name": "Fatima Begum",
+      "title": "Building Safety Manager",
+      "department": "assets",
+      "manager": "P009",
+      "email": "fatima.begum@silvering-homes.org.uk",
+      "phone": "+44 1632 960 122",
+      "location": "Maidstone",
+      "start_date": "2022-05-09",
+      "bio": "Accountable person's lead for Rosemount Tower and manager of fire risk assessments, water hygiene, asbestos and lifts.",
+      "persona_notes": "Calm under pressure, regulation expert. Needs resident-friendly building safety comms and tidy evidence for the Building Safety Regulator."
+    },
+    {
+      "id": "P023",
+      "name": "Rob Quinlan",
+      "title": "Compliance Officer (Gas & Electrical)",
+      "department": "assets",
+      "manager": "P022",
+      "email": "rob.quinlan@silvering-homes.org.uk",
+      "phone": "+44 1632 960 123",
+      "location": "Maidstone",
+      "start_date": "2020-10-12",
+      "bio": "Manages the gas servicing and EICR programmes, no-access cases and contractor certificates.",
+      "persona_notes": "Learner persona. Spends hours chasing access and matching certificates to properties. Wants to automate the no-access letters."
+    },
+    {
+      "id": "P024",
+      "name": "Jess Moreland",
+      "title": "Asset Data Analyst",
+      "department": "assets",
+      "manager": "P009",
+      "email": "jess.moreland@silvering-homes.org.uk",
+      "phone": "+44 1632 960 124",
+      "location": "Maidstone",
+      "start_date": "2023-06-26",
+      "bio": "Looks after stock condition data, EPC ratings, the Power BI asset dashboard and the TSM management data returns.",
+      "persona_notes": "Data-savvy, frustrated by duplicate property lists. Will check Copilot's numbers against the source."
+    },
+    {
+      "id": "P025",
+      "name": "Amira Haddad",
+      "title": "Housing Officer (Maidstone South)",
+      "department": "tenancy",
+      "manager": "P011",
+      "email": "amira.haddad@silvering-homes.org.uk",
+      "phone": "+44 1632 960 125",
+      "location": "Field-based",
+      "start_date": "2022-01-10",
+      "bio": "Patch housing officer for Brenchley Gardens, Shepway Green and Heron Way: tenancy visits, tenancy breaches, estate inspections.",
+      "persona_notes": "Learner persona. Empathetic, busy, writes case notes late at night. Wants help turning visit notes into clear letters and summaries."
+    },
+    {
+      "id": "P026",
+      "name": "Gary Doyle",
+      "title": "ASB & Tenancy Enforcement Officer",
+      "department": "tenancy",
+      "manager": "P011",
+      "email": "gary.doyle@silvering-homes.org.uk",
+      "phone": "+44 1632 960 126",
+      "location": "Maidstone",
+      "start_date": "2015-02-16",
+      "bio": "Handles complex anti-social behaviour cases, injunctions and partnership work with the police and council.",
+      "persona_notes": "Experienced, protective of victims, careful with evidence. Needs case chronologies for court quickly."
+    },
+    {
+      "id": "P027",
+      "name": "Margaret Ogunleye",
+      "title": "SilverLiving Coordinator",
+      "department": "tenancy",
+      "manager": "P011",
+      "email": "margaret.ogunleye@silvering-homes.org.uk",
+      "phone": "+44 1632 960 127",
+      "location": "Linton Lodge",
+      "start_date": "2013-04-22",
+      "bio": "Coordinates the independent living schemes, daily welfare calls, Careline and the scheme activity programmes.",
+      "persona_notes": "Kind, a bit wary of computers. Residents trust her. Wants simple, large-print newsletters and help with support plans."
+    },
+    {
+      "id": "P028",
+      "name": "Chloe Benson",
+      "title": "Lettings Officer",
+      "department": "tenancy",
+      "manager": "P011",
+      "email": "chloe.benson@silvering-homes.org.uk",
+      "phone": "+44 1632 960 128",
+      "location": "Maidstone",
+      "start_date": "2023-09-04",
+      "bio": "Advertises and lets empty homes through the council's choice-based lettings scheme, handles mutual exchanges and sign-ups.",
+      "persona_notes": "Organised, chatty, frustrated when voids drag. Wants a checklist that pulls everything she needs for a sign-up."
+    },
+    {
+      "id": "P029",
+      "name": "Ryan Tait",
+      "title": "Income Officer",
+      "department": "tenancy",
+      "manager": "P015",
+      "email": "ryan.tait@silvering-homes.org.uk",
+      "phone": "+44 1632 960 129",
+      "location": "Maidstone",
+      "start_date": "2024-03-11",
+      "bio": "Manages a caseload of rent accounts, payment arrangements and Universal Credit APAs.",
+      "persona_notes": "Learner persona. New to housing, keen, sometimes too blunt in letters. Wants to prioritise his caseload quickly every Monday."
+    },
+    {
+      "id": "P030",
+      "name": "Hannah Lowe",
+      "title": "Customer Service Team Leader",
+      "department": "customer",
+      "manager": "P003",
+      "email": "hannah.lowe@silvering-homes.org.uk",
+      "phone": "+44 1632 960 130",
+      "location": "Maidstone",
+      "start_date": "2019-11-04",
+      "bio": "Leads the contact centre advisers handling calls, emails, webchat and the shared inboxes.",
+      "persona_notes": "Busy, practical, measured on call answering times. Shared inboxes are her headache: things get missed. Wants triage help."
+    },
+    {
+      "id": "P031",
+      "name": "Zainab Ali",
+      "title": "Customer Service Adviser",
+      "department": "customer",
+      "manager": "P030",
+      "email": "zainab.ali@silvering-homes.org.uk",
+      "phone": "+44 1632 960 131",
+      "location": "Maidstone",
+      "start_date": "2025-05-19",
+      "bio": "Takes calls and works the customer services and repairs inboxes; logs repairs and complaints in Keystone and FieldLoop.",
+      "persona_notes": "Learner persona. Six months in, still learning the repairs priorities. Wants quick answers to 'is this an emergency?' from the policy."
+    },
+    {
+      "id": "P032",
+      "name": "Mark Pennington",
+      "title": "Complaints Officer",
+      "department": "customer",
+      "manager": "P012",
+      "email": "mark.pennington@silvering-homes.org.uk",
+      "phone": "+44 1632 960 132",
+      "location": "Maidstone",
+      "start_date": "2023-02-27",
+      "bio": "Investigates stage 1 and stage 2 complaints and writes response letters and Ombudsman submissions.",
+      "persona_notes": "Learner persona. Writes well but slowly. Wants to pull the repairs history and contact notes into a timeline quickly."
+    },
+    {
+      "id": "P033",
+      "name": "Grace Osei",
+      "title": "Resident Involvement & Insight Officer",
+      "department": "customer",
+      "manager": "P012",
+      "email": "grace.osei@silvering-homes.org.uk",
+      "phone": "+44 1632 960 133",
+      "location": "Maidstone",
+      "start_date": "2021-10-11",
+      "bio": "Supports the Resident Scrutiny Panel, runs the TSM survey and analyses resident feedback.",
+      "persona_notes": "Passionate about resident voice. Has hundreds of free-text survey comments and no time to theme them."
+    },
+    {
+      "id": "P034",
+      "name": "Paul Whitaker",
+      "title": "Development Manager",
+      "department": "development",
+      "manager": "P010",
+      "email": "paul.whitaker@silvering-homes.org.uk",
+      "phone": "+44 1632 960 134",
+      "location": "Maidstone",
+      "start_date": "2019-06-17",
+      "bio": "Runs Orchard Fields and the pipeline schemes day-to-day: contractor meetings, Homes England milestones, handovers and defects.",
+      "persona_notes": "Hands-on, lots of site meetings. Defects at Orchard Fields are piling up. Wants meeting notes turned into actions."
+    },
+    {
+      "id": "P035",
+      "name": "Kirsty Lambert",
+      "title": "Sales & Shared Ownership Officer",
+      "department": "development",
+      "manager": "P010",
+      "email": "kirsty.lambert@silvering-homes.org.uk",
+      "phone": "+44 1632 960 135",
+      "location": "Maidstone",
+      "start_date": "2022-04-04",
+      "bio": "Sells shared ownership homes, handles staircasing and resales, and answers shared owners' queries.",
+      "persona_notes": "Friendly, sales-minded. Shared owners are the least satisfied group and she hears why. Wants a clear FAQ."
+    },
+    {
+      "id": "P036",
+      "name": "Dev Malhotra",
+      "title": "HR Business Partner",
+      "department": "people",
+      "manager": "P013",
+      "email": "dev.malhotra@silvering-homes.org.uk",
+      "phone": "+44 1632 960 136",
+      "location": "Maidstone",
+      "start_date": "2021-08-16",
+      "bio": "Advises managers on recruitment, absence, conduct and the trades pay review.",
+      "persona_notes": "Calm, policy-minded. Gets asked the same handbook questions every week."
+    },
+    {
+      "id": "P037",
+      "name": "Lucy Carver",
+      "title": "Communications Manager",
+      "department": "hub",
+      "manager": "P005",
+      "email": "lucy.carver@silvering-homes.org.uk",
+      "phone": "+44 1632 960 137",
+      "location": "Maidstone",
+      "start_date": "2020-01-13",
+      "bio": "Runs internal and resident communications: the intranet, the resident magazine 'Doorstep', social media and press.",
+      "persona_notes": "Creative, deadline-driven, brand guardian. Wants plain-English rewrites and quick drafts of resident letters."
+    },
+    {
+      "id": "P038",
+      "name": "Ben Ashdown",
+      "title": "Procurement & Contracts Officer",
+      "department": "finance",
+      "manager": "P016",
+      "email": "ben.ashdown@silvering-homes.org.uk",
+      "phone": "+44 1632 960 138",
+      "location": "Maidstone",
+      "start_date": "2022-11-07",
+      "bio": "Runs tenders and the contracts register and checks contractor invoices against orders.",
+      "persona_notes": "Process-driven; wants contract summaries and renewal dates at his fingertips."
+    },
+    {
+      "id": "P039",
+      "name": "Tessa Morgan",
+      "title": "Executive Assistant",
+      "department": "board",
+      "manager": "P001",
+      "email": "tessa.morgan@silvering-homes.org.uk",
+      "phone": "+44 1632 960 139",
+      "location": "Maidstone",
+      "start_date": "2018-07-02",
+      "bio": "Supports the Chief Executive and the executive team: diaries, exec meeting papers and actions.",
+      "persona_notes": "Highly organised, keeps the exec action log. Wants meeting actions pulled from recaps automatically."
+    },
+    {
+      "id": "P040",
+      "name": "Anil Kapoor-Reeves",
+      "title": "Planned Works Surveyor",
+      "department": "assets",
+      "manager": "P009",
+      "email": "anil.kapoor-reeves@silvering-homes.org.uk",
+      "phone": "+44 1632 960 140",
+      "location": "Field-based",
+      "start_date": "2021-03-01",
+      "bio": "Surveys homes for planned works (kitchens, bathrooms, roofs, windows) and stock condition, and manages the planned works contractors.",
+      "persona_notes": "Methodical, photographs everything. Wants survey photos and notes turned into works orders."
+    }
+  ]
+}

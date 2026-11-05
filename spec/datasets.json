@@ -1,0 +1,2426 @@
+{
+  "seed": 2005,
+  "locale": "en_GB",
+  "tables": [
+    {
+      "name": "schemes",
+      "title": "Schemes & Estates",
+      "department": "assets",
+      "system": "Keystone Housing",
+      "description": "Every scheme, estate and block Silvering owns or manages, with type, age, storeys, lifts and the patch housing officer.",
+      "sharepoint_list": true,
+      "list_title": "Schemes",
+      "columns": [
+        "scheme_id",
+        "scheme_name",
+        "local_authority",
+        "town",
+        "postcode_sector",
+        "scheme_type",
+        "build_year",
+        "max_storeys",
+        "has_lift",
+        "homes",
+        "higher_risk_building",
+        "patch_officer"
+      ],
+      "data": [
+        [
+          "SCH01",
+          "Rosemount Tower",
+          "Maidstone",
+          "Maidstone",
+          "ME16 8",
+          "General needs block",
+          1968,
+          12,
+          true,
+          88,
+          true,
+          "Tom Reed"
+        ],
+        [
+          "SCH02",
+          "Parkwood Court",
+          "Maidstone",
+          "Maidstone",
+          "ME15 9",
+          "General needs block",
+          1972,
+          5,
+          true,
+          60,
+          false,
+          "Amira Haddad"
+        ],
+        [
+          "SCH03",
+          "Brenchley Gardens",
+          "Maidstone",
+          "Maidstone",
+          "ME15 8",
+          "General needs estate",
+          1964,
+          3,
+          false,
+          164,
+          false,
+          "Amira Haddad"
+        ],
+        [
+          "SCH04",
+          "Heron Way",
+          "Maidstone",
+          "Maidstone",
+          "ME15 7",
+          "General needs estate",
+          1978,
+          2,
+          false,
+          100,
+          false,
+          "Amira Haddad"
+        ],
+        [
+          "SCH05",
+          "Vinters Rise",
+          "Maidstone",
+          "Maidstone",
+          "ME14 5",
+          "General needs estate",
+          1985,
+          2,
+          false,
+          96,
+          false,
+          "Sasha Kemp"
+        ],
+        [
+          "SCH06",
+          "Shepway Green",
+          "Maidstone",
+          "Maidstone",
+          "ME15 8",
+          "General needs estate",
+          1958,
+          2,
+          false,
+          150,
+          false,
+          "Amira Haddad"
+        ],
+        [
+          "SCH07",
+          "Coxheath Lane",
+          "Maidstone",
+          "Coxheath",
+          "ME17 4",
+          "General needs estate",
+          1952,
+          2,
+          false,
+          54,
+          false,
+          "Sasha Kemp"
+        ],
+        [
+          "SCH08",
+          "Allington Mews",
+          "Maidstone",
+          "Maidstone",
+          "ME16 0",
+          "General needs block",
+          2011,
+          3,
+          false,
+          36,
+          false,
+          "Tom Reed"
+        ],
+        [
+          "SCH09",
+          "Ringlestone Crescent",
+          "Maidstone",
+          "Maidstone",
+          "ME14 2",
+          "General needs estate",
+          1961,
+          2,
+          false,
+          92,
+          false,
+          "Tom Reed"
+        ],
+        [
+          "SCH10",
+          "Bearsted Court",
+          "Maidstone",
+          "Bearsted",
+          "ME14 4",
+          "Sheltered (SilverLiving)",
+          1979,
+          3,
+          true,
+          48,
+          false,
+          "Margaret Ogunleye"
+        ],
+        [
+          "SCH11",
+          "Willow House",
+          "Maidstone",
+          "Maidstone",
+          "ME16 9",
+          "Sheltered (SilverLiving)",
+          1986,
+          3,
+          true,
+          42,
+          false,
+          "Margaret Ogunleye"
+        ],
+        [
+          "SCH12",
+          "Linton Lodge",
+          "Maidstone",
+          "Loose",
+          "ME15 0",
+          "Extra care (SilverLiving)",
+          2014,
+          3,
+          true,
+          60,
+          false,
+          "Margaret Ogunleye"
+        ],
+        [
+          "SCH13",
+          "Oakwood Place",
+          "Maidstone",
+          "Maidstone",
+          "ME16 8",
+          "Supported housing",
+          1998,
+          2,
+          false,
+          18,
+          false,
+          "Tom Reed"
+        ],
+        [
+          "SCH14",
+          "Orchard Fields",
+          "Maidstone",
+          "Maidstone",
+          "ME15 9",
+          "New build mixed tenure",
+          2026,
+          4,
+          true,
+          62,
+          false,
+          "Amira Haddad"
+        ],
+        [
+          "SCH15",
+          "Hop Pocket Way",
+          "Maidstone",
+          "Maidstone",
+          "ME15 6",
+          "New build mixed tenure",
+          2019,
+          3,
+          false,
+          84,
+          false,
+          "Sasha Kemp"
+        ],
+        [
+          "SCH16",
+          "Lenham Meadows",
+          "Maidstone",
+          "Lenham",
+          "ME17 2",
+          "New build mixed tenure",
+          2022,
+          2,
+          false,
+          70,
+          false,
+          "Sasha Kemp"
+        ],
+        [
+          "SCH17",
+          "Headcorn & Villages",
+          "Maidstone",
+          "Headcorn",
+          "TN27 9",
+          "Street properties",
+          1950,
+          2,
+          false,
+          62,
+          false,
+          "Sasha Kemp"
+        ],
+        [
+          "SCH18",
+          "Larkfield Close",
+          "Tonbridge & Malling",
+          "Larkfield",
+          "ME20 6",
+          "General needs estate",
+          1970,
+          2,
+          false,
+          48,
+          false,
+          "Joel Mensah"
+        ],
+        [
+          "SCH19",
+          "Kings Hill Quarter",
+          "Tonbridge & Malling",
+          "Kings Hill",
+          "ME19 4",
+          "New build mixed tenure",
+          2017,
+          3,
+          false,
+          58,
+          false,
+          "Joel Mensah"
+        ],
+        [
+          "SCH20",
+          "Snodland Riverside",
+          "Tonbridge & Malling",
+          "Snodland",
+          "ME6 5",
+          "General needs block",
+          2009,
+          4,
+          true,
+          30,
+          false,
+          "Joel Mensah"
+        ],
+        [
+          "SCH21",
+          "Chatham Hill Court",
+          "Medway",
+          "Chatham",
+          "ME5 7",
+          "General needs block",
+          1974,
+          4,
+          false,
+          40,
+          false,
+          "Joel Mensah"
+        ],
+        [
+          "SCH22",
+          "Strood Wharf",
+          "Medway",
+          "Strood",
+          "ME2 4",
+          "New build mixed tenure",
+          2021,
+          5,
+          true,
+          46,
+          false,
+          "Joel Mensah"
+        ],
+        [
+          "SCH23",
+          "Kennington Grange",
+          "Ashford",
+          "Ashford",
+          "TN24 9",
+          "New build mixed tenure",
+          2018,
+          3,
+          false,
+          52,
+          false,
+          "Joel Mensah"
+        ],
+        [
+          "SCH24",
+          "Mill Court",
+          "Swale",
+          "Sittingbourne",
+          "ME10 3",
+          "General needs block",
+          2006,
+          3,
+          false,
+          28,
+          false,
+          "Joel Mensah"
+        ],
+        [
+          "SCH25",
+          "Station Road",
+          "Tunbridge Wells",
+          "Paddock Wood",
+          "TN12 6",
+          "New build mixed tenure",
+          2023,
+          3,
+          false,
+          48,
+          false,
+          "Sasha Kemp"
+        ],
+        [
+          "SCH26",
+          "Marden & Staplehurst Cottages",
+          "Maidstone",
+          "Marden",
+          "TN12 9",
+          "Street properties",
+          1948,
+          2,
+          false,
+          34,
+          false,
+          "Sasha Kemp"
+        ],
+        [
+          "SCH27",
+          "Maidstone Town Street Properties",
+          "Maidstone",
+          "Maidstone",
+          "ME14 1",
+          "Street properties",
+          1930,
+          2,
+          false,
+          90,
+          false,
+          "Tom Reed"
+        ],
+        [
+          "SCH28",
+          "Week Street Apartments",
+          "Maidstone",
+          "Maidstone",
+          "ME14 1",
+          "Market rent",
+          2020,
+          5,
+          true,
+          40,
+          false,
+          "Tom Reed"
+        ],
+        [
+          "SCH29",
+          "Leybourne Court",
+          "Tonbridge & Malling",
+          "Leybourne",
+          "ME19 5",
+          "Sheltered (SilverLiving)",
+          1982,
+          2,
+          true,
+          40,
+          false,
+          "Margaret Ogunleye"
+        ]
+      ]
+    },
+    {
+      "name": "properties",
+      "title": "Property Register",
+      "department": "assets",
+      "system": "Keystone Housing",
+      "description": "All 1,840 homes: address, scheme, tenure, type, bedrooms, heating, EPC, Decent Homes status, current rent and service charge.",
+      "from_table": "schemes",
+      "explode": "list(range(homes))",
+      "columns": [
+        {
+          "name": "uprn",
+          "gen": "seq",
+          "prefix": "1000224",
+          "start": 40001,
+          "pad": 5
+        },
+        {
+          "name": "property_ref",
+          "gen": "seq",
+          "prefix": "SVH",
+          "start": 10001
+        },
+        {
+          "name": "scheme_id",
+          "gen": "base"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "base"
+        },
+        {
+          "name": "scheme_type",
+          "gen": "base"
+        },
+        {
+          "name": "local_authority",
+          "gen": "base"
+        },
+        {
+          "name": "town",
+          "gen": "base"
+        },
+        {
+          "name": "patch_officer",
+          "gen": "base"
+        },
+        {
+          "name": "property_type",
+          "gen": "expr",
+          "expr": "('Bedsit' if rnd.random() < 0.08 else 'Flat') if scheme_type.startswith('Sheltered') else 'Flat' if scheme_type in ('General needs block', 'Sheltered (SilverLiving)', 'Extra care (SilverLiving)', 'Supported housing', 'Market rent') else rnd.choices(['House', 'Flat', 'Maisonette', 'Bungalow'], [55, 28, 11, 6])[0] if scheme_type == 'General needs estate' else rnd.choices(['House', 'Bungalow', 'Flat'], [72, 16, 12])[0] if scheme_type == 'Street properties' else rnd.choices(['House', 'Flat'], [45, 55])[0]"
+        },
+        {
+          "name": "bedrooms",
+          "gen": "expr",
+          "expr": "0 if property_type == 'Bedsit' else rnd.choices([1, 2], [88, 12])[0] if 'SilverLiving' in scheme_type or scheme_type == 'Supported housing' else rnd.choices([1, 2, 3], [45, 45, 10])[0] if property_type == 'Flat' else rnd.choices([2, 3], [60, 40])[0] if property_type == 'Maisonette' else rnd.choices([1, 2], [55, 45])[0] if property_type == 'Bungalow' else rnd.choices([2, 3, 4], [34, 56, 10])[0]"
+        },
+        {
+          "name": "address_line1",
+          "gen": "expr",
+          "expr": "('Flat ' + str(item + 1) + ', ' + base['scheme_name']) if property_type in ('Flat', 'Bedsit', 'Maisonette') and scheme_type != 'Street properties' else (str(rnd.randint(1, 140)) + ' ' + fake.street_name()) if scheme_type == 'Street properties' else (str(item + 1) + ' ' + base['scheme_name'])"
+        },
+        {
+          "name": "postcode",
+          "gen": "expr",
+          "expr": "base['postcode_sector'] + choice('ABDEFGHJLNPQRSTUWXYZ') + choice('ABDEFGHJLNPQRSTUWXYZ')"
+        },
+        {
+          "name": "tenure",
+          "gen": "expr",
+          "expr": "('Leasehold' if rnd.random() < 0.15 else 'Social rent') if scheme_type == 'General needs block' else rnd.choices(['Social rent', 'Leasehold', 'Affordable rent'], [89, 7, 4])[0] if scheme_type == 'General needs estate' else ('Leasehold' if rnd.random() < 0.03 else 'Social rent') if scheme_type == 'Street properties' else 'Older persons & supported' if 'SilverLiving' in scheme_type or scheme_type == 'Supported housing' else 'Market rent' if scheme_type == 'Market rent' else rnd.choices(['Social rent', 'Affordable rent', 'Shared ownership'], [31, 40, 29])[0] if scheme_id == 'SCH14' else rnd.choices(['Affordable rent', 'Shared ownership'], [68, 32])[0]"
+        },
+        {
+          "name": "build_year",
+          "gen": "base"
+        },
+        {
+          "name": "storeys",
+          "gen": "expr",
+          "expr": "base['max_storeys'] if property_type in ('Flat', 'Bedsit', 'Maisonette') else (1 if property_type == 'Bungalow' else 2)"
+        },
+        {
+          "name": "heating",
+          "gen": "expr",
+          "expr": "'Air source heat pump' if build_year >= 2022 else 'Electric storage heaters' if scheme_id == 'SCH01' or rnd.random() < 0.04 else rnd.choices(['Gas combi boiler', 'Gas system boiler'], [84, 16])[0]"
+        },
+        {
+          "name": "has_gas",
+          "gen": "expr",
+          "expr": "heating.startswith('Gas')"
+        },
+        {
+          "name": "epc_rating",
+          "gen": "expr",
+          "expr": "rnd.choices(['A', 'B'], [40, 60])[0] if build_year >= 2022 else rnd.choices(['B', 'C', 'A'], [72, 22, 6])[0] if build_year >= 2005 else rnd.choices(['C', 'B', 'D'], [70, 8, 22])[0] if build_year >= 1980 else rnd.choices(['C', 'D', 'E'], [44, 46, 10])[0] if build_year >= 1950 else rnd.choices(['C', 'D', 'E', 'F'], [25, 50, 20, 5])[0]"
+        },
+        {
+          "name": "decent_homes",
+          "gen": "const",
+          "value": "Yes"
+        },
+        {
+          "name": "last_stock_survey",
+          "gen": "expr",
+          "expr": "None if build_year >= 2024 or rnd.random() < 0.08 else (d('2021-05-01') + timedelta(days=rnd.randint(0, 1980))).date().isoformat()"
+        },
+        {
+          "name": "weekly_rent",
+          "gen": "expr",
+          "expr": "round(0.0, 2) if tenure == 'Leasehold' else round(104 + 13 * bedrooms + rnd.uniform(-5, 6) if tenure == 'Social rent' else 158 + 31 * bedrooms + rnd.uniform(-8, 10) if tenure == 'Affordable rent' else 60 + 14 * bedrooms + rnd.uniform(-6, 8) if tenure == 'Shared ownership' else 106 + 7 * bedrooms + rnd.uniform(-4, 5) if tenure == 'Older persons & supported' else 215 + 74 * bedrooms + rnd.uniform(-10, 15), 2)"
+        },
+        {
+          "name": "weekly_service_charge",
+          "gen": "expr",
+          "expr": "round(rnd.uniform(34, 58), 2) if scheme_type == 'Extra care (SilverLiving)' else round(rnd.uniform(24, 36), 2) if 'SilverLiving' in scheme_type or scheme_type == 'Supported housing' else round(rnd.uniform(12, 24), 2) if property_type in ('Flat', 'Maisonette', 'Bedsit') and scheme_type != 'Street properties' else round(rnd.uniform(1.2, 3.5), 2) if scheme_type in ('General needs estate', 'New build mixed tenure') else 0.0"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'New build - awaiting let' if scheme_id == 'SCH14' and item >= 44 else 'Occupied'"
+        },
+        {
+          "name": "repair_weight",
+          "gen": "expr",
+          "expr": "2.6 if scheme_id == 'SCH03' else 0.25 if tenure in ('Leasehold', 'Shared ownership') else 0.5 if build_year >= 2022 else 1.4 if scheme_id == 'SCH01' else 0.8 if tenure == 'Market rent' else 1.0"
+        },
+        {
+          "name": "damp_weight",
+          "gen": "expr",
+          "expr": "0 if tenure in ('Leasehold', 'Shared ownership') else 5.0 if scheme_id == 'SCH03' else 2.5 if scheme_id == 'SCH01' else 2.0 if scheme_id == 'SCH21' else 1.3 if build_year < 1980 else 0.3 if build_year >= 2010 else 0.8"
+        }
+      ]
+    },
+    {
+      "name": "employees",
+      "title": "Staff Directory",
+      "department": "people",
+      "system": "PeoplePath",
+      "description": "All Silvering employees with role, team, manager, base, trade (for operatives), contract and salary. Confidential: contains salary data.",
+      "rows": 27,
+      "seed_from_company": "people",
+      "map": {
+        "employee_id": "id",
+        "full_name": "name",
+        "job_title": "title",
+        "department": "department",
+        "manager_id": "manager",
+        "location": "location",
+        "start_date": "start_date",
+        "email": "email"
+      },
+      "seed_rows": [
+        {
+          "employee_id": "E0901",
+          "full_name": "Tom Reed",
+          "job_title": "Housing Officer (Maidstone North & Town)",
+          "department": "tenancy",
+          "manager_id": "P011",
+          "location": "Field-based",
+          "start_date": "2017-04-03",
+          "email": "tom.reed@silvering-homes.org.uk"
+        },
+        {
+          "employee_id": "E0902",
+          "full_name": "Sasha Kemp",
+          "job_title": "Housing Officer (Maidstone East & Villages)",
+          "department": "tenancy",
+          "manager_id": "P011",
+          "location": "Field-based",
+          "start_date": "2020-08-24",
+          "email": "sasha.kemp@silvering-homes.org.uk"
+        },
+        {
+          "employee_id": "E0903",
+          "full_name": "Joel Mensah",
+          "job_title": "Housing Officer (Tonbridge, Medway, Swale & Ashford)",
+          "department": "tenancy",
+          "manager_id": "P011",
+          "location": "Field-based",
+          "start_date": "2023-11-06",
+          "email": "joel.mensah@silvering-homes.org.uk"
+        },
+        {
+          "employee_id": "E0904",
+          "full_name": "Marcus Adebayo",
+          "job_title": "Damp & Mould Surveyor",
+          "department": "repairs",
+          "manager_id": "P008",
+          "location": "Field-based",
+          "start_date": "2025-09-15",
+          "email": "marcus.adebayo@silvering-homes.org.uk"
+        },
+        {
+          "employee_id": "E0905",
+          "full_name": "Leah Foster",
+          "job_title": "Complaints Officer",
+          "department": "customer",
+          "manager_id": "P012",
+          "location": "Maidstone",
+          "start_date": "2024-06-03",
+          "email": "leah.foster@silvering-homes.org.uk"
+        },
+        {
+          "employee_id": "E0906",
+          "full_name": "Priya Chauhan",
+          "job_title": "Income Officer",
+          "department": "tenancy",
+          "manager_id": "P015",
+          "location": "Maidstone",
+          "start_date": "2019-02-11",
+          "email": "priya.chauhan@silvering-homes.org.uk"
+        },
+        {
+          "employee_id": "E0907",
+          "full_name": "Sam Odukoya",
+          "job_title": "Income Officer",
+          "department": "tenancy",
+          "manager_id": "P015",
+          "location": "Maidstone",
+          "start_date": "2021-10-04",
+          "email": "sam.odukoya@silvering-homes.org.uk"
+        }
+      ],
+      "columns": [
+        {
+          "name": "employee_id",
+          "gen": "seq",
+          "prefix": "E",
+          "start": 954
+        },
+        {
+          "name": "full_name",
+          "gen": "expr",
+          "expr": "fake.first_name() + ' ' + fake.last_name()"
+        },
+        {
+          "name": "job_title",
+          "gen": "expr",
+          "expr": "[\"Multi-trade Operative (Plumbing)\", \"Multi-trade Operative (Plumbing)\", \"Multi-trade Operative (Plumbing)\", \"Electrician\", \"Electrician\", \"Gas Engineer\", \"Gas Engineer\", \"Gas Engineer\", \"Carpenter\", \"Carpenter\", \"Carpenter\", \"Operative Decorator (Damp & Mould)\", \"Operative Decorator (Damp & Mould)\", \"Plasterer\", \"Multi-trade Operative\", \"Multi-trade Operative\", \"Multi-trade Operative\", \"Clearance Operative (Voids)\", \"Clearance Operative (Voids)\", \"Repairs Planner\", \"Customer Service Adviser\", \"Customer Service Adviser\", \"Customer Service Adviser\", \"Customer Service Adviser\", \"SilverLiving Scheme Officer\", \"Finance Assistant\", \"IT Support Analyst\"][int(employee_id[1:]) - 1001]"
+        },
+        {
+          "name": "department",
+          "gen": "expr",
+          "expr": "[\"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"repairs\", \"customer\", \"customer\", \"customer\", \"customer\", \"tenancy\", \"finance\", \"people\"][int(employee_id[1:]) - 1001]"
+        },
+        {
+          "name": "manager_id",
+          "gen": "expr",
+          "expr": "[\"P018\", \"P018\", \"P018\", \"P018\", \"P018\", \"P018\", \"P018\", \"P018\", \"P018\", \"P018\", \"P018\", \"P008\", \"P008\", \"P018\", \"P018\", \"P018\", \"P018\", \"P021\", \"P021\", \"P018\", \"P030\", \"P030\", \"P030\", \"P030\", \"P027\", \"P016\", \"P014\"][int(employee_id[1:]) - 1001]"
+        },
+        {
+          "name": "location",
+          "gen": "expr",
+          "expr": "'Field-based' if department == 'repairs' and 'Planner' not in job_title else ('Aylesford depot' if department == 'repairs' else ('Linton Lodge' if department == 'tenancy' else 'Maidstone'))"
+        },
+        {
+          "name": "start_date",
+          "gen": "date",
+          "start": "2012-04-01",
+          "end": "2026-09-01",
+          "weekdays": true
+        },
+        {
+          "name": "email",
+          "gen": "expr",
+          "expr": "full_name.lower().replace(' ', '.').replace(\"'\", '') + '@silvering-homes.org.uk'"
+        },
+        {
+          "name": "trade",
+          "gen": "expr",
+          "expr": "'Plumbing' if 'Plumbing' in job_title else 'Electrical' if 'Electric' in job_title else 'Gas & heating' if 'Gas' in job_title else 'Carpentry' if 'Carpenter' in job_title else 'Damp & mould' if 'Damp & Mould)' in job_title or 'Plasterer' in job_title else 'Multi-trade' if job_title == 'Multi-trade Operative' else 'Voids clearance' if 'Clearance' in job_title else None"
+        },
+        {
+          "name": "contract",
+          "gen": "expr",
+          "expr": "'Fixed term' if rnd.random() < 0.06 else 'Permanent'"
+        },
+        {
+          "name": "fte",
+          "gen": "expr",
+          "expr": "rnd.choice([0.6, 0.8]) if rnd.random() < 0.14 and trade is None else 1.0"
+        },
+        {
+          "name": "salary_gbp",
+          "gen": "expr",
+          "expr": "{'P001': 128000, 'P002': 104000, 'P003': 98000, 'P004': 98000, 'P005': 96000, 'P006': 18000}.get(employee_id) or (rnd.randint(52, 64) * 1000 if 'Head of' in job_title else rnd.randint(42, 50) * 1000 if 'Manager' in job_title or 'Controller' in job_title else rnd.randint(34, 41) * 1000 if trade or 'Surveyor' in job_title or 'Officer' in job_title else rnd.randint(25, 31) * 1000)"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'Active'"
+        }
+      ]
+    },
+    {
+      "name": "voids",
+      "title": "Void Properties",
+      "department": "repairs",
+      "system": "Keystone Housing / FieldLoop",
+      "description": "Every empty home (relets) since November 2024: why it became empty, void type, works and let dates, days empty and rent lost.",
+      "rows": 214,
+      "sort_by": "void_start",
+      "sharepoint_list": true,
+      "list_title": "Void Tracker",
+      "columns": [
+        {
+          "name": "void_id",
+          "gen": "seq",
+          "prefix": "VD",
+          "start": 3001
+        },
+        {
+          "name": "uprn",
+          "gen": "fk",
+          "table": "properties",
+          "column": "uprn",
+          "filter": "ref['tenure'] not in ('Leasehold', 'Shared ownership') and ref['scheme_id'] != 'SCH14'",
+          "carry": {
+            "property_ref": "property_ref",
+            "scheme_id": "scheme_id",
+            "scheme_name": "scheme_name",
+            "tenure": "tenure",
+            "weekly_rent": "weekly_rent"
+          }
+        },
+        {
+          "name": "property_ref",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_id",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "carried"
+        },
+        {
+          "name": "tenure",
+          "gen": "carried"
+        },
+        {
+          "name": "void_start",
+          "gen": "date",
+          "start": "2024-11-04",
+          "end": "2026-11-02",
+          "weekdays": true
+        },
+        {
+          "name": "void_reason",
+          "gen": "expr",
+          "expr": "rnd.choices(['Death of tenant', 'Transfer to another Silvering home', 'Moved to another landlord or private', 'Moved into care', 'Abandonment', 'Eviction', 'Other'], [26, 20, 18, 12, 7, 5, 12])[0] if tenure != 'Older persons & supported' else rnd.choices(['Death of tenant', 'Moved into care', 'Moved to family', 'Other'], [52, 30, 12, 6])[0]"
+        },
+        {
+          "name": "void_type",
+          "gen": "expr",
+          "expr": "'Major works' if (void_reason in ('Death of tenant', 'Abandonment', 'Eviction') and rnd.random() < 0.5) or rnd.random() < 0.12 else 'Standard'"
+        },
+        {
+          "name": "works_completed",
+          "gen": "expr",
+          "expr": "(lambda x: None if x > as_of else x.date().isoformat())(d(void_start) + timedelta(days=max(4, int(rnd.gauss(38, 12) if void_type == 'Major works' else rnd.gauss(14, 5)))))"
+        },
+        {
+          "name": "let_date",
+          "gen": "expr",
+          "expr": "None if works_completed is None else (lambda x: None if x > as_of else x.date().isoformat())(d(works_completed) + timedelta(days=max(1, int(rnd.gauss(7, 4) + (7 if void_start >= '2026-05-01' else 0)))))"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'Let' if let_date else ('Ready to let' if works_completed else 'Works in progress')"
+        },
+        {
+          "name": "days_void",
+          "gen": "expr",
+          "expr": "((d(let_date) if let_date else as_of) - d(void_start)).days"
+        },
+        {
+          "name": "weekly_rent",
+          "gen": "carried"
+        },
+        {
+          "name": "rent_loss_gbp",
+          "gen": "expr",
+          "expr": "round((weekly_rent or 0) / 7 * days_void, 2)"
+        },
+        {
+          "name": "void_supervisor",
+          "gen": "const",
+          "value": "Steve Harlow"
+        },
+        {
+          "name": "lettings_officer",
+          "gen": "const",
+          "value": "Chloe Benson"
+        }
+      ]
+    },
+    {
+      "name": "tenancies",
+      "title": "Tenancies & Households",
+      "department": "tenancy",
+      "system": "Keystone Housing",
+      "description": "Current tenancies and leases: lead tenant, tenancy type, start date, household, vulnerability and Universal Credit. Confidential: personal and special category data.",
+      "from_table": "properties",
+      "where": "status == 'Occupied' and uprn not in {v['uprn'] for v in tables['voids'] if v['status'] != 'Let'}",
+      "columns": [
+        {
+          "name": "tenancy_ref",
+          "gen": "seq",
+          "prefix": "TEN",
+          "start": 500001
+        },
+        {
+          "name": "uprn",
+          "gen": "base"
+        },
+        {
+          "name": "property_ref",
+          "gen": "base"
+        },
+        {
+          "name": "scheme_id",
+          "gen": "base"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "base"
+        },
+        {
+          "name": "tenure",
+          "gen": "base"
+        },
+        {
+          "name": "patch_officer",
+          "gen": "base"
+        },
+        {
+          "name": "address_line1",
+          "gen": "base"
+        },
+        {
+          "name": "postcode",
+          "gen": "base"
+        },
+        {
+          "name": "tenancy_type",
+          "gen": "expr",
+          "expr": "{'Shared ownership': 'Shared ownership lease', 'Market rent': 'Assured periodic (market rent)', 'Leasehold': 'Long lease (right to buy)'}.get(tenure, 'Assured')"
+        },
+        {
+          "name": "start_date",
+          "gen": "expr",
+          "expr": "(d('2026-10-05') + timedelta(days=rnd.randint(0, 24))).date().isoformat() if base['scheme_id'] == 'SCH14' else (lambda lo: (lo + timedelta(days=int((as_of - lo).days * (rnd.random() ** 0.8) * 0.98))).date().isoformat())(d(str(max(base['build_year'], 1976)) + '-03-01'))"
+        },
+        {
+          "name": "lead_tenant",
+          "gen": "expr",
+          "expr": "fake.first_name() + ' ' + fake.last_name()"
+        },
+        {
+          "name": "lead_tenant_age",
+          "gen": "expr",
+          "expr": "rnd.randint(58, 96) if tenure == 'Older persons & supported' and base['scheme_id'] != 'SCH13' else rnd.randint(19, 45) if base['scheme_id'] == 'SCH13' else rnd.randint(24, 62) if tenure == 'Market rent' else max(19, min(92, int(rnd.gauss(49, 16))))"
+        },
+        {
+          "name": "household_size",
+          "gen": "expr",
+          "expr": "rnd.choices([1, 2], [82, 18])[0] if tenure == 'Older persons & supported' else rnd.choices([1, 2, 3, 4], [40, 35, 18, 7])[0] if base['property_type'] != 'House' else rnd.choices([1, 2, 3, 4, 5, 6], [10, 22, 28, 24, 11, 5])[0]"
+        },
+        {
+          "name": "children_in_household",
+          "gen": "expr",
+          "expr": "household_size >= 3 and lead_tenant_age < 60 and rnd.random() < 0.8"
+        },
+        {
+          "name": "vulnerability_flag",
+          "gen": "expr",
+          "expr": "rnd.random() < (0.55 if tenure == 'Older persons & supported' else 0.17)"
+        },
+        {
+          "name": "vulnerability_type",
+          "gen": "expr",
+          "expr": "rnd.choice(['Mobility', 'Mental health', 'Respiratory condition', 'Hearing or sight', 'Learning disability', 'Domestic abuse survivor', 'Frailty']) if vulnerability_flag else None"
+        },
+        {
+          "name": "universal_credit",
+          "gen": "expr",
+          "expr": "tenure in ('Social rent', 'Affordable rent', 'Market rent', 'Older persons & supported') and lead_tenant_age < 66 and rnd.random() < (0.47 if tenure == 'Affordable rent' else 0.12 if tenure == 'Market rent' else 0.6 if base['scheme_id'] == 'SCH13' else 0.4)"
+        },
+        {
+          "name": "apa_in_place",
+          "gen": "expr",
+          "expr": "universal_credit and rnd.random() < 0.28"
+        },
+        {
+          "name": "contact_preference",
+          "gen": "expr",
+          "expr": "rnd.choices(['Phone', 'Letter', 'Email', 'MySilvering app'], [55, 30, 10, 5])[0] if lead_tenant_age >= 70 else rnd.choices(['Phone', 'Email', 'MySilvering app', 'Letter'], [42, 26, 24, 8])[0]"
+        },
+        {
+          "name": "phone",
+          "gen": "expr",
+          "expr": "'07700 900' + str(rnd.randint(100, 999))"
+        },
+        {
+          "name": "email",
+          "gen": "expr",
+          "expr": "None if contact_preference in ('Letter',) and rnd.random() < 0.7 else lead_tenant.lower().replace(' ', '.').replace(\"'\", '') + str(rnd.randint(1, 99)) + '@' + choice(['example.com', 'example.net', 'example.org'])"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'Notice given' if rnd.random() < 0.012 else 'Current'"
+        },
+        {
+          "name": "weekly_rent",
+          "gen": "base"
+        },
+        {
+          "name": "weekly_service_charge",
+          "gen": "base"
+        },
+        {
+          "name": "damp_weight",
+          "gen": "base"
+        },
+        {
+          "name": "complaint_weight",
+          "gen": "expr",
+          "expr": "2.6 if base['scheme_id'] == 'SCH03' else 1.6 if base['scheme_id'] in ('SCH01', 'SCH14') else 1.0"
+        }
+      ]
+    },
+    {
+      "name": "rent_accounts",
+      "title": "Rent Accounts",
+      "department": "tenancy",
+      "system": "Keystone Housing",
+      "description": "One account per tenancy or lease: weekly charge, current balance (positive = arrears), recovery stage, Universal Credit/APA, last payment and income officer.",
+      "from_table": "tenancies",
+      "columns": [
+        {
+          "name": "account_ref",
+          "gen": "seq",
+          "prefix": "RA",
+          "start": 700001
+        },
+        {
+          "name": "tenancy_ref",
+          "gen": "base"
+        },
+        {
+          "name": "property_ref",
+          "gen": "base"
+        },
+        {
+          "name": "scheme_id",
+          "gen": "base"
+        },
+        {
+          "name": "lead_tenant",
+          "gen": "base"
+        },
+        {
+          "name": "tenure",
+          "gen": "base"
+        },
+        {
+          "name": "universal_credit",
+          "gen": "base"
+        },
+        {
+          "name": "apa_in_place",
+          "gen": "base"
+        },
+        {
+          "name": "weekly_charge",
+          "gen": "expr",
+          "expr": "round((base['weekly_rent'] or 0) + (base['weekly_service_charge'] or 0), 2)"
+        },
+        {
+          "name": "balance_gbp",
+          "gen": "expr",
+          "expr": "(lambda p: round(weekly_charge * (min(26, rnd.expovariate(1 / 4.6)) + 0.3), 2) if rnd.random() < p else (-round(weekly_charge * rnd.uniform(0, 1.6), 2) if rnd.random() < 0.45 else 0.0))(0.5 if universal_credit and not apa_in_place else 0.34 if universal_credit else 0.07 if tenure == 'Older persons & supported' else 0.1 if tenure in ('Leasehold', 'Shared ownership') else 0.18)"
+        },
+        {
+          "name": "weeks_in_arrears",
+          "gen": "expr",
+          "expr": "round(balance_gbp / weekly_charge, 1) if balance_gbp > 0 and weekly_charge else 0.0"
+        },
+        {
+          "name": "arrears_band",
+          "gen": "expr",
+          "expr": "'No arrears' if balance_gbp <= 0 else 'Under £250' if balance_gbp < 250 else '£250 - £999' if balance_gbp < 1000 else '£1,000 - £2,499' if balance_gbp < 2500 else '£2,500 and over'"
+        },
+        {
+          "name": "recovery_stage",
+          "gen": "expr",
+          "expr": "'None' if balance_gbp <= 0 else 'Early contact' if weeks_in_arrears < 1 else 'Stage 1 - letter' if weeks_in_arrears < 3 else rnd.choice(['Payment arrangement', 'Stage 2 - call and visit']) if weeks_in_arrears < 7 else rnd.choice(['Payment arrangement', 'NOSP served', 'Hardship referral']) if weeks_in_arrears < 13 else rnd.choice(['NOSP served', 'Court action pending', 'Suspended possession order'])"
+        },
+        {
+          "name": "last_payment_date",
+          "gen": "expr",
+          "expr": "(as_of - timedelta(days=rnd.randint(1, 13) if balance_gbp <= 0 else rnd.randint(3, 20) if weeks_in_arrears < 6 else rnd.randint(10, 75))).date().isoformat()"
+        },
+        {
+          "name": "income_officer",
+          "gen": "expr",
+          "expr": "choice(['Ryan Tait', 'Priya Chauhan', 'Sam Odukoya'])"
+        }
+      ]
+    },
+    {
+      "name": "repairs",
+      "title": "Responsive Repairs",
+      "department": "repairs",
+      "system": "FieldLoop",
+      "description": "Every responsive repair reported since November 2024: trade, priority, target and completion dates, operative or contractor, cost, first-time fix and resident feedback.",
+      "rows": 6900,
+      "sort_by": "reported_date",
+      "sharepoint_list": true,
+      "list_rows": 400,
+      "list_title": "Repairs (latest 400)",
+      "columns": [
+        {
+          "name": "job_no",
+          "gen": "seq",
+          "prefix": "RJ",
+          "start": 400001
+        },
+        {
+          "name": "uprn",
+          "gen": "fk",
+          "table": "properties",
+          "column": "uprn",
+          "weight_col": "repair_weight",
+          "carry": {
+            "property_ref": "property_ref",
+            "scheme_id": "scheme_id",
+            "scheme_name": "scheme_name",
+            "tenure": "tenure",
+            "address_line1": "address_line1",
+            "build_year": "build_year"
+          }
+        },
+        {
+          "name": "property_ref",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_id",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "carried"
+        },
+        {
+          "name": "tenure",
+          "gen": "carried"
+        },
+        {
+          "name": "address_line1",
+          "gen": "carried"
+        },
+        {
+          "name": "reported_date",
+          "gen": "expr",
+          "expr": "(lambda x: x if x.weekday() < 5 or rnd.random() < 0.3 else x - timedelta(days=x.weekday() - 4))(d('2024-11-04') + timedelta(days=rnd.randint(0, 730), hours=rnd.randint(7, 19), minutes=rnd.choice([0, 10, 20, 30, 40, 50])) if build_year < 2026 else d('2026-10-06') + timedelta(days=rnd.randint(0, 29), hours=rnd.randint(8, 17))).strftime('%Y-%m-%dT%H:%M:00')"
+        },
+        {
+          "name": "channel",
+          "gen": "expr",
+          "expr": "rnd.choices(['Phone', 'MySilvering portal', 'Email', 'Operative-raised', 'Housing officer'], [54, 23, 10, 8, 5])[0]"
+        },
+        {
+          "name": "trade",
+          "gen": "expr",
+          "expr": "rnd.choices([\"Plumbing\", \"Heating & gas\", \"Electrical\", \"Carpentry\", \"Windows & doors\", \"Damp & mould\", \"Roofing\", \"Plastering\", \"Drainage\", \"Fencing & external\", \"General\"], [20, 12, 12, 14, 8, 6 if build_year >= 1980 else 10, 5, 6, 5, 6, 4])[0]"
+        },
+        {
+          "name": "description",
+          "gen": "expr",
+          "expr": "choice({\"Plumbing\": [\"Leaking tap in kitchen\", \"Toilet not flushing\", \"Leak under bath\", \"Blocked sink\", \"Water coming through ceiling from flat above\", \"Dripping overflow pipe\", \"Shower not working\", \"Burst pipe in airing cupboard\"], \"Heating & gas\": [\"No heating or hot water\", \"Boiler losing pressure\", \"Radiator cold at top\", \"Boiler making loud banging noise\", \"Thermostat not working\", \"Smell of gas reported (made safe)\"], \"Electrical\": [\"Sockets not working in bedroom\", \"Light fitting not working in hallway\", \"Extractor fan not working in bathroom\", \"Smoke alarm beeping\", \"Electric shower tripping\", \"Exposed wiring at light switch\"], \"Carpentry\": [\"Front door not locking\", \"Kitchen cupboard door hanging off\", \"Internal door sticking\", \"Loose stair handrail\", \"Skirting board damaged\", \"Window board rotten\"], \"Windows & doors\": [\"Window will not close\", \"Condensation between double-glazed panes\", \"Back door seal letting in draught\", \"Broken window catch (child safety)\", \"Patio door off its runners\"], \"Damp & mould\": [\"Black mould on bedroom wall\", \"Mould around bathroom window\", \"Damp patch on living room ceiling\", \"Musty smell and mould in child's bedroom\", \"Condensation running down windows every morning\"], \"Roofing\": [\"Roof leak into loft\", \"Slipped roof tiles\", \"Gutter overflowing\", \"Flat roof leaking over kitchen\", \"Fascia board loose\"], \"Plastering\": [\"Crack in ceiling plaster\", \"Plaster blown behind tiles\", \"Hole in wall after leak\", \"Ceiling repair after water damage\"], \"Drainage\": [\"Blocked outside drain\", \"Smell from drain\", \"Gully overflowing\", \"Shared drain blocked (block)\"], \"Fencing & external\": [\"Fence panel blown down\", \"Path slab uneven (trip hazard)\", \"Gate broken\", \"Communal bin store door broken\", \"Outside light not working\"], \"General\": [\"Pre-tenancy inspection follow-up\", \"Install grab rail\", \"Replace bath panel\", \"Ease and adjust doors\", \"Make good after adaptation\"]}[trade])"
+        },
+        {
+          "name": "priority",
+          "gen": "expr",
+          "expr": "'Emergency' if description in ('No heating or hot water', 'Smell of gas reported (made safe)', 'Water coming through ceiling from flat above', 'Burst pipe in airing cupboard', 'Exposed wiring at light switch', 'Front door not locking') and rnd.random() < 0.85 else rnd.choices(['Emergency', 'Urgent', 'Routine', 'Planned'], [6, 24, 64, 6])[0]"
+        },
+        {
+          "name": "target_date",
+          "gen": "expr",
+          "expr": "(d(reported_date) + timedelta(days={\"Emergency\": 1, \"Urgent\": 7, \"Routine\": 28, \"Planned\": 90}[priority])).date().isoformat()"
+        },
+        {
+          "name": "completed_date",
+          "gen": "expr",
+          "expr": "(lambda x: x.strftime('%Y-%m-%dT%H:%M:00'))(d(reported_date) + timedelta(hours=(rnd.uniform(1, 20) if rnd.random() < 0.93 else rnd.uniform(24, 60)) if priority == 'Emergency' else timedelta(days=max(0.2, (rnd.gauss(4.6, 2.4) if priority == 'Urgent' else rnd.gauss(16, 8) if priority == 'Routine' else rnd.gauss(55, 22)) + (rnd.uniform(0, 14) if scheme_id == 'SCH03' and priority in ('Routine', 'Urgent') else 0) + (rnd.uniform(0, 17) if priority == 'Routine' and reported_date >= '2026-05-01' else 0) + (rnd.uniform(0, 12) if trade == 'Electrical' and reported_date >= '2026-03-01' and priority != 'Emergency' else 0) + (rnd.uniform(0, 6) if trade in ('Damp & mould', 'Roofing') else 0))).total_seconds() / 3600))"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'Cancelled' if rnd.random() < 0.03 else ('Completed' if d(completed_date) <= as_of else rnd.choices(['Open', 'Appointment booked', 'Awaiting parts', 'Awaiting contractor'], [40, 38, 14, 8])[0])"
+        },
+        {
+          "name": "days_to_complete",
+          "gen": "expr",
+          "expr": "round((d(completed_date) - d(reported_date)).total_seconds() / 86400, 1) if status == 'Completed' else None"
+        },
+        {
+          "name": "in_target",
+          "gen": "expr",
+          "expr": "(d(completed_date).date() <= d(target_date).date()) if status == 'Completed' else None"
+        },
+        {
+          "name": "overdue",
+          "gen": "expr",
+          "expr": "status not in ('Completed', 'Cancelled') and as_of.date() > d(target_date).date()"
+        },
+        {
+          "name": "contractor",
+          "gen": "expr",
+          "expr": "('Weald Roofing & Guttering Ltd' if trade == 'Roofing' else 'ClearFlow Drainage Ltd') if trade in ('Roofing', 'Drainage') else ('Brightline Electrical Ltd' if trade == 'Electrical' and reported_date >= '2026-03-01' and rnd.random() < 0.3 else None)"
+        },
+        {
+          "name": "operative",
+          "gen": "expr",
+          "expr": "None if contractor else (lambda pool: choice(pool) if pool else None)([e['full_name'] for e in tables['employees'] if e['trade'] == {'Plumbing': 'Plumbing', 'Heating & gas': 'Gas & heating', 'Electrical': 'Electrical', 'Carpentry': 'Carpentry', 'Windows & doors': 'Carpentry', 'Damp & mould': 'Damp & mould', 'Plastering': 'Damp & mould', 'Fencing & external': 'Multi-trade', 'General': 'Multi-trade'}.get(trade)])"
+        },
+        {
+          "name": "cost_gbp",
+          "gen": "expr",
+          "expr": "round(max(18, rnd.gauss({'Plumbing': 95, 'Heating & gas': 140, 'Electrical': 110, 'Carpentry': 120, 'Windows & doors': 160, 'Damp & mould': 340, 'Roofing': 420, 'Plastering': 210, 'Drainage': 180, 'Fencing & external': 150, 'General': 90}[trade], 40)) * (1.25 if contractor else 1), 2) if status == 'Completed' else None"
+        },
+        {
+          "name": "first_time_fix",
+          "gen": "expr",
+          "expr": "(rnd.random() < (0.62 if scheme_id == 'SCH03' else 0.79)) if status == 'Completed' else None"
+        },
+        {
+          "name": "resident_rating",
+          "gen": "expr",
+          "expr": "(rnd.choices([5, 4, 3, 2, 1], [44, 26, 12, 9, 9] if in_target and first_time_fix else [16, 20, 20, 20, 24])[0]) if status == 'Completed' and rnd.random() < 0.28 else None"
+        }
+      ]
+    },
+    {
+      "name": "damp_mould_cases",
+      "title": "Damp & Mould Cases",
+      "department": "repairs",
+      "system": "FieldLoop / Keystone Housing",
+      "description": "Damp and mould reports since November 2024 with hazard level, investigation, written summary and works dates. Cases from 27 October 2025 are covered by Awaab's Law timescales.",
+      "rows": 232,
+      "sort_by": "reported_date",
+      "sharepoint_list": true,
+      "list_title": "Damp & Mould Tracker",
+      "columns": [
+        {
+          "name": "case_id",
+          "gen": "seq",
+          "prefix": "DM",
+          "start": 1001
+        },
+        {
+          "name": "tenancy_ref",
+          "gen": "fk",
+          "table": "tenancies",
+          "column": "tenancy_ref",
+          "weight_col": "damp_weight",
+          "carry": {
+            "uprn": "uprn",
+            "property_ref": "property_ref",
+            "scheme_id": "scheme_id",
+            "scheme_name": "scheme_name",
+            "address_line1": "address_line1",
+            "lead_tenant": "lead_tenant",
+            "vulnerability_flag": "vulnerability_flag",
+            "children_in_household": "children_in_household"
+          }
+        },
+        {
+          "name": "uprn",
+          "gen": "carried"
+        },
+        {
+          "name": "property_ref",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_id",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "carried"
+        },
+        {
+          "name": "address_line1",
+          "gen": "carried"
+        },
+        {
+          "name": "lead_tenant",
+          "gen": "carried"
+        },
+        {
+          "name": "vulnerability_flag",
+          "gen": "carried"
+        },
+        {
+          "name": "children_in_household",
+          "gen": "carried"
+        },
+        {
+          "name": "reported_date",
+          "gen": "expr",
+          "expr": "(lambda days: rnd.choices(days, [[1.7, 1.8, 1.5, 1.0, 0.6, 0.5, 0.45, 0.5, 0.7, 1.1, 1.5, 1.8][x.month - 1] for x in days])[0].date().isoformat())([d('2024-11-04') + timedelta(days=k) for k in range(0, 730) if (d('2024-11-04') + timedelta(days=k)).weekday() < 5])"
+        },
+        {
+          "name": "source",
+          "gen": "expr",
+          "expr": "rnd.choices(['Repair report', 'Housing officer visit', 'MySilvering', 'Complaint', 'Operative-raised', 'TSM survey', 'Councillor or MP'], [44, 15, 14, 9, 9, 5, 4])[0]"
+        },
+        {
+          "name": "hazard_level",
+          "gen": "expr",
+          "expr": "rnd.choices(['Emergency', 'Significant', 'Not significant'], [7, 58 + (10 if children_in_household or vulnerability_flag else 0), 35])[0]"
+        },
+        {
+          "name": "awaabs_law",
+          "gen": "expr",
+          "expr": "reported_date >= '2025-10-27'"
+        },
+        {
+          "name": "investigation_due",
+          "gen": "expr",
+          "expr": "(d(reported_date) + timedelta(days=1)).date().isoformat() if hazard_level == 'Emergency' else (lambda s, n: s + timedelta(days=(n//5)*7 + n%5 + (2 if s.weekday() + n%5 >= 5 else 0)))(d(reported_date), 10).date().isoformat()"
+        },
+        {
+          "name": "investigated_date",
+          "gen": "expr",
+          "expr": "(lambda x: None if x > as_of else x.date().isoformat())(d(reported_date) + timedelta(days=((0 if rnd.random() < 0.85 else rnd.randint(1, 3)) if hazard_level == 'Emergency' else max(1, int(rnd.gauss(7, 3) + (rnd.uniform(0, 9) if scheme_id == 'SCH03' else 0) + (rnd.uniform(0, 5) if reported_date >= '2026-06-01' else 0))) if awaabs_law else max(2, int(rnd.gauss(16, 8))))))"
+        },
+        {
+          "name": "summary_due",
+          "gen": "expr",
+          "expr": "(lambda s, n: s + timedelta(days=(n//5)*7 + n%5 + (2 if s.weekday() + n%5 >= 5 else 0)))(d(investigated_date), 3).date().isoformat() if investigated_date else None"
+        },
+        {
+          "name": "summary_sent_date",
+          "gen": "expr",
+          "expr": "None if not investigated_date or (awaabs_law and rnd.random() < 0.03) else (lambda x: None if x > as_of else x.date().isoformat())(d(investigated_date) + timedelta(days=rnd.choices([0, 1, 2, 3, 4, 6, 9, 14], [16, 32, 24, 12, 7, 4, 3, 2])[0]))"
+        },
+        {
+          "name": "works_due",
+          "gen": "expr",
+          "expr": "(None if hazard_level == 'Not significant' or not investigated_date else (d(investigated_date) + timedelta(days=1)).date().isoformat() if hazard_level == 'Emergency' else (lambda s, n: s + timedelta(days=(n//5)*7 + n%5 + (2 if s.weekday() + n%5 >= 5 else 0)))(d(investigated_date), 5).date().isoformat())"
+        },
+        {
+          "name": "works_started_date",
+          "gen": "expr",
+          "expr": "None if not works_due else (lambda x: None if x > as_of else x.date().isoformat())(d(investigated_date) + timedelta(days=(rnd.choice([0, 0, 1, 1, 2]) if hazard_level == 'Emergency' else max(1, int(rnd.gauss(4, 2) + (rnd.uniform(0, 7) if scheme_id == 'SCH03' else 0))))))"
+        },
+        {
+          "name": "works_completed_date",
+          "gen": "expr",
+          "expr": "None if not works_started_date else (lambda x: None if x > as_of else x.date().isoformat())(d(works_started_date) + timedelta(days=max(1, int(rnd.gauss(12, 8)))))"
+        },
+        {
+          "name": "cause",
+          "gen": "expr",
+          "expr": "rnd.choices(['Condensation (ventilation)', 'Penetrating damp', 'Plumbing leak', 'Roof or gutter defect', 'Rising damp', 'Cold bridging / insulation'], [44, 18, 13, 12, 5, 8])[0]"
+        },
+        {
+          "name": "surveyor",
+          "gen": "expr",
+          "expr": "('Marcus Adebayo' if rnd.random() < 0.45 else 'Ellie Novak') if reported_date >= '2025-09-15' else 'Ellie Novak'"
+        },
+        {
+          "name": "alternative_accommodation",
+          "gen": "expr",
+          "expr": "'Decant to temporary accommodation' if hazard_level == 'Emergency' and rnd.random() < 0.35 else None"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'Open - awaiting investigation' if not investigated_date else 'Open - works in progress' if works_due and not works_completed_date else 'Open - awaiting written summary' if not summary_sent_date else 'Closed'"
+        },
+        {
+          "name": "timescale_breach",
+          "gen": "expr",
+          "expr": "None if not awaabs_law else (lambda r: '; '.join(r) or None)([m for m, bad in [('Investigation late', (d(investigated_date) if investigated_date else as_of).date() > d(investigation_due).date()), ('Written summary late', bool(investigated_date) and (d(summary_sent_date) if summary_sent_date else as_of).date() > d(summary_due).date()), ('Safety works start late', bool(works_due) and (d(works_started_date) if works_started_date else as_of).date() > d(works_due).date())] if bad])"
+        }
+      ]
+    },
+    {
+      "name": "complaints",
+      "title": "Complaints Register",
+      "department": "customer",
+      "system": "Keystone Housing",
+      "description": "All formal complaints since November 2024 under the Complaint Handling Code: stage 1 and stage 2 dates and targets, outcome, compensation and Housing Ombudsman referrals.",
+      "rows": 214,
+      "sort_by": "received_date",
+      "sharepoint_list": true,
+      "list_title": "Complaints Register",
+      "columns": [
+        {
+          "name": "complaint_id",
+          "gen": "seq",
+          "prefix": "CMP-",
+          "start": 24001
+        },
+        {
+          "name": "tenancy_ref",
+          "gen": "fk",
+          "table": "tenancies",
+          "column": "tenancy_ref",
+          "weight_col": "complaint_weight",
+          "carry": {
+            "property_ref": "property_ref",
+            "scheme_id": "scheme_id",
+            "scheme_name": "scheme_name",
+            "complainant": "lead_tenant",
+            "tenure": "tenure"
+          }
+        },
+        {
+          "name": "property_ref",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_id",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "carried"
+        },
+        {
+          "name": "complainant",
+          "gen": "carried"
+        },
+        {
+          "name": "tenure",
+          "gen": "carried"
+        },
+        {
+          "name": "received_date",
+          "gen": "date",
+          "start": "2024-11-04",
+          "end": "2026-11-03",
+          "weekdays": true
+        },
+        {
+          "name": "channel",
+          "gen": "expr",
+          "expr": "rnd.choices(['Phone', 'Email', 'MySilvering', 'Letter', 'In person', 'Councillor or MP'], [38, 26, 20, 5, 5, 6])[0]"
+        },
+        {
+          "name": "category",
+          "gen": "expr",
+          "expr": "rnd.choices([\"Repairs - delay\", \"Repairs - quality\", \"Damp & mould\", \"Communication\", \"Anti-social behaviour handling\", \"Staff conduct\", \"Rent & service charges\", \"Estate services & cleaning\", \"Lettings & transfers\", \"New build defects\"], [24, 12, 15 if scheme_id != 'SCH03' else 40, 12, 8, 5, 6, 8, 4, 0 if scheme_id not in ('SCH14', 'SCH25') else 40])[0]"
+        },
+        {
+          "name": "summary",
+          "gen": "expr",
+          "expr": "choice({\"Repairs - delay\": [\"Waited weeks for a leak repair; three missed appointments\", \"Heating repair still not done after operative said parts were ordered\", \"Routine repair booked and cancelled twice without notice\"], \"Repairs - quality\": [\"Repair had to be redone three times\", \"Operative left mess and did not finish the job\", \"Window replaced but still lets in water\"], \"Damp & mould\": [\"Mould keeps coming back after treatment; child has asthma\", \"Told it was condensation and to open windows; no inspection\", \"No written update after damp inspection\"], \"Communication\": [\"Nobody returns calls or emails\", \"Letter sent to wrong name after bereavement\", \"Promised call-back did not happen\"], \"Anti-social behaviour handling\": [\"Reported noise for months and nothing done\", \"Case closed without telling me\", \"Feel unsafe and officer has not visited\"], \"Staff conduct\": [\"Adviser was rude on the phone\", \"Operative was dismissive about my disability\", \"Officer discussed my case in front of neighbours\"], \"Rent & service charges\": [\"Service charge increase not explained\", \"Payment not credited to rent account\", \"Threatening arrears letter sent while UC claim was pending\"], \"Estate services & cleaning\": [\"Communal areas not cleaned for weeks\", \"Grass not cut and bins overflowing\", \"Lift out of order repeatedly\"], \"Lettings & transfers\": [\"Transfer request ignored\", \"Home not ready on move-in day\", \"Not told why bid was unsuccessful\"], \"New build defects\": [\"Snagging items still outstanding after move-in\", \"Heat pump controls not explained and bills high\", \"Front door does not seal properly\"]}[category])"
+        },
+        {
+          "name": "ack_due",
+          "gen": "expr",
+          "expr": "(lambda s, n: s + timedelta(days=(n//5)*7 + n%5 + (2 if s.weekday() + n%5 >= 5 else 0)))(d(received_date), 5).date().isoformat()"
+        },
+        {
+          "name": "ack_date",
+          "gen": "expr",
+          "expr": "(lambda x: None if x > as_of else x.date().isoformat())(d(received_date) + timedelta(days=rnd.choices([0, 1, 2, 3, 5, 7, 9], [20, 30, 20, 12, 9, 6, 3])[0]))"
+        },
+        {
+          "name": "stage1_due",
+          "gen": "expr",
+          "expr": "(lambda s, n: s + timedelta(days=(n//5)*7 + n%5 + (2 if s.weekday() + n%5 >= 5 else 0)))(d(ack_date), 10).date().isoformat() if ack_date else None"
+        },
+        {
+          "name": "stage1_response_date",
+          "gen": "expr",
+          "expr": "None if not ack_date else (lambda x: None if x > as_of else x.date().isoformat())(d(ack_date) + timedelta(days=max(1, int(rnd.gauss(11, 4.5) + (rnd.uniform(0, 9) if '2026-06-01' <= received_date < '2026-10-01' else 0) + (rnd.uniform(0, 5) if category.startswith('Repairs') or category == 'Damp & mould' else 0)))))"
+        },
+        {
+          "name": "stage1_in_target",
+          "gen": "expr",
+          "expr": "(d(stage1_response_date).date() <= d(stage1_due).date()) if stage1_response_date else None"
+        },
+        {
+          "name": "stage1_outcome",
+          "gen": "expr",
+          "expr": "rnd.choices(['Upheld', 'Partly upheld', 'Not upheld'], [42, 32, 26] if category in ('Repairs - delay', 'Damp & mould', 'Communication') else [28, 30, 42])[0] if stage1_response_date else None"
+        },
+        {
+          "name": "compensation_gbp",
+          "gen": "expr",
+          "expr": "(rnd.choices([0, 50, 75, 100, 150, 250, 400, 650], [16, 18, 14, 18, 12, 10, 8, 4])[0] if stage1_outcome in ('Upheld', 'Partly upheld') else 0) if stage1_response_date else None"
+        },
+        {
+          "name": "escalated_stage2",
+          "gen": "expr",
+          "expr": "bool(stage1_response_date) and rnd.random() < (0.12 if stage1_outcome == 'Upheld' else 0.3)"
+        },
+        {
+          "name": "stage2_received",
+          "gen": "expr",
+          "expr": "(lambda x: None if x > as_of else x.date().isoformat())(d(stage1_response_date) + timedelta(days=rnd.randint(2, 21))) if escalated_stage2 else None"
+        },
+        {
+          "name": "stage2_due",
+          "gen": "expr",
+          "expr": "(lambda s, n: s + timedelta(days=(n//5)*7 + n%5 + (2 if s.weekday() + n%5 >= 5 else 0)))(d(stage2_received), 25).date().isoformat() if stage2_received else None"
+        },
+        {
+          "name": "stage2_response_date",
+          "gen": "expr",
+          "expr": "None if not stage2_received else (lambda x: None if x > as_of else x.date().isoformat())(d(stage2_received) + timedelta(days=max(5, int(rnd.gauss(30, 9)))))"
+        },
+        {
+          "name": "stage2_outcome",
+          "gen": "expr",
+          "expr": "rnd.choices(['Upheld', 'Partly upheld', 'Not upheld'], [30, 35, 35])[0] if stage2_response_date else None"
+        },
+        {
+          "name": "ombudsman",
+          "gen": "expr",
+          "expr": "(rnd.choices(['Referred - awaiting determination', 'Determined - maladministration', 'Determined - service failure', 'Determined - no maladministration'], [40, 20, 20, 20])[0] if rnd.random() < 0.32 else None) if stage2_response_date and stage2_response_date < '2026-09-01' else None"
+        },
+        {
+          "name": "handler",
+          "gen": "expr",
+          "expr": "'Owen Fletcher' if stage2_received else choice(['Mark Pennington', 'Mark Pennington', 'Leah Foster'])"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'With Housing Ombudsman' if ombudsman == 'Referred - awaiting determination' else 'Open - stage 2' if stage2_received and not stage2_response_date else 'Open - stage 1' if not stage1_response_date else 'Closed'"
+        },
+        {
+          "name": "learning",
+          "gen": "expr",
+          "expr": "choice(['Missed appointments: text reminder added', 'Damp follow-up visit now booked at inspection', 'Call-back promises logged as tasks in Keystone', 'Repairs history checked before stage 1 response', 'Bereavement name-change process reviewed', 'Contractor quality checks on 10% of jobs', None, None]) if stage1_outcome in ('Upheld', 'Partly upheld') else None"
+        }
+      ]
+    },
+    {
+      "name": "asb_cases",
+      "title": "Anti-social Behaviour Cases",
+      "department": "tenancy",
+      "system": "Keystone Housing",
+      "description": "ASB cases opened since November 2024: category, risk, risk assessment, officer, actions taken, outcome and reporter satisfaction. Confidential.",
+      "rows": 126,
+      "sort_by": "opened_date",
+      "columns": [
+        {
+          "name": "case_id",
+          "gen": "seq",
+          "prefix": "ASB-",
+          "start": 9001
+        },
+        {
+          "name": "reporter_tenancy",
+          "gen": "fk",
+          "table": "tenancies",
+          "column": "tenancy_ref",
+          "carry": {
+            "scheme_id": "scheme_id",
+            "scheme_name": "scheme_name",
+            "patch_officer": "patch_officer"
+          }
+        },
+        {
+          "name": "scheme_id",
+          "gen": "carried"
+        },
+        {
+          "name": "patch_officer",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "carried"
+        },
+        {
+          "name": "opened_date",
+          "gen": "date",
+          "start": "2024-11-04",
+          "end": "2026-11-03",
+          "weekdays": true
+        },
+        {
+          "name": "category",
+          "gen": "expr",
+          "expr": "rnd.choices(['Noise', 'Neighbour dispute', 'Drugs or drug dealing', 'Harassment or threats', 'Vandalism or criminal damage', 'Pets and animals', 'Hate incident', 'Domestic abuse', 'Rubbish and fly-tipping'], [30, 18, 10, 10, 8, 8, 4, 5, 7])[0]"
+        },
+        {
+          "name": "risk_level",
+          "gen": "expr",
+          "expr": "'High' if category in ('Hate incident', 'Domestic abuse', 'Harassment or threats') and rnd.random() < 0.7 else rnd.choices(['High', 'Medium', 'Low'], [8, 42, 50])[0]"
+        },
+        {
+          "name": "risk_assessment_done",
+          "gen": "expr",
+          "expr": "rnd.random() < (0.96 if risk_level == 'High' else 0.72)"
+        },
+        {
+          "name": "officer",
+          "gen": "expr",
+          "expr": "'Gary Doyle' if risk_level == 'High' or category == 'Drugs or drug dealing' else patch_officer"
+        },
+        {
+          "name": "actions_taken",
+          "gen": "expr",
+          "expr": "choice(['Advice and diary sheets', 'Warning letter', 'Mediation referral', 'Acceptable behaviour agreement', 'Joint visit with police', 'Noise monitoring app', 'Injunction application', 'Closure order (partner-led)'])"
+        },
+        {
+          "name": "closed_date",
+          "gen": "expr",
+          "expr": "(lambda x: None if x > as_of else x.date().isoformat())(d(opened_date) + timedelta(days=max(5, int(rnd.gauss(48, 25) * (1.6 if risk_level == 'High' else 1)))))"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'Closed' if closed_date else 'Open'"
+        },
+        {
+          "name": "outcome",
+          "gen": "expr",
+          "expr": "choice(['Resolved', 'Resolved', 'Behaviour stopped', 'No further reports', 'Insufficient evidence', 'Reporter moved', 'Legal action']) if closed_date else None"
+        },
+        {
+          "name": "reporter_satisfied",
+          "gen": "expr",
+          "expr": "(rnd.random() < 0.56) if closed_date and rnd.random() < 0.6 else None"
+        }
+      ]
+    },
+    {
+      "name": "compliance_checks",
+      "title": "Home Safety Checks (Gas & Electrical)",
+      "department": "assets",
+      "system": "Assure360",
+      "description": "Latest landlord gas safety record (12-monthly) and electrical installation condition report (5-yearly) for every rented home, with result, next due date and status.",
+      "from_table": "properties",
+      "where": "tenure not in ('Leasehold', 'Shared ownership')",
+      "explode": "(['Gas safety (LGSR)'] if has_gas else []) + ['Electrical (EICR)']",
+      "columns": [
+        {
+          "name": "check_id",
+          "gen": "seq",
+          "prefix": "CC",
+          "start": 100001
+        },
+        {
+          "name": "uprn",
+          "gen": "base"
+        },
+        {
+          "name": "property_ref",
+          "gen": "base"
+        },
+        {
+          "name": "scheme_id",
+          "gen": "base"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "base"
+        },
+        {
+          "name": "address_line1",
+          "gen": "base"
+        },
+        {
+          "name": "check_type",
+          "gen": "expr",
+          "expr": "item"
+        },
+        {
+          "name": "last_completed",
+          "gen": "expr",
+          "expr": "(d(str(base['build_year']) + '-09-15') + timedelta(days=rnd.randint(0, 20))).date().isoformat() if base['build_year'] == 2026 else (as_of - timedelta(days=rnd.randint(4, 355))).date().isoformat() if item.startswith('Gas') else (as_of - timedelta(days=rnd.randint(1832, 1990) if rnd.random() < 0.0185 else rnd.randint(10, 1815))).date().isoformat()"
+        },
+        {
+          "name": "next_due",
+          "gen": "expr",
+          "expr": "(d(last_completed) + timedelta(days=365 if item.startswith('Gas') else 1826)).date().isoformat()"
+        },
+        {
+          "name": "result",
+          "gen": "expr",
+          "expr": "rnd.choices(['Satisfactory', 'At risk - remedial works', 'Immediately dangerous - appliance capped'], [95.5, 3.7, 0.8])[0] if item.startswith('Gas') else rnd.choices(['Satisfactory', 'Unsatisfactory - C2 remedials'], [87, 13])[0]"
+        },
+        {
+          "name": "remedial_status",
+          "gen": "expr",
+          "expr": "None if result == 'Satisfactory' else ('Outstanding' if rnd.random() < 0.18 else 'Completed')"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'Compliant' if d(next_due) >= as_of else 'Overdue'"
+        },
+        {
+          "name": "no_access_attempts",
+          "gen": "expr",
+          "expr": "rnd.randint(2, 5) if status == 'Overdue' else 0"
+        },
+        {
+          "name": "engineer",
+          "gen": "expr",
+          "expr": "choice(['Silvering gas team', 'Silvering gas team', 'Kentish Heating Services Ltd']) if item.startswith('Gas') else choice(['Silvering electrical team', 'Brightline Electrical Ltd'])"
+        }
+      ]
+    },
+    {
+      "name": "building_safety",
+      "title": "Building Safety (Communal Checks)",
+      "department": "assets",
+      "system": "Assure360",
+      "description": "Communal fire, water, asbestos, lift and fire door checks for every block and scheme with shared areas, with risk rating and open actions.",
+      "from_table": "schemes",
+      "where": "scheme_type not in ('General needs estate', 'Street properties')",
+      "explode": "(['Fire risk assessment', 'Legionella risk assessment', 'Asbestos re-inspection (communal)'] + (['Lift thorough examination (LOLER)'] if has_lift else []) + (['Communal fire door inspection'] if max_storeys >= 4 else []))",
+      "sharepoint_list": true,
+      "list_title": "Building Safety Checks",
+      "columns": [
+        {
+          "name": "check_id",
+          "gen": "seq",
+          "prefix": "BS",
+          "start": 5001
+        },
+        {
+          "name": "scheme_id",
+          "gen": "base"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "base"
+        },
+        {
+          "name": "max_storeys",
+          "gen": "base"
+        },
+        {
+          "name": "check_type",
+          "gen": "expr",
+          "expr": "item"
+        },
+        {
+          "name": "frequency_months",
+          "gen": "expr",
+          "expr": "{'Fire risk assessment': 12 if base['max_storeys'] >= 4 or 'SilverLiving' in base['scheme_type'] else 24, 'Legionella risk assessment': 24, 'Asbestos re-inspection (communal)': 12, 'Lift thorough examination (LOLER)': 6, 'Communal fire door inspection': 3}[item]"
+        },
+        {
+          "name": "last_completed",
+          "gen": "expr",
+          "expr": "(as_of - timedelta(days=rnd.randint(5, int(frequency_months * 30.4) - 5))).date().isoformat() if base['build_year'] < 2026 else '2026-09-28'"
+        },
+        {
+          "name": "next_due",
+          "gen": "expr",
+          "expr": "(d(last_completed) + timedelta(days=int(frequency_months * 30.4))).date().isoformat()"
+        },
+        {
+          "name": "risk_rating",
+          "gen": "expr",
+          "expr": "rnd.choices(['Trivial', 'Tolerable', 'Moderate'], [15, 65, 20])[0] if item == 'Fire risk assessment' else None"
+        },
+        {
+          "name": "open_actions",
+          "gen": "expr",
+          "expr": "rnd.randint(0, 6) if item in ('Fire risk assessment', 'Communal fire door inspection') else rnd.randint(0, 2)"
+        },
+        {
+          "name": "overdue_actions",
+          "gen": "expr",
+          "expr": "0"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'Compliant' if d(next_due) >= as_of else 'Overdue'"
+        },
+        {
+          "name": "assessor",
+          "gen": "expr",
+          "expr": "{'Fire risk assessment': 'Fireguard Compliance Ltd', 'Legionella risk assessment': 'AquaSafe Water Hygiene Ltd', 'Asbestos re-inspection (communal)': 'Asbestos Survey Partners Ltd', 'Lift thorough examination (LOLER)': 'Liftwise Engineering Ltd', 'Communal fire door inspection': 'Silvering building safety team'}[item]"
+        }
+      ]
+    },
+    {
+      "name": "tsm_survey",
+      "title": "Tenant Satisfaction Survey Responses",
+      "department": "customer",
+      "system": "Customer Voice survey platform",
+      "description": "Individual responses to the Tenant Satisfaction Measures survey (TP01-TP12) for 2025/26 and 2026/27 to date, by tenure group, scheme and method, with free-text comments.",
+      "rows": 860,
+      "sort_by": "survey_date",
+      "columns": [
+        {
+          "name": "response_id",
+          "gen": "seq",
+          "prefix": "TSM",
+          "start": 50001
+        },
+        {
+          "name": "tenancy_ref",
+          "gen": "fk",
+          "table": "tenancies",
+          "column": "tenancy_ref",
+          "filter": "ref['tenure'] not in ('Market rent', 'Leasehold')",
+          "carry": {
+            "scheme_id": "scheme_id",
+            "scheme_name": "scheme_name",
+            "tenure": "tenure"
+          }
+        },
+        {
+          "name": "scheme_id",
+          "gen": "carried"
+        },
+        {
+          "name": "scheme_name",
+          "gen": "carried"
+        },
+        {
+          "name": "tenure",
+          "gen": "carried"
+        },
+        {
+          "name": "tenure_group",
+          "gen": "expr",
+          "expr": "'LCHO' if tenure == 'Shared ownership' else 'LCRA'"
+        },
+        {
+          "name": "survey_date",
+          "gen": "date",
+          "start": "2025-04-07",
+          "end": "2026-10-30",
+          "weekdays": true
+        },
+        {
+          "name": "tsm_year",
+          "gen": "expr",
+          "expr": "'2025/26' if survey_date < '2026-04-01' else '2026/27'"
+        },
+        {
+          "name": "method",
+          "gen": "expr",
+          "expr": "rnd.choices(['Telephone', 'Online', 'Paper'], [55, 35, 10])[0]"
+        },
+        {
+          "name": "had_repair_12m",
+          "gen": "expr",
+          "expr": "tenure_group == 'LCRA' and rnd.random() < 0.76"
+        },
+        {
+          "name": "complained_12m",
+          "gen": "expr",
+          "expr": "rnd.random() < (0.36 if scheme_id == 'SCH03' else 0.24)"
+        },
+        {
+          "name": "tp01_overall",
+          "gen": "expr",
+          "expr": "(lambda p: [\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"][rnd.choices([4, 3], [52, 48])[0] if rnd.random() < p else rnd.choices([2, 1, 0], [40, 33, 27])[0]])({'Older persons & supported': 0.9, 'Social rent': 0.78, 'Affordable rent': 0.8, 'Shared ownership': 0.58}[tenure] - (0.2 if scheme_id == 'SCH03' else 0.08 if scheme_id == 'SCH01' else 0) + (0.12 if scheme_id == 'SCH14' else 0) + (0.008 if tsm_year == '2026/27' else 0) - (0.05 if complained_12m else 0))"
+        },
+        {
+          "name": "tp02_repairs",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"][max(0, min(4, s - (1 if rnd.random() < 0.08 else 0) + (1 if rnd.random() < 0.0 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if had_repair_12m else None"
+        },
+        {
+          "name": "tp03_time_taken",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"][max(0, min(4, s - (1 if rnd.random() < 0.3 else 0) + (1 if rnd.random() < 0.0 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if had_repair_12m else None"
+        },
+        {
+          "name": "tp04_well_maintained",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"][max(0, min(4, s - (1 if rnd.random() < 0.12 else 0) + (1 if rnd.random() < 0.0 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if tenure_group == 'LCRA' else None"
+        },
+        {
+          "name": "tp05_safe_home",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"][max(0, min(4, s - (1 if rnd.random() < 0.0 else 0) + (1 if rnd.random() < 0.25 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if tenure_group == 'LCRA' else None"
+        },
+        {
+          "name": "tp06_listens_acts",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Strongly disagree\", \"Disagree\", \"Neither agree nor disagree\", \"Agree\", \"Strongly agree\"][max(0, min(4, s - (1 if rnd.random() < 0.35 else 0) + (1 if rnd.random() < 0 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if True else None"
+        },
+        {
+          "name": "tp07_kept_informed",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Strongly disagree\", \"Disagree\", \"Neither agree nor disagree\", \"Agree\", \"Strongly agree\"][max(0, min(4, s - (1 if rnd.random() < 0.15 else 0) + (1 if rnd.random() < 0 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if True else None"
+        },
+        {
+          "name": "tp08_fair_respect",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Strongly disagree\", \"Disagree\", \"Neither agree nor disagree\", \"Agree\", \"Strongly agree\"][max(0, min(4, s - (1 if rnd.random() < 0.0 else 0) + (1 if rnd.random() < 0.2 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if True else None"
+        },
+        {
+          "name": "tp09_complaints",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"][max(0, min(4, s - (1 if rnd.random() < 0.88 else 0) + (1 if rnd.random() < 0.0 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if complained_12m else None"
+        },
+        {
+          "name": "tp10_communal_areas",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"][max(0, min(4, s - (1 if rnd.random() < 0.2 else 0) + (1 if rnd.random() < 0.0 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if scheme_id in ('SCH01', 'SCH02', 'SCH08', 'SCH10', 'SCH11', 'SCH12', 'SCH13', 'SCH14', 'SCH20', 'SCH21', 'SCH22', 'SCH24', 'SCH29') or rnd.random() < 0.2 else None"
+        },
+        {
+          "name": "tp11_neighbourhood",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Strongly disagree\", \"Disagree\", \"Neither agree nor disagree\", \"Agree\", \"Strongly agree\"][max(0, min(4, s - (1 if rnd.random() < 0.3 else 0) + (1 if rnd.random() < 0 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if True else None"
+        },
+        {
+          "name": "tp12_asb_approach",
+          "gen": "expr",
+          "expr": "(lambda s: [\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"][max(0, min(4, s - (1 if rnd.random() < 0.33 else 0) + (1 if rnd.random() < 0.0 else 0) + rnd.choice([-1, 0, 0, 0, 0, 0, 1])))])([\"Very dissatisfied\", \"Fairly dissatisfied\", \"Neither satisfied nor dissatisfied\", \"Fairly satisfied\", \"Very satisfied\"].index(tp01_overall)) if rnd.random() < 0.55 else None"
+        },
+        {
+          "name": "comment",
+          "gen": "expr",
+          "expr": "(choice([\"Repairs team were brilliant, came the next day.\", \"My housing officer really listens.\", \"Lovely scheme, Margaret and the team are wonderful.\", \"Happy with my home, no complaints.\", \"Much better since the new repairs app.\", \"The new kitchen made a big difference.\"]) if tp01_overall in ('Very satisfied', 'Fairly satisfied') else choice([\"Still waiting for the damp in my son's room to be sorted.\", \"Nobody calls back when they say they will.\", \"Three appointments missed for the same leak.\", \"Mould came back two weeks after they painted over it.\", \"I reported the noise next door for months and nothing happened.\", \"Service charge went up and no one explained why.\", \"Communal areas are filthy and the lift keeps breaking.\", \"As a shared owner I pay for repairs but get no say in anything.\", \"It takes forever to get through on the phone.\", \"They closed my complaint without fixing anything.\"])) if rnd.random() < 0.42 else None"
+        }
+      ]
+    },
+    {
+      "name": "suppliers",
+      "title": "Contractors & Suppliers",
+      "department": "finance",
+      "system": "Northway Finance Cloud",
+      "description": "Main contractors and suppliers with contract value, dates, contract manager and performance notes.",
+      "columns": [
+        "supplier_id",
+        "supplier_name",
+        "category",
+        "annual_value_gbp",
+        "contract_start",
+        "contract_end",
+        "contract_manager",
+        "performance_rag",
+        "notes"
+      ],
+      "data": [
+        [
+          "SUP01",
+          "Kentish Heating Services Ltd",
+          "Gas servicing overflow (subcontract)",
+          186000,
+          "2023-04-01",
+          "2027-03-31",
+          "P022",
+          "Green",
+          "Covers about a third of annual gas services."
+        ],
+        [
+          "SUP02",
+          "Brightline Electrical Ltd",
+          "EICR testing and electrical repairs overflow",
+          142000,
+          "2024-06-01",
+          "2027-05-31",
+          "P023",
+          "Amber",
+          "Used more since March 2026 because of two electrician vacancies; invoices often lack job numbers."
+        ],
+        [
+          "SUP03",
+          "Weald Roofing & Guttering Ltd",
+          "Roofing and rainwater goods",
+          98000,
+          "2022-09-01",
+          "2026-12-31",
+          "P008",
+          "Amber",
+          "Contract ends 31 Dec 2026; re-tender not yet started."
+        ],
+        [
+          "SUP04",
+          "ClearFlow Drainage Ltd",
+          "Drainage",
+          41000,
+          "2023-01-01",
+          "2027-12-31",
+          "P008",
+          "Green",
+          ""
+        ],
+        [
+          "SUP05",
+          "Castlemere Construction Ltd",
+          "Orchard Fields main contractor (design & build)",
+          9850000,
+          "2024-07-15",
+          "2029-06-30",
+          "P034",
+          "Amber",
+          "Phase 1 handed over Oct 2026 with 140+ open defects."
+        ],
+        [
+          "SUP06",
+          "Fireguard Compliance Ltd",
+          "Fire risk assessments and fire door surveys",
+          36000,
+          "2024-04-01",
+          "2027-03-31",
+          "P022",
+          "Green",
+          ""
+        ],
+        [
+          "SUP07",
+          "AquaSafe Water Hygiene Ltd",
+          "Legionella risk assessments and monitoring",
+          22000,
+          "2023-10-01",
+          "2026-09-30",
+          "P022",
+          "Amber",
+          "Contract expired 30 Sep 2026; running on an extension letter."
+        ],
+        [
+          "SUP08",
+          "Liftwise Engineering Ltd",
+          "Lift maintenance and LOLER inspections",
+          31000,
+          "2025-01-01",
+          "2027-12-31",
+          "P022",
+          "Red",
+          "Repeated breakdowns at Rosemount Tower and Parkwood Court."
+        ],
+        [
+          "SUP09",
+          "Asbestos Survey Partners Ltd",
+          "Asbestos surveys and re-inspections",
+          27000,
+          "2024-04-01",
+          "2027-03-31",
+          "P009",
+          "Green",
+          ""
+        ],
+        [
+          "SUP10",
+          "FieldLoop Systems Ltd",
+          "Repairs scheduling software",
+          58000,
+          "2024-11-18",
+          "2029-11-17",
+          "P014",
+          "Green",
+          ""
+        ],
+        [
+          "SUP11",
+          "Keystone Software Ltd",
+          "Housing management system",
+          74000,
+          "2019-04-01",
+          "2027-03-31",
+          "P014",
+          "Amber",
+          "Contract renewal decision due Dec 2026 (CRM project)."
+        ],
+        [
+          "SUP12",
+          "Greenway Grounds Ltd",
+          "Grounds maintenance",
+          88000,
+          "2025-03-01",
+          "2028-02-28",
+          "P011",
+          "Amber",
+          "Resident complaints about missed grass cuts summer 2026."
+        ],
+        [
+          "SUP13",
+          "Telecare Partners Ltd",
+          "Careline monitoring centre",
+          46000,
+          "2023-07-01",
+          "2026-06-30",
+          "P027",
+          "Green",
+          "Extended to 30 June 2027."
+        ],
+        [
+          "SUP14",
+          "Hartwell Scaffolding Ltd",
+          "Scaffolding hire",
+          39000,
+          "2024-02-01",
+          "2027-01-31",
+          "P040",
+          "Green",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "developments",
+      "title": "Development Pipeline",
+      "department": "development",
+      "system": "Development appraisal model (Excel)",
+      "description": "New-build schemes completed, on site and in the pipeline, with homes, tenure mix, cost, grant, contractor and status.",
+      "columns": [
+        "dev_id",
+        "scheme",
+        "location",
+        "homes",
+        "tenure_mix",
+        "status",
+        "start_on_site",
+        "completion",
+        "total_scheme_cost_gbp",
+        "homes_england_grant_gbp",
+        "contractor",
+        "notes"
+      ],
+      "data": [
+        [
+          "DEV01",
+          "Orchard Fields phase 1",
+          "Maidstone ME15",
+          62,
+          "19 social rent / 25 affordable rent / 18 shared ownership",
+          "Completed - letting",
+          "2024-08-05",
+          "2026-10-02",
+          14900000,
+          3100000,
+          "Castlemere Construction Ltd",
+          "First residents moved in Oct 2026; 44 let, 18 awaiting let."
+        ],
+        [
+          "DEV02",
+          "Orchard Fields phase 2",
+          "Maidstone ME15",
+          58,
+          "20 social rent / 22 affordable rent / 16 shared ownership",
+          "On site",
+          "2025-11-03",
+          "2027-09-30",
+          14400000,
+          3000000,
+          "Castlemere Construction Ltd",
+          "Two months behind programme after groundworks delay."
+        ],
+        [
+          "DEV03",
+          "Orchard Fields phase 3 and community hub",
+          "Maidstone ME15",
+          44,
+          "Mix to be confirmed + community hub and 2 shops",
+          "Planning approved",
+          "2027-10-01",
+          "2029-06-30",
+          12200000,
+          2400000,
+          "Castlemere Construction Ltd",
+          "Board decision on proceeding due Feb 2027."
+        ],
+        [
+          "DEV04",
+          "Lenham Meadows phase 2",
+          "Lenham ME17",
+          32,
+          "20 affordable rent / 12 shared ownership",
+          "Contract signed",
+          "2027-01-11",
+          "2028-03-31",
+          8100000,
+          1600000,
+          "Oakbridge Homes Ltd",
+          ""
+        ],
+        [
+          "DEV05",
+          "Former Tovil depot",
+          "Maidstone ME15",
+          26,
+          "Social rent",
+          "Feasibility",
+          null,
+          null,
+          7300000,
+          1900000,
+          null,
+          "Site purchase delayed by contamination survey."
+        ],
+        [
+          "DEV06",
+          "Paddock Wood North (S106)",
+          "Paddock Wood TN12",
+          20,
+          "12 affordable rent / 8 shared ownership",
+          "Exchanged",
+          "2026-05-01",
+          "2027-11-30",
+          4600000,
+          0,
+          "Developer-led (S106)",
+          "Section 106 acquisition from a private developer."
+        ],
+        [
+          "DEV07",
+          "Hollingbourne Road garage sites",
+          "Maidstone ME14",
+          9,
+          "Social rent bungalows",
+          "Feasibility",
+          null,
+          null,
+          2700000,
+          650000,
+          null,
+          "Residents' consultation on garage loss planned Jan 2027."
+        ]
+      ]
+    },
+    {
+      "name": "risk_register",
+      "title": "Strategic Risk Register",
+      "department": "board",
+      "system": "Excel (Governance)",
+      "description": "Board-level strategic risks with owner, inherent and residual scores, controls and trend.",
+      "columns": [
+        "risk_id",
+        "risk",
+        "category",
+        "owner",
+        "inherent_score",
+        "residual_score",
+        "appetite",
+        "trend",
+        "key_controls",
+        "last_reviewed"
+      ],
+      "data": [
+        [
+          "SR01",
+          "Failure to meet Awaab's Law timescales for damp and mould",
+          "Compliance / Consumer",
+          "P004",
+          20,
+          15,
+          "Averse",
+          "Rising",
+          "Dedicated damp team; daily FieldLoop breach report; second surveyor recruited Sep 2025",
+          "2026-10-14"
+        ],
+        [
+          "SR02",
+          "Consumer standards: failure to move from C2 to C1",
+          "Regulatory",
+          "P001",
+          20,
+          12,
+          "Averse",
+          "Stable",
+          "RSH action plan; monthly exec tracking; Customer Experience Committee oversight",
+          "2026-10-14"
+        ],
+        [
+          "SR03",
+          "Building safety failure (fire, gas, electrical, water, asbestos, lifts)",
+          "Health & safety",
+          "P004",
+          25,
+          10,
+          "Averse",
+          "Rising",
+          "Assure360 tracking; external FRAs; BSR registration for Rosemount Tower",
+          "2026-10-14"
+        ],
+        [
+          "SR04",
+          "Loss of financial headroom (interest cover covenant)",
+          "Financial",
+          "P002",
+          16,
+          12,
+          "Cautious",
+          "Rising",
+          "Monthly covenant forecast; stress testing; investment programme phasing",
+          "2026-10-14"
+        ],
+        [
+          "SR05",
+          "Rent arrears increase as Universal Credit migration completes",
+          "Financial",
+          "P011",
+          12,
+          9,
+          "Cautious",
+          "Rising",
+          "Income team triage; APA requests; hardship fund",
+          "2026-10-14"
+        ],
+        [
+          "SR06",
+          "Inability to recruit and retain skilled trades",
+          "People",
+          "P005",
+          16,
+          12,
+          "Open",
+          "Rising",
+          "Market supplement for electricians; apprenticeship scheme; subcontractor framework",
+          "2026-10-14"
+        ],
+        [
+          "SR07",
+          "Development cost overrun or contractor failure",
+          "Development",
+          "P010",
+          16,
+          9,
+          "Cautious",
+          "Stable",
+          "Fixed-price D&B contracts; contractor financial checks; contingency 5%",
+          "2026-10-14"
+        ],
+        [
+          "SR08",
+          "Data breach or cyber attack",
+          "Information",
+          "P005",
+          20,
+          10,
+          "Averse",
+          "Stable",
+          "MFA; Cyber Essentials Plus; phishing training; Copilot sensitivity labels pilot",
+          "2026-10-14"
+        ],
+        [
+          "SR09",
+          "Poor complaint handling leads to Ombudsman findings",
+          "Consumer",
+          "P003",
+          16,
+          12,
+          "Averse",
+          "Rising",
+          "Complaint Handling Code self-assessment; weekly case review; extra officer",
+          "2026-10-14"
+        ],
+        [
+          "SR10",
+          "Stock condition data incomplete or out of date",
+          "Assets",
+          "P009",
+          12,
+          9,
+          "Cautious",
+          "Stable",
+          "Rolling 20% survey programme; Power BI coverage dashboard",
+          "2026-10-14"
+        ],
+        [
+          "SR11",
+          "Net zero and EPC C by 2030 not affordable",
+          "Assets",
+          "P009",
+          12,
+          9,
+          "Open",
+          "Stable",
+          "SHDF wave 3 bid; retrofit pilot at Coxheath Lane",
+          "2026-07-15"
+        ],
+        [
+          "SR12",
+          "IT system change (CRM / housing system) disrupts services",
+          "Operational",
+          "P005",
+          12,
+          8,
+          "Cautious",
+          "New",
+          "Phased plan; data migration testing; business readiness group",
+          "2026-10-14"
+        ]
+      ]
+    },
+    {
+      "name": "monthly_income",
+      "title": "Monthly Rent Income & Arrears",
+      "department": "finance",
+      "system": "Keystone Housing / Northway Finance Cloud",
+      "description": "Rent and service charges due and collected each month, collection rate and current tenant arrears at month end (as % of the annual rent debit).",
+      "rows": 24,
+      "columns": [
+        {
+          "name": "n",
+          "gen": "seq",
+          "start": 0
+        },
+        {
+          "name": "month",
+          "gen": "expr",
+          "expr": "[\"2024-11\", \"2024-12\", \"2025-01\", \"2025-02\", \"2025-03\", \"2025-04\", \"2025-05\", \"2025-06\", \"2025-07\", \"2025-08\", \"2025-09\", \"2025-10\", \"2025-11\", \"2025-12\", \"2026-01\", \"2026-02\", \"2026-03\", \"2026-04\", \"2026-05\", \"2026-06\", \"2026-07\", \"2026-08\", \"2026-09\", \"2026-10\"][n]"
+        },
+        {
+          "name": "rent_debit_gbp",
+          "gen": "expr",
+          "expr": "round(1059000 * (1.048 if month >= '2026-04' else 1.0) * (1 + 0.0012 * n) + rnd.uniform(-6000, 6000), 0)"
+        },
+        {
+          "name": "collected_gbp",
+          "gen": "expr",
+          "expr": "round(rent_debit_gbp * (rnd.uniform(0.985, 1.005) - (0.012 if month in ('2025-04', '2026-04') else 0) + (0.02 if month in ('2025-03', '2026-03') else 0)), 0)"
+        },
+        {
+          "name": "collection_rate",
+          "gen": "expr",
+          "expr": "round(collected_gbp / rent_debit_gbp, 4)"
+        },
+        {
+          "name": "arrears_pct",
+          "gen": "expr",
+          "expr": "round(0.0206 + 0.00016 * n + rnd.uniform(-0.0006, 0.0006) + (0.0012 if month in ('2025-04', '2025-05', '2026-04', '2026-05') else 0), 4)"
+        },
+        {
+          "name": "current_arrears_gbp",
+          "gen": "expr",
+          "expr": "round(arrears_pct * rent_debit_gbp * 12, 0)"
+        },
+        {
+          "name": "uc_households",
+          "gen": "expr",
+          "expr": "int(452 + 3.9 * n + rnd.randint(-4, 4))"
+        }
+      ]
+    }
+  ],
+  "derived": [
+    {
+      "name": "tsm_results",
+      "title": "TSM Results by Year and Tenure",
+      "department": "customer",
+      "system": "Customer Voice survey platform",
+      "description": "Tenant perception measures TP01-TP12: % satisfied (or agree) by year and tenure group (LCRA / LCHO), with number of responses.",
+      "sql": "SELECT tsm_year, tenure_group, 'TP01' AS measure_code, 'Overall satisfaction' AS measure, COUNT(tp01_overall) AS responses, ROUND(100.0 * SUM(CASE WHEN tp01_overall IN ('Fairly satisfied', 'Very satisfied') THEN 1 ELSE 0 END) / COUNT(tp01_overall), 1) AS pct_positive FROM tsm_survey WHERE tp01_overall IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP02' AS measure_code, 'Satisfaction with repairs' AS measure, COUNT(tp02_repairs) AS responses, ROUND(100.0 * SUM(CASE WHEN tp02_repairs IN ('Fairly satisfied', 'Very satisfied') THEN 1 ELSE 0 END) / COUNT(tp02_repairs), 1) AS pct_positive FROM tsm_survey WHERE tp02_repairs IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP03' AS measure_code, 'Satisfaction with time taken to complete most recent repair' AS measure, COUNT(tp03_time_taken) AS responses, ROUND(100.0 * SUM(CASE WHEN tp03_time_taken IN ('Fairly satisfied', 'Very satisfied') THEN 1 ELSE 0 END) / COUNT(tp03_time_taken), 1) AS pct_positive FROM tsm_survey WHERE tp03_time_taken IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP04' AS measure_code, 'Satisfaction that the home is well maintained' AS measure, COUNT(tp04_well_maintained) AS responses, ROUND(100.0 * SUM(CASE WHEN tp04_well_maintained IN ('Fairly satisfied', 'Very satisfied') THEN 1 ELSE 0 END) / COUNT(tp04_well_maintained), 1) AS pct_positive FROM tsm_survey WHERE tp04_well_maintained IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP05' AS measure_code, 'Satisfaction that the home is safe' AS measure, COUNT(tp05_safe_home) AS responses, ROUND(100.0 * SUM(CASE WHEN tp05_safe_home IN ('Fairly satisfied', 'Very satisfied') THEN 1 ELSE 0 END) / COUNT(tp05_safe_home), 1) AS pct_positive FROM tsm_survey WHERE tp05_safe_home IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP06' AS measure_code, 'Agreement that the landlord listens to tenant views and acts upon them' AS measure, COUNT(tp06_listens_acts) AS responses, ROUND(100.0 * SUM(CASE WHEN tp06_listens_acts IN ('Agree', 'Strongly agree') THEN 1 ELSE 0 END) / COUNT(tp06_listens_acts), 1) AS pct_positive FROM tsm_survey WHERE tp06_listens_acts IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP07' AS measure_code, 'Agreement that the landlord keeps tenants informed about things that matter to them' AS measure, COUNT(tp07_kept_informed) AS responses, ROUND(100.0 * SUM(CASE WHEN tp07_kept_informed IN ('Agree', 'Strongly agree') THEN 1 ELSE 0 END) / COUNT(tp07_kept_informed), 1) AS pct_positive FROM tsm_survey WHERE tp07_kept_informed IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP08' AS measure_code, 'Agreement that the landlord treats tenants fairly and with respect' AS measure, COUNT(tp08_fair_respect) AS responses, ROUND(100.0 * SUM(CASE WHEN tp08_fair_respect IN ('Agree', 'Strongly agree') THEN 1 ELSE 0 END) / COUNT(tp08_fair_respect), 1) AS pct_positive FROM tsm_survey WHERE tp08_fair_respect IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP09' AS measure_code, 'Satisfaction with the landlord''s approach to handling complaints' AS measure, COUNT(tp09_complaints) AS responses, ROUND(100.0 * SUM(CASE WHEN tp09_complaints IN ('Fairly satisfied', 'Very satisfied') THEN 1 ELSE 0 END) / COUNT(tp09_complaints), 1) AS pct_positive FROM tsm_survey WHERE tp09_complaints IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP10' AS measure_code, 'Satisfaction that the landlord keeps communal areas clean and well maintained' AS measure, COUNT(tp10_communal_areas) AS responses, ROUND(100.0 * SUM(CASE WHEN tp10_communal_areas IN ('Fairly satisfied', 'Very satisfied') THEN 1 ELSE 0 END) / COUNT(tp10_communal_areas), 1) AS pct_positive FROM tsm_survey WHERE tp10_communal_areas IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP11' AS measure_code, 'Agreement that the landlord makes a positive contribution to neighbourhoods' AS measure, COUNT(tp11_neighbourhood) AS responses, ROUND(100.0 * SUM(CASE WHEN tp11_neighbourhood IN ('Agree', 'Strongly agree') THEN 1 ELSE 0 END) / COUNT(tp11_neighbourhood), 1) AS pct_positive FROM tsm_survey WHERE tp11_neighbourhood IS NOT NULL GROUP BY tsm_year, tenure_group UNION ALL SELECT tsm_year, tenure_group, 'TP12' AS measure_code, 'Satisfaction with the landlord''s approach to handling anti-social behaviour' AS measure, COUNT(tp12_asb_approach) AS responses, ROUND(100.0 * SUM(CASE WHEN tp12_asb_approach IN ('Fairly satisfied', 'Very satisfied') THEN 1 ELSE 0 END) / COUNT(tp12_asb_approach), 1) AS pct_positive FROM tsm_survey WHERE tp12_asb_approach IS NOT NULL GROUP BY tsm_year, tenure_group ORDER BY 1, 2, 3"
+    },
+    {
+      "name": "monthly_repairs",
+      "title": "Monthly Repairs Performance",
+      "department": "repairs",
+      "system": "FieldLoop",
+      "description": "Repairs reported and completed each month, % completed in target by priority, and average days for routine repairs.",
+      "sql": "WITH c AS (SELECT substr(completed_date, 1, 7) AS month, * FROM repairs WHERE status = 'Completed') SELECT m.month, (SELECT COUNT(*) FROM repairs r WHERE substr(r.reported_date, 1, 7) = m.month) AS reported, COUNT(*) AS completed, ROUND(100.0 * AVG(in_target), 1) AS pct_in_target, ROUND(100.0 * AVG(CASE WHEN priority = 'Emergency' THEN in_target END), 1) AS emergency_pct, ROUND(100.0 * AVG(CASE WHEN priority = 'Urgent' THEN in_target END), 1) AS urgent_pct, ROUND(100.0 * AVG(CASE WHEN priority = 'Routine' THEN in_target END), 1) AS routine_pct, ROUND(AVG(CASE WHEN priority = 'Routine' THEN days_to_complete END), 1) AS routine_avg_days, ROUND(100.0 * AVG(first_time_fix), 1) AS first_time_fix_pct, ROUND(SUM(cost_gbp), 0) AS cost_gbp FROM (SELECT DISTINCT month FROM c WHERE month >= '2024-11' AND month <= '2026-10') m JOIN c USING (month) GROUP BY m.month ORDER BY m.month"
+    },
+    {
+      "name": "scheme_summary",
+      "title": "Scheme Performance Summary",
+      "department": "assets",
+      "system": "Power BI dataset",
+      "description": "One row per scheme: homes, repairs and open/overdue repairs (last 12 months), damp cases, complaints, arrears and TSM overall satisfaction.",
+      "sql": "SELECT s.scheme_id, s.scheme_name, s.scheme_type, s.local_authority, s.homes, (SELECT COUNT(*) FROM repairs r WHERE r.scheme_id = s.scheme_id AND r.reported_date >= '2025-11-05') AS repairs_12m, (SELECT COUNT(*) FROM repairs r WHERE r.scheme_id = s.scheme_id AND r.status NOT IN ('Completed', 'Cancelled')) AS open_repairs, (SELECT COUNT(*) FROM repairs r WHERE r.scheme_id = s.scheme_id AND r.overdue = 1) AS overdue_repairs, (SELECT COUNT(*) FROM damp_mould_cases m WHERE m.scheme_id = s.scheme_id AND m.reported_date >= '2025-11-05') AS damp_cases_12m, (SELECT COUNT(*) FROM damp_mould_cases m WHERE m.scheme_id = s.scheme_id AND m.status != 'Closed') AS open_damp_cases, (SELECT COUNT(*) FROM complaints c WHERE c.scheme_id = s.scheme_id AND c.received_date >= '2025-11-05') AS complaints_12m, (SELECT ROUND(SUM(balance_gbp), 0) FROM rent_accounts a WHERE a.scheme_id = s.scheme_id AND a.balance_gbp > 0) AS arrears_gbp, (SELECT ROUND(100.0 * AVG(CASE WHEN tp01_overall IN ('Very satisfied', 'Fairly satisfied') THEN 1.0 ELSE 0 END), 1) FROM tsm_survey t WHERE t.scheme_id = s.scheme_id) AS tsm_overall_pct, (SELECT COUNT(*) FROM tsm_survey t WHERE t.scheme_id = s.scheme_id) AS tsm_responses FROM schemes s ORDER BY s.scheme_id"
+    }
+  ],
+  "post_sql": [
+    "UPDATE repairs SET completed_date = NULL WHERE status != 'Completed'",
+    "UPDATE properties SET status = 'Void' WHERE uprn IN (SELECT uprn FROM voids WHERE status != 'Let')",
+    "UPDATE tenancies SET start_date = (SELECT MAX(let_date) FROM voids v WHERE v.uprn = tenancies.uprn AND v.status = 'Let') WHERE EXISTS (SELECT 1 FROM voids v WHERE v.uprn = tenancies.uprn AND v.status = 'Let')",
+    "UPDATE tenancies SET tenancy_type = 'Starter (12 months)' WHERE tenancy_type = 'Assured' AND tenure IN ('Social rent', 'Affordable rent') AND start_date >= '2025-11-05'",
+    "UPDATE properties SET decent_homes = 'No - serious hazard (damp and mould)' WHERE uprn IN (SELECT uprn FROM damp_mould_cases WHERE scheme_id = 'SCH03' AND status != 'Closed' ORDER BY case_id LIMIT 2)",
+    "UPDATE properties SET decent_homes = 'No - disrepair (roof)' WHERE uprn = (SELECT uprn FROM properties WHERE scheme_id = 'SCH03' AND property_type = 'House' AND decent_homes = 'Yes' AND tenure = 'Social rent' ORDER BY uprn LIMIT 1 OFFSET 40)",
+    "UPDATE compliance_checks SET last_completed = '2025-10-29', next_due = '2026-10-29', status = 'Overdue', no_access_attempts = 4 WHERE check_id = (SELECT check_id FROM compliance_checks WHERE check_type LIKE 'Gas%' AND scheme_id = 'SCH06' ORDER BY check_id LIMIT 1 OFFSET 7)",
+    "UPDATE building_safety SET last_completed = '2025-08-20', next_due = '2026-08-20', status = 'Overdue', risk_rating = 'Moderate', open_actions = 5, overdue_actions = 2 WHERE scheme_id = 'SCH21' AND check_type = 'Fire risk assessment'",
+    "UPDATE building_safety SET risk_rating = 'Moderate', open_actions = 11, overdue_actions = 3, last_completed = '2026-03-12', next_due = '2027-03-12', status = 'Compliant' WHERE scheme_id = 'SCH01' AND check_type = 'Fire risk assessment'",
+    "UPDATE building_safety SET open_actions = 9, overdue_actions = 4 WHERE scheme_id = 'SCH01' AND check_type = 'Communal fire door inspection'",
+    "UPDATE building_safety SET last_completed = '2026-03-30', next_due = '2026-09-28', status = 'Overdue' WHERE scheme_id = 'SCH02' AND check_type = 'Lift thorough examination (LOLER)'",
+    "UPDATE building_safety SET overdue_actions = 0 WHERE overdue_actions IS NULL",
+    "UPDATE monthly_income SET current_arrears_gbp = (SELECT ROUND(SUM(balance_gbp), 0) FROM rent_accounts WHERE balance_gbp > 0 AND tenure NOT IN ('Leasehold', 'Shared ownership')) WHERE month = '2026-10'",
+    "UPDATE monthly_income SET uc_households = (SELECT COUNT(*) FROM tenancies WHERE universal_credit = 1) WHERE month = '2026-10'",
+    "UPDATE monthly_income SET arrears_pct = ROUND(current_arrears_gbp / (rent_debit_gbp * 12), 4) WHERE month = '2026-10'"
+  ]
+}

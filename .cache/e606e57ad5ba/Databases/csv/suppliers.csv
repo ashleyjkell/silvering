@@ -1,0 +1,15 @@
+﻿supplier_id,supplier_name,category,annual_value_gbp,contract_start,contract_end,contract_manager,performance_rag,notes
+SUP01,Kentish Heating Services Ltd,Gas servicing overflow (subcontract),186000,2023-04-01,2027-03-31,P022,Green,Covers about a third of annual gas services.
+SUP02,Brightline Electrical Ltd,EICR testing and electrical repairs overflow,142000,2024-06-01,2027-05-31,P023,Amber,Used more since March 2026 because of two electrician vacancies; invoices often lack job numbers.
+SUP03,Weald Roofing & Guttering Ltd,Roofing and rainwater goods,98000,2022-09-01,2026-12-31,P008,Amber,Contract ends 31 Dec 2026; re-tender not yet started.
+SUP04,ClearFlow Drainage Ltd,Drainage,41000,2023-01-01,2027-12-31,P008,Green,
+SUP05,Castlemere Construction Ltd,Orchard Fields main contractor (design & build),9850000,2024-07-15,2029-06-30,P034,Amber,Phase 1 handed over Oct 2026 with 140+ open defects.
+SUP06,Fireguard Compliance Ltd,Fire risk assessments and fire door surveys,36000,2024-04-01,2027-03-31,P022,Green,
+SUP07,AquaSafe Water Hygiene Ltd,Legionella risk assessments and monitoring,22000,2023-10-01,2026-09-30,P022,Amber,Contract expired 30 Sep 2026; running on an extension letter.
+SUP08,Liftwise Engineering Ltd,Lift maintenance and LOLER inspections,31000,2025-01-01,2027-12-31,P022,Red,Repeated breakdowns at Rosemount Tower and Parkwood Court.
+SUP09,Asbestos Survey Partners Ltd,Asbestos surveys and re-inspections,27000,2024-04-01,2027-03-31,P009,Green,
+SUP10,FieldLoop Systems Ltd,Repairs scheduling software,58000,2024-11-18,2029-11-17,P014,Green,
+SUP11,Keystone Software Ltd,Housing management system,74000,2019-04-01,2027-03-31,P014,Amber,Contract renewal decision due Dec 2026 (CRM project).
+SUP12,Greenway Grounds Ltd,Grounds maintenance,88000,2025-03-01,2028-02-28,P011,Amber,Resident complaints about missed grass cuts summer 2026.
+SUP13,Telecare Partners Ltd,Careline monitoring centre,46000,2023-07-01,2026-06-30,P027,Green,Extended to 30 June 2027.
+SUP14,Hartwell Scaffolding Ltd,Scaffolding hire,39000,2024-02-01,2027-01-31,P040,Green,

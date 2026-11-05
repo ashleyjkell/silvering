@@ -1,0 +1,2120 @@
+[
+ {
+  "id": "ast-asset-strategy",
+  "type": "docx",
+  "title": "Asset Management Strategy 2026-2031",
+  "site": "assets",
+  "library": "Stock Condition",
+  "folder": "Strategy",
+  "category": "Strategy",
+  "author": "P009",
+  "owner": "P004",
+  "modified_by": "P024",
+  "approved_by": "P006",
+  "created": "2025-11-17",
+  "modified": "2026-03-26",
+  "version": "1.0",
+  "status": "Approved",
+  "review_date": "2027-03-31",
+  "classification": "Internal",
+  "tags": [
+   "asset management",
+   "strategy",
+   "EPC C",
+   "net zero",
+   "stock condition",
+   "Decent Homes",
+   "retrofit"
+  ],
+  "summary": "Five-year strategy for Silvering's homes: safety and compliance first, full stock condition data, Decent Homes, EPC C by 2030 and a targeted investment programme led by Brenchley Gardens.",
+  "version_history": [
+   {
+    "version": "0.3",
+    "date": "2025-11-17",
+    "by": "P009",
+    "change": "First draft for Executive Team"
+   },
+   {
+    "version": "0.7",
+    "date": "2026-02-10",
+    "by": "P024",
+    "change": "Stock data and EPC modelling added; Board workshop feedback"
+   },
+   {
+    "version": "1.0",
+    "date": "2026-03-26",
+    "by": "P009",
+    "change": "Approved by the Board 25 March 2026"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Introduction"
+   },
+   {
+    "p": "{{company.fictional_name}} owns and manages {{fact:homes_total}} homes across {{fact:schemes_count}} schemes. Most were built between the 1960s and the 1990s; a growing share are new homes from our development programme. This strategy sets out how we will keep every home safe, decent and affordable to heat over the five years to March 2031, and how we will pay for it."
+   },
+   {
+    "h1": "2. Our stock"
+   },
+   {
+    "table": {
+     "sql": "SELECT scheme_type AS \"Scheme type\", COUNT(*) AS Homes, ROUND(AVG(build_year), 0) AS \"Average build year\", SUM(epc_rating IN ('D', 'E', 'F')) AS \"Below EPC C\" FROM properties GROUP BY scheme_type ORDER BY Homes DESC",
+     "caption": "Table 1 - Homes by scheme type"
+    }
+   },
+   {
+    "table": {
+     "sql": "SELECT epc_rating AS \"EPC band\", COUNT(*) AS Homes, ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM properties), 1) AS \"% of stock\" FROM properties GROUP BY epc_rating ORDER BY epc_rating",
+     "caption": "Table 2 - Energy performance"
+    }
+   },
+   {
+    "h1": "3. Strategic priorities"
+   },
+   {
+    "h2": "Priority 1 - Safe homes"
+   },
+   {
+    "p": "Full compliance with the 'big six' (gas, electrical, fire, water, asbestos and lifts) is non-negotiable. Rosemount Tower, our only higher-risk building, has a building safety case and a resident engagement strategy under the Building Safety Act 2022. Damp and mould is treated as a safety issue under Awaab's Law."
+   },
+   {
+    "h2": "Priority 2 - Know our homes"
+   },
+   {
+    "p": "We will survey 20% of homes each year, so that no home is more than five years from its last survey by March 2028. Today {{fact:ast_no_recent_survey}} homes have no survey within five years, including all new-build homes that have never been surveyed. Survey data will live in Keystone and feed the investment plan directly."
+   },
+   {
+    "h2": "Priority 3 - Decent homes"
+   },
+   {
+    "p": "{{fact:non_decent_homes}} homes currently fail the Decent Homes Standard, all at Brenchley Gardens. We expect this number to rise as survey coverage improves, especially on older estates, and we will be honest about that with the Board and residents."
+   },
+   {
+    "h2": "Priority 4 - Warm homes: EPC C by 2030"
+   },
+   {
+    "p": "{{fact:ast_epc_below_c}} homes are below EPC band C. Our target is that every home reaches band C by 31 December 2030. A fabric-first approach (loft and wall insulation, windows, ventilation) comes before low-carbon heating. Electric storage heaters at Rosemount Tower will be replaced with high heat retention heaters in 2027-28."
+   },
+   {
+    "h2": "Priority 5 - Value for money"
+   },
+   {
+    "p": "Planned investment is phased to protect interest cover. We will bid for Warm Homes: Social Housing Fund money for Brenchley Gardens and the 1960s-70s estates, and use our Coxheath Lane retrofit pilot to learn costs."
+   },
+   {
+    "h1": "4. Investment plan"
+   },
+   {
+    "table": {
+     "columns": [
+      "Programme",
+      "2026/27",
+      "2027/28",
+      "2028/29",
+      "2029/30",
+      "2030/31",
+      "Total"
+     ],
+     "rows": [
+      [
+       "Kitchens and bathrooms",
+       "£1.10m",
+       "£1.20m",
+       "£1.20m",
+       "£1.25m",
+       "£1.25m",
+       "£6.00m"
+      ],
+      [
+       "Roofs, windows and doors",
+       "£0.65m",
+       "£0.80m",
+       "£0.90m",
+       "£0.90m",
+       "£0.85m",
+       "£4.10m"
+      ],
+      [
+       "Heating (boilers, heat pumps, HHR)",
+       "£0.70m",
+       "£0.95m",
+       "£0.90m",
+       "£0.85m",
+       "£0.80m",
+       "£4.20m"
+      ],
+      [
+       "Energy and retrofit (EPC C)",
+       "£0.40m",
+       "£1.30m",
+       "£1.60m",
+       "£1.70m",
+       "£1.20m",
+       "£6.20m"
+      ],
+      [
+       "Fire safety and building safety",
+       "£0.55m",
+       "£0.35m",
+       "£0.25m",
+       "£0.25m",
+       "£0.25m",
+       "£1.65m"
+      ],
+      [
+       "Stock condition surveys",
+       "£0.08m",
+       "£0.08m",
+       "£0.08m",
+       "£0.08m",
+       "£0.08m",
+       "£0.40m"
+      ],
+      [
+       "Total",
+       "£3.48m",
+       "£4.68m",
+       "£4.93m",
+       "£5.03m",
+       "£4.43m",
+       "£22.55m"
+      ]
+     ],
+     "caption": "Table 3 - Planned investment (approved business plan, March 2026)"
+    }
+   },
+   {
+    "h1": "5. Risks"
+   },
+   {
+    "bullets": [
+     "Stock condition data incomplete or out of date (strategic risk SR10)",
+     "Net zero and EPC C by 2030 not affordable without grant (SR11)",
+     "Building safety failure (SR03)",
+     "Contractor capacity and cost inflation"
+    ]
+   },
+   {
+    "h1": "6. Governance"
+   },
+   {
+    "p": "The Director of Property owns the strategy. Progress is reported quarterly to the Executive Team and twice a year to the Board, with an annual refresh of the investment plan in the business plan cycle."
+   }
+  ]
+ },
+ {
+  "id": "ast-compliance-report-q2",
+  "type": "docx",
+  "title": "Compliance Assurance Report - Q2 2026/27",
+  "site": "assets",
+  "library": "Compliance Certificates",
+  "folder": "Assurance reports/2026-27",
+  "category": "Report",
+  "author": "P023",
+  "owner": "P009",
+  "modified_by": "P009",
+  "approved_by": "P004",
+  "created": "2026-10-12",
+  "modified": "2026-11-02",
+  "version": "1.2",
+  "status": "Final",
+  "classification": "Confidential",
+  "tags": [
+   "compliance",
+   "big six",
+   "gas",
+   "EICR",
+   "fire",
+   "assurance",
+   "Q2"
+  ],
+  "summary": "Quarterly assurance on the big six compliance areas for July-September 2026, updated with the Assure360 position at the end of October, including overdue EICRs, the Parkwood Court lift and Rosemount Tower fire actions.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2026-10-12",
+    "by": "P023",
+    "change": "Q2 draft"
+   },
+   {
+    "version": "1.2",
+    "date": "2026-11-02",
+    "by": "P009",
+    "change": "Tables refreshed from Assure360 at 31 Oct for the Audit & Risk Committee"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Headline position"
+   },
+   {
+    "kv": [
+     [
+      "Gas safety (LGSR) compliance",
+      "{{fact:gas_compliance}}"
+     ],
+     [
+      "Electrical (EICR) compliance",
+      "{{fact:eicr_compliance}} - {{fact:eicr_overdue}} overdue"
+     ],
+     [
+      "Overdue communal checks",
+      "{{fact:communal_overdue}}"
+     ],
+     [
+      "Rosemount Tower FRA actions",
+      "{{fact:ast_rosemount_fra_actions}}"
+     ],
+     [
+      "Rosemount Tower fire door actions",
+      "{{fact:ast_rosemount_firedoor_actions}}"
+     ]
+    ]
+   },
+   {
+    "p": "Gas compliance remains very strong. Electrical compliance has fallen below our 99% tolerance because a cluster of EICRs from the 2021 programme expired between May and October 2026 at the same time as we lost two electricians. Most overdue EICRs are no-access cases. A recovery plan is in place (see EICR Programme Recovery Plan)."
+   },
+   {
+    "h1": "2. Domestic checks"
+   },
+   {
+    "table": {
+     "sql": "SELECT check_type AS \"Check\", COUNT(*) AS Homes, SUM(status = 'Compliant') AS Compliant, SUM(status = 'Overdue') AS Overdue, ROUND(100.0 * AVG(status = 'Compliant'), 2) AS \"Compliance %\", SUM(remedial_status = 'Outstanding') AS \"Remedials outstanding\" FROM compliance_checks GROUP BY check_type",
+     "caption": "Table 1 - Gas and electrical compliance (Assure360, 31 October 2026)"
+    }
+   },
+   {
+    "table": {
+     "sql": "SELECT result AS Result, check_type AS \"Check\", COUNT(*) AS Homes, SUM(remedial_status = 'Outstanding') AS Outstanding FROM compliance_checks WHERE result != 'Satisfactory' GROUP BY result, check_type ORDER BY Homes DESC",
+     "caption": "Table 2 - Unsatisfactory results and remedial works"
+    }
+   },
+   {
+    "p": "The single overdue gas check is 8 Shepway Green, where Kentish Heating Services have made four access attempts. The case has been passed to Neighbourhoods for an injunction application. One home has an appliance capped as immediately dangerous with remedial work still outstanding; the resident has temporary heaters."
+   },
+   {
+    "h1": "3. Overdue EICRs by scheme"
+   },
+   {
+    "table": {
+     "sql": "SELECT scheme_name AS Scheme, COUNT(*) AS Overdue, SUM(no_access_attempts >= 3) AS \"3+ no-access attempts\", MIN(next_due) AS \"Oldest due date\" FROM compliance_checks WHERE check_type LIKE 'Electrical%' AND status = 'Overdue' GROUP BY scheme_name ORDER BY Overdue DESC",
+     "format": {
+      "Oldest due date": "date"
+     },
+     "caption": "Table 3 - Overdue EICRs"
+    }
+   },
+   {
+    "h1": "4. Communal and building safety checks"
+   },
+   {
+    "table": {
+     "sql": "SELECT check_type AS \"Check\", COUNT(*) AS Blocks, SUM(status = 'Compliant') AS Compliant, SUM(status = 'Overdue') AS Overdue, SUM(open_actions) AS \"Open actions\", SUM(overdue_actions) AS \"Overdue actions\" FROM building_safety GROUP BY check_type",
+     "caption": "Table 4 - Fire, water, asbestos and lifts"
+    }
+   },
+   {
+    "table": {
+     "sql": "SELECT scheme_name AS Scheme, check_type AS \"Check\", last_completed AS \"Last done\", next_due AS \"Next due\", open_actions AS \"Open actions\", overdue_actions AS \"Overdue actions\", status AS Status, assessor AS Assessor FROM building_safety WHERE status = 'Overdue' OR overdue_actions > 0 ORDER BY scheme_name",
+     "format": {
+      "Last done": "date",
+      "Next due": "date"
+     },
+     "caption": "Table 5 - Exceptions"
+    }
+   },
+   {
+    "h2": "Commentary"
+   },
+   {
+    "bullets": [
+     "**Parkwood Court lift (LOLER):** the thorough examination due 28 September was missed after Liftwise Engineering cancelled twice. It is now booked for 10 November. Liftwise is rated Red for repeated breakdowns at Rosemount Tower and Parkwood Court; Procurement is preparing a re-tender.",
+     "**Chatham Hill Court FRA:** expired 20 August. Fireguard Compliance carried out the new assessment on 30 October; the report is awaited, so the record still shows as overdue.",
+     "**Rosemount Tower:** see section 5.",
+     "**Legionella:** the AquaSafe contract expired on 30 September and is running on an extension letter until a new contract is let. This is a contract risk, not a compliance failure."
+    ]
+   },
+   {
+    "h1": "5. Rosemount Tower (higher-risk building)"
+   },
+   {
+    "p": "Rosemount Tower's fire risk assessment (March 2026, Moderate risk) has {{fact:ast_rosemount_fra_actions}} actions. The overdue ones are all about fire doors: six flat entrance doors that failed the self-closing and gap tests, and two cross-corridor doors on floors 9 and 11. The quarterly fire door inspection in October found {{fact:ast_rosemount_firedoor_actions}} items. The flat entrance door replacements were delayed by a 14-week lead time on certified doorsets and by residents refusing access. Doors are now on site and fitting starts on 16 November."
+   },
+   {
+    "h1": "6. Assurance and recommendations"
+   },
+   {
+    "numbered": [
+     "The Committee is asked to note **reasonable assurance** for gas, water, asbestos and lifts (except Parkwood Court) and **limited assurance** for electrical and fire safety.",
+     "Approve the use of injunctions for no-access EICR and gas cases after the third failed attempt.",
+     "Note the re-tender of the lift and legionella contracts."
+    ]
+   },
+   {
+    "signature": "P009",
+    "date": "2026-11-02"
+   }
+  ]
+ },
+ {
+  "id": "ast-big-six-dashboard",
+  "type": "xlsx",
+  "title": "Big Six Compliance Dashboard",
+  "site": "assets",
+  "library": "Compliance Certificates",
+  "folder": "Dashboards",
+  "category": "Report",
+  "author": "P024",
+  "owner": "P009",
+  "modified_by": "P024",
+  "created": "2025-04-01",
+  "modified": "2026-11-03",
+  "version": "19",
+  "status": "Live",
+  "classification": "Confidential",
+  "tags": [
+   "compliance",
+   "big six",
+   "dashboard",
+   "Assure360",
+   "gas",
+   "electrical",
+   "fire",
+   "lifts"
+  ],
+  "summary": "Live workbook of gas, electrical, fire, water, asbestos and lift compliance by scheme from Assure360, with overdue lists and remedials.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Big six compliance dashboard - Jess Moreland, Asset Data Analyst",
+     "Source: Assure360 export, refreshed every Monday. Last refresh 3 November 2026.",
+     "Gas (LGSR) every 12 months; EICR every 5 years; FRA every 12 months (HRB) or by risk; legionella every 24 months; asbestos re-inspection every 12 months; lifts (LOLER) every 6 months.",
+     "Domestic checks are per home; communal checks are per block."
+    ]
+   },
+   {
+    "name": "Summary",
+    "sql": "SELECT check_type AS \"Check\", COUNT(*) AS \"Total\", SUM(status = 'Compliant') AS Compliant, SUM(status = 'Overdue') AS Overdue, ROUND(AVG(status = 'Compliant'), 4) AS \"Compliance\" FROM compliance_checks GROUP BY check_type UNION ALL SELECT check_type, COUNT(*), SUM(status = 'Compliant'), SUM(status = 'Overdue'), ROUND(AVG(status = 'Compliant'), 4) FROM building_safety GROUP BY check_type",
+    "format": {
+     "Compliance": "pct"
+    }
+   },
+   {
+    "name": "Domestic by scheme",
+    "sql": "SELECT scheme_name AS Scheme, SUM(check_type LIKE 'Gas%') AS \"Gas homes\", SUM(check_type LIKE 'Gas%' AND status = 'Overdue') AS \"Gas overdue\", SUM(check_type LIKE 'Electrical%') AS \"EICR homes\", SUM(check_type LIKE 'Electrical%' AND status = 'Overdue') AS \"EICR overdue\", SUM(remedial_status = 'Outstanding') AS \"Remedials outstanding\" FROM compliance_checks GROUP BY scheme_name ORDER BY \"EICR overdue\" DESC",
+    "chart": {
+     "type": "bar",
+     "cat_col": "Scheme",
+     "val_cols": [
+      "EICR overdue"
+     ],
+     "title": "Overdue EICRs by scheme"
+    }
+   },
+   {
+    "name": "Overdue",
+    "sql": "SELECT check_id AS \"Check ID\", property_ref AS Property, address_line1 AS Address, scheme_name AS Scheme, check_type AS \"Check\", last_completed AS \"Last done\", next_due AS \"Due\", no_access_attempts AS \"No-access attempts\", engineer AS Engineer FROM compliance_checks WHERE status = 'Overdue' ORDER BY next_due"
+   },
+   {
+    "name": "Remedials",
+    "sql": "SELECT check_id AS \"Check ID\", address_line1 AS Address, scheme_name AS Scheme, check_type AS \"Check\", last_completed AS \"Inspected\", result AS Result, engineer AS Engineer FROM compliance_checks WHERE remedial_status = 'Outstanding' ORDER BY last_completed"
+   },
+   {
+    "name": "Communal",
+    "sql": "SELECT scheme_name AS Scheme, max_storeys AS Storeys, check_type AS \"Check\", frequency_months AS \"Every (months)\", last_completed AS \"Last done\", next_due AS \"Next due\", risk_rating AS Risk, open_actions AS \"Open actions\", overdue_actions AS \"Overdue actions\", status AS Status, assessor AS Assessor FROM building_safety ORDER BY scheme_id, check_type"
+   },
+   {
+    "name": "Upcoming 90 days",
+    "sql": "SELECT 'Domestic' AS Type, address_line1 AS Location, check_type AS \"Check\", next_due AS Due FROM compliance_checks WHERE status = 'Compliant' AND next_due BETWEEN '2026-11-05' AND '2027-02-03' UNION ALL SELECT 'Communal', scheme_name, check_type, next_due FROM building_safety WHERE status = 'Compliant' AND next_due BETWEEN '2026-11-05' AND '2027-02-03' ORDER BY Due"
+   }
+  ]
+ },
+ {
+  "id": "ast-fra-rosemount-2026",
+  "type": "pdf",
+  "title": "Fire Risk Assessment - Rosemount Tower (March 2026)",
+  "site": "assets",
+  "library": "Fire Safety",
+  "folder": "Rosemount Tower/FRA",
+  "category": "Report",
+  "doc_type_label": "Fire Risk Assessment (Type 1 + flat entrance door sample)",
+  "author": "P022",
+  "owner": "P022",
+  "approved_by": "P009",
+  "created": "2026-03-12",
+  "modified": "2026-03-27",
+  "version": "1.0",
+  "status": "Final",
+  "review_date": "2027-03-12",
+  "classification": "Confidential",
+  "tags": [
+   "fire risk assessment",
+   "FRA",
+   "Rosemount Tower",
+   "fire doors",
+   "higher-risk building",
+   "PAS 79"
+  ],
+  "summary": "Annual fire risk assessment of Rosemount Tower by Fireguard Compliance Ltd (12 March 2026): Moderate risk, stay-put strategy maintained, 11 actions including fire door replacements.",
+  "blocks": [
+   {
+    "kv": [
+     [
+      "Premises",
+      "Rosemount Tower, Maidstone ME16 8DU (SCH01)"
+     ],
+     [
+      "Building",
+      "12-storey residential block, 1968, concrete frame, 88 flats, single protected stair, two lifts (one firefighting)"
+     ],
+     [
+      "Assessment type",
+      "Type 1 (common parts, non-destructive) plus sample of 20 flat entrance doors (PAS 79-2)"
+     ],
+     [
+      "Assessor",
+      "Neil Ashworth, Fireguard Compliance Ltd (IFE Member, registered fire risk assessor)"
+     ],
+     [
+      "Date of assessment",
+      "12 March 2026"
+     ],
+     [
+      "Responsible person",
+      "Silvering Homes Ltd (Accountable Person under the Building Safety Act 2022)"
+     ],
+     [
+      "Evacuation strategy",
+      "Stay put (defend in place), supported by compartmentation"
+     ],
+     [
+      "Overall risk rating",
+      "Moderate"
+     ],
+     [
+      "Next review",
+      "By 12 March 2027 or after significant change"
+     ]
+    ]
+   },
+   {
+    "h1": "1. Summary of findings"
+   },
+   {
+    "p": "The building generally provides a reasonable standard of fire safety for a stay-put strategy. The protected stair, dry riser, smoke ventilation (AOV) system and firefighting lift were all functional on the day. The main weaknesses are fire doors - both flat entrance doors and some communal cross-corridor doors - and a number of compartmentation breaches in service risers where cables have been added since the last survey. Housekeeping on floors 3 and 7 needs attention (mobility scooters and bicycles stored in lobbies)."
+   },
+   {
+    "h1": "2. Significant findings"
+   },
+   {
+    "table": {
+     "columns": [
+      "Area",
+      "Finding"
+     ],
+     "rows": [
+      [
+       "Flat entrance doors",
+       "Six of 20 sampled doors failed: self-closers removed or not closing fully (4), excessive gaps at the head (2). Two had non-compliant letterboxes."
+      ],
+      [
+       "Cross-corridor doors",
+       "Doors on floors 9 and 11 do not close into frames; intumescent strips damaged."
+      ],
+      [
+       "Service risers",
+       "Unsealed penetrations in risers on floors 4, 6 and 10 (new broadband cables)."
+      ],
+      [
+       "Common parts",
+       "Combustible storage in lobbies on floors 3 and 7; mobility scooter charging in lobby on floor 3."
+      ],
+      [
+       "Signage",
+       "Wayfinding (floor identification) signage meets the 2022 Regulations; 'Fire door keep shut' signs missing on 5 doors."
+      ],
+      [
+       "Information",
+       "Premises information box contents not updated since 2024; no up-to-date list of residents who would need help to evacuate (PEEPs/PCFRAs)."
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "3. Action plan"
+   },
+   {
+    "table": {
+     "columns": [
+      "No.",
+      "Action",
+      "Priority",
+      "Timescale",
+      "Target date"
+     ],
+     "rows": [
+      [
+       "1",
+       "Repair or replace self-closers on the four failed flat entrance doors and re-test",
+       "High",
+       "1 month",
+       "12/04/2026"
+      ],
+      [
+       "2",
+       "Replace six flat entrance doors that failed with certified FD30S doorsets",
+       "High",
+       "3 months",
+       "12/06/2026"
+      ],
+      [
+       "3",
+       "Repair cross-corridor doors on floors 9 and 11 (adjust, renew intumescent strips and seals)",
+       "High",
+       "1 month",
+       "12/04/2026"
+      ],
+      [
+       "4",
+       "Fire-stop service riser penetrations on floors 4, 6 and 10 using a third-party certified installer",
+       "High",
+       "1 month",
+       "12/04/2026"
+      ],
+      [
+       "5",
+       "Remove combustible storage from lobbies on floors 3 and 7 and write to residents",
+       "Medium",
+       "Immediate / ongoing",
+       "26/03/2026"
+      ],
+      [
+       "6",
+       "Stop mobility scooter charging in lobby; provide a safe charging store",
+       "Medium",
+       "3 months",
+       "12/06/2026"
+      ],
+      [
+       "7",
+       "Survey all 88 flat entrance doors (100%) to programme replacements",
+       "Medium",
+       "6 months",
+       "12/09/2026"
+      ],
+      [
+       "8",
+       "Replace missing 'Fire door keep shut' signs",
+       "Low",
+       "1 month",
+       "12/04/2026"
+      ],
+      [
+       "9",
+       "Update the premises information box and share plans with Kent Fire and Rescue Service",
+       "Medium",
+       "1 month",
+       "12/04/2026"
+      ],
+      [
+       "10",
+       "Carry out person-centred fire risk assessments for residents who may need help to evacuate",
+       "Medium",
+       "6 months",
+       "12/09/2026"
+      ],
+      [
+       "11",
+       "Increase communal fire door checks to quarterly and flat entrance doors to annual (Fire Safety (England) Regulations 2022)",
+       "Low",
+       "Ongoing",
+       "Ongoing"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "4. Fire safety arrangements checked"
+   },
+   {
+    "bullets": [
+     "Dry riser tested (annual test September 2025, 6-monthly visual February 2026) - satisfactory",
+     "AOV system tested weekly by caretaker; annual service current",
+     "Emergency lighting monthly tests recorded; annual duration test current",
+     "Firefighting lift - satisfactory, but repeated breakdowns of the second lift noted (Liftwise Engineering)",
+     "Secure information box present at main entrance",
+     "Fire alarm: none in common parts (appropriate for stay put); smoke alarms in all flats tested at gas/electrical visits"
+    ]
+   },
+   {
+    "h1": "5. Assessor's declaration"
+   },
+   {
+    "p": "This assessment reflects the conditions observed on the date of inspection. It should be reviewed if there is a significant change to the building, its use, or the people living there, or following a fire."
+   },
+   {
+    "kv": [
+     [
+      "Assessor",
+      "Neil Ashworth, Fireguard Compliance Ltd"
+     ],
+     [
+      "Report issued",
+      "27 March 2026"
+     ],
+     [
+      "Reviewed for Silvering by",
+      "{{person:P022}}, {{person:P022.title}}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ast-bsc-summary-rosemount",
+  "type": "docx",
+  "title": "Safety Case Report Summary - Rosemount Tower",
+  "site": "assets",
+  "library": "Building Safety Case",
+  "folder": "Rosemount Tower",
+  "category": "Report",
+  "author": "P022",
+  "owner": "P009",
+  "modified_by": "P022",
+  "approved_by": "P004",
+  "created": "2025-06-30",
+  "modified": "2026-08-14",
+  "version": "1.2",
+  "status": "Approved",
+  "review_date": "2027-08-31",
+  "classification": "Internal",
+  "tags": [
+   "building safety case",
+   "Rosemount Tower",
+   "HRB",
+   "Building Safety Act",
+   "BSR",
+   "safety case report"
+  ],
+  "summary": "Summary of the safety case report for Rosemount Tower: building description, major fire and structural hazards, prevention and mitigation measures, and the improvement programme.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2025-06-30",
+    "by": "P022",
+    "change": "First safety case report summary, prepared for BSR building assessment certificate"
+   },
+   {
+    "version": "1.1",
+    "date": "2026-04-08",
+    "by": "P022",
+    "change": "Updated with March 2026 FRA findings"
+   },
+   {
+    "version": "1.2",
+    "date": "2026-08-14",
+    "by": "P022",
+    "change": "Improvement programme dates updated; resident engagement section refreshed"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. About the building"
+   },
+   {
+    "kv": [
+     [
+      "Name and address",
+      "Rosemount Tower, Maidstone ME16 8DU"
+     ],
+     [
+      "Height and storeys",
+      "approx. 35m, 12 storeys plus ground"
+     ],
+     [
+      "Homes",
+      "88 flats (1 and 2 bedroom)"
+     ],
+     [
+      "Built",
+      "1968, in-situ concrete frame with precast concrete panels; windows replaced 2011; no combustible cladding (EWS1 not required)"
+     ],
+     [
+      "Heating",
+      "Electric storage heaters in each flat; no gas in the building"
+     ],
+     [
+      "Registered with BSR",
+      "Yes - as a higher-risk building, October 2023"
+     ],
+     [
+      "Accountable Person",
+      "Silvering Homes Ltd; Principal Accountable Person contact: Director of Property"
+     ],
+     [
+      "Building Safety Manager",
+      "{{person:P022}}"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Major hazards"
+   },
+   {
+    "p": "A major accident hazard is one with the potential to cause many deaths or serious injuries through fire spread or structural failure. We have identified the following:"
+   },
+   {
+    "bullets": [
+     "Fire spread between flats or into the common stair through failed compartmentation (doors, risers)",
+     "Smoke logging of the single stair if the AOV fails or doors are wedged open",
+     "Structural: large panel system joints (assessed 2024 - adequate; gas-free building reduces explosion risk)",
+     "Fire service access: dependence on the firefighting lift and dry riser"
+    ]
+   },
+   {
+    "h1": "3. How we prevent and control these hazards"
+   },
+   {
+    "table": {
+     "columns": [
+      "Measure",
+      "Frequency",
+      "Who"
+     ],
+     "rows": [
+      [
+       "Fire risk assessment",
+       "Annual",
+       "Fireguard Compliance Ltd"
+      ],
+      [
+       "Communal fire door inspection",
+       "Quarterly",
+       "Silvering building safety team"
+      ],
+      [
+       "Flat entrance door inspection",
+       "Annual (100%)",
+       "Silvering building safety team"
+      ],
+      [
+       "AOV, emergency lighting, dry riser",
+       "Weekly / monthly / 6-monthly",
+       "Caretaker and specialists"
+      ],
+      [
+       "Lift thorough examination (LOLER)",
+       "6-monthly",
+       "Liftwise Engineering Ltd"
+      ],
+      [
+       "Structural inspection",
+       "5-yearly",
+       "Structural engineer"
+      ],
+      [
+       "Mandatory occurrence reporting",
+       "As required",
+       "Building Safety Manager to BSR"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "4. Improvement programme"
+   },
+   {
+    "table": {
+     "columns": [
+      "Improvement",
+      "Status at August 2026",
+      "Target"
+     ],
+     "rows": [
+      [
+       "Replace flat entrance doors that failed the FRA sample (6)",
+       "Doorsets ordered",
+       "Complete by 30 September 2026"
+      ],
+      [
+       "100% flat entrance door survey",
+       "Underway - 61 of 88 surveyed",
+       "30 September 2026"
+      ],
+      [
+       "Fire-stopping in service risers",
+       "Complete (certified)",
+       "Done May 2026"
+      ],
+      [
+       "Person-centred fire risk assessments",
+       "34 completed",
+       "30 September 2026"
+      ],
+      [
+       "Replace storage heaters with HHR heaters",
+       "Planned",
+       "2027-28"
+      ],
+      [
+       "Re-tender lift maintenance",
+       "Not started",
+       "2027"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "5. Residents"
+   },
+   {
+    "p": "Residents are central to safety in a tall building. Our Resident Engagement Strategy sets out how we share safety information, consult on decisions and handle concerns. A residents' building safety group meets quarterly."
+   },
+   {
+    "h1": "6. Golden thread"
+   },
+   {
+    "p": "Safety information for Rosemount Tower is held in Assure360 and this SharePoint library, with plans, FRAs, certificates, the safety case report and the resident engagement record. The Building Safety Manager checks the golden thread is complete before each quarterly building safety group."
+   }
+  ]
+ },
+ {
+  "id": "ast-resident-engagement-rosemount",
+  "type": "docx",
+  "title": "Resident Engagement Strategy - Rosemount Tower",
+  "site": "assets",
+  "library": "Building Safety Case",
+  "folder": "Rosemount Tower",
+  "category": "Strategy",
+  "author": "P022",
+  "owner": "P009",
+  "modified_by": "P033",
+  "approved_by": "P004",
+  "created": "2024-01-15",
+  "modified": "2026-05-20",
+  "version": "2.0",
+  "status": "Approved",
+  "review_date": "2028-05-31",
+  "classification": "Public",
+  "tags": [
+   "resident engagement",
+   "Rosemount Tower",
+   "Building Safety Act",
+   "section 91",
+   "consultation"
+  ],
+  "summary": "How Silvering involves Rosemount Tower residents in building safety decisions, as required by section 91 of the Building Safety Act 2022.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2024-01-15",
+    "by": "P022",
+    "change": "First strategy"
+   },
+   {
+    "version": "2.0",
+    "date": "2026-05-20",
+    "by": "P033",
+    "change": "Two-yearly review with residents; added door-knocking for fire door access and translated materials"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Why this strategy exists"
+   },
+   {
+    "p": "Under section 91 of the Building Safety Act 2022 the Accountable Person for a higher-risk building must have a resident engagement strategy. It explains what safety information we share, how residents can take part in decisions about building safety, and how we will listen and respond. It applies to everyone aged 16 and over living in Rosemount Tower, including leaseholders."
+   },
+   {
+    "h1": "2. What we will tell you"
+   },
+   {
+    "bullets": [
+     "The fire risk assessment summary and what we are doing about every action",
+     "The evacuation strategy (stay put) and what to do in a fire",
+     "How to look after your fire door, and why it must close by itself",
+     "Planned works that affect safety, and their dates",
+     "Results of checks on lifts, the dry riser and the smoke vents",
+     "How to raise a safety concern and how to complain"
+    ]
+   },
+   {
+    "h1": "3. How you can get involved"
+   },
+   {
+    "table": {
+     "columns": [
+      "Way to get involved",
+      "How often",
+      "Lead"
+     ],
+     "rows": [
+      [
+       "Rosemount residents' building safety meeting",
+       "Quarterly, in the community room",
+       "Building Safety Manager"
+      ],
+      [
+       "Building safety newsletter (print and email)",
+       "Quarterly",
+       "Resident Involvement & Insight Officer"
+      ],
+      [
+       "Door-knocking and drop-ins on each floor",
+       "Twice a year, and before major works",
+       "Building safety team and housing officer"
+      ],
+      [
+       "Consultation on safety decisions (e.g. door types, scooter store)",
+       "When a decision arises - at least 28 days",
+       "Building Safety Manager"
+      ],
+      [
+       "Online and paper surveys",
+       "Annually",
+       "Resident Involvement"
+      ],
+      [
+       "Translated materials (Polish, Romanian, Nepali, Urdu) and large print",
+       "On request and for all key notices",
+       "Communications"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "4. Fire doors - our shared responsibility"
+   },
+   {
+    "p": "Your flat entrance door is a fire door that keeps fire and smoke out of the stair. We need access every year to check it and to fit replacement doors where needed. We will give at least 14 days' notice and offer evening and Saturday slots. If we cannot get access after three attempts, we may need to take legal action, because a faulty fire door puts your neighbours at risk."
+   },
+   {
+    "h1": "5. Raising a concern"
+   },
+   {
+    "p": "You can report any safety concern by phone, MySilvering, email or to the caretaker. We will acknowledge within 1 working day and tell you what we will do within 5 working days. If you are not happy with our response, you can use our complaints procedure and then go to the Housing Ombudsman. You can also contact the Building Safety Regulator about a safety concern that we have not resolved."
+   },
+   {
+    "h1": "6. Measuring success"
+   },
+   {
+    "bullets": [
+     "Attendance and feedback at residents' meetings",
+     "TSM measure TP05 (satisfaction that the home is safe) for Rosemount residents",
+     "Access rate for fire door inspections",
+     "Time taken to respond to safety concerns"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ast-eicr-recovery-plan",
+  "type": "docx",
+  "title": "EICR Programme Recovery Plan",
+  "site": "assets",
+  "library": "Compliance Certificates",
+  "folder": "Electrical",
+  "category": "Plan",
+  "author": "P023",
+  "owner": "P009",
+  "modified_by": "P023",
+  "approved_by": "P004",
+  "created": "2026-10-19",
+  "modified": "2026-10-28",
+  "version": "1.0",
+  "status": "Approved",
+  "classification": "Confidential",
+  "tags": [
+   "EICR",
+   "electrical safety",
+   "recovery plan",
+   "no access",
+   "overdue",
+   "Brightline"
+  ],
+  "summary": "Plan to bring overdue Electrical Installation Condition Reports back into compliance by 31 January 2027, including the escalated no-access process and contractor capacity.",
+  "blocks": [
+   {
+    "h1": "1. The problem"
+   },
+   {
+    "p": "At the end of October {{fact:eicr_overdue}} homes had an overdue EICR, taking electrical compliance to {{fact:eicr_compliance}}. Nearly all were tested in the 2021 programme, so their five-year certificates expired together between May and October 2026. At the same time we lost two in-house electricians, and the remaining two have been prioritising emergency repairs and C2 remedials. {{fact:ast_eicr_no_access_3plus}} of the overdue homes have had three or more failed access attempts."
+   },
+   {
+    "table": {
+     "sql": "SELECT no_access_attempts AS \"Failed access attempts\", COUNT(*) AS Homes FROM compliance_checks WHERE check_type LIKE 'Electrical%' AND status = 'Overdue' GROUP BY no_access_attempts ORDER BY no_access_attempts",
+     "caption": "Table 1 - Overdue EICRs by number of failed access attempts"
+    }
+   },
+   {
+    "h1": "2. Targets"
+   },
+   {
+    "bullets": [
+     "Zero EICRs more than 3 months overdue by 31 December 2026",
+     "Electrical compliance at 99.5% or better by 31 January 2027",
+     "No future month with more than 40 EICRs due - the programme will be re-profiled"
+    ]
+   },
+   {
+    "h1": "3. Actions"
+   },
+   {
+    "actions": [
+     {
+      "action": "Brightline Electrical to complete 15 overdue EICRs in occupied homes (approved overflow)",
+      "owner": "P023",
+      "due": "2026-12-11",
+      "status": "In progress"
+     },
+     {
+      "action": "Escalated no-access process for every home with 3+ attempts: housing officer visit and warning letter",
+      "owner": "P011",
+      "due": "2026-11-20",
+      "status": "Open"
+     },
+     {
+      "action": "Joint visits: damp surveyors and housing officers to ring the compliance team when they are inside an overdue home",
+      "owner": "P023",
+      "due": "2026-11-06",
+      "status": "Open"
+     },
+     {
+      "action": "Injunction applications for remaining no-access homes (approved by Director of Property)",
+      "owner": "P026",
+      "due": "2027-01-15",
+      "status": "Open"
+     },
+     {
+      "action": "Re-profile EICR programme so 2027-2031 renewals are spread evenly (about 27 a month)",
+      "owner": "P024",
+      "due": "2026-12-31",
+      "status": "Open"
+     },
+     {
+      "action": "Weekly overdue EICR list to the Head of Assets and Director of Property",
+      "owner": "P023",
+      "due": "2026-11-02",
+      "status": "Done"
+     }
+    ]
+   },
+   {
+    "h1": "4. The no-access process"
+   },
+   {
+    "numbered": [
+     "**Attempt 1** - letter with appointment, 14 days' notice; text reminder.",
+     "**Attempt 2** - letter and phone call offering evening or Saturday slot.",
+     "**Attempt 3** - hand-delivered letter by housing officer; vulnerability check in Keystone.",
+     "**Warning letter** - tenancy breach letter from Neighbourhoods; 7 days to arrange access.",
+     "**Legal action** - injunction for access under the tenancy agreement; court costs may be recharged.",
+     "At every stage: check whether the resident is vulnerable, in hospital or not living at the property. A welfare concern overrides the process."
+    ]
+   },
+   {
+    "h1": "5. Risks"
+   },
+   {
+    "bullets": [
+     "Brightline capacity - they are also covering routine repairs; quality concerns on recent jobs",
+     "Winter access - more residents decline appointments in December",
+     "Electrician recruitment - adverts live, market supplement approved"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ast-stock-condition-summary",
+  "type": "xlsx",
+  "title": "Stock Condition Survey Summary",
+  "site": "assets",
+  "library": "Stock Condition",
+  "folder": "Survey data",
+  "category": "Report",
+  "author": "P024",
+  "owner": "P009",
+  "modified_by": "P024",
+  "created": "2026-01-12",
+  "modified": "2026-10-30",
+  "version": "4",
+  "status": "Live",
+  "classification": "Internal",
+  "tags": [
+   "stock condition",
+   "survey coverage",
+   "EPC",
+   "Decent Homes",
+   "properties"
+  ],
+  "summary": "Summary of stock condition survey coverage, EPC ratings and Decent Homes status by scheme, from Keystone property data.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Stock condition summary - Jess Moreland. Source: Keystone properties table, 30 October 2026.",
+     "Survey coverage target: every home surveyed within the last 5 years by March 2028 (20% a year).",
+     "Homes with a blank survey date have never been surveyed (mostly new build and recent acquisitions)."
+    ]
+   },
+   {
+    "name": "By scheme",
+    "sql": "SELECT scheme_name AS Scheme, COUNT(*) AS Homes, MIN(build_year) AS Built, SUM(last_stock_survey IS NULL) AS \"Never surveyed\", SUM(last_stock_survey < '2021-11-05') AS \"Over 5 years\", SUM(epc_rating IN ('D', 'E', 'F')) AS \"Below EPC C\", SUM(decent_homes != 'Yes') AS \"Non-decent\" FROM properties GROUP BY scheme_name ORDER BY \"Below EPC C\" DESC",
+    "chart": {
+     "type": "bar",
+     "cat_col": "Scheme",
+     "val_cols": [
+      "Below EPC C"
+     ],
+     "title": "Homes below EPC C by scheme"
+    }
+   },
+   {
+    "name": "Survey age",
+    "sql": "SELECT COALESCE(substr(last_stock_survey, 1, 4), 'Never') AS \"Last survey year\", COUNT(*) AS Homes FROM properties GROUP BY 1 ORDER BY 1",
+    "chart": {
+     "type": "column",
+     "cat_col": "Last survey year",
+     "val_cols": [
+      "Homes"
+     ],
+     "title": "Homes by year of last survey"
+    }
+   },
+   {
+    "name": "EPC",
+    "sql": "SELECT epc_rating AS \"EPC\", heating AS Heating, COUNT(*) AS Homes FROM properties GROUP BY 1, 2 ORDER BY 1, 2"
+   },
+   {
+    "name": "Non-decent",
+    "sql": "SELECT property_ref AS Property, address_line1 AS Address, scheme_name AS Scheme, decent_homes AS \"Reason\", last_stock_survey AS \"Last survey\" FROM properties WHERE decent_homes != 'Yes'"
+   },
+   {
+    "name": "Properties",
+    "sql": "SELECT property_ref AS Property, uprn AS UPRN, scheme_name AS Scheme, address_line1 AS Address, postcode AS Postcode, property_type AS Type, bedrooms AS Beds, build_year AS Built, heating AS Heating, epc_rating AS EPC, decent_homes AS \"Decent Homes\", last_stock_survey AS \"Last survey\" FROM properties ORDER BY property_ref"
+   }
+  ]
+ },
+ {
+  "id": "ast-planned-works-2627",
+  "type": "xlsx",
+  "title": "Planned Works Programme 2026-27",
+  "site": "assets",
+  "library": "Planned Works",
+  "folder": "2026-27",
+  "category": "Plan",
+  "author": "P040",
+  "owner": "P009",
+  "modified_by": "P040",
+  "created": "2026-02-23",
+  "modified": "2026-10-27",
+  "version": "3.2",
+  "status": "Live",
+  "classification": "Internal",
+  "tags": [
+   "planned works",
+   "capital programme",
+   "kitchens",
+   "bathrooms",
+   "roofs",
+   "fire doors",
+   "2026/27"
+  ],
+  "summary": "The 2026/27 planned and cyclical works programme by scheme and workstream with budgets, forecasts and status at the end of October.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Planned works programme 2026/27 - Anil Kapoor-Reeves, Planned Works Surveyor",
+     "Budget approved in the March 2026 business plan (£3.48m). Forecast updated monthly after the contractor valuation.",
+     "Status: Complete / On site / Scheduled / Deferred / At risk."
+    ]
+   },
+   {
+    "name": "Programme",
+    "columns": [
+     "Ref",
+     "Workstream",
+     "Scheme",
+     "Homes",
+     "Contractor",
+     "Start",
+     "Finish",
+     "Budget",
+     "Forecast",
+     "Status",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "PW01",
+      "Kitchens",
+      "Heron Way",
+      32,
+      "In-house + Hartwell Scaffolding",
+      "2026-05-11",
+      "2026-10-30",
+      288000,
+      296500,
+      "Complete",
+      "4 refusals carried to 2027/28"
+     ],
+     [
+      "PW02",
+      "Bathrooms",
+      "Shepway Green",
+      28,
+      "In-house",
+      "2026-06-01",
+      "2026-12-18",
+      196000,
+      201000,
+      "On site",
+      "18 of 28 done"
+     ],
+     [
+      "PW03",
+      "Kitchens",
+      "Ringlestone Crescent",
+      30,
+      "In-house",
+      "2027-01-11",
+      "2027-03-26",
+      270000,
+      270000,
+      "Scheduled",
+      ""
+     ],
+     [
+      "PW04",
+      "Roof renewal",
+      "Brenchley Gardens (blocks C-D)",
+      24,
+      "Weald Roofing & Guttering Ltd",
+      "2026-09-07",
+      "2026-12-11",
+      210000,
+      238000,
+      "At risk",
+      "Contractor contract ends 31 Dec; scaffold overrun"
+     ],
+     [
+      "PW05",
+      "Extract fans (damp)",
+      "Brenchley Gardens",
+      164,
+      "In-house",
+      "2026-11-16",
+      "2027-01-29",
+      96000,
+      96000,
+      "Scheduled",
+      "Approved by ExCo 14 Oct from contingency"
+     ],
+     [
+      "PW06",
+      "Fire doors (flat entrance)",
+      "Rosemount Tower",
+      6,
+      "Certified installer via Fireguard",
+      "2026-06-01",
+      "2026-11-27",
+      15600,
+      16900,
+      "At risk",
+      "Lead time 14 weeks; access refusals. Fitting from 16 Nov"
+     ],
+     [
+      "PW07",
+      "Fire doors (cross-corridor)",
+      "Rosemount Tower",
+      2,
+      "Certified installer via Fireguard",
+      "2026-04-13",
+      "2026-11-27",
+      9800,
+      9800,
+      "At risk",
+      "Was due Apr 2026"
+     ],
+     [
+      "PW08",
+      "Windows",
+      "Vinters Rise",
+      40,
+      "TBC (tender)",
+      "2027-02-01",
+      "2027-06-30",
+      320000,
+      320000,
+      "Deferred",
+      "Tender delayed; moves to 2027/28"
+     ],
+     [
+      "PW09",
+      "Boiler replacements",
+      "Various",
+      95,
+      "In-house gas team",
+      "2026-04-01",
+      "2027-03-31",
+      285000,
+      281000,
+      "On site",
+      "61 done"
+     ],
+     [
+      "PW10",
+      "Air source heat pump pilot",
+      "Coxheath Lane",
+      12,
+      "TBC",
+      "2026-10-05",
+      "2027-02-26",
+      168000,
+      176000,
+      "On site",
+      "Retrofit pilot; EPC D to B expected"
+     ],
+     [
+      "PW11",
+      "Cyclical external decoration",
+      "Parkwood Court, Allington Mews",
+      96,
+      "In-house",
+      "2026-05-04",
+      "2026-09-25",
+      84000,
+      79000,
+      "Complete",
+      ""
+     ],
+     [
+      "PW12",
+      "Fire safety works (communal)",
+      "Chatham Hill Court",
+      40,
+      "Fireguard Compliance Ltd",
+      "2026-11-23",
+      "2027-01-29",
+      42000,
+      42000,
+      "Scheduled",
+      "Depends on new FRA"
+     ],
+     [
+      "PW13",
+      "Stock condition surveys",
+      "Brenchley Gardens + 20% rolling",
+      380,
+      "In-house surveyors",
+      "2026-04-01",
+      "2027-03-31",
+      80000,
+      80000,
+      "On site",
+      "Brenchley 100% re-survey Jan 2027"
+     ],
+     [
+      "PW14",
+      "Storage heater replacement (HHR) - design",
+      "Rosemount Tower",
+      88,
+      "TBC",
+      "2027-01-04",
+      "2027-03-31",
+      35000,
+      35000,
+      "Scheduled",
+      "Design and resident consultation only"
+     ]
+    ],
+    "format": {
+     "Budget": "gbp",
+     "Forecast": "gbp",
+     "Start": "date",
+     "Finish": "date"
+    },
+    "totals": [
+     "Homes",
+     "Budget",
+     "Forecast"
+    ]
+   },
+   {
+    "name": "By workstream",
+    "columns": [
+     "Workstream",
+     "Budget",
+     "Forecast",
+     "Variance"
+    ],
+    "rows": [
+     [
+      "Kitchens and bathrooms",
+      754000,
+      "=SUMIFS(Programme!I:I,Programme!B:B,\"Kitchens\")+SUMIFS(Programme!I:I,Programme!B:B,\"Bathrooms\")",
+      "=C2-B2"
+     ],
+     [
+      "Roofs and windows",
+      530000,
+      558000,
+      "=C3-B3"
+     ],
+     [
+      "Heating and retrofit",
+      488000,
+      492000,
+      "=C4-B4"
+     ],
+     [
+      "Fire safety",
+      67400,
+      68700,
+      "=C5-B5"
+     ],
+     [
+      "Damp and ventilation",
+      96000,
+      96000,
+      "=C6-B6"
+     ],
+     [
+      "Surveys and cyclical",
+      164000,
+      159000,
+      "=C7-B7"
+     ]
+    ],
+    "format": {
+     "Budget": "gbp",
+     "Forecast": "gbp",
+     "Variance": "gbp"
+    }
+   }
+  ]
+ },
+ {
+  "id": "ast-scan-lgsr-10-brenchley",
+  "type": "scan",
+  "format": "pdf",
+  "quality": "good",
+  "title": "Landlord Gas Safety Record - 10 Brenchley Gardens (October 2026)",
+  "site": "assets",
+  "library": "Compliance Certificates",
+  "folder": "Gas/Brenchley Gardens",
+  "category": "Certificate",
+  "doc_type_label": "LGSR (scanned)",
+  "author": "P023",
+  "created": "2026-10-07",
+  "modified": "2026-10-09",
+  "classification": "Confidential",
+  "tags": [
+   "LGSR",
+   "gas safety",
+   "certificate",
+   "scanned",
+   "Brenchley Gardens",
+   "CP12"
+  ],
+  "summary": "Scanned handwritten Landlord Gas Safety Record for 10 Brenchley Gardens (SVH10158), 7 October 2026, signed by the Silvering gas engineer. Image only.",
+  "letterhead": true,
+  "show_title": true,
+  "blocks": [
+   {
+    "p": "Gas Safety (Installation and Use) Regulations 1998, regulation 36. A copy must be given to the tenant within 28 days."
+   },
+   {
+    "form": [
+     [
+      "Property address",
+      "10 Brenchley Gardens, Maidstone ME15 8ZE"
+     ],
+     [
+      "Property ref / UPRN",
+      "SVH10158 / 100022440158"
+     ],
+     [
+      "Tenant",
+      "{{sql:SELECT lead_tenant FROM tenancies WHERE property_ref = 'SVH10158'}}"
+     ],
+     [
+      "Landlord",
+      "Silvering Homes, Kingsgate House, 14 Fremlin Walk, Maidstone ME14 1QZ"
+     ],
+     [
+      "Date of check",
+      "07/10/2026"
+     ],
+     [
+      "Next check due by",
+      "07/10/2027"
+     ],
+     [
+      "Job number",
+      "GS-26-04417"
+     ]
+    ],
+    "ink": "blue"
+   },
+   {
+    "h3": "Appliance details"
+   },
+   {
+    "table": {
+     "columns": [
+      "Location",
+      "Appliance",
+      "Make / model",
+      "Flue type",
+      "Operating pressure",
+      "Safety device OK",
+      "Ventilation OK",
+      "Flue OK",
+      "Safe to use"
+     ],
+     "rows": [
+      [
+       "Kitchen",
+       "Combi boiler",
+       "Vaillant ecoTEC plus 832",
+       "Room sealed",
+       "20 mbar",
+       "Yes",
+       "N/A",
+       "Yes",
+       "Yes"
+      ],
+      [
+       "Kitchen",
+       "Gas hob",
+       "Beko HIZG64120",
+       "Flueless",
+       "20 mbar",
+       "Yes",
+       "Yes",
+       "N/A",
+       "Yes"
+      ]
+     ]
+    }
+   },
+   {
+    "checks": [
+     [
+      "Gas tightness test passed",
+      true
+     ],
+     [
+      "Emergency control accessible",
+      true
+     ],
+     [
+      "Protective equipotential bonding satisfactory",
+      true
+     ],
+     [
+      "CO alarm fitted and tested",
+      true
+     ],
+     [
+      "Smoke alarm tested",
+      true
+     ],
+     [
+      "Defects identified",
+      false
+     ]
+    ]
+   },
+   {
+    "h3": "Engineer's notes"
+   },
+   {
+    "hand": "Boiler serviced. Flue terminal OK. CO alarm in kitchen replaced (expired 2025). Advised tenant re black mould bathroom ceiling - pls refer to damp team. GP",
+    "ink": "blue"
+   },
+   {
+    "form": [
+     [
+      "Engineer",
+      "Gareth Powell"
+     ],
+     [
+      "Gas Safe licence no.",
+      "4471893"
+     ],
+     [
+      "Business Gas Safe reg.",
+      "Silvering Homes - 612930"
+     ]
+    ],
+    "ink": "blue"
+   },
+   {
+    "signature": {
+     "name": "Gareth Powell",
+     "title": "Gas Engineer, Silvering gas team"
+    },
+    "date": "2026-10-07"
+   },
+   {
+    "form": [
+     [
+      "Received by tenant",
+      "L. Lee"
+     ]
+    ],
+    "ink": "blue"
+   },
+   {
+    "stamp": "Uploaded to Assure360",
+    "date": "2026-10-09"
+   }
+  ]
+ },
+ {
+  "id": "ast-img-stock-workshop",
+  "type": "image",
+  "kind": "sticky_notes",
+  "site": "assets",
+  "library": "Stock Condition",
+  "folder": "Workshops",
+  "title": "Sticky notes - stock condition data workshop",
+  "heading": "Stock condition workshop 15/10 - what's stopping us knowing our homes?",
+  "author": "P024",
+  "created": "2026-10-15",
+  "modified": "2026-10-15",
+  "classification": "Internal",
+  "tags": [
+   "sticky notes",
+   "workshop",
+   "stock condition",
+   "data quality",
+   "photo"
+  ],
+  "summary": "Photo of sticky notes from the 15 October stock condition data workshop with assets, repairs and IT staff: data gaps, survey capacity, system issues and ideas.",
+  "columns": [
+   {
+    "heading": "Data gaps",
+    "notes": [
+     "New builds never surveyed",
+     "Survey dates blank in Keystone",
+     "EPCs > 10 yrs old for some street props",
+     "Brenchley 2021 survey recs ignored?"
+    ]
+   },
+   {
+    "heading": "Capacity",
+    "notes": [
+     "Only Anil + 1 contractor surveyor",
+     "Surveys clash with damp visits",
+     "20% a year = 370 homes!"
+    ]
+   },
+   {
+    "heading": "Systems",
+    "notes": [
+     "Keystone vs Assure360 addresses don't match",
+     "FieldLoop repair history not linked",
+     "Power BI coverage dashboard broken since Aug"
+    ]
+   },
+   {
+    "heading": "Ideas",
+    "notes": [
+     "Operatives capture condition at every job",
+     "Damp surveyors do mini-survey",
+     "100% Brenchley Jan",
+     "Single UPRN key everywhere"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ast-email-bsr-rosemount",
+  "type": "email",
+  "subject": "Rosemount Tower (HRB) - building assessment certificate: request for further information",
+  "summary": "The Building Safety Regulator asks for more information on Rosemount Tower's fire door programme and resident engagement; Silvering's Building Safety Manager drafts and the Head of Assets reviews the reply.",
+  "importance": "high",
+  "sharepoint_copy": {
+   "site": "assets",
+   "library": "Building Safety Case",
+   "folder": "Rosemount Tower/BSR correspondence"
+  },
+  "messages": [
+   {
+    "from": {
+     "name": "Helen Okonjo",
+     "email": "helen.okonjo@bsr-casework.example.com"
+    },
+    "to": [
+     "P022"
+    ],
+    "cc": [
+     "P009"
+    ],
+    "date": "2026-10-08T14:20",
+    "body": "Dear Ms Begum,\n\nBuilding assessment certificate - Rosemount Tower, Maidstone ME16 8DU\n\nThank you for the safety case report and supporting documents submitted for the above higher-risk building. Having reviewed them, we need further information before we can make a decision.\n\n1. The safety case report summary (v1.2) states that the six failed flat entrance doors identified in the March 2026 fire risk assessment would be replaced by 30 September 2026. Please confirm whether this work is complete. If not, please explain the reasons, the interim measures in place and a revised date.\n\n2. Please provide the results of the 100% flat entrance door survey and your replacement programme.\n\n3. Please provide evidence of how residents have been engaged on the fire door programme in line with your resident engagement strategy, including how you are dealing with refused access.\n\n4. Please confirm the number of residents identified as needing help to evacuate and whether person-centred fire risk assessments are complete.\n\nPlease respond within 28 days, by 5 November 2026.\n\nYours sincerely,\n\nHelen Okonjo\nCase Officer, Building Safety Regulator"
+   },
+   {
+    "from": "P022",
+    "to": [
+     "P009"
+    ],
+    "cc": [],
+    "date": "2026-10-30T17:48",
+    "body": "Priti,\n\nDraft reply to the BSR below for your review - it's due on the 5th. Be aware the honest answer on question 1 is 'no'. The summary we sent said 30 September and the doors aren't in yet. Fitting starts 16 November. We still have four overdue fire door actions from the October inspection and three overdue on the FRA.\n\nDraft points:\n\n1. Not complete. Doorsets have a 14-week lead time from certified manufacturers and two residents have refused access. Interim measures: self-closers fixed on all four doors in April, weekly checks of floors 9-11 by the caretaker, letters to residents. Revised date 27 November.\n2. Survey complete - 88 of 88, 19 doors need replacing in 2027 (attached).\n3. Drop-in on floors 9-12 in September, letters, door-knocking. Two refusals now with Neighbourhoods.\n4. 41 residents identified, 34 PCFRAs done, 7 outstanding (due 30 Nov).\n\nI'd also like to update the safety case summary to v1.3 before we send so the dates match. I haven't done it yet.\n\nFatima"
+   },
+   {
+    "from": "P009",
+    "to": [
+     "P022"
+    ],
+    "cc": [
+     "P004"
+    ],
+    "date": "2026-11-02T09:15",
+    "body": "Thanks Fatima - this is the right approach. Be straight with them; they know the summary was optimistic.\n\nTwo changes please:\n- On point 1, say who has signed off the interim measures (you, with Fireguard's advice) and attach Neil's letter.\n- Update the safety case summary to v1.3 and send it with the response, so the BSR isn't working from the August version.\n\nGareth - copying you because this will come up at the residents' meeting on the 12th and at Audit & Risk. We may also need to consider whether any of this is reportable as a mandatory occurrence; my view is no, but Fatima please check with Fireguard.\n\nPriti"
+   },
+   {
+    "from": "P022",
+    "to": [
+     {
+      "name": "Helen Okonjo",
+      "email": "helen.okonjo@bsr-casework.example.com"
+     }
+    ],
+    "cc": [
+     "P009"
+    ],
+    "date": "2026-11-04T16:30",
+    "body": "Dear Ms Okonjo,\n\nRosemount Tower - response to your request for further information\n\nPlease find attached our response to the four points in your letter of 8 October, with supporting evidence (fire door survey results, replacement programme, resident engagement log, PCFRA tracker and our fire risk assessor's letter on interim measures).\n\nIn summary, the six flat entrance door replacements were not completed by 30 September as our safety case report summary stated. Fitting begins on 16 November with completion expected by 27 November. Interim measures have been in place since April. An updated safety case report summary will follow shortly.\n\nPlease let me know if you need anything further.\n\nKind regards,\n\nFatima Begum\nBuilding Safety Manager"
+   }
+  ]
+ },
+ {
+  "id": "mtg-ast-bsg-2026-10-21",
+  "type": "meeting",
+  "title": "Building Safety Group",
+  "organiser": "P009",
+  "attendees": [
+   "P004",
+   "P022",
+   "P023",
+   "P024",
+   "P008",
+   "P040",
+   {
+    "name": "Neil Ashworth",
+    "email": "neil.ashworth@fireguard-compliance.co.uk"
+   }
+  ],
+  "optional": [
+   "P011"
+  ],
+  "start": "2026-10-21T10:00",
+  "duration": 75,
+  "location": "Microsoft Teams Meeting",
+  "site": "assets",
+  "library": "Fire Safety",
+  "classification": "Confidential",
+  "tags": [
+   "building safety group",
+   "Rosemount Tower",
+   "fire doors",
+   "EICR",
+   "lifts",
+   "compliance"
+  ],
+  "summary": "Monthly Building Safety Group, 21 October 2026: Rosemount Tower fire doors and the BSR request, EICR backlog, Parkwood Court lift, Chatham Hill Court FRA and legionella contract.",
+  "agenda": [
+   "Actions from September",
+   "Rosemount Tower: FRA actions, fire doors, BSR request",
+   "Domestic compliance: gas and EICR",
+   "Communal: lifts, FRAs, legionella",
+   "Risk register SR03",
+   "AOB"
+  ],
+  "transcript": [
+   {
+    "from": "P009",
+    "text": "Morning everyone, thanks for joining. Neil, thanks for coming on from Fireguard. Can everyone hear me? Gareth, you're on mute I think."
+   },
+   {
+    "from": "P004",
+    "text": "Sorry - yes, here. Morning."
+   },
+   {
+    "from": "P009",
+    "text": "Okay. Actions from September first. Fatima, the big one was the six flat entrance doors at Rosemount by the end of September."
+   },
+   {
+    "from": "P022",
+    "text": "Yeah. So that's not done. The doorsets were ordered in June but the manufacturer quoted fourteen weeks, and they've only just confirmed delivery for the ninth of November. So we missed the thirty September date."
+   },
+   {
+    "from": "P004",
+    "text": "Which is the date we put in the safety case summary we sent to the BSR."
+   },
+   {
+    "from": "P022",
+    "text": "It is. And they've written to us - the letter came on the eighth - asking for exactly that. Is it done, and if not why not. We have until the fifth of November."
+   },
+   {
+    "from": "P009",
+    "text": "Right. We need to be completely straight with them. Neil, what's your view on the interim measures?"
+   },
+   {
+    "from": {
+     "name": "Neil Ashworth",
+     "email": "neil.ashworth@fireguard-compliance.co.uk"
+    },
+    "text": "So the four doors with the closers were fixed in April, I re-checked those in the summer, they're fine. The two with the head gaps - they're the real problem, smoke would get past them. I'd want weekly checks on those floors, and I'd want the residents to know. I can put that in a letter for you."
+   },
+   {
+    "from": "P022",
+    "text": "That would really help. Thank you."
+   },
+   {
+    "from": "P009",
+    "text": "And the quarterly inspection last week?"
+   },
+   {
+    "from": "P022",
+    "text": "Nine items open, four overdue. The cross-corridor doors on nine and eleven are still not closing properly. Those were meant to be done in April as well."
+   },
+   {
+    "from": "P008",
+    "text": "That's my lot, sorry. We had a carpenter on it, he adjusted them, and then they dropped again. Honestly I think the frames are the issue and it needs the specialist."
+   },
+   {
+    "from": "P009",
+    "text": "Okay, so let's put the cross-corridor doors with the certified installer and do them with the flat doors in November. Anil, can that go on the programme?"
+   },
+   {
+    "from": "P040",
+    "text": "Yep, I'll add it as PW07, same installer, same visit."
+   },
+   {
+    "from": "P009",
+    "text": "And access?"
+   },
+   {
+    "from": "P022",
+    "text": "Two residents have refused. One's on floor ten, one on eleven. Housing officer has been round. One of them is really worried about the door looking like a 'council door', I think we can sort that one with a choice of finish. The other one is harder."
+   },
+   {
+    "from": "P011",
+    "text": "I can take that one with Tom. We'll do a joint visit, and if we need to go down the legal route we'll start the paperwork, but I'd rather not."
+   },
+   {
+    "from": "P009",
+    "text": "Thanks Nadia. Okay, the full door survey."
+   },
+   {
+    "from": "P022",
+    "text": "Finished last week. Eighty-eight out of eighty-eight. Nineteen more need replacing, not urgently, so that's a 2027 programme."
+   },
+   {
+    "from": "P009",
+    "text": "Good. Right, domestic compliance. Rob."
+   },
+   {
+    "from": "P023",
+    "text": "Gas is fine, one overdue, 8 Shepway Green, four no-accesses, that's with Neighbourhoods for an injunction. EICR is the problem. Thirty overdue. Nearly all from the 2021 programme. And most are no-access - three or more attempts on about two dozen."
+   },
+   {
+    "from": "P004",
+    "text": "Thirty. That's going to look bad at Audit and Risk."
+   },
+   {
+    "from": "P023",
+    "text": "It will. I've got Brightline doing fifteen, but they're stretched, they're doing our repairs overflow too, and to be honest the quality on some recent jobs hasn't been great."
+   },
+   {
+    "from": "P008",
+    "text": "Yeah, we've got a contract meeting with them in November about the invoices."
+   },
+   {
+    "from": "P023",
+    "text": "I'm writing a recovery plan. Target: nothing more than three months overdue by Christmas, ninety-nine and a half by end of January."
+   },
+   {
+    "from": "P009",
+    "text": "Get that to me by the end of next week please. Jess, can you re-profile the programme so we don't get the same cliff edge in 2031?"
+   },
+   {
+    "from": "P024",
+    "text": "Yes. If we spread it, it's about twenty-seven a month."
+   },
+   {
+    "from": "P009",
+    "text": "Lifts."
+   },
+   {
+    "from": "P022",
+    "text": "Parkwood Court LOLER was due the twenty-eighth of September. Liftwise cancelled twice. It's booked for the tenth of November. And they're still Red - Rosemount's second lift broke down three times in September."
+   },
+   {
+    "from": "P004",
+    "text": "We need to get that contract re-tendered. Can someone talk to Ben?"
+   },
+   {
+    "from": "P022",
+    "text": "I'll do it."
+   },
+   {
+    "from": "P009",
+    "text": "Chatham Hill Court FRA?"
+   },
+   {
+    "from": {
+     "name": "Neil Ashworth",
+     "email": "neil.ashworth@fireguard-compliance.co.uk"
+    },
+    "text": "That's on the thirtieth. Sorry it slipped - that's on us, we lost an assessor in the summer. Report about two weeks after."
+   },
+   {
+    "from": "P009",
+    "text": "And legionella - AquaSafe contract expired."
+   },
+   {
+    "from": "P022",
+    "text": "On an extension letter. Not a compliance gap but Ben needs to get the tender out."
+   },
+   {
+    "from": "P009",
+    "text": "Okay. Risk register - SR03, building safety failure. I think we keep the trend as rising. Anyone disagree? No. Right, AOB. The Rosemount residents' meeting is on the twelfth of November. Fatima, you're leading. I'll come. Gareth, will you?"
+   },
+   {
+    "from": "P004",
+    "text": "Yes, I'll come. They'll want to hear it from a director."
+   },
+   {
+    "from": "P009",
+    "text": "Great. Thanks everyone, that's it."
+   }
+  ],
+  "recap": {
+   "summary": "The group confirmed that the six Rosemount Tower flat entrance door replacements missed their 30 September date, which was stated in the safety case summary sent to the BSR. It agreed interim measures, a revised November fitting plan including the cross-corridor doors, and an honest BSR response. EICR compliance is the main domestic concern with 30 overdue.",
+   "topics": [
+    {
+     "title": "Rosemount Tower fire doors",
+     "text": "Doorsets due 9 Nov after a 14-week lead time; fitting from 16 Nov. Cross-corridor doors on floors 9 and 11 added to the certified installer's visit. Two access refusals being handled by Neighbourhoods. 100% door survey complete: 19 more doors for 2027. October inspection: 9 items open, 4 overdue."
+    },
+    {
+     "title": "BSR request",
+     "text": "Response due 5 Nov. Fireguard to provide a letter on interim measures; response must say plainly that the 30 September date was missed."
+    },
+    {
+     "title": "Domestic compliance",
+     "text": "Gas: one overdue (8 Shepway Green, injunction route). EICR: 30 overdue, mostly from the 2021 programme with repeated no-access; recovery plan being written; programme to be re-profiled to about 27 a month."
+    },
+    {
+     "title": "Communal",
+     "text": "Parkwood Court LOLER missed, rebooked 10 Nov; Liftwise remains Red. Chatham Hill Court FRA on 30 Oct. AquaSafe on an extension letter."
+    }
+   ],
+   "decisions": [
+    "Cross-corridor doors to be fitted by the certified installer alongside the flat entrance doors",
+    "BSR response to state plainly that the 30 September date was missed",
+    "SR03 trend kept as Rising"
+   ],
+   "actions": [
+    {
+     "action": "Letter on interim fire door measures at Rosemount Tower",
+     "owner": "Neil Ashworth (Fireguard)",
+     "due": "2026-10-28"
+    },
+    {
+     "action": "Draft BSR response for review",
+     "owner": "P022",
+     "due": "2026-10-31"
+    },
+    {
+     "action": "Add cross-corridor doors to the planned works programme (PW07)",
+     "owner": "P040",
+     "due": "2026-10-23"
+    },
+    {
+     "action": "Joint visit to the two residents refusing fire door access",
+     "owner": "P011",
+     "due": "2026-11-06"
+    },
+    {
+     "action": "EICR recovery plan to Head of Assets",
+     "owner": "P023",
+     "due": "2026-10-30"
+    },
+    {
+     "action": "Re-profile EICR programme",
+     "owner": "P024",
+     "due": "2026-12-31"
+    },
+    {
+     "action": "Raise lift and legionella re-tenders with Procurement",
+     "owner": "P022",
+     "due": "2026-10-28"
+    },
+    {
+     "action": "Update safety case report summary to v1.3",
+     "owner": "P022",
+     "due": "2026-10-31"
+    }
+   ]
+  }
+ },
+ {
+  "id": "mtg-ast-rosemount-residents-2026-11-12",
+  "type": "meeting",
+  "title": "Rosemount Tower residents' building safety meeting",
+  "organiser": "P022",
+  "attendees": [
+   "P009",
+   "P004",
+   "P033",
+   {
+    "name": "Tom Reed",
+    "email": "tom.reed@silvering-homes.org.uk"
+   },
+   {
+    "name": "Neil Ashworth",
+    "email": "neil.ashworth@fireguard-compliance.co.uk"
+   }
+  ],
+  "optional": [
+   "P037",
+   "P011"
+  ],
+  "start": "2026-11-12T18:30",
+  "duration": 90,
+  "location": "Rosemount Tower - ground floor community room",
+  "site": "assets",
+  "library": "Building Safety Case",
+  "classification": "Internal",
+  "tags": [
+   "residents",
+   "Rosemount Tower",
+   "building safety",
+   "fire doors",
+   "resident engagement"
+  ],
+  "summary": "Quarterly residents' building safety meeting at Rosemount Tower: fire door replacements, what to do in a fire, lifts, the BSR certificate and resident questions.",
+  "description": "Quarterly residents' building safety meeting, open to all Rosemount Tower residents. Refreshments from 6.15pm. Interpreters (Polish, Romanian) booked. Please bring copies of the fire door leaflet and the evacuation strategy notice.",
+  "agenda": [
+   "Welcome and introductions (Gareth Price, Director of Property)",
+   "Fire risk assessment - what we found and what we've done (Fireguard Compliance)",
+   "Fire doors: the replacement programme from 16 November and access",
+   "What to do in a fire - stay put explained",
+   "Lifts - breakdowns and what we are doing about Liftwise",
+   "Building Safety Regulator and the building assessment certificate",
+   "Mobility scooter store and lobby storage",
+   "Residents' questions",
+   "Dates for next meeting"
+  ]
+ }
+]

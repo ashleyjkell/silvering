@@ -1,0 +1,160 @@
+[
+ {
+  "id": "S-CX-01",
+  "title": "Draft a stage 2 complaint response from the case history",
+  "level": "Foundation",
+  "module": "Copilot in Word and Outlook",
+  "persona": "P032",
+  "context": "Frank Taylor (34 Brenchley Gardens) complained by handwritten letter in September 2026 about a boiler left capped after a gas leak in July. His stage 1 (CMP-24036) was late and not upheld, and he has escalated to stage 2, which is due on 24 November. Owen Fletcher has asked Mark Pennington to prepare a first draft.",
+  "goal": "Use Copilot to pull together the case history and draft a plain-English stage 2 response that follows the Complaints Policy and template, with a fair remedy.",
+  "task_steps": [
+   "Open the scanned letter in Complaints/2026/Incoming Post. Notice that Copilot cannot read it (image only) and transcribe or OCR the key facts.",
+   "Ask Copilot to summarise the complaints case review recap of 28 October and the escalation email about Colin Vaughan, which shows the same 'parts required' pattern.",
+   "Check the Complaints Policy for stage 2 timescales, the compensation bands and the heating compensation rule.",
+   "Ask Copilot to draft the response using the stage 1 template structure, but as a stage 2 final response with Housing Ombudsman signposting.",
+   "Work out the heating compensation yourself (28 July to the repair date, May-Sept rate) and check Copilot's arithmetic."
+  ],
+  "sample_prompts": [
+   "Summarise everything we know about complaint CMP-24036 from /Complaints weekly case review recap and the Complaints Policy.",
+   "Using /Complaints Policy, what compensation applies to loss of hot water in August, and what time and trouble band fits five weeks without hot water for a family with a child?",
+   "Draft a stage 2 final response to Mr Taylor in plain English, under two pages, that says what went wrong, upholds the complaint, sets out the remedy and explains how to contact the Housing Ombudsman."
+  ],
+  "success_criteria": [
+   "Identifies that no follow-on boiler job was raised after the 28 July emergency, and that stage 1 was late.",
+   "Upholds the complaint, with an apology, compensation in the correct band and the per-day heating payment.",
+   "States the stage 2 response is final and gives Housing Ombudsman details.",
+   "Plain English; no jargon such as 'remedial' or 'liaise'; no other residents' details."
+  ],
+  "data_sources": ["cx-scan-taylor-letter", "cx-complaints-policy", "cx-stage1-template", "cx-mtg-complaints-review-2026-10-28-recap", "cx-em-cc-escalation", "complaints", "repairs"],
+  "fact_ids": ["cx_complaint_timescales"],
+  "agent_instructions": "",
+  "trainer_notes": "The scan is the deliberate obstacle: Copilot can't read it until it's OCR'd. The repairs table for SVH10182 shows the 28 July gas emergency and no later heating job, which confirms the pattern. Strong learners also spot that the October residents' meeting transcript has Mr Taylor saying his daughter had to chase every day. Copilot often treats the May-Sept heating rate as £5; the policy says £2.50."
+ },
+ {
+  "id": "S-CX-02",
+  "title": "Theme the TSM free-text comments",
+  "level": "Intermediate",
+  "module": "Copilot in Excel",
+  "persona": "P033",
+  "context": "Grace Osei has around {{fact:cx_tsm_comments}} free-text TSM comments in the TSM Data Workbook and has never had time to code them. The Resident Scrutiny Panel meets on 18 November and wants evidence on communication.",
+  "goal": "Use Copilot in Excel to code each comment to a theme, count themes by scheme and tenure, and write a short insight summary for the Panel.",
+  "task_steps": [
+   "Open the TSM Data Workbook, Comments sheet, and format it as a table if needed.",
+   "Ask Copilot to suggest 6-8 themes and add a Theme column (or fill the 'Theme (to code)' column).",
+   "Build a PivotTable of themes by year and by overall rating.",
+   "Filter to Brenchley Gardens and to shared owners and compare.",
+   "Ask Copilot to write a 150-word summary linking the themes to the Scrutiny Panel's recommendations."
+  ],
+  "sample_prompts": [
+   "Look at the Comment column and suggest 7 themes covering both positive and negative comments.",
+   "Add a column that classifies each comment into one of these themes: Repairs positive, Staff positive, Home improvements, Call backs and contact, Damp and mould, Complaints handling, ASB, Communal areas, Service charges / shared owners, Neutral.",
+   "How many comments are about call backs or getting through on the phone? Show by year.",
+   "Write a short summary for the Resident Scrutiny Panel on what residents say about communication."
+  ],
+  "success_criteria": [
+   "Every comment has a theme; themes are mutually exclusive and sensible.",
+   "Counts call-back and phone comments correctly ({{fact:cx_tsm_contact_comments}} across both years).",
+   "Notes that shared owner comments focus on paying for services without a say.",
+   "Summary links findings to Scrutiny recommendations 1 and 5 and does not quote tenancy references."
+  ],
+  "data_sources": ["cx-tsm-workbook", "cx-tsm-annual-report-2526", "cx-scrutiny-communication", "cx-img-workshop-sticky", "tsm_survey"],
+  "fact_ids": ["cx_tsm_comments", "cx_tsm_contact_comments", "tsm_complaints_2526"],
+  "agent_instructions": "",
+  "trainer_notes": "The comments come from a small set of repeated phrases, so a good theme scheme gives clean counts. Talk about checking classifications on a sample. The workbook is labelled Confidential because the Responses sheet has tenancy refs, which is a good prompt to discuss what can go into a Panel paper. The sticky-note photo is a bonus: learners can add the workshop themes."
+ },
+ {
+  "id": "S-CX-03",
+  "title": "Build a contact centre adviser agent in Copilot Studio",
+  "level": "Advanced",
+  "module": "Copilot Studio",
+  "persona": "P031",
+  "context": "Zainab Ali has been an adviser for six months and still has to check repair priorities and complaint rules mid-call. Hannah Lowe wants an agent grounded on the contact centre knowledge articles and the Complaints Policy.",
+  "goal": "Build and test a Copilot Studio agent that answers advisers' questions on repair priorities, damp and mould calls and complaints, and spot the conflicting source before it misleads residents.",
+  "task_steps": [
+   "Create an agent and add the Contact Centre/Knowledge Articles folder and the Complaints Policy as knowledge.",
+   "Write instructions (see reference) and add starter prompts.",
+   "Test with: 'No heating in November, is it an emergency?', 'Resident says there's mould in baby's room', 'How long does a stage 1 response take?'.",
+   "Notice the conflicting answer on stage 1 timescales and trace it to the source.",
+   "Fix it: remove or flag the out-of-date article and retest. Write a short note to Hannah."
+  ],
+  "sample_prompts": [
+   "A resident has no heating and it's November. What priority is this and what's the target?",
+   "Caller says there's black mould in the room where her 3-year-old sleeps. What do I do?",
+   "What do I tell a resident about how long a stage 1 complaint response takes?",
+   "Can I promise compensation?"
+  ],
+  "success_criteria": [
+   "Heating in October-April answered as Emergency, 24 hours.",
+   "Mould with a young child triaged as a possible emergency hazard, with the Awaab's Law timescales.",
+   "Learner finds that the 'Recognising and Logging a Complaint' article says 15 working days, while the policy says 10 from acknowledgement, and corrects the knowledge.",
+   "Agent refuses to promise compensation and cites the source."
+  ],
+  "data_sources": ["cx-kb-is-it-an-emergency", "cx-kb-damp-calls", "cx-kb-recognising-complaints", "cx-complaints-policy"],
+  "fact_ids": ["cx_kb_outdated_timescale", "cx_complaint_timescales"],
+  "agent_instructions": "You are the Silvering Homes Contact Centre Helper for customer service advisers. Answer only from the knowledge provided: the contact centre knowledge articles and the Complaints Policy. Give short answers advisers can use on a live call: the priority or rule first, then the target timescale, then what to say to the resident. Always ask the safety questions first for repairs: gas, water near electrics, security, vulnerability, damp and mould. Never say damp is 'just condensation'. Never promise compensation or outcomes. If two sources disagree, say so, give the most recent approved policy, and tell the adviser to check with their team leader. Do not ask for or repeat residents' personal or health details. Use UK English.",
+  "trainer_notes": "Planted conflict: cx-kb-recognising-complaints (v1.1, 2024, review overdue) says 15 working days. The Complaints Policy v4.0 says 10 working days from acknowledgement. Unprompted agents often merge the two. The learning point is that knowledge hygiene matters more than prompt cleverness."
+ },
+ {
+  "id": "S-TEN-01",
+  "title": "ASB case chronology and case review summary",
+  "level": "Intermediate",
+  "module": "Copilot in Word",
+  "persona": "P026",
+  "context": "Gary Doyle needs a clean chronology and witness statement outline for high-risk harassment case ASB-9026 at Rosemount Tower before the case review on 10 November. Solicitors think an injunction is possible.",
+  "goal": "Use Copilot to produce a case review summary and witness statement outline from the chronology, check it against the ASB Policy, and handle Highly Confidential data correctly.",
+  "task_steps": [
+   "Check the sensitivity label on the chronology before you use Copilot (see Nadia's Teams message of 4 November).",
+   "Ask Copilot to summarise the chronology into a one-page case review: risk, incidents, actions, evidence, gaps.",
+   "Ask Copilot to check compliance with the ASB Policy response standards (first contact, risk assessment, review frequency).",
+   "Draft a witness statement outline for Mr Dean in date order, facts only.",
+   "List the evidence still needed for an injunction application."
+  ],
+  "sample_prompts": [
+   "Summarise /ASB Case Chronology - ASB-9026 as a case review: risk level, incidents with dates, actions taken, evidence held and next steps.",
+   "Compare the chronology with /Anti-Social Behaviour Policy and Procedure. Were first contact, risk assessment and case reviews done on time?",
+   "Draft an outline witness statement for the reporter in chronological order, factual and without opinion."
+  ],
+  "success_criteria": [
+   "Finds that the risk assessment was completed on 2 October, 4 working days after the report, against a 1 working day requirement.",
+   "First contact (29 Sept) is within 1 working day; case reviews about every 10 working days.",
+   "The witness statement is factual, dated and uses only the reporter's own evidence.",
+   "Learner checks the label and does not paste details into tools outside Microsoft 365."
+  ],
+  "data_sources": ["ten-asb-9026-chronology", "ten-asb-policy", "ten-ch-neighbourhoods-sp", "asb_cases"],
+  "fact_ids": ["ten_asb_9026_ra_late", "asb_open", "asb_no_risk_assessment"],
+  "agent_instructions": "",
+  "trainer_notes": "Planted: the asb_cases table shows risk_assessment_done = 1, so any dashboard says it's compliant, but the dates show it was late. The case uses a fictional police reference. Use the Teams message about labels to discuss oversharing, which is the pilot's main worry."
+ },
+ {
+  "id": "S-TEN-02",
+  "title": "Prioritise an arrears caseload and write an empathetic letter",
+  "level": "Advanced",
+  "module": "Copilot in Excel and Word",
+  "persona": "P029",
+  "context": "It is Monday and Ryan Tait has {{fact:ten_tait_caseload}} accounts in arrears. Bev Saunders has told him to work through Universal Credit accounts over 8 weeks with no APA, biggest and vulnerable first, and to check for open complaints before any letter goes out.",
+  "goal": "Use Copilot in Excel to build a prioritised action list from the dashboard, then draft a firm but kind letter for one resident that follows the arrears policy.",
+  "task_steps": [
+   "Open the Income Team Weekly Arrears Dashboard and the Caseload and UC no APA sheets.",
+   "Filter to Ryan's accounts. Ask Copilot to add a priority score (balance, weeks in arrears, UC without APA, vulnerability, children).",
+   "Produce a top 10 with a recommended next action for each, using the recovery stages in the policy.",
+   "Cross-check the top 10 against open complaints (the complaints table or Q2 report). Rosie Allen should be flagged.",
+   "Draft a letter to one resident asking them to get in touch, offering an APA, money advice and the hardship fund, in plain English."
+  ],
+  "sample_prompts": [
+   "Filter the Caseload table to Officer = Ryan Tait and add a priority score column that weights balance, weeks in arrears, UC without APA and the vulnerable flag.",
+   "Show me the top 10 accounts by priority with the recommended next step from /Rent Arrears and Income Recovery Policy.",
+   "Which of these residents have an open complaint? What does the policy say I must do?",
+   "Draft a letter to Ms Allen that is firm but kind, explains her balance, says we have asked DWP for a managed payment and offers money advice. No threats; under 250 words."
+  ],
+  "success_criteria": [
+   "Correctly identifies UC accounts over 8 weeks with no APA (Ryan's share of {{fact:ten_uc_no_apa_8wks}} organisation-wide).",
+   "Next actions follow the policy stages; NOSP is not proposed without manager approval or where a complaint is open.",
+   "Rosie Allen's open stage 2 complaint and the pause on escalation are identified.",
+   "The letter is plain English, non-threatening, gives options and does not mention her complaint or household in a way that discloses sensitive data."
+  ],
+  "data_sources": ["ten-arrears-dashboard", "ten-arrears-policy", "ten-em-uc-apa", "ten-sustainment-policy", "rent_accounts", "complaints"],
+  "fact_ids": ["ten_uc_no_apa_8wks", "ten_tait_caseload", "ten_enforcement_cases", "arrears_total"],
+  "agent_instructions": "",
+  "trainer_notes": "Ryan's real persona problem is bluntness, so judge the letter on tone. Data quirk to mention: monthly_income.uc_households (about 660) does not match the uc_households fact from tenancies (about 540). They are different measures (claims in the month vs current flag), so ask learners which they would report."
+ }
+]

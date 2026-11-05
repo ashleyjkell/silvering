@@ -1,0 +1,92 @@
+[
+ {"id": "S-INB-01", "title": "Triage the Repairs inbox with Copilot", "level": "Intermediate",
+  "module": "Copilot in Outlook", "persona": "P031",
+  "context": "Zainab Ali, six months into the job, is covering repairs@silvering-homes.org.uk at 09:00 on Thursday 5 November 2026. There are 20 emails: chasers, contractor updates, portal notifications, a quotation and an auto-reply - and somewhere in there, things that can't wait.",
+  "goal": "Use Copilot to summarise and sort the Repairs mailbox, then apply the Shared Mailbox Triage & Routing Guide to produce a correct triage list, finding the Critical items first.",
+  "task_steps": [
+   "Open the Repairs folder (Communications/Shared Mailboxes/Repairs) and the Shared Mailbox Triage & Routing Guide in the Contact Centre library.",
+   "Ask Copilot to summarise each email in one line: sender, address, job number, what they want.",
+   "Ask Copilot which emails involve risk to life, damp and mould or a vulnerable resident. Then read those emails yourself in full.",
+   "Using the guide, give each email a category, priority, owner and SLA in a table.",
+   "Find the duplicate, the misprioritised FieldLoop job and the email that is a fraud attempt.",
+   "Compare your table with the trainer's key and discuss the differences."
+  ],
+  "sample_prompts": [
+   "Summarise each email in the Repairs folder in one line: sender, address, job number, request.",
+   "Which of these emails could involve a risk to someone's life or health? Explain why for each.",
+   "Using the Shared Mailbox Triage & Routing Guide, suggest a category, priority, owner and SLA for each email as a table.",
+   "Compare the sender domains of the two Weald Roofing emails. Is either suspicious?",
+   "Under Awaab's Law, when must the home at 17 Brenchley Gardens be made safe?"
+  ],
+  "success_criteria": [
+   "All three Critical repairs items found: gas smell (inb-rep-02, phone now, 0800 111 999), mould in the baby's room (inb-rep-01, make safe by 22:41 on 5 Nov) and water round the light fitting (inb-rep-04, job RJ402896 upgraded to Emergency).",
+   "inb-rep-08 identified as bank-details fraud from a lookalike domain and routed to the Financial Controller - no reply sent.",
+   "inb-rep-03 added to existing complaint CMP-24162 and the heating repair escalated, not a new complaint.",
+   "inb-rep-16 flagged as a duplicate of inb-rep-15; inb-rep-17 and inb-rep-18 opened as damp and mould cases.",
+   "Orchard Fields items routed to the Development Manager for Castlemere, not to in-house repairs."
+  ],
+  "data_sources": ["inb-mailbox-routing-guide", "inb-rep-01", "inb-rep-02", "inb-rep-03", "inb-rep-04", "inb-rep-07", "inb-rep-08", "inb-rep-10", "inb-rep-15", "inb-rep-16", "inb-rep-17", "inb-rep-18", "repairs", "damp_mould_cases", "complaints"],
+  "fact_ids": ["inbox_critical_urgent", "inbox_phishing_fraud", "inbox_awaab_mould_baby", "inbox_existing_complaints", "inbox_planted_data_issues"],
+  "agent_instructions": "",
+  "trainer_notes": "Teaching points: inb-rep-01 arrived at 22:41 and reads like a routine report; inb-rep-02 asks permission to wait, so the right answer is a phone call, not an email reply. inb-rep-04 tests whether learners check the existing FieldLoop job priority (planted error: RJ402896 logged as Routine). Kathryn Anderson (inb-rep-17) says 'not urgent' - every damp report still needs an assessment. Grade with Trainer Pack/Inbox Triage Key.xlsx."},
+ {"id": "S-INB-02", "title": "Build and test an inbox triage agent", "level": "Advanced",
+  "module": "Copilot Studio / Power Automate", "persona": "P030",
+  "context": "Hannah Lowe, Customer Service Team Leader, says shared inboxes are where things get missed. Simone Achterberg (Copilot pilot sponsor) has agreed a pilot triage agent for all three mailboxes, provided it escalates red flags rather than handling them and never spreads vulnerability data.",
+  "goal": "Build a Copilot Studio agent (or an AI-prompt step in a Power Automate flow) grounded on the routing guide that returns category, priority, owner, SLA, flags and a one-line action for any email, and test it against the trainer's triage key.",
+  "task_steps": [
+   "Create an agent called 'Silvering Inbox Triage' with the Shared Mailbox Triage & Routing Guide as its only knowledge source; turn off web search.",
+   "Write instructions (see agent_instructions) for the output format and red-flag behaviour.",
+   "Test it with at least 20 emails from the three Shared Mailboxes folders, including inb-cs-01, inb-cs-02, inb-rep-01, inb-rep-02, inb-rep-04, inb-rep-08, inb-rent-01, inb-rent-02, inb-rent-03 and inb-rent-14.",
+   "Score its answers against the triage key (category, priority, route_to) and record agreement as a percentage.",
+   "Refine the instructions where it gets things wrong and re-test.",
+   "Optional: design a Power Automate flow that applies Outlook categories and posts a Teams alert for Critical/Urgent mail showing only mailbox, time and category.",
+   "Write a short note for Hannah on where the agent is reliable and where a person must always decide."
+  ],
+  "sample_prompts": [
+   "Triage this email: [paste inb-rent-01]",
+   "Triage this email: [paste inb-rep-08] - is the sender domain genuine?",
+   "A resident on a NOSP has asked for hardship help. Who owns that?",
+   "Can you reply to the journalist for me?",
+   "We've had a Breathing Space notification. What must we stop doing?"
+  ],
+  "success_criteria": [
+   "At least 85% agreement with the trainer key on category and route_to across the test set.",
+   "100% of Critical items (inb-cs-02, inb-rep-01, inb-rep-02, inb-rep-04) rated Critical, with phone-first actions.",
+   "The domestic abuse disclosure in inb-rent-01 is flagged as Urgent safeguarding without repeating its detail, and the agent advises no letters to the address.",
+   "Both phishing/fraud items flagged; the agent never suggests clicking a link or updating bank details.",
+   "inb-rent-03 (Breathing Space) treated as statutory: stop enforcement the same day.",
+   "The agent refuses to draft replies to media, phishing, fraud and data requests and names the owner instead."
+  ],
+  "data_sources": ["inb-mailbox-routing-guide", "inb-cs-01", "inb-cs-02", "inb-cs-12", "inb-rep-01", "inb-rep-02", "inb-rep-04", "inb-rep-08", "inb-rent-01", "inb-rent-02", "inb-rent-03", "inb-rent-14"],
+  "fact_ids": ["inbox_mailbox_counts", "inbox_critical_urgent", "inbox_phishing_fraud", "inbox_buried_safeguarding", "inbox_awaab_mould_baby", "inbox_wrong_mailbox"],
+  "agent_instructions": "You are Silvering Inbox Triage, an assistant for Silvering Homes' shared mailboxes (customerservices@, repairs@ and rents@silvering-homes.org.uk). For each email you are given, apply ONLY the Shared Mailbox Triage & Routing Guide. First scan the whole email for red flags: gas smell, danger to life, a resident not seen, domestic abuse or other safeguarding concerns (often buried mid-email), damp and mould affecting a child, older or vulnerable person, statutory notices (Breathing Space, Ombudsman, subject access requests), phishing and bank-detail changes. Then return a table with: Category (one from Table 2 of the guide), Priority (Critical/Urgent/High/Normal/Low), Route to (named person and role from the routing table), SLA, Flags, and Action (one or two sentences). For Critical items, the action must start with phoning the resident or arranging a welfare check, not replying by email. For damp and mould, state the Awaab's Law timescale and calculate deadlines from the time the email was received. For safeguarding, write only 'Possible safeguarding concern - route to the domestic abuse / safeguarding lead now' and do not repeat or summarise the disclosure. Never tell anyone to click a link, sign in, change bank details or reply to a journalist, a suspected fraudster or a data request; name the owner instead. If an email mentions a complaint, job or case reference, recommend adding to the existing case. If you are unsure of the category or owner, say so and recommend a person reviews it. Use UK English and be concise.",
+  "trainer_notes": "Grade with Trainer Pack/Inbox Triage Key.xlsx. Common failures: rating inb-rent-01 as Normal (rent payment); treating inb-rent-03 as information only because it says 'do not reply'; giving inb-rep-02 a written reply; missing that inb-rep-04's existing job is misprioritised; treating inb-rent-14 as a routine leaseholder query instead of spotting a NOSP on a leasehold account. Discuss whether real resident emails with vulnerability data should be pasted into an agent during the pilot, and why Teams alerts must not include email content."},
+ {"id": "S-INB-03", "title": "Clear the Rents & Income inbox safely", "level": "Intermediate",
+  "module": "Copilot in Outlook and Word", "persona": "P029",
+  "context": "Ryan Tait is on the rents@ rota this week. Among DWP notices, remittances and payment queries are a hardship request on a NOSP account, a Breathing Space notice and an email that is not really about rent at all.",
+  "goal": "Prioritise the Rents & Income mailbox with Copilot, route the high-risk items correctly and draft safe, kind replies for the routine ones.",
+  "task_steps": [
+   "Ask Copilot to rank the Rents & Income emails by priority using the routing guide, and check the ranking yourself.",
+   "For each email, check the account's recovery stage in rent_accounts before deciding the owner.",
+   "Route inb-rent-01, inb-rent-02, inb-rent-03 and inb-rent-14 to the right person with a one-line hand-over note.",
+   "Draft replies for inb-rent-06 and inb-rent-07 that are firm but kind and don't promise anything the policy doesn't allow.",
+   "Draft a reply to inb-rent-15 that asks for consent without disclosing any account information."
+  ],
+  "sample_prompts": [
+   "Rank the emails in the Rents & Income folder by priority using the Shared Mailbox Triage & Routing Guide. One sentence each.",
+   "Which of these emails are about accounts at NOSP or court stage?",
+   "Draft a short reply to Bethany Hunt about a possible double payment. Don't promise a refund.",
+   "What does a Breathing Space notification mean we must stop doing?"
+  ],
+  "success_criteria": [
+   "inb-rent-01 recognised as a domestic abuse disclosure and routed to Gary Doyle the same day, with no letter to the address.",
+   "inb-rent-02 and inb-rent-03 routed to the Income Manager (Bev Saunders); enforcement paused or stopped.",
+   "inb-rent-14 flagged: a long leaseholder should not have a NOSP - escalate.",
+   "inb-rent-10 forwarded to Repairs as an urgent heating job.",
+   "The reply to inb-rent-15 discloses no personal data until consent is received."
+  ],
+  "data_sources": ["inb-mailbox-routing-guide", "inb-rent-01", "inb-rent-02", "inb-rent-03", "inb-rent-06", "inb-rent-07", "inb-rent-10", "inb-rent-14", "inb-rent-15", "rent_accounts"],
+  "fact_ids": ["inbox_buried_safeguarding", "inbox_planted_data_issues", "inbox_wrong_mailbox"],
+  "agent_instructions": "",
+  "trainer_notes": "Ryan's persona is 'sometimes too blunt' - check the tone of the drafts. Frank O'Neill's balance in inb-rent-02 comes from rent_accounts. The Paylink delay notice (inb-rent-08) explains Bethany Hunt's confusing balance - good learners link the two. Grade with Trainer Pack/Inbox Triage Key.xlsx."}
+]

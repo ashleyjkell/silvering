@@ -1,0 +1,360 @@
+
+## asb_cases (126 rows)
+  - case_id  e.g. 'ASB-9044'
+  - reporter_tenancy  e.g. 'TEN500138'
+  - scheme_id  e.g. 'SCH02'
+  - patch_officer  e.g. 'Amira Haddad'  values: ['Amira Haddad', 'Margaret Ogunleye', 'Tom Reed', 'Sasha Kemp', 'Joel Mensah']
+  - scheme_name  e.g. 'Parkwood Court'
+  - opened_date  e.g. '2024-11-04'
+  - category  e.g. 'Harassment or threats'  values: ['Harassment or threats', 'Noise', 'Neighbour dispute', 'Drugs or drug dealing', 'Vandalism or criminal damage', 'Domestic abuse', 'Pets and animals', 'Hate incident', 'Rubbish and fly-tipping']
+  - risk_level  e.g. 'High'  values: ['High', 'Low', 'Medium']
+  - risk_assessment_done  e.g. 1  values: [1, 0]
+  - officer  e.g. 'Gary Doyle'  values: ['Gary Doyle', 'Margaret Ogunleye', 'Tom Reed', 'Sasha Kemp', 'Joel Mensah', 'Amira Haddad']
+  - actions_taken  e.g. 'Injunction application'  values: ['Injunction application', 'Mediation referral', 'Warning letter', 'Advice and diary sheets', 'Noise monitoring app', 'Acceptable behaviour agreement', 'Joint visit with police', 'Closure order (partner-led)']
+  - closed_date  e.g. '2024-11-28'
+  - status  e.g. 'Closed'  values: ['Closed', 'Open']
+  - outcome  e.g. 'Resolved'  values: ['Resolved', 'Behaviour stopped', 'Reporter moved', 'Insufficient evidence', 'Legal action', 'No further reports', None]
+  - reporter_satisfied  e.g. None  values: [None, 0, 1]
+
+## building_safety (74 rows)
+  - check_id  e.g. 'BS5001'
+  - scheme_id  e.g. 'SCH01'
+  - scheme_name  e.g. 'Rosemount Tower'
+  - max_storeys  e.g. 12  values: [12, 5, 3, 2, 4]
+  - check_type  e.g. 'Fire risk assessment'  values: ['Fire risk assessment', 'Legionella risk assessment', 'Asbestos re-inspection (communal)', 'Lift thorough examination (LOLER)', 'Communal fire door inspection']
+  - frequency_months  e.g. 12  values: [12, 24, 6, 3]
+  - last_completed  e.g. '2026-03-12'
+  - next_due  e.g. '2027-03-12'
+  - risk_rating  e.g. 'Moderate'  values: ['Moderate', None, 'Tolerable', 'Trivial']
+  - open_actions  e.g. 11  values: [11, 1, 2, 0, 9, 5, 6, 4, 3]
+  - overdue_actions  e.g. 3  values: [3, 0, 4, 2]
+  - status  e.g. 'Compliant'  values: ['Compliant', 'Overdue']
+  - assessor  e.g. 'Fireguard Compliance Ltd'  values: ['Fireguard Compliance Ltd', 'AquaSafe Water Hygiene Ltd', 'Asbestos Survey Partners Ltd', 'Liftwise Engineering Ltd', 'Silvering building safety team']
+
+## complaints (214 rows)
+  - complaint_id  e.g. 'CMP-24014'
+  - tenancy_ref  e.g. 'TEN501491'
+  - property_ref  e.g. 'SVH11515'
+  - scheme_id  e.g. 'SCH23'
+  - scheme_name  e.g. 'Kennington Grange'
+  - complainant  e.g. 'Donald McDonald'
+  - tenure  e.g. 'Shared ownership'  values: ['Shared ownership', 'Leasehold', 'Social rent', 'Market rent', 'Affordable rent', 'Older persons & supported']
+  - received_date  e.g. '2024-11-05'
+  - channel  e.g. 'Email'  values: ['Email', 'Letter', 'Phone', 'MySilvering', 'Councillor or MP', 'In person']
+  - category  e.g. 'Damp & mould'  values: ['Damp & mould', 'Repairs - quality', 'Repairs - delay', 'Estate services & cleaning', 'Staff conduct', 'Communication', 'Anti-social behaviour handling', 'Lettings & transfers', 'New build defects', 'Rent & service charges']
+  - summary  e.g. 'Told it was condensation and to open windows; no inspection'
+  - ack_due  e.g. '2024-11-12'
+  - ack_date  e.g. '2024-11-06'
+  - stage1_due  e.g. '2024-11-20'
+  - stage1_response_date  e.g. '2024-11-15'
+  - stage1_in_target  e.g. 1  values: [1, 0, None]
+  - stage1_outcome  e.g. 'Upheld'  values: ['Upheld', 'Partly upheld', 'Not upheld', None]
+  - compensation_gbp  e.g. 50  values: [50, 250, 100, 0, 400, 650, 75, 150, None]
+  - escalated_stage2  e.g. 1  values: [1, 0]
+  - stage2_received  e.g. '2024-11-27'
+  - stage2_due  e.g. '2025-01-01'
+  - stage2_response_date  e.g. '2025-01-05'
+  - stage2_outcome  e.g. 'Partly upheld'  values: ['Partly upheld', None, 'Not upheld', 'Upheld']
+  - ombudsman  e.g. 'Determined - no maladministration'  values: ['Determined - no maladministration', None, 'Determined - maladministration', 'Referred - awaiting determination', 'Determined - service failure']
+  - handler  e.g. 'Owen Fletcher'  values: ['Owen Fletcher', 'Leah Foster', 'Mark Pennington']
+  - status  e.g. 'Closed'  values: ['Closed', 'With Housing Ombudsman', 'Open - stage 2', 'Open - stage 1']
+  - learning  e.g. 'Call-back promises logged as tasks in Keystone'  values: ['Call-back promises logged as tasks in Keystone', 'Repairs history checked before stage 1 response', 'Damp follow-up visit now booked at inspection', None, 'Bereavement name-change process reviewed', 'Contractor quality checks on 10% of jobs', 'Missed appointments: text reminder added']
+
+## compliance_checks (2969 rows)
+  - check_id  e.g. 'CC100001'
+  - uprn  e.g. '100022440001'
+  - property_ref  e.g. 'SVH10001'
+  - scheme_id  e.g. 'SCH01'
+  - scheme_name  e.g. 'Rosemount Tower'
+  - address_line1  e.g. 'Flat 1, Rosemount Tower'
+  - check_type  e.g. 'Electrical (EICR)'  values: ['Electrical (EICR)', 'Gas safety (LGSR)']
+  - last_completed  e.g. '2025-12-03'
+  - next_due  e.g. '2030-12-03'
+  - result  e.g. 'Satisfactory'  values: ['Satisfactory', 'Unsatisfactory - C2 remedials', 'Immediately dangerous - appliance capped', 'At risk - remedial works']
+  - remedial_status  e.g. None  values: [None, 'Completed', 'Outstanding']
+  - status  e.g. 'Compliant'  values: ['Compliant', 'Overdue']
+  - no_access_attempts  e.g. 0  values: [0, 4, 3, 5, 2]
+  - engineer  e.g. 'Silvering electrical team'  values: ['Silvering electrical team', 'Brightline Electrical Ltd', 'Kentish Heating Services Ltd', 'Silvering gas team']
+
+## damp_mould_cases (232 rows)
+  - case_id  e.g. 'DM1156'
+  - tenancy_ref  e.g. 'TEN501665'
+  - uprn  e.g. '100022441690'
+  - property_ref  e.g. 'SVH11690'
+  - scheme_id  e.g. 'SCH27'
+  - scheme_name  e.g. 'Maidstone Town Street Properties'
+  - address_line1  e.g. '122 Harvey Mountain'
+  - lead_tenant  e.g. 'Josephine Lloyd'
+  - vulnerability_flag  e.g. 0  values: [0, 1]
+  - children_in_household  e.g. 0  values: [0, 1]
+  - reported_date  e.g. '2024-11-12'
+  - source  e.g. 'Repair report'  values: ['Repair report', 'Housing officer visit', 'MySilvering', 'Complaint', 'Operative-raised', 'TSM survey', 'Councillor or MP']
+  - hazard_level  e.g. 'Significant'  values: ['Significant', 'Not significant', 'Emergency']
+  - awaabs_law  e.g. 0  values: [0, 1]
+  - investigation_due  e.g. '2024-11-26'
+  - investigated_date  e.g. '2024-11-22'
+  - summary_due  e.g. '2024-11-27'
+  - summary_sent_date  e.g. '2024-11-24'
+  - works_due  e.g. '2024-11-29'
+  - works_started_date  e.g. '2024-11-25'
+  - works_completed_date  e.g. '2025-01-03'
+  - cause  e.g. 'Condensation (ventilation)'  values: ['Condensation (ventilation)', 'Plumbing leak', 'Penetrating damp', 'Roof or gutter defect', 'Rising damp', 'Cold bridging / insulation']
+  - surveyor  e.g. 'Ellie Novak'  values: ['Ellie Novak', 'Marcus Bell']
+  - alternative_accommodation  e.g. None  values: [None, 'Decant to temporary accommodation']
+  - status  e.g. 'Closed'  values: ['Closed', 'Open - awaiting written summary', 'Open - works in progress', 'Open - awaiting investigation']
+  - timescale_breach  e.g. None  values: [None, 'Written summary late', 'Investigation late', 'Safety works start late', 'Investigation late; Safety works start late']
+
+## developments (7 rows)
+  - dev_id  e.g. 'DEV01'  values: ['DEV01', 'DEV02', 'DEV03', 'DEV04', 'DEV05', 'DEV06', 'DEV07']
+  - scheme  e.g. 'Orchard Fields phase 1'  values: ['Orchard Fields phase 1', 'Orchard Fields phase 2', 'Orchard Fields phase 3 and community hub', 'Lenham Meadows phase 2', 'Former Tovil depot', 'Paddock Wood North (S106)', 'Hollingbourne Road garage sites']
+  - location  e.g. 'Maidstone ME15'  values: ['Maidstone ME15', 'Lenham ME17', 'Paddock Wood TN12', 'Maidstone ME14']
+  - homes  e.g. 62  values: [62, 58, 44, 32, 26, 20, 9]
+  - tenure_mix  e.g. '19 social rent / 25 affordable rent / 18 shared ownership'  values: ['19 social rent / 25 affordable rent / 18 shared ownership', '20 social rent / 22 affordable rent / 16 shared ownership', 'Mix to be confirmed + community hub and 2 shops', '20 affordable rent / 12 shared ownership', 'Social rent', '12 affordable rent / 8 shared ownership', 'Social rent bungalows']
+  - status  e.g. 'Completed - letting'  values: ['Completed - letting', 'On site', 'Planning approved', 'Contract signed', 'Feasibility', 'Exchanged']
+  - start_on_site  e.g. '2024-08-05'  values: ['2024-08-05', '2025-11-03', '2027-10-01', '2027-01-11', None, '2026-05-01']
+  - completion  e.g. '2026-10-02'  values: ['2026-10-02', '2027-09-30', '2029-06-30', '2028-03-31', None, '2027-11-30']
+  - total_scheme_cost_gbp  e.g. 14900000  values: [14900000, 14400000, 12200000, 8100000, 7300000, 4600000, 2700000]
+  - homes_england_grant_gbp  e.g. 3100000  values: [3100000, 3000000, 2400000, 1600000, 1900000, 0, 650000]
+  - contractor  e.g. 'Castlemere Construction Ltd'  values: ['Castlemere Construction Ltd', 'Oakbridge Homes Ltd', None, 'Developer-led (S106)']
+  - notes  e.g. 'First residents moved in Oct 2026; 44 let, 18 awaiting let.'  values: ['First residents moved in Oct 2026; 44 let, 18 awaiting let.', 'Two months behind programme after groundworks delay.', 'Board decision on proceeding due Feb 2027.', '', 'Site purchase delayed by contamination survey.', 'Section 106 acquisition from a private developer.', "Residents' consultation on garage loss planned Jan 2027."]
+
+## employees (74 rows)
+  - employee_id  e.g. 'E0901'
+  - full_name  e.g. 'Tom Reed'
+  - job_title  e.g. 'Housing Officer (Maidstone North & Town)'
+  - department  e.g. 'tenancy'  values: ['tenancy', 'repairs', 'customer', 'board', 'finance', 'people', 'assets', 'development', 'hub']
+  - manager_id  e.g. 'P011'
+  - location  e.g. 'Field-based'  values: ['Field-based', 'Maidstone', 'Aylesford depot', 'Board member (non-executive)', 'Linton Lodge']
+  - start_date  e.g. '2017-04-03'
+  - email  e.g. 'tom.reed@silvering-homes.org.uk'
+  - trade  e.g. None  values: [None, 'Plumbing', 'Electrical', 'Gas & heating', 'Carpentry', 'Damp & mould', 'Multi-trade', 'Voids clearance']
+  - contract  e.g. 'Fixed term'  values: ['Fixed term', 'Permanent']
+  - fte  e.g. 1.0  values: [1.0, 0.8, 0.6]
+  - salary_gbp  e.g. 37000
+  - status  e.g. 'Active'  values: ['Active']
+
+## monthly_income (24 rows)
+  - n  e.g. 0
+  - month  e.g. '2024-11'
+  - rent_debit_gbp  e.g. 1060351.0
+  - collected_gbp  e.g. 1061866.0
+  - collection_rate  e.g. 1.0014
+  - arrears_pct  e.g. 0.02
+  - current_arrears_gbp  e.g. 254484.0
+  - uc_households  e.g. 561
+
+## monthly_repairs (24 rows)
+  - month  e.g. '2024-11'
+  - reported  e.g. 260
+  - completed  e.g. 133
+  - pct_in_target  e.g. 91.7
+  - emergency_pct  e.g. 94.4
+  - urgent_pct  e.g. 74.3
+  - routine_pct  e.g. 100.0
+  - routine_avg_days  e.g. 11.8
+  - first_time_fix_pct  e.g. 75.2
+  - cost_gbp  e.g. 21415.0
+
+## properties (1840 rows)
+  - uprn  e.g. '100022440001'
+  - property_ref  e.g. 'SVH10001'
+  - scheme_id  e.g. 'SCH01'
+  - scheme_name  e.g. 'Rosemount Tower'
+  - scheme_type  e.g. 'General needs block'  values: ['General needs block', 'General needs estate', 'Sheltered (SilverLiving)', 'Extra care (SilverLiving)', 'Supported housing', 'New build mixed tenure', 'Street properties', 'Market rent']
+  - local_authority  e.g. 'Maidstone'  values: ['Maidstone', 'Tonbridge & Malling', 'Medway', 'Ashford', 'Swale', 'Tunbridge Wells']
+  - town  e.g. 'Maidstone'
+  - patch_officer  e.g. 'Tom Reed'  values: ['Tom Reed', 'Amira Haddad', 'Sasha Kemp', 'Margaret Ogunleye', 'Joel Mensah']
+  - property_type  e.g. 'Flat'  values: ['Flat', 'House', 'Maisonette', 'Bungalow', 'Bedsit']
+  - bedrooms  e.g. 2  values: [2, 3, 1, 4, 0]
+  - address_line1  e.g. 'Flat 1, Rosemount Tower'
+  - postcode  e.g. 'ME16 8DU'
+  - tenure  e.g. 'Social rent'  values: ['Social rent', 'Leasehold', 'Affordable rent', 'Older persons & supported', 'Shared ownership', 'Market rent']
+  - build_year  e.g. 1968
+  - storeys  e.g. 12  values: [12, 5, 2, 3, 1, 4]
+  - heating  e.g. 'Electric storage heaters'  values: ['Electric storage heaters', 'Gas combi boiler', 'Gas system boiler', 'Air source heat pump']
+  - has_gas  e.g. 0  values: [0, 1]
+  - epc_rating  e.g. 'D'  values: ['D', 'E', 'C', 'B', 'A', 'F']
+  - decent_homes  e.g. 'Yes'  values: ['Yes', 'No - serious hazard (damp and mould)', 'No - disrepair (roof)']
+  - last_stock_survey  e.g. '2023-10-31'
+  - weekly_rent  e.g. 135.47
+  - weekly_service_charge  e.g. 16.05
+  - status  e.g. 'Occupied'  values: ['Occupied', 'Void', 'New build - awaiting let']
+  - repair_weight  e.g. 1.4  values: [1.4, 0.25, 1.0, 2.6, 0.5, 0.8]
+  - damp_weight  e.g. 2.5  values: [2.5, 0.0, 1.3, 5.0, 0.8, 0.3, 2.0]
+
+## rent_accounts (1815 rows)
+  - account_ref  e.g. 'RA700001'
+  - tenancy_ref  e.g. 'TEN500001'
+  - property_ref  e.g. 'SVH10001'
+  - scheme_id  e.g. 'SCH01'
+  - lead_tenant  e.g. 'Steven Robinson'
+  - tenure  e.g. 'Social rent'  values: ['Social rent', 'Leasehold', 'Affordable rent', 'Older persons & supported', 'Shared ownership', 'Market rent']
+  - universal_credit  e.g. 1  values: [1, 0]
+  - apa_in_place  e.g. 1  values: [1, 0]
+  - weekly_charge  e.g. 151.52
+  - balance_gbp  e.g. 145.87
+  - weeks_in_arrears  e.g. 1.0
+  - arrears_band  e.g. 'Under £250'  values: ['Under £250', 'No arrears', '£1,000 - £2,499', '£250 - £999', '£2,500 and over']
+  - recovery_stage  e.g. 'Stage 1 - letter'  values: ['Stage 1 - letter', 'None', 'Early contact', 'Hardship referral', 'Payment arrangement', 'Stage 2 - call and visit', 'NOSP served', 'Suspended possession order', 'Court action pending']
+  - last_payment_date  e.g. '2026-10-24'
+  - income_officer  e.g. 'Sam Odukoya'  values: ['Sam Odukoya', 'Ryan Tait', 'Priya Chauhan']
+
+## repairs (6900 rows)
+  - job_no  e.g. 'RJ403421'
+  - uprn  e.g. '100022440941'
+  - property_ref  e.g. 'SVH10941'
+  - scheme_id  e.g. 'SCH12'
+  - scheme_name  e.g. 'Linton Lodge'
+  - tenure  e.g. 'Older persons & supported'  values: ['Older persons & supported', 'Social rent', 'Affordable rent', 'Leasehold', 'Shared ownership', 'Market rent']
+  - address_line1  e.g. 'Flat 11, Linton Lodge'
+  - reported_date  e.g. '2024-11-04T08:10:00'
+  - channel  e.g. 'Phone'  values: ['Phone', 'MySilvering portal', 'Operative-raised', 'Email', 'Housing officer']
+  - trade  e.g. 'Windows & doors'  values: ['Windows & doors', 'Heating & gas', 'Drainage', 'Fencing & external', 'Damp & mould', 'Electrical', 'General', 'Plastering', 'Plumbing', 'Carpentry', 'Roofing']
+  - description  e.g. 'Back door seal letting in draught'
+  - priority  e.g. 'Routine'  values: ['Routine', 'Emergency', 'Planned', 'Urgent']
+  - target_date  e.g. '2024-12-02'
+  - completed_date  e.g. '2024-11-16T18:28:00'
+  - status  e.g. 'Completed'  values: ['Completed', 'Cancelled', 'Open', 'Appointment booked', 'Awaiting parts', 'Awaiting contractor']
+  - days_to_complete  e.g. 12.4
+  - in_target  e.g. 1  values: [1, None, 0]
+  - overdue  e.g. 0  values: [0, 1]
+  - contractor  e.g. None  values: [None, 'ClearFlow Drainage Ltd', 'Weald Roofing & Guttering Ltd', 'Brightline Electrical Ltd']
+  - operative  e.g. 'Arthur Lloyd'
+  - cost_gbp  e.g. 172.06
+  - first_time_fix  e.g. 1  values: [1, None, 0]
+  - resident_rating  e.g. None  values: [None, 3, 4, 5, 1, 2]
+
+## risk_register (12 rows)
+  - risk_id  e.g. 'SR01'  values: ['SR01', 'SR02', 'SR03', 'SR04', 'SR05', 'SR06', 'SR07', 'SR08', 'SR09', 'SR10', 'SR11', 'SR12']
+  - risk  e.g. "Failure to meet Awaab's Law timescales for damp and mould"  values: ["Failure to meet Awaab's Law timescales for damp and mould", 'Consumer standards: failure to move from C2 to C1', 'Building safety failure (fire, gas, electrical, water, asbestos, lifts)', 'Loss of financial headroom (interest cover covenant)', 'Rent arrears increase as Universal Credit migration completes', 'Inability to recruit and retain skilled trades', 'Development cost overrun or contractor failure', 'Data breach or cyber attack', 'Poor complaint handling leads to Ombudsman findings', 'Stock condition data incomplete or out of date', 'Net zero and EPC C by 2030 not affordable', 'IT system change (CRM / housing system) disrupts services']
+  - category  e.g. 'Compliance / Consumer'  values: ['Compliance / Consumer', 'Regulatory', 'Health & safety', 'Financial', 'People', 'Development', 'Information', 'Consumer', 'Assets', 'Operational']
+  - owner  e.g. 'P004'  values: ['P004', 'P001', 'P002', 'P011', 'P005', 'P010', 'P003', 'P009']
+  - inherent_score  e.g. 20  values: [20, 25, 16, 12]
+  - residual_score  e.g. 15  values: [15, 12, 10, 9, 8]
+  - appetite  e.g. 'Averse'  values: ['Averse', 'Cautious', 'Open']
+  - trend  e.g. 'Rising'  values: ['Rising', 'Stable', 'New']
+  - key_controls  e.g. 'Dedicated damp team; daily FieldLoop breach report; second surveyor recruited Sep 2025'  values: ['Dedicated damp team; daily FieldLoop breach report; second surveyor recruited Sep 2025', 'RSH action plan; monthly exec tracking; Customer Experience Committee oversight', 'Assure360 tracking; external FRAs; BSR registration for Rosemount Tower', 'Monthly covenant forecast; stress testing; investment programme phasing', 'Income team triage; APA requests; hardship fund', 'Market supplement for electricians; apprenticeship scheme; subcontractor framework', 'Fixed-price D&B contracts; contractor financial checks; contingency 5%', 'MFA; Cyber Essentials Plus; phishing training; Copilot sensitivity labels pilot', 'Complaint Handling Code self-assessment; weekly case review; extra officer', 'Rolling 20% survey programme; Power BI coverage dashboard', 'SHDF wave 3 bid; retrofit pilot at Coxheath Lane', 'Phased plan; data migration testing; business readiness group']
+  - last_reviewed  e.g. '2026-10-14'  values: ['2026-10-14', '2026-07-15']
+
+## scheme_summary (29 rows)
+  - scheme_id  e.g. 'SCH01'
+  - scheme_name  e.g. 'Rosemount Tower'
+  - scheme_type  e.g. 'General needs block'  values: ['General needs block', 'General needs estate', 'Sheltered (SilverLiving)', 'Extra care (SilverLiving)', 'Supported housing', 'New build mixed tenure', 'Street properties', 'Market rent']
+  - local_authority  e.g. 'Maidstone'  values: ['Maidstone', 'Tonbridge & Malling', 'Medway', 'Ashford', 'Swale', 'Tunbridge Wells']
+  - homes  e.g. 88
+  - repairs_12m  e.g. 196
+  - open_repairs  e.g. 13  values: [13, 5, 43, 9, 6, 4, 2, 0, 48, 1, 3, 8]
+  - overdue_repairs  e.g. 1  values: [1, 8, 0, 2, 4]
+  - damp_cases_12m  e.g. 7  values: [7, 4, 38, 8, 2, 12, 1, 0, 5, 3, 6]
+  - open_damp_cases  e.g. 0  values: [0, 6, 1]
+  - complaints_12m  e.g. 6  values: [6, 4, 23, 5, 3, 1, 2, 7, 0]
+  - arrears_gbp  e.g. 12551.0
+  - tsm_overall_pct  e.g. 74.3
+  - tsm_responses  e.g. 35
+
+## schemes (29 rows)
+  - scheme_id  e.g. 'SCH01'
+  - scheme_name  e.g. 'Rosemount Tower'
+  - local_authority  e.g. 'Maidstone'  values: ['Maidstone', 'Tonbridge & Malling', 'Medway', 'Ashford', 'Swale', 'Tunbridge Wells']
+  - town  e.g. 'Maidstone'
+  - postcode_sector  e.g. 'ME16 8'
+  - scheme_type  e.g. 'General needs block'  values: ['General needs block', 'General needs estate', 'Sheltered (SilverLiving)', 'Extra care (SilverLiving)', 'Supported housing', 'New build mixed tenure', 'Street properties', 'Market rent']
+  - build_year  e.g. 1968
+  - max_storeys  e.g. 12  values: [12, 5, 3, 2, 4]
+  - has_lift  e.g. 1  values: [1, 0]
+  - homes  e.g. 88
+  - higher_risk_building  e.g. 1  values: [1, 0]
+  - patch_officer  e.g. 'Tom Reed'  values: ['Tom Reed', 'Amira Haddad', 'Sasha Kemp', 'Margaret Ogunleye', 'Joel Mensah']
+
+## suppliers (14 rows)
+  - supplier_id  e.g. 'SUP01'
+  - supplier_name  e.g. 'Kentish Heating Services Ltd'
+  - category  e.g. 'Gas servicing overflow (subcontract)'
+  - annual_value_gbp  e.g. 186000
+  - contract_start  e.g. '2023-04-01'
+  - contract_end  e.g. '2027-03-31'  values: ['2027-03-31', '2027-05-31', '2026-12-31', '2027-12-31', '2029-06-30', '2026-09-30', '2029-11-17', '2028-02-28', '2026-06-30', '2027-01-31']
+  - contract_manager  e.g. 'P022'  values: ['P022', 'P023', 'P008', 'P034', 'P009', 'P014', 'P011', 'P027', 'P040']
+  - performance_rag  e.g. 'Green'  values: ['Green', 'Amber', 'Red']
+  - notes  e.g. 'Covers about a third of annual gas services.'  values: ['Covers about a third of annual gas services.', 'Used more since March 2026 because of two electrician vacancies; invoices often lack job numbers.', 'Contract ends 31 Dec 2026; re-tender not yet started.', '', 'Phase 1 handed over Oct 2026 with 140+ open defects.', 'Contract expired 30 Sep 2026; running on an extension letter.', 'Repeated breakdowns at Rosemount Tower and Parkwood Court.', 'Contract renewal decision due Dec 2026 (CRM project).', 'Resident complaints about missed grass cuts summer 2026.', 'Extended to 30 June 2027.']
+
+## tenancies (1815 rows)
+  - tenancy_ref  e.g. 'TEN500001'
+  - uprn  e.g. '100022440001'
+  - property_ref  e.g. 'SVH10001'
+  - scheme_id  e.g. 'SCH01'
+  - scheme_name  e.g. 'Rosemount Tower'
+  - tenure  e.g. 'Social rent'  values: ['Social rent', 'Leasehold', 'Affordable rent', 'Older persons & supported', 'Shared ownership', 'Market rent']
+  - patch_officer  e.g. 'Tom Reed'  values: ['Tom Reed', 'Amira Haddad', 'Sasha Kemp', 'Margaret Ogunleye', 'Joel Mensah']
+  - address_line1  e.g. 'Flat 1, Rosemount Tower'
+  - postcode  e.g. 'ME16 8DU'
+  - tenancy_type  e.g. 'Assured'  values: ['Assured', 'Long lease (right to buy)', 'Starter (12 months)', 'Shared ownership lease', 'Assured periodic (market rent)']
+  - start_date  e.g. '2011-07-19'
+  - lead_tenant  e.g. 'Steven Robinson'
+  - lead_tenant_age  e.g. 56
+  - household_size  e.g. 3  values: [3, 1, 2, 4, 5, 6]
+  - children_in_household  e.g. 1  values: [1, 0]
+  - vulnerability_flag  e.g. 0  values: [0, 1]
+  - vulnerability_type  e.g. None  values: [None, 'Respiratory condition', 'Frailty', 'Hearing or sight', 'Learning disability', 'Mobility', 'Mental health', 'Domestic abuse survivor']
+  - universal_credit  e.g. 1  values: [1, 0]
+  - apa_in_place  e.g. 1  values: [1, 0]
+  - contact_preference  e.g. 'Email'  values: ['Email', 'Letter', 'Phone', 'MySilvering app']
+  - phone  e.g. '07700 900678'
+  - email  e.g. 'steven.robinson20@example.net'
+  - status  e.g. 'Current'  values: ['Current', 'Notice given']
+  - weekly_rent  e.g. 135.47
+  - weekly_service_charge  e.g. 16.05
+  - damp_weight  e.g. 2.5  values: [2.5, 0.0, 1.3, 5.0, 0.8, 0.3, 2.0]
+  - complaint_weight  e.g. 1.6  values: [1.6, 1.0, 2.6]
+
+## tsm_results (40 rows)
+  - tsm_year  e.g. '2025/26'  values: ['2025/26', '2026/27']
+  - tenure_group  e.g. 'LCHO'  values: ['LCHO', 'LCRA']
+  - measure_code  e.g. 'TP01'  values: ['TP01', 'TP06', 'TP07', 'TP08', 'TP09', 'TP10', 'TP11', 'TP12', 'TP02', 'TP03', 'TP04', 'TP05']
+  - measure  e.g. 'Overall satisfaction'  values: ['Overall satisfaction', 'Agreement that the landlord listens to tenant views and acts upon them', 'Agreement that the landlord keeps tenants informed about things that matter to them', 'Agreement that the landlord treats tenants fairly and with respect', "Satisfaction with the landlord's approach to handling complaints", 'Satisfaction that the landlord keeps communal areas clean and well maintained', 'Agreement that the landlord makes a positive contribution to neighbourhoods', "Satisfaction with the landlord's approach to handling anti-social behaviour", 'Satisfaction with repairs', 'Satisfaction with time taken to complete most recent repair', 'Satisfaction that the home is well maintained', 'Satisfaction that the home is safe']
+  - responses  e.g. 35
+  - pct_positive  e.g. 57.1
+
+## tsm_survey (860 rows)
+  - response_id  e.g. 'TSM50514'
+  - tenancy_ref  e.g. 'TEN500226'
+  - scheme_id  e.g. 'SCH03'
+  - scheme_name  e.g. 'Brenchley Gardens'
+  - tenure  e.g. 'Social rent'  values: ['Social rent', 'Older persons & supported', 'Affordable rent', 'Shared ownership']
+  - tenure_group  e.g. 'LCRA'  values: ['LCRA', 'LCHO']
+  - survey_date  e.g. '2025-04-07'
+  - tsm_year  e.g. '2025/26'  values: ['2025/26', '2026/27']
+  - method  e.g. 'Online'  values: ['Online', 'Telephone', 'Paper']
+  - had_repair_12m  e.g. 1  values: [1, 0]
+  - complained_12m  e.g. 1  values: [1, 0]
+  - tp01_overall  e.g. 'Very satisfied'  values: ['Very satisfied', 'Fairly satisfied', 'Very dissatisfied', 'Neither satisfied nor dissatisfied', 'Fairly dissatisfied']
+  - tp02_repairs  e.g. 'Very satisfied'  values: ['Very satisfied', None, 'Very dissatisfied', 'Fairly satisfied', 'Neither satisfied nor dissatisfied', 'Fairly dissatisfied']
+  - tp03_time_taken  e.g. 'Very satisfied'  values: ['Very satisfied', None, 'Fairly satisfied', 'Very dissatisfied', 'Neither satisfied nor dissatisfied', 'Fairly dissatisfied']
+  - tp04_well_maintained  e.g. 'Very satisfied'  values: ['Very satisfied', 'Fairly satisfied', 'Very dissatisfied', 'Fairly dissatisfied', 'Neither satisfied nor dissatisfied', None]
+  - tp05_safe_home  e.g. 'Very satisfied'  values: ['Very satisfied', 'Very dissatisfied', 'Fairly satisfied', 'Fairly dissatisfied', 'Neither satisfied nor dissatisfied', None]
+  - tp06_listens_acts  e.g. 'Strongly agree'  values: ['Strongly agree', 'Agree', 'Strongly disagree', 'Neither agree nor disagree', 'Disagree']
+  - tp07_kept_informed  e.g. 'Strongly agree'  values: ['Strongly agree', 'Agree', 'Strongly disagree', 'Disagree', 'Neither agree nor disagree']
+  - tp08_fair_respect  e.g. 'Strongly agree'  values: ['Strongly agree', 'Strongly disagree', 'Agree', 'Neither agree nor disagree', 'Disagree']
+  - tp09_complaints  e.g. 'Very satisfied'  values: ['Very satisfied', None, 'Fairly dissatisfied', 'Fairly satisfied', 'Very dissatisfied', 'Neither satisfied nor dissatisfied']
+  - tp10_communal_areas  e.g. None  values: [None, 'Very satisfied', 'Fairly satisfied', 'Fairly dissatisfied', 'Neither satisfied nor dissatisfied', 'Very dissatisfied']
+  - tp11_neighbourhood  e.g. 'Strongly agree'  values: ['Strongly agree', 'Agree', 'Strongly disagree', 'Neither agree nor disagree', 'Disagree']
+  - tp12_asb_approach  e.g. None  values: [None, 'Very dissatisfied', 'Fairly satisfied', 'Very satisfied', 'Neither satisfied nor dissatisfied', 'Fairly dissatisfied']
+  - comment  e.g. None
+
+## voids (214 rows)
+  - void_id  e.g. 'VD3108'
+  - uprn  e.g. '100022440121'
+  - property_ref  e.g. 'SVH10121'
+  - scheme_id  e.g. 'SCH02'
+  - scheme_name  e.g. 'Parkwood Court'
+  - tenure  e.g. 'Social rent'  values: ['Social rent', 'Affordable rent', 'Older persons & supported', 'Market rent']
+  - void_start  e.g. '2024-11-04'
+  - void_reason  e.g. 'Death of tenant'  values: ['Death of tenant', 'Moved into care', 'Abandonment', 'Transfer to another Silvering home', 'Eviction', 'Other', 'Moved to another landlord or private', 'Moved to family']
+  - void_type  e.g. 'Standard'  values: ['Standard', 'Major works']
+  - works_completed  e.g. '2024-11-09'
+  - let_date  e.g. '2024-11-14'
+  - status  e.g. 'Let'  values: ['Let', 'Ready to let', 'Works in progress']
+  - days_void  e.g. 10
+  - weekly_rent  e.g. 130.63
+  - rent_loss_gbp  e.g. 186.61
+  - void_supervisor  e.g. 'Steve Harlow'  values: ['Steve Harlow']
+  - lettings_officer  e.g. 'Chloe Benson'  values: ['Chloe Benson']

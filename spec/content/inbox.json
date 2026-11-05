@@ -1,0 +1,1891 @@
+[
+ {
+  "id": "inb-cs-01",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "ACTION REQUIRED: Keystone Housing licence renewal overdue - service suspension 06/11",
+  "summary": "Email claiming to be from Keystone Software says the Keystone Housing licence is overdue and will be suspended unless a renewal invoice is paid via a link.",
+  "messages": [
+   {
+    "from": {
+     "name": "Keystone Software Renewals",
+     "email": "renewals@keystone-software-licensing.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T06:12",
+    "body": "Dear Customer,\n\nOur records show that the annual licence for **Keystone Housing** (Account SVH-0047) expired on 31/10/2026 and the renewal invoice remains unpaid.\n\nTo avoid suspension of your housing management system on **Friday 06/11/2026**, please review and settle the renewal invoice using our secure licensing portal:\n\nhttps://keystone-software-licensing.com/renew?acc=SVH-0047\n\nYou will need to sign in with your Microsoft 365 credentials to verify you are an authorised contact.\n\nFailure to act will result in loss of access to tenancy, rent and repairs data for all users.\n\nKind regards,\n\nLicensing Team\nKeystone Software Ltd"
+   }
+  ],
+  "triage": {
+   "category": "Phishing / fraud",
+   "priority": "Urgent",
+   "route_to": "P014",
+   "action": "Do not click the link or sign in. Report with the Outlook 'Report phishing' button, forward as an attachment to IT (Craig Whitmore) and delete. IT to check whether anyone else received it or entered credentials.",
+   "sla": "Same working day",
+   "flags": [
+    "phishing",
+    "lookalike domain",
+    "credential harvesting"
+   ],
+   "notes": "Lookalike domain (keystone-software-licensing.com - genuine Keystone Software emails come from keystonesoftware.co.uk). The Keystone contract runs to 31 March 2027 and is managed by IT, so a licence 'expiring 31/10' is false. Urgency, threat of suspension and a request for M365 credentials are classic phishing signs. Wrong mailbox for genuine supplier mail anyway."
+  },
+  "importance": "high"
+ },
+ {
+  "id": "inb-cs-02",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "my mum - Flat 13 Bearsted Court - worried",
+  "summary": "Daughter of an 87-year-old SilverLiving resident living alone at Bearsted Court says her mother has not answered the phone since Sunday and a neighbour says the curtains have been closed for two days.",
+  "messages": [
+   {
+    "from": {
+     "name": "Karen Reid",
+     "email": "karen.reid.home@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T19:06",
+    "body": "Hello\n\nI'm sorry to email this address but I couldn't get through on the phone after 5pm.\n\nMy mum is Gemma Jackson, Flat 13 Bearsted Court. She's 87 and lives on her own. I ring her every evening and she hasn't picked up since Sunday. I live in Inverness so I can't just pop round. Her neighbour Pat texted me today to say mum's curtains have been shut since Monday and she didn't come down for the coffee morning.\n\nShe does have one of your pull cords but I don't think she wears the pendant.\n\nCan someone please knock on her door? I'm really worried.\n\nKaren (her daughter)\n07700 900815"
+   }
+  ],
+  "triage": {
+   "category": "Safeguarding & welfare",
+   "priority": "Critical",
+   "route_to": "P027",
+   "action": "Phone the SilverLiving Coordinator (Margaret Ogunleye) or the Careline/out-of-hours team now for an immediate welfare check at Flat 13 Bearsted Court. If there is no answer, use the master key procedure and call 999 / the police for a welfare check. Call Karen back on 07700 900815 once the check is done and log it on Keystone.",
+   "sla": "Immediately (within 1 hour)",
+   "flags": [
+    "welfare check",
+    "vulnerable resident",
+    "lives alone",
+    "out of hours"
+   ],
+   "notes": "Received at 19:06 on 4 Nov, after the mailbox was last checked - so it sat overnight. Classic buried emergency: polite, apologetic tone. Gemma Jackson (87) lives alone and is not flagged as vulnerable in Keystone, so a vulnerability-flag rule would miss it. Do not wait for the daily welfare call round."
+  },
+  "importance": "high"
+ },
+ {
+  "id": "inb-cs-03",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Complaint CMP-24201 - final warning",
+  "summary": "Kings Hill Quarter resident with an open stage 2 complaint says nobody has called her back and she will go to the Housing Ombudsman and her MP this week.",
+  "messages": [
+   {
+    "from": {
+     "name": "Rosie Allen",
+     "email": "rosie.allen29@example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T21:48",
+    "body": "To whoever reads this inbox\n\nMy complaint is CMP-24201. I asked for it to go to stage 2 on the 25th October because NOBODY RETURNS MY CALLS which was the whole point of the complaint in the first place. Since then I have had one automated email. Nothing else.\n\nI have five people in this house and I am sick of being ignored. If I dont hear from a manager by Friday I am going to the Housing Ombudsman and I've already drafted an email to my MP.\n\nRosie Allen\n54 Kings Hill Quarter"
+   }
+  ],
+  "triage": {
+   "category": "Complaint",
+   "priority": "High",
+   "route_to": "P012",
+   "action": "Add to the existing stage 2 complaint CMP-24201 (handler Owen Fletcher, stage 2 response due 1 December 2026). Owen or a manager to phone Rosie by Friday 6 November, agree a contact plan, and confirm in writing her right to go to the Housing Ombudsman. Do not open a new complaint.",
+   "sla": "1 working day",
+   "flags": [
+    "existing complaint",
+    "Ombudsman threat",
+    "MP threat",
+    "repeat contact"
+   ],
+   "notes": "Not a new complaint - it is a further contact on CMP-24201, which is open at stage 2. Under the Complaint Handling Code residents can go to the Ombudsman at any time; the reply should say so, not try to discourage it."
+  }
+ },
+ {
+  "id": "inb-cs-04",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Member enquiry - Mrs Khan, 9 Brenchley Gardens (damp)",
+  "summary": "Borough councillor asks for an update on mould at 9 Brenchley Gardens on behalf of resident Sara Khan, who says she reported it weeks ago and nobody has been.",
+  "messages": [
+   {
+    "from": {
+     "name": "Cllr Pauline Marsh",
+     "email": "pauline.marsh.cllr@example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T10:22",
+    "body": "Good morning,\n\nI have been contacted by my constituent Mrs Sara Khan of 9 Brenchley Gardens about black mould in her back bedroom and bathroom. She says she mentioned it when she did your satisfaction survey and was told someone would be in touch, but she has heard nothing.\n\nMrs Khan is 68 and tells me her chest has been bad this autumn.\n\nCould you let me know when an inspection will take place and what you are doing more generally at Brenchley Gardens? This is the fourth damp case on the estate I've raised this year.\n\nKind regards\n\nCllr Pauline Marsh\nShepway South ward"
+   }
+  ],
+  "triage": {
+   "category": "Member enquiry",
+   "priority": "High",
+   "route_to": "P012",
+   "action": "Log as a member enquiry and acknowledge Cllr Marsh within 1 working day. Ask the Damp & Mould Surveyor (Ellie Novak, case DM1120) to confirm the inspection date - the Awaab's Law investigation is due by 11 November 2026 - and consider whether the resident's chest problems make it more urgent. Full reply within 10 working days, signed off by the Director of Customer Experience.",
+   "sla": "Acknowledge 1 working day; respond 10 working days",
+   "flags": [
+    "councillor",
+    "Awaab's Law",
+    "Brenchley Gardens",
+    "possible vulnerability"
+   ],
+   "notes": "DM1120 exists (raised from the TSM survey on 28 Oct, Significant, awaiting investigation). The councillor's claim that 'nobody has been' is true but the case is still within its 10-working-day window. The health information may justify bringing the visit forward."
+  }
+ },
+ {
+  "id": "inb-cs-05",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "FW: Constituent case - Mr F Smith, Flat 63 Lenham Meadows",
+  "summary": "MP's caseworker forwards a constituent's complaint that he was told his mould was condensation and to open windows, with no inspection.",
+  "messages": [
+   {
+    "from": {
+     "name": "Joel Harker (Office of Helen Bryant MP)",
+     "email": "joel.harker@helenbryantmp.example.org.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T15:31",
+    "body": "Dear Sir/Madam,\n\nPlease see below from our constituent Mr Frank Smith. We would be grateful for a response we can share with him.\n\nMany thanks\n\nJoel Harker\nSenior Caseworker, Office of Helen Bryant MP\n\n---------- Forwarded message ----------\nFrom: Frank Smith\nSent: 03 November 2026 20:14\n\nDear Ms Bryant\n\nI rent from Silvering Homes at Flat 63 Lenham Meadows. We have mould on the bedroom walls and the window frames. When I reported it through the app I was told it was condensation and to open the windows and wipe it down. No-one has come out to look at it. I have made a complaint but I don't feel I'm getting anywhere. We have four people in the flat. Can you help?\n\nFrank Smith"
+   }
+  ],
+  "triage": {
+   "category": "Member enquiry",
+   "priority": "High",
+   "route_to": "P012",
+   "action": "Log as an MP enquiry and link it to open complaint CMP-24176 (handler Mark Pennington). Raise a damp and mould case today so the Damp & Mould Surveyor can carry out an Awaab's Law investigation within 10 working days. Acknowledge the MP's office within 1 working day; full response within 10 working days, signed off by a director.",
+   "sla": "Acknowledge 1 working day; respond 10 working days",
+   "flags": [
+    "MP",
+    "existing complaint",
+    "Awaab's Law",
+    "no damp case raised"
+   ],
+   "notes": "Planted gap: CMP-24176 (received 29 Oct via MySilvering, 'told it was condensation') is open but there is NO record in damp_mould_cases for Frank Smith. Advice to 'open the windows' without an inspection is exactly what the damp and mould policy forbids."
+  }
+ },
+ {
+  "id": "inb-cs-06",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Thank you to Lee",
+  "summary": "Rosemount Tower resident thanks plumber Lee Barton for fixing a leak quickly and tidying up.",
+  "messages": [
+   {
+    "from": {
+     "name": "Anna Williams",
+     "email": "anna.williams49@example.net"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-10-29T14:02",
+    "body": "Hello\n\nI just wanted to say thank you to the young man Lee who came on Tuesday about my leaking pipe under the sink. He was polite, explained everything and even put a towel down. He was finished in half an hour. Please tell his boss.\n\nAnna Williams\nFlat 78 Rosemount Tower"
+   }
+  ],
+  "triage": {
+   "category": "Compliment & feedback",
+   "priority": "Low",
+   "route_to": "P033",
+   "action": "Log the compliment (Resident Involvement & Insight) and forward to Lee Barton and the Head of Repairs. Short thank-you reply to Mrs Williams.",
+   "sla": "5 working days",
+   "flags": [
+    "compliment"
+   ],
+   "notes": "Compliments count towards resident feedback reporting; send a thank-you within 5 working days."
+  }
+ },
+ {
+  "id": "inb-cs-07",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Automatic reply: Joint visit request - Flat 11 Bearsted Court",
+  "summary": "Out-of-office auto-reply from a community mental health practitioner, giving an alternative contact.",
+  "messages": [
+   {
+    "from": {
+     "name": "Sian Corbett",
+     "email": "sian.corbett@westkentwellbeing.example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T09:01",
+    "body": "Thank you for your email. I am on annual leave until Monday 9th November with no access to email.\n\nFor urgent matters please contact the duty team on 01622 900 310 or dutyteam@westkentwellbeing.example.org.\n\nSian"
+   }
+  ],
+  "triage": {
+   "category": "Information only",
+   "priority": "Low",
+   "route_to": "P027",
+   "action": "No reply needed. If the joint visit for Flat 11 Bearsted Court cannot wait until 9 November, the SilverLiving Coordinator should contact the duty team instead.",
+   "sla": "None",
+   "flags": [
+    "auto-reply"
+   ],
+   "notes": "Auto-reply to an earlier message from the SilverLiving team. Do not reply to auto-replies."
+  }
+ },
+ {
+  "id": "inb-cs-08",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Housing Sector Briefing - week 45: Awaab's Law one year on",
+  "summary": "Weekly sector newsletter covering Awaab's Law one year on, consumer standards inspections and the rent settlement.",
+  "messages": [
+   {
+    "from": {
+     "name": "Housing Sector Briefing",
+     "email": "newsletter@housingsectorbriefing.example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T07:00",
+    "body": "HOUSING SECTOR BRIEFING | Week 45\n\n**This week:**\n\n- Awaab's Law one year on: what landlords have learned about the 24-hour emergency timescale\n- Consumer standards: the latest inspection grades and common themes\n- Rent settlement: what the 2027/28 cap means for business plans\n- Webinar: 'Getting stage 1 complaint responses right first time' - Tues 17 Nov\n\nRead online | Manage preferences | Unsubscribe\n\nYou are receiving this because customerservices@silvering-homes.org.uk subscribed to Housing Sector Briefing."
+   }
+  ],
+  "triage": {
+   "category": "Information only",
+   "priority": "Low",
+   "route_to": "Text: no owner - mark as read",
+   "action": "No action. Optionally move to the Newsletters folder or unsubscribe the shared mailbox and subscribe a named person instead.",
+   "sla": "None",
+   "flags": [
+    "newsletter"
+   ],
+   "notes": "Noise."
+  }
+ },
+ {
+  "id": "inb-cs-09",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "swap my flat",
+  "summary": "Starter tenant at Hop Pocket Way asks how to do a mutual exchange to be nearer her mum in Tonbridge.",
+  "messages": [
+   {
+    "from": {
+     "name": "Jasmine Williams",
+     "email": "jasmine.williams56@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T12:40",
+    "body": "hi\n\nI want to swap my flat for something in Tonbridge so im closer to my mum who is poorly. I've found someone on SwapNest who wants to come to maidstone. what do I do next? do I need a form\n\nthanks\nJasmine (flat 43 hop pocket way)"
+   }
+  ],
+  "triage": {
+   "category": "Tenancy & neighbourhood",
+   "priority": "Normal",
+   "route_to": "P028",
+   "action": "Lettings Officer (Chloe Benson) to reply explaining mutual exchange and that a starter (introductory) tenancy normally has to become assured before an exchange can be approved; check her tenancy start date and offer to discuss options, including a management transfer if her mum's health is a factor.",
+   "sla": "3 working days",
+   "flags": [
+    "starter tenancy"
+   ],
+   "notes": "Jasmine is on a Starter (12 months) tenancy, so she may not be eligible yet - the reply should explain why rather than just say no."
+  }
+ },
+ {
+  "id": "inb-cs-10",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Subject access request",
+  "summary": "Former tenant asks for copies of all personal data Silvering holds about her, including repair records and notes from phone calls.",
+  "messages": [
+   {
+    "from": {
+     "name": "Deborah Lane",
+     "email": "deborah.lane1977@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-10-28T11:15",
+    "body": "Dear Silvering Homes\n\nUnder the UK GDPR I am requesting a copy of all the personal data you hold about me. This includes my tenancy file, rent account, repair records, any notes made about me during phone calls or visits, emails, and any recordings.\n\nI was a tenant at 22 Ringlestone Crescent until March 2025. My date of birth is 14/06/1977.\n\nPlease send the information to this email address.\n\nYours faithfully\n\nDeborah Lane"
+   }
+  ],
+  "triage": {
+   "category": "Data protection request",
+   "priority": "High",
+   "route_to": "people",
+   "action": "Forward the same day to Information Governance (dpo@silvering-homes.org.uk, People, IT & Data) to log as a subject access request; ID check as per the procedure. The statutory deadline is one calendar month from receipt: 28 November 2026. The contact centre must not send any data itself.",
+   "sla": "Forward same day; respond by 28 November 2026",
+   "flags": [
+    "data protection",
+    "subject access request",
+    "statutory deadline"
+   ],
+   "notes": "Received 28 Oct 2026 and still in the mailbox on 5 Nov - already 8 days of the month used. Former tenant, so she won't appear in the current tenancies table."
+  }
+ },
+ {
+  "id": "inb-cs-11",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Noise from upstairs every night",
+  "summary": "Shepway Green resident reports loud music and banging from the flat above most nights after midnight.",
+  "messages": [
+   {
+    "from": {
+     "name": "Ronald Myers",
+     "email": "ronald.myers35@example.net"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T08:17",
+    "body": "Hi,\n\nThe people in the flat above me (I'm in flat 37 Shepway Green) have music on and are banging and shouting most nights from about midnight till 3. It's been going on for about 3 weeks. I start work at 6. I've knocked once and they just laughed.\n\nWhat can you do?\n\nRon Myers"
+   }
+  ],
+  "triage": {
+   "category": "Tenancy & neighbourhood",
+   "priority": "Normal",
+   "route_to": "P025",
+   "action": "Log an ASB case (noise) and pass to the patch Housing Officer (Amira Haddad) to contact Ron within 3 working days, complete the risk assessment, send diary sheets and offer the noise app. Escalate to the ASB & Tenancy Enforcement Officer (Gary Doyle) if threats or harassment emerge.",
+   "sla": "3 working days (risk assessment within 1 working day of contact)",
+   "flags": [
+    "ASB"
+   ],
+   "notes": "Routine noise report - no threats or vulnerability mentioned. ASB risk assessments are a known gap (asb_no_risk_assessment fact), so the action should make sure one is done."
+  }
+ },
+ {
+  "id": "inb-cs-12",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Media enquiry - Brenchley Gardens mould - deadline 3pm today",
+  "summary": "Local newspaper reporter asks for a statement on mould at Brenchley Gardens and the number of open damp cases, with a 3pm deadline on Thursday 5 November.",
+  "messages": [
+   {
+    "from": {
+     "name": "Tom Fairweather",
+     "email": "tom.fairweather@maidstonegazette.example.co.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-05T08:34",
+    "body": "Hi there,\n\nI'm a reporter at the Maidstone & Medway Gazette. We're running a story tomorrow about residents at Brenchley Gardens who say their homes have black mould and repairs are taking months.\n\nCould Silvering Homes give us a statement, and tell us:\n\n1. How many open damp and mould cases you have at Brenchley Gardens\n2. Whether you are meeting the Awaab's Law timescales\n3. What you are doing to fix the estate\n\nMy deadline is **3pm today (Thursday)**.\n\nThanks\n\nTom Fairweather\nMaidstone & Medway Gazette\n07700 900 552"
+   }
+  ],
+  "triage": {
+   "category": "Media enquiry",
+   "priority": "Urgent",
+   "route_to": "P037",
+   "action": "Forward immediately to the Communications Manager (Lucy Carver), who will agree a statement with the Director of Property and the Chief Executive. The contact centre must not reply, confirm any figures or comment.",
+   "sla": "Same day - before 15:00 on 5 November",
+   "flags": [
+    "media",
+    "deadline today",
+    "reputational risk"
+   ],
+   "notes": "Arrived at 08:34 on the day of the deadline. Only Communications speaks to the press."
+  }
+ },
+ {
+  "id": "inb-cs-13",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Staircasing - Flat 3 Orchard Fields",
+  "summary": "New shared owner at Orchard Fields asks how soon he can buy a bigger share and whether he needs a new valuation.",
+  "messages": [
+   {
+    "from": {
+     "name": "Raymond Davis",
+     "email": "raymond.davis10@example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-10-30T16:55",
+    "body": "Hello,\n\nWe moved into Flat 3 Orchard Fields last month on a 40% share. My parents have offered to help us buy more. How soon can we staircase, is there a minimum % and do we need a RICS valuation even though the flat is brand new?\n\nAlso still waiting on the snagging for the bathroom extractor - is that you or Castlemere?\n\nThanks,\nRay Davis"
+   }
+  ],
+  "triage": {
+   "category": "Home ownership & service charges",
+   "priority": "Normal",
+   "route_to": "P035",
+   "action": "Sales & Shared Ownership Officer (Kirsty Lambert) to reply with the staircasing process, minimum tranche and valuation rules from the lease. Pass the extractor fan snag to the Development Manager (Paul Whitaker) as a new-build defect for Castlemere.",
+   "sla": "3 working days",
+   "flags": [
+    "shared ownership",
+    "new build defect"
+   ],
+   "notes": "Two issues in one email - the defect at the end is easy to miss. Shared owners are the least satisfied group (LCHO TSM)."
+  }
+ },
+ {
+  "id": "inb-cs-14",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Formal complaint - grass not cut and bins",
+  "summary": "Heron Way resident makes a formal complaint about missed grass cuts over the summer and overflowing communal bins.",
+  "messages": [
+   {
+    "from": {
+     "name": "Jacob Donnelly",
+     "email": "jacob.donnelly99@example.net"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-10-27T18:30",
+    "body": "I wish to make a formal complaint.\n\nThe grass at the back of the Heron Way flats was cut twice between June and September. We pay a service charge for grounds maintenance. The communal bin store also overflows every week and there are now rats. I have phoned three times.\n\nI would like a refund of the grounds part of my service charge.\n\nJ. Donnelly\nFlat 30 Heron Way"
+   }
+  ],
+  "triage": {
+   "category": "Complaint",
+   "priority": "Normal",
+   "route_to": "P032",
+   "action": "Log a stage 1 complaint (estate services & cleaning) in Keystone and acknowledge within 5 working days - by 3 November 2026. Complaints Officer (Mark Pennington) to investigate with the grounds contract manager (Greenway Grounds, managed by the Head of Neighbourhoods) and respond within 10 working days of acknowledgement. Report the rats to Repairs as a pest control job.",
+   "sla": "Acknowledge 5 working days; respond 10 working days",
+   "flags": [
+    "complaint",
+    "service charge",
+    "acknowledgement overdue"
+   ],
+   "notes": "Received 27 Oct, so the 5-working-day acknowledgement deadline (3 Nov) has already passed by 5 Nov. Ties in with Greenway Grounds' Amber rating and summer 2026 missed grass cuts."
+  }
+ },
+ {
+  "id": "inb-cs-15",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Lift broken AGAIN Parkwood Court",
+  "summary": "Parkwood Court resident with a toddler reports the lift has been out for four days and asks when the inspection will be done.",
+  "messages": [
+   {
+    "from": {
+     "name": "Bethany Barton",
+     "email": "bethany.barton46@example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T07:52",
+    "body": "Lift at Parkwood Court has been broken since Saturday. Again. I'm on the 4th floor with a toddler and a buggy and the man in flat 39 can't get out at all he's in a wheelchair. There was a notice in September saying the lift inspection was due and nobody ever came. Is it even safe?\n\nBethany\nFlat 42"
+   }
+  ],
+  "triage": {
+   "category": "Building safety",
+   "priority": "Urgent",
+   "route_to": "P022",
+   "action": "Wrong mailbox for a repair but treat as urgent: pass to the Building Safety Manager (Fatima Begum) today to chase Liftwise Engineering, confirm the overdue LOLER thorough examination, and arrange welfare checks for residents who cannot use the stairs (Flat 39). Reply to Bethany with an update.",
+   "sla": "Same working day",
+   "flags": [
+    "building safety",
+    "lift",
+    "vulnerable residents",
+    "wrong mailbox"
+   ],
+   "notes": "Parkwood Court's LOLER thorough examination was due 28 Sep 2026 and is Overdue in building_safety; Liftwise is rated Red. The wheelchair user is a second, buried vulnerability."
+  }
+ },
+ {
+  "id": "inb-cs-16",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Housing Ombudsman - request for information - CMP-24019 (Ms D Collins)",
+  "summary": "Housing Ombudsman caseworker requests the full complaint file and repairs history for Dawn Collins' damp complaint within 15 working days.",
+  "messages": [
+   {
+    "from": {
+     "name": "Housing Ombudsman Casework",
+     "email": "casework@housing-ombudsman.example.org.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T13:20",
+    "body": "Dear Silvering Homes\n\nRe: Ms D Collins, Brenchley Gardens - your ref CMP-24019\n\nWe are now investigating this complaint. Please provide the following within **15 working days** of the date of this email:\n\n- the stage 1 and stage 2 complaint responses\n- the repairs history for the property since January 2024, including damp and mould inspections\n- any written summaries sent to the resident following inspections\n- records of contact with the resident\n- your damp and mould policy in force at the time\n\nPlease upload documents via the portal and quote the case reference.\n\nYours sincerely\n\nCasework Team\nHousing Ombudsman Service"
+   }
+  ],
+  "triage": {
+   "category": "Complaint",
+   "priority": "High",
+   "route_to": "P012",
+   "action": "Customer Resolutions Manager (Owen Fletcher) to log the request on CMP-24019 and coordinate the evidence pack with Repairs and Damp & Mould. Deadline 15 working days from 2 November: 23 November 2026.",
+   "sla": "Respond by 23 November 2026",
+   "flags": [
+    "Ombudsman",
+    "statutory body",
+    "deadline"
+   ],
+   "notes": "Genuine Ombudsman request (not phishing - no links or credential requests). CMP-24019 is 'With Housing Ombudsman - referred, awaiting determination'."
+  }
+ },
+ {
+  "id": "inb-cs-17",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Re: Your call today",
+  "summary": "One-line reply from a resident confirming a callback time, with no context.",
+  "messages": [
+   {
+    "from": {
+     "name": "Toby Rogers",
+     "email": "toby.rogers69@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T11:27",
+    "body": "yes after 2 is fine thanks\n\nSent from my iPhone"
+   }
+  ],
+  "triage": {
+   "category": "Information only",
+   "priority": "Low",
+   "route_to": "P030",
+   "action": "Search Keystone contact notes for a call with Toby Rogers (124 Shepway Green) on 4 November and add the callback preference to that task. No reply needed.",
+   "sla": "1 working day (update the task)",
+   "flags": [
+    "no context"
+   ],
+   "notes": "Realistic orphan reply - the adviser who made the call didn't log it. Customer Service Team Leader to find who owns the callback."
+  }
+ },
+ {
+  "id": "inb-cs-18",
+  "type": "email",
+  "mailbox": "customerservices@silvering-homes.org.uk",
+  "subject": "Careline charge on my rent statement",
+  "summary": "Willow House SilverLiving resident queries a Careline charge on her statement and says she doesn't use the alarm.",
+  "messages": [
+   {
+    "from": {
+     "name": "Marie Ward",
+     "email": "marie.ward61@example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Customer Services",
+      "email": "customerservices@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-10-30T10:05",
+    "body": "Dear Sir or Madam\n\nI have had my statement and there is a charge for Careline. I have never pressed the button and my son says I shouldn't have to pay for something I don't use. Can it be taken off please?\n\nYours sincerely\n\nMrs M Ward\nFlat 9 Willow House"
+   }
+  ],
+  "triage": {
+   "category": "Home ownership & service charges",
+   "priority": "Normal",
+   "route_to": "P027",
+   "action": "Wrong mailbox (rent/service charge) but a SilverLiving matter: SilverLiving Coordinator (Margaret Ogunleye) to call Mrs Ward to explain that Careline is part of the scheme's support charge and check the alarm is working; copy the Rents team. Do not remove the charge without the Income Manager's agreement.",
+   "sla": "3 working days",
+   "flags": [
+    "wrong mailbox",
+    "older resident",
+    "service charge"
+   ],
+   "notes": "Her rent account is actually in credit, so there is no arrears risk. A phone call is better than an email for an 80-year-old resident."
+  }
+ },
+ {
+  "id": "inb-rep-01",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "mould in babys room again",
+  "summary": "Brenchley Gardens tenant reports black mould back in her 7-month-old baby's bedroom, on the ceiling and the cot side; the baby is wheezing and on an inhaler.",
+  "messages": [
+   {
+    "from": {
+     "name": "Joanne Blake",
+     "email": "joanne.blake83@example.net"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T22:41",
+    "body": "Hi\n\nThe black mould has come back in the baby's room. You came last year and sprayed it and put a fan in but its back worse than before, its on the ceiling above the cot and down the wall and theres black spots on the cot side now. My son is 7 months old and the GP has given him an inhaler for his chest and said the mould isn't helping. Hes been wheezing at night.\n\nI've moved the cot into my room for now but theres no space really. Please can someone come this week\n\nJoanne Blake\n17 Brenchley Gardens\n07700 900478"
+   }
+  ],
+  "triage": {
+   "category": "Damp & mould",
+   "priority": "Critical",
+   "route_to": "P020",
+   "action": "Treat as an Awaab's Law emergency hazard: phone Joanne first thing, and arrange for the home to be made safe (mould treatment, ventilation, temporary room or decant if needed) within 24 hours of receipt - by 22:41 on 5 November 2026. Damp & Mould Surveyor (Ellie Novak) to open a new case linked to DM1022, investigate, and send the written summary within 3 working days of investigation. Inform the Head of Repairs.",
+   "sla": "Make safe within 24 hours of receipt",
+   "flags": [
+    "Awaab's Law",
+    "emergency hazard",
+    "child under 1",
+    "respiratory",
+    "recurrence",
+    "Brenchley Gardens"
+   ],
+   "notes": "Recurrence of DM1022 (Nov 2025, condensation, treated and closed). Infant with a respiratory condition = significant risk of harm, so the emergency timescale applies, not the 10-working-day one. Arrived late evening and could easily be read as routine. The tenancy record shows children but no vulnerability flag - update it."
+  },
+  "importance": "high"
+ },
+ {
+  "id": "inb-rep-02",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "gas smell",
+  "summary": "Heron Way tenant says she can smell gas in her kitchen since getting up and asks whether she can wait for her support worker at 10am.",
+  "messages": [
+   {
+    "from": {
+     "name": "Francesca Houghton",
+     "email": "francesca.houghton46@example.net"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-05T07:38",
+    "body": "hi I can smell gas in my kichen since I got up its quite strong near the boiler cupbord. my support worker isnt coming till 10. is it ok to wait for her\n\nFrancesca\n5 heron way"
+   }
+  ],
+  "triage": {
+   "category": "Emergency repair",
+   "priority": "Critical",
+   "route_to": "P018",
+   "action": "Phone Francesca immediately (07700 900964): tell her not to use switches or flames, open windows, turn off the gas at the meter if she can, leave the house and call the National Gas Emergency Service on 0800 111 999. Raise an emergency gas job in FieldLoop (attend within 4 hours / make safe within 24) and tell the Compliance Officer (Gas & Electrical). Contact her support worker.",
+   "sla": "Immediately (within 1 hour)",
+   "flags": [
+    "gas",
+    "emergency",
+    "vulnerable resident",
+    "wrong channel"
+   ],
+   "notes": "Gas leaks should never be reported by email - the triage key wants a phone call straight away, not a reply. Francesca has a learning disability flag in Keystone; she is asking permission to wait, so a written reply could be misunderstood. There is an unrelated Weald Roofing job open at the same address (RJ405990)."
+  },
+  "importance": "high"
+ },
+ {
+  "id": "inb-rep-03",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "STILL NO HEATING - complaint CMP-24162 - 3rd email",
+  "summary": "Brenchley Gardens tenant with a mobility condition and children says the heating is still not fixed after parts were 'ordered', quoting his open complaint.",
+  "messages": [
+   {
+    "from": {
+     "name": "Colin Vaughan",
+     "email": "colin.vaughan44@example.net"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T08:03",
+    "body": "This is my 3rd email. Complaint number CMP-24162.\n\nThe heating at flat 120 still doesn't work. Your man came and said parts were ordered and someone would ring. Nobody has. It was 2 degrees last night. I have two kids and I can't get to the shops easily with my legs to buy heaters.\n\nWhen is someone coming?\n\nColin Vaughan\nFlat 120 Brenchley Gardens"
+   }
+  ],
+  "triage": {
+   "category": "Complaint",
+   "priority": "Urgent",
+   "route_to": "P018",
+   "action": "Two actions: (1) Repairs Planning Manager (Kwame Asante) to raise or escalate the heating repair as Urgent today, supply temporary heaters and confirm the parts date - there is no open heating job for Flat 120 in FieldLoop; (2) add this contact to existing complaint CMP-24162 for the Complaints Officer (Mark Pennington). Do not open a new complaint.",
+   "sla": "Same working day",
+   "flags": [
+    "existing complaint",
+    "no heating",
+    "vulnerable resident",
+    "children",
+    "repeat contact"
+   ],
+   "notes": "Repeat complaint already open in the complaints table (CMP-24162, stage 1, received 2 Nov, response due 18 Nov). Planted data gap: the operative said parts were ordered but FieldLoop has no open heating job for this address - the job was probably closed in error. No heating + mobility + children in November = Urgent."
+  }
+ },
+ {
+  "id": "inb-rep-04",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Re: water through ceiling Flat 76",
+  "summary": "Older tenant at Brenchley Gardens says water from the flat above is now dripping round the bedroom ceiling light and the plaster is bulging.",
+  "messages": [
+   {
+    "from": {
+     "name": "Leigh Curtis",
+     "email": "leigh.curtis55@example.net"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T16:58",
+    "body": "Hello\n\nI rang yesterday about water coming through from upstairs. It's worse today, its dripping round the light fitting in the bedroom now and the ceiling has gone saggy. The lady on the phone said it would be 4 weeks. I'm not using the light. My eyesight isnt good and I'm worried about going in there in the dark.\n\nLeigh Curtis\nFlat 76"
+   }
+  ],
+  "triage": {
+   "category": "Emergency repair",
+   "priority": "Critical",
+   "route_to": "P018",
+   "action": "Upgrade job RJ402896 from Routine to Emergency today: electrician to isolate the circuit and make safe within 24 hours, plumber to trace and stop the leak from the flat above. Tell the Damp & Mould Surveyor - the tenant has open case DM1020 - and call Leigh back now with safety advice.",
+   "sla": "Make safe within 24 hours",
+   "flags": [
+    "misprioritised job",
+    "electrical risk",
+    "water ingress",
+    "vulnerable resident",
+    "open damp case"
+   ],
+   "notes": "Planted error: RJ402896 ('water coming through ceiling from flat above') was logged on 3 Nov as Routine with a 1 Dec target. Water near a light fitting is an emergency under the repairs priorities. Leigh (71) has a sight impairment flag and an open Awaab's Law case DM1020."
+  }
+ },
+ {
+  "id": "inb-rep-05",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Brightline Electrical - completed jobs & invoice BL-26-1187",
+  "summary": "Brightline Electrical sends October completions and an invoice; several lines have addresses but no Silvering job numbers.",
+  "messages": [
+   {
+    "from": {
+     "name": "Kayleigh Morton",
+     "email": "accounts@brightline-electrical.co.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T09:44",
+    "body": "Morning,\n\nPlease find attached our invoice BL-26-1187 for October works and the completion sheets.\n\nA few of the jobs were passed to us by your planners over the phone so I don't have job numbers for those - I've put the addresses instead (Rosemount Tower x3, Brenchley Gdns x4, Orchard Fields x2). Can you let me have the numbers and I'll reissue if needed.\n\nPayment terms 30 days as usual.\n\nThanks\nKayleigh\nAccounts, Brightline Electrical Ltd"
+   }
+  ],
+  "triage": {
+   "category": "Contractor & supplier",
+   "priority": "Normal",
+   "route_to": "P023",
+   "action": "Contract manager (Rob Quinlan) and the Repairs Planning Manager to match each line to a FieldLoop job number before the invoice goes to Finance for payment; ask Brightline to reissue with job numbers. Invoices must not be approved without a job number.",
+   "sla": "3 working days",
+   "flags": [
+    "invoice",
+    "missing job numbers"
+   ],
+   "notes": "Known issue: suppliers table notes Brightline invoices 'often lack job numbers'. Phone-raised jobs also undermine FieldLoop data."
+  }
+ },
+ {
+  "id": "inb-rep-06",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Unable to attend - RJ401304 Flat 17 Rosemount Tower",
+  "summary": "Brightline can't attend tomorrow's urgent electrical job at Rosemount Tower and asks for a new slot next week.",
+  "messages": [
+   {
+    "from": {
+     "name": "Dean Forsyth",
+     "email": "scheduling@brightline-electrical.co.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T16:20",
+    "body": "Hi team\n\nSorry, we've had two lads off sick and can't make RJ401304 (Flat 17 Rosemount Tower, hall light) tomorrow. Earliest we can do is Weds 11th AM. Can you let the resident know? We don't have a number for her.\n\nDean\nScheduling, Brightline Electrical"
+   }
+  ],
+  "triage": {
+   "category": "Repair follow-up",
+   "priority": "High",
+   "route_to": "P018",
+   "action": "Repairs Planning Manager to rebook - ideally with an in-house electrician before the 6 November target - or accept 11 November and record the reason. Contact Alexandra Turner (70, no email on file) by phone or letter.",
+   "sla": "1 working day",
+   "flags": [
+    "contractor cancellation",
+    "target breach risk"
+   ],
+   "notes": "Urgent job with a target of 6 Nov 2026; Brightline's offer would breach it. The resident has no email address so the email route won't work."
+  }
+ },
+ {
+  "id": "inb-rep-07",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Quotation Q-4471 - 44 Brenchley Gardens fascia",
+  "summary": "Weald Roofing sends a quotation for fascia replacement at 44 Brenchley Gardens and says scaffolding is needed.",
+  "messages": [
+   {
+    "from": {
+     "name": "Martin Hale",
+     "email": "martin.hale@wealdroofing.co.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-05T07:15",
+    "body": "Good morning,\n\nFurther to our visit on RJ401320, the fascia at 44 Brenchley Gardens is rotten along the full front elevation and the gutter is coming away with it. We recommend replacing the fascia and soffit in uPVC and renewing the gutter.\n\nQuotation Q-4471 attached. This will need a scaffold (front only) - we can arrange through Hartwell as usual.\n\nPlease raise a PO if you'd like us to proceed.\n\nRegards\n\nMartin Hale\nContracts Manager\nWeald Roofing & Guttering Ltd\n01622 900 455"
+   }
+  ],
+  "triage": {
+   "category": "Contractor & supplier",
+   "priority": "Normal",
+   "route_to": "P008",
+   "action": "Head of Repairs (Daniel Kerr, contract manager for Weald) to approve or query the quotation and raise a PO; consider whether the Planned Works Surveyor should add the block to the roofline programme instead.",
+   "sla": "3 working days",
+   "flags": [
+    "quotation"
+   ],
+   "notes": "Genuine Weald email - compare its domain (wealdroofing.co.uk) and signature with the bank-details fraud in inb-rep-08."
+  }
+ },
+ {
+  "id": "inb-rep-08",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Change of bank details - Weald Roofing & Guttering Ltd - URGENT",
+  "summary": "Email purporting to be from Weald Roofing asks Silvering to update its bank details before Friday's payment run, from a lookalike domain.",
+  "messages": [
+   {
+    "from": {
+     "name": "Weald Roofing Accounts",
+     "email": "accounts@weald-roofing-guttering.co.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T13:07",
+    "body": "Dear Accounts Payable,\n\nPlease be advised that Weald Roofing & Guttering Ltd has changed banks following a review of our business accounts. With immediate effect please make all payments to:\n\nAccount name: Weald Roofing & Guttering Ltd\nSort code: 60-83-71\nAccount number: 41927736\n\nPlease update your records before your next payment run on Friday and confirm by return email once done. Our old account will be closed this week so payments to it will be rejected.\n\nWe apologise for any inconvenience.\n\nKind regards\n\nAccounts Department\nWeald Roofing & Guttering Ltd"
+   }
+  ],
+  "triage": {
+   "category": "Phishing / fraud",
+   "priority": "Urgent",
+   "route_to": "P016",
+   "action": "Do not reply, update details or forward to the supplier. Forward as an attachment to the Financial Controller (Ian Mackie) and IT (Craig Whitmore) today. Finance to verify by phoning Weald on the number already held in Northway Finance Cloud, put a hold on Weald payments in Friday's run and report it as attempted mandate fraud.",
+   "sla": "Same working day (before Friday's payment run)",
+   "flags": [
+    "fraud",
+    "bank details change",
+    "lookalike domain",
+    "payment run"
+   ],
+   "notes": "Lookalike domain: weald-roofing-guttering.co.uk vs the genuine wealdroofing.co.uk in inb-rep-07. No named sender, urgency, sent to the repairs mailbox rather than accounts, and asks for confirmation by email. Weald's contract ends 31 Dec 2026, which makes a 'bank change' story plausible."
+  },
+  "importance": "high"
+ },
+ {
+  "id": "inb-rep-09",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Orchard Fields Ph1 - weekly defects update wk 45",
+  "summary": "Castlemere Construction's weekly defects update for Orchard Fields phase 1, listing closed and outstanding defects and asking for access to occupied homes.",
+  "messages": [
+   {
+    "from": {
+     "name": "Nikki Prentice",
+     "email": "nikki.prentice@castlemere-construction.co.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T17:02",
+    "body": "Hi all,\n\nPlease find attached the weekly defects tracker for Orchard Fields phase 1.\n\nHeadlines:\n\n- Heat pump commissioning issues - our M&E sub is back on site Mon/Tues next week\n- Extractor fans (flats) - replacement units arriving 13/11\n- Snagging in the 18 unlet homes - complete by 20/11 so they can be handed to lettings\n- We still can't get access to several occupied homes - can your team help arrange appointments?\n\nCan we put the access issue on the agenda for Thursday's site meeting?\n\nThanks\nNikki Prentice\nCustomer Care Manager, Castlemere Construction Ltd"
+   }
+  ],
+  "triage": {
+   "category": "New build defect",
+   "priority": "Normal",
+   "route_to": "P034",
+   "action": "Development Manager (Paul Whitaker) to review the tracker, add the access issue to Thursday's site meeting and agree with Lettings when the unlet homes will be ready. No reply needed from the mailbox.",
+   "sla": "3 working days",
+   "flags": [
+    "new build",
+    "defects",
+    "contractor update"
+   ],
+   "notes": "Wrong mailbox - Castlemere should send this to the development team. Useful context for inb-rep-10 and inb-cs-13 (heat pumps and extractor fans)."
+  }
+ },
+ {
+  "id": "inb-rep-10",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "no hot water or heating 39 orchard fields",
+  "summary": "New-build tenant at Orchard Fields says the heat pump has shown an error since the weekend and there is no heating or hot water.",
+  "messages": [
+   {
+    "from": {
+     "name": "Lynda French",
+     "email": "lynda.french3@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T07:12",
+    "body": "Morning. Our heat pump has had a red light and error E-14 on the screen since Saturday and we have no heating or hot water. We've tried turning it off and on. We only moved in 3 weeks ago!! Who do I call, you or the builders?\n\nLynda\n39 Orchard Fields"
+   }
+  ],
+  "triage": {
+   "category": "New build defect",
+   "priority": "Urgent",
+   "route_to": "P034",
+   "action": "New home within the defects period: Development Manager (Paul Whitaker) to report to Castlemere as an emergency defect today (no heating or hot water) and confirm the attendance time. Repairs to provide temporary heaters if Castlemere can't attend within 24 hours. Reply to Lynda with who will come and when.",
+   "sla": "Same working day",
+   "flags": [
+    "new build",
+    "no heating",
+    "defects liability period"
+   ],
+   "notes": "Not an in-house repair - it's Castlemere's defect, but Silvering is still the landlord and must make sure it gets fixed. The heat pump commissioning issues in Castlemere's weekly update (inb-rep-09) are the likely cause."
+  }
+ },
+ {
+  "id": "inb-rep-11",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "MySilvering: New repair request #MS-88214",
+  "summary": "Portal notification of a new repair request: dripping kitchen tap at 55 Heron Way.",
+  "messages": [
+   {
+    "from": {
+     "name": "MySilvering",
+     "email": "no-reply@mysilvering.silvering-homes.org.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T20:41",
+    "body": "A new repair request has been submitted through MySilvering.\n\nReference: MS-88214\nResident: Josephine Thomas\nAddress: 55 Heron Way\nCategory: Plumbing - taps\nDescription: Kitchen cold tap dripping constantly, getting worse\nPhotos: 1\nPreferred appointment: Any weekday morning\n\nThis request has NOT yet been converted into a FieldLoop job. Please review and approve in the MySilvering admin console."
+   }
+  ],
+  "triage": {
+   "category": "Repair request",
+   "priority": "Normal",
+   "route_to": "P018",
+   "action": "Repairs planner to approve and convert to a FieldLoop job (Routine plumbing) and book a morning appointment.",
+   "sla": "1 working day (convert to a job)",
+   "flags": [
+    "portal notification"
+   ],
+   "notes": "Routine. Note the portal does not create jobs automatically - unreviewed notifications are how repairs get lost."
+  }
+ },
+ {
+  "id": "inb-rep-12",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Can't do Tuesday - RJ405857",
+  "summary": "Tenant at 75 Brenchley Gardens asks to move her bath leak appointment.",
+  "messages": [
+   {
+    "from": {
+     "name": "Sally Gibson",
+     "email": "sally.gibson33@example.net"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T12:15",
+    "body": "Hi I've got a text saying a plumber is coming Tuesday for the leak under the bath (RJ405857). I can't do Tuesday I'm at the hospital with my dad. Can it be Wednesday or Thursday instead. Any time.\n\nThanks Sally\n75 Brenchley Gdns"
+   }
+  ],
+  "triage": {
+   "category": "Repair follow-up",
+   "priority": "Normal",
+   "route_to": "P018",
+   "action": "Repairs planner to rebook RJ405857 for Wednesday or Thursday in FieldLoop and text Sally the new slot.",
+   "sla": "1 working day",
+   "flags": [
+    "appointment change"
+   ],
+   "notes": "Routine; the job target date is 1 Dec 2026, so there is room to rebook."
+  }
+ },
+ {
+  "id": "inb-rep-13",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "CCTV survey result - 154 Brenchley Gardens (RJ402705)",
+  "summary": "ClearFlow Drainage reports that a CCTV survey of a blocked shared drain found a collapsed pipe needing excavation, and asks for approval.",
+  "messages": [
+   {
+    "from": {
+     "name": "Paul Okonedo",
+     "email": "paul.okonedo@clearflowdrainage.co.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T10:30",
+    "body": "Hi Daniel / Repairs\n\nWe attended RJ402705 yesterday. Jetted the shared run at 152-156 Brenchley Gardens but it re-blocked within the hour. CCTV shows a collapsed section of clay pipe approx 3m from the rear inspection chamber, with root ingress.\n\nWe need to excavate and replace c. 2m of pipe. Estimate £2,350 + VAT, 1 day, plus reinstatement of the path. Residents at 152, 154 and 156 will have limited use of toilets and sinks until it's done.\n\nCan you approve so we can book in for Monday?\n\nCCTV report attached.\n\nPaul\nClearFlow Drainage Ltd"
+   }
+  ],
+  "triage": {
+   "category": "Contractor & supplier",
+   "priority": "High",
+   "route_to": "P008",
+   "action": "Head of Repairs (Daniel Kerr) to approve the works and raise the variation today so ClearFlow can attend Monday; ask the planner to warn the three households and consider re-prioritising as Urgent, since a blocked shared drain affects toilets.",
+   "sla": "1 working day",
+   "flags": [
+    "approval needed",
+    "affects multiple homes"
+   ],
+   "notes": "The FieldLoop job is still Routine (target 30 Nov) although three homes have limited use of toilets - an under-prioritised job."
+  }
+ },
+ {
+  "id": "inb-rep-14",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Automatic reply: Gas servicing schedule w/c 9 Nov",
+  "summary": "Out-of-office auto-reply from the gas subcontractor's planner.",
+  "messages": [
+   {
+    "from": {
+     "name": "Gemma Whitlock",
+     "email": "gemma.whitlock@kentishheating.co.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T08:30",
+    "body": "Thank you for your message. I'm out of the office until Wednesday 4th November. For anything urgent please contact planning@kentishheating.co.uk or call 01622 900 280.\n\nGemma Whitlock\nPlanner, Kentish Heating Services Ltd"
+   }
+  ],
+  "triage": {
+   "category": "Information only",
+   "priority": "Low",
+   "route_to": "Text: no owner - mark as read",
+   "action": "No action. The sender is back on 4 November; resend the schedule query if no reply has arrived.",
+   "sla": "None",
+   "flags": [
+    "auto-reply"
+   ],
+   "notes": "Noise."
+  }
+ },
+ {
+  "id": "inb-rep-15",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "is someone coming about my sockets??",
+  "summary": "Brenchley Gardens tenant chases a bedroom sockets repair reported two days earlier.",
+  "messages": [
+   {
+    "from": {
+     "name": "Sarah Turner",
+     "email": "sarah.turner94@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-05T08:05",
+    "body": "I reported on Tuesday that the sockets in my bedroom don't work. Nobody has rung. Is someone coming? Flat 121.\n\nSarah"
+   }
+  ],
+  "triage": {
+   "category": "Repair follow-up",
+   "priority": "Normal",
+   "route_to": "P018",
+   "action": "Planner to check RJ405994 (Routine, Brightline, target 1 Dec) and give Sarah an appointment date; confirm she has no medical equipment that needs those sockets.",
+   "sla": "1 working day",
+   "flags": [
+    "chaser"
+   ],
+   "notes": "Routine chaser. Job RJ405994 is 'Open' with no appointment - Brightline subcontract jobs are taking longer."
+  }
+ },
+ {
+  "id": "inb-rep-16",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Re: is someone coming about my sockets??",
+  "summary": "The same tenant resends her chaser 25 minutes later.",
+  "messages": [
+   {
+    "from": {
+     "name": "Sarah Turner",
+     "email": "sarah.turner94@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-05T08:30",
+    "body": "sorry sending again as not sure the first went. bedroom sockets flat 121 brenchley. thanks"
+   }
+  ],
+  "triage": {
+   "category": "Repair follow-up",
+   "priority": "Normal",
+   "route_to": "P018",
+   "action": "Merge with inb-rep-15 and send one reply.",
+   "sla": "1 working day",
+   "flags": [
+    "duplicate"
+   ],
+   "notes": "Duplicate of inb-rep-15 - don't book two appointments."
+  }
+ },
+ {
+  "id": "inb-rep-17",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Condensation on windows",
+  "summary": "Vinters Rise tenant reports heavy condensation on windows each morning and some black spots on the bedroom window frame.",
+  "messages": [
+   {
+    "from": {
+     "name": "Kathryn Anderson",
+     "email": "kathryn.anderson42@example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T09:26",
+    "body": "Hi,\n\nEvery morning there's water running down the inside of the windows in both bedrooms and some black spots are starting on the bedroom window frame and the silicone. I wipe it every day. Is there anything you can do, maybe a fan? Not urgent.\n\nKathryn Anderson\nFlat 80 Vinters Rise"
+   }
+  ],
+  "triage": {
+   "category": "Damp & mould",
+   "priority": "High",
+   "route_to": "P020",
+   "action": "Log a damp and mould report and pass to the Damp & Mould Surveyor for triage: a call within 2 working days, then an Awaab's Law hazard assessment. If significant, investigate within 10 working days (by 17 November 2026). Do not reply with 'open your windows' advice alone.",
+   "sla": "Triage call 2 working days; investigate within 10 working days if significant",
+   "flags": [
+    "Awaab's Law",
+    "damp & mould"
+   ],
+   "notes": "Resident says 'not urgent', but every damp and mould report must be assessed - the triage key tests whether learners skip it."
+  }
+ },
+ {
+  "id": "inb-rep-18",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "FW: Mr Murray Flat 157 - mould behind wardrobe",
+  "summary": "In-house plumber forwards a note from a job: heavy mould found behind a wardrobe at an older resident's flat while fixing a radiator valve.",
+  "messages": [
+   {
+    "from": "P019",
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T15:47",
+    "body": "Hi all\n\nWas at Flat 157 Brenchley Gardens today for the rad valve (done). Mr Murray asked me to look behind the wardrobe in the back bedroom - whole wall is black, floor to about 4 foot, and the carpet's damp. Smells bad. He's 76 and says he's been sleeping in the front room because of it.\n\nCan someone get the damp team out. I've told him someone will ring.\n\nThanks\nLee\n\n-----Original Message-----\nFrom: Lee Barton (mobile)\nSent: 03 November 2026 15:31\nSubject: Mr Murray\n\nphotos attached x4"
+   }
+  ],
+  "triage": {
+   "category": "Damp & mould",
+   "priority": "High",
+   "route_to": "P020",
+   "action": "Log an operative-raised damp and mould case today. Damp & Mould Surveyor to assess the hazard - extensive mould affecting an older resident's sleeping space may be significant or an emergency - and investigate within 10 working days at the latest (by 17 November 2026). Call Mr Murray today as Lee promised.",
+   "sla": "Contact same day; investigate within 10 working days",
+   "flags": [
+    "Awaab's Law",
+    "operative-raised",
+    "older resident"
+   ],
+   "notes": "Internal email in a shared mailbox - easy to dismiss as 'FYI'. Operatives should raise damp cases directly in FieldLoop rather than by email."
+  }
+ },
+ {
+  "id": "inb-rep-19",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Fire door - flat front door won't shut - Rosemount Tower",
+  "summary": "Leaseholder at Rosemount Tower reports his flat front door closer is broken so the fire door doesn't self-close.",
+  "messages": [
+   {
+    "from": {
+     "name": "Christopher Cooper",
+     "email": "christopher.cooper71@example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T18:44",
+    "body": "Evening,\n\nThe closer on my front door (Flat 23 Rosemount Tower) has snapped and the door doesn't shut by itself any more. I know these are meant to be fire doors. I'm a leaseholder so not sure if it's mine or yours to fix but thought I should tell you. I'm hard of hearing so email is best.\n\nChris Cooper"
+   }
+  ],
+  "triage": {
+   "category": "Building safety",
+   "priority": "Urgent",
+   "route_to": "P022",
+   "action": "Building Safety Manager (Fatima Begum) to arrange a door closer repair within 24 hours - flat entrance doors in a higher-risk building are a fire safety matter whatever the tenure - and record it against the Rosemount Tower fire door actions. Reply by email (hearing impairment) with the date.",
+   "sla": "Same working day",
+   "flags": [
+    "building safety",
+    "higher-risk building",
+    "fire door",
+    "leaseholder",
+    "hearing impairment"
+   ],
+   "notes": "Rosemount Tower is the only HRB and has overdue fire door actions. Leaseholder tenure isn't a reason to deprioritise; who pays can be settled later."
+  }
+ },
+ {
+  "id": "inb-rep-20",
+  "type": "email",
+  "mailbox": "repairs@silvering-homes.org.uk",
+  "subject": "Is your voids process costing you? 20% off void clearance this November",
+  "summary": "Marketing email from an unsolicited clearance company.",
+  "messages": [
+   {
+    "from": {
+     "name": "ClearSpace Property Services",
+     "email": "offers@clearspace-property.example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Repairs",
+      "email": "repairs@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-10-30T11:00",
+    "body": "Hi Repairs team,\n\nEmpty homes cost social landlords thousands in lost rent every year. ClearSpace can clear and clean a void within 48 hours of keys.\n\n**20% off all clearances booked in November.**\n\nBook a call: https://clearspace-property.example.com/book\n\nClearSpace Property Services\nUnsubscribe"
+   }
+  ],
+  "triage": {
+   "category": "Information only",
+   "priority": "Low",
+   "route_to": "Text: no owner - mark as read",
+   "action": "No action. Not an approved supplier; don't click links. Delete or mark as junk.",
+   "sla": "None",
+   "flags": [
+    "marketing",
+    "unsolicited"
+   ],
+   "notes": "Noise. Not on the suppliers list - any new supplier goes through Procurement."
+  }
+ },
+ {
+  "id": "inb-rent-01",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "rent payment",
+  "summary": "Parkwood Court tenant on Universal Credit asks to pay arrears in small amounts and, in the middle of the email, says her ex-partner took her UC money, has been coming round and she is scared.",
+  "messages": [
+   {
+    "from": {
+     "name": "Chelsea Lewis",
+     "email": "chelsea.lewis89@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T23:52",
+    "body": "Hi\n\nI got your letter about the rent arrears. I know I'm behind, I can pay £10 a week extra from my UC from the 15th if that's ok.\n\nThe reason I'm behind is my ex was taking the UC money when it went into the joint account. I've got my own account now. He's been coming round again the last couple of weeks and banging on the door at night and I'm scared to open it. Please don't send letters to the flat because he takes the post sometimes. Text is better.\n\nCan you tell me if the £10 is ok\n\nChelsea\nFlat 37 Parkwood Court"
+   }
+  ],
+  "triage": {
+   "category": "Safeguarding & welfare",
+   "priority": "Urgent",
+   "route_to": "P026",
+   "action": "Domestic abuse disclosure: pass today to the ASB & Tenancy Enforcement Officer (Gary Doyle, domestic abuse lead) and the Head of Neighbourhoods as safeguarding lead. Contact Chelsea by text to arrange a safe time to call, complete a DASH risk assessment, offer refuge/IDVA and police referral, and mark her contact preference as text only - no letters. Ask the Income Officer (Ryan Tait) to pause arrears escalation and agree the £10 arrangement, and consider asking DWP for an APA.",
+   "sla": "Same working day",
+   "flags": [
+    "domestic abuse",
+    "safeguarding",
+    "children in household",
+    "do not send post",
+    "buried disclosure"
+   ],
+   "notes": "Subject 'rent payment' and a payment offer in the first paragraph - the disclosure is buried in the middle. Rent account is at Stage 2 (call and visit); a home visit or letter could put her at risk. The email must not be forwarded widely or pasted into other chats."
+  },
+  "importance": "normal"
+ },
+ {
+  "id": "inb-rent-02",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Help - hardship fund? Flat 24 Shepway Green",
+  "summary": "Shepway Green tenant who has received a Notice of Seeking Possession asks for help from the hardship fund after losing his job and having his UC sanctioned.",
+  "messages": [
+   {
+    "from": {
+     "name": "Frank O'Neill",
+     "email": "frank.oneill80@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T14:19",
+    "body": "To the rent team\n\nI got the notice saying you might take me to court for the rent. I owe {{sql:SELECT balance_gbp FROM rent_accounts WHERE tenancy_ref='TEN500528'|gbp2}}. I lost my job in the summer and then my UC got sanctioned for 6 weeks because I missed an appointment when my wife was in hospital. The sanction finishes this month.\n\nI've heard you have a hardship fund. Can I apply? I don't want to lose the flat, we've been here since 2020.\n\nFrank O'Neill\n07700 900359"
+   }
+  ],
+  "triage": {
+   "category": "Arrears & hardship",
+   "priority": "High",
+   "route_to": "P015",
+   "action": "Income Manager (Bev Saunders) to take this because a NOSP has been served: put any court referral on hold while a hardship fund application and income and expenditure assessment are completed, refer to money advice, and help Frank challenge or seek a hardship payment for the UC sanction. The Income Officer (Ryan Tait) to call him within 1 working day.",
+   "sla": "1 working day",
+   "flags": [
+    "NOSP served",
+    "hardship",
+    "UC sanction",
+    "possession risk"
+   ],
+   "notes": "Rent account RA700528 is at 'NOSP served'. The pre-action protocol requires the landlord to consider support and affordable arrangements before issuing proceedings. Frank's APA is in place, so ongoing housing costs are paid direct; the arrears are historic."
+  }
+ },
+ {
+  "id": "inb-rent-03",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Universal Credit: Breathing Space moratorium notification - Ms J Wilson",
+  "summary": "Debt Respite Scheme (Breathing Space) notification that a moratorium started on 2 November 2026 for Joanna Wilson's debts, including rent arrears.",
+  "messages": [
+   {
+    "from": {
+     "name": "Breathing Space Service",
+     "email": "notifications@breathingspace.example.gov.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T09:12",
+    "body": "DEBT RESPITE SCHEME (BREATHING SPACE)\nNOTIFICATION TO CREDITOR\n\nDebtor: Joanna Wilson\nAddress: Flat 108, Shepway Green, Maidstone\nType of moratorium: Standard breathing space\nStart date: 02/11/2026\nDebt adviser: Medway Money Advice (ref MMA-55120)\n\nYou are named as a creditor. During the moratorium you must not take any enforcement action, add interest or charges, or contact the debtor to request payment of the qualifying debt. Ongoing liabilities (such as current rent) must continue to be paid.\n\nYou may request a review of the moratorium within 20 days of the start date.\n\nThis is an automated notification. Do not reply to this email."
+   }
+  ],
+  "triage": {
+   "category": "Arrears & hardship",
+   "priority": "Urgent",
+   "route_to": "P015",
+   "action": "Income Manager (Bev Saunders) to record the moratorium on rent account RA700612 today and stop all enforcement and arrears contact for the arrears debt (the account is at NOSP served - no court application may be made). Ongoing rent is still due. Tell the Income Officer (Sam Odukoya) and diary the end date.",
+   "sla": "Same working day",
+   "flags": [
+    "Breathing Space",
+    "statutory",
+    "stop enforcement",
+    "NOSP served"
+   ],
+   "notes": "A legal requirement, not just information - breaching a moratorium makes enforcement action void. Joanna also has a mobility vulnerability flag. Easy to file as an automated 'do not reply' notice."
+  }
+ },
+ {
+  "id": "inb-rent-04",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Landlord Portal: housing costs verification due - TEN501067",
+  "summary": "DWP Universal Credit Landlord Portal notification asking Silvering to verify the rent and service charges for a new UC claim at Hop Pocket Way.",
+  "messages": [
+   {
+    "from": {
+     "name": "UC Landlord Portal (DWP)",
+     "email": "no-reply@uc-landlordportal.example.gov.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T06:30",
+    "body": "Universal Credit Landlord Portal\n\nYou have a new task.\n\nTask type: Verify housing costs\nTenant: Steven Evans\nAddress: Flat 19, Hop Pocket Way\nYour reference: TEN501067\nTask due by: 10/11/2026\n\nPlease sign in to the Landlord Portal to complete this task. If the task is not completed by the due date the claimant's housing costs may be delayed.\n\nDepartment for Work and Pensions"
+   }
+  ],
+  "triage": {
+   "category": "Rent & Universal Credit",
+   "priority": "High",
+   "route_to": "P029",
+   "action": "Income Officer (Ryan Tait) to complete the verification in the Landlord Portal (signing in directly, not through any link) before 10 November 2026, confirming the current weekly rent and eligible service charges from Keystone.",
+   "sla": "Complete by 10 November 2026",
+   "flags": [
+    "UC",
+    "DWP deadline"
+   ],
+   "notes": "Genuine routine DWP task - contrast with the phishing email: no link, no credentials request, real deadline. A missed verification delays housing costs and increases arrears."
+  }
+ },
+ {
+  "id": "inb-rent-05",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "APA confirmation - Flat 11 Rosemount Tower",
+  "summary": "DWP notification that an Alternative Payment Arrangement (managed payment to landlord) has been set up for a Rosemount Tower tenant.",
+  "messages": [
+   {
+    "from": {
+     "name": "UC Landlord Portal (DWP)",
+     "email": "no-reply@uc-landlordportal.example.gov.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-10-29T06:30",
+    "body": "Universal Credit Landlord Portal\n\nAn Alternative Payment Arrangement has been agreed.\n\nTenant: Yvonne Campbell\nAddress: Flat 11, Rosemount Tower\nYour reference: TEN500011\nArrangement: Managed payment of housing costs to landlord\nFirst payment: in the next scheduled landlord payment run\n\nNo action is required unless the details above are incorrect.\n\nDepartment for Work and Pensions"
+   }
+  ],
+  "triage": {
+   "category": "Rent & Universal Credit",
+   "priority": "Low",
+   "route_to": "Text: Sam Odukoya (Income Officer)",
+   "action": "Income Officer (Sam Odukoya) to update the APA flag on rent account RA700011 in Keystone and note it on the hardship referral. No reply.",
+   "sla": "3 working days",
+   "flags": [
+    "UC",
+    "APA"
+   ],
+   "notes": "Keystone still shows apa_in_place = 0 for this account - updating it is the action. Sam Odukoya is an Income Officer but not a named persona."
+  }
+ },
+ {
+  "id": "inb-rent-06",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Arrangement - can I pay less this month",
+  "summary": "Rosemount Tower tenant on a payment arrangement asks to reduce this month's extra payment because of a broken washing machine.",
+  "messages": [
+   {
+    "from": {
+     "name": "Dean Graham",
+     "email": "dean.graham62@example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T19:10",
+    "body": "Hiya, I'm on an arrangement paying extra each week. My washing machine has packed up and I need to get another one. Could I skip the extra for 2 weeks and then go back to normal? Thanks Dean (flat 12 rosemount)"
+   }
+  ],
+  "triage": {
+   "category": "Rent & Universal Credit",
+   "priority": "Normal",
+   "route_to": "Text: Sam Odukoya (Income Officer)",
+   "action": "Income Officer (Sam Odukoya) to agree a short variation if affordable, check UC entitlement to a budgeting advance, and signpost the hardship fund or a local white-goods scheme.",
+   "sla": "3 working days",
+   "flags": [
+    "payment arrangement"
+   ],
+   "notes": "Routine."
+  }
+ },
+ {
+  "id": "inb-rent-07",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Paid twice?",
+  "summary": "Lenham Meadows tenant thinks her rent was taken twice this month and asks for a refund.",
+  "messages": [
+   {
+    "from": {
+     "name": "Bethany Hunt",
+     "email": "bethany.hunt53@example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T08:22",
+    "body": "Morning, I think you've taken my rent twice. I paid by card on the app on the 31st and then the direct debit went out on the 2nd as well. Can I have one back please, I'm short this month.\n\nBethany Hunt, flat 57 Lenham Meadows"
+   }
+  ],
+  "triage": {
+   "category": "Rent & Universal Credit",
+   "priority": "Normal",
+   "route_to": "Text: Priya Chauhan (Income Officer)",
+   "action": "Income Officer (Priya Chauhan) to check the payments on the rent account. Explain that the account is in arrears on a payment arrangement, so a second payment will usually reduce arrears rather than be refunded - but offer a refund if it causes hardship.",
+   "sla": "3 working days",
+   "flags": [
+    "refund request"
+   ],
+   "notes": "Her rent account has arrears on a payment arrangement, so the 'overpayment' is probably not an overpayment. Watch for Copilot promising a refund."
+  }
+ },
+ {
+  "id": "inb-rent-08",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Your Paylink daily collections file - delayed",
+  "summary": "Payment provider says the daily card and PayPoint collections file for 3 November is delayed and will be sent tomorrow.",
+  "messages": [
+   {
+    "from": {
+     "name": "Paylink Collections Support",
+     "email": "support@paylinkcollections.example.co.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T07:45",
+    "body": "Dear Client,\n\nDue to a processing issue, the daily transaction file for collections made on 03/11/2026 has been delayed. It will be sent with the 04/11/2026 file tomorrow morning. Funds are not affected.\n\nWe apologise for any inconvenience.\n\nPaylink Collections Support"
+   }
+  ],
+  "triage": {
+   "category": "Information only",
+   "priority": "Normal",
+   "route_to": "P016",
+   "action": "Tell the Financial Controller (Ian Mackie) and the Income team so payments made on 3 November aren't treated as missed - no arrears letters for that date until the file posts.",
+   "sla": "1 working day",
+   "flags": [
+    "payment file",
+    "system notice"
+   ],
+   "notes": "Looks like noise, but it explains why some tenants (e.g. Bethany Hunt, inb-rent-07) may see odd balances. Not phishing: no links or requests."
+  }
+ },
+ {
+  "id": "inb-rent-09",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Dad - Flat 4 Bearsted Court",
+  "summary": "Son of a 95-year-old SilverLiving resident tells the rents team his father died at the weekend and asks what happens to the flat and the rent.",
+  "messages": [
+   {
+    "from": {
+     "name": "Andrew Hamilton",
+     "email": "andy.hamilton.family@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T11:03",
+    "body": "Hello,\n\nI'm writing to let you know that my father George Hamilton of Flat 4 Bearsted Court passed away on Saturday in hospital.\n\nI'm not sure what I need to do about the flat or the rent. I live in Ashford and will need some time to clear his things. Can someone tell me what happens next and who I should speak to?\n\nThank you\n\nAndrew Hamilton"
+   }
+  ],
+  "triage": {
+   "category": "Tenancy & neighbourhood",
+   "priority": "High",
+   "route_to": "P027",
+   "action": "SilverLiving Coordinator (Margaret Ogunleye) to phone Andrew within 1 working day with condolences and explain the end-of-tenancy process (notice, clearance period, keys). Tell the Income team to suspend arrears action and the Voids Supervisor. Follow the bereavement name-change and contact process; no standard letters to 'the occupier'.",
+   "sla": "1 working day",
+   "flags": [
+    "bereavement",
+    "end of tenancy",
+    "SilverLiving"
+   ],
+   "notes": "Bereavement process was reviewed after a previous complaint (complaints 'learning' column). Wrong mailbox - it should go to SilverLiving/tenancy, not rents."
+  }
+ },
+ {
+  "id": "inb-rent-10",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "boiler",
+  "summary": "Larkfield Close tenant writes to the rents mailbox to say his boiler has stopped and there's no hot water or heating.",
+  "messages": [
+   {
+    "from": {
+     "name": "Rhys Macdonald",
+     "email": "rhys.macdonald58@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T07:31",
+    "body": "My boiler stopped last night no heating or hot water. Pressure gauge is on 0. Sorry don't know the repairs email. 30 Larkfield Close. My daughter has asthma.\n\nRhys"
+   }
+  ],
+  "triage": {
+   "category": "Emergency repair",
+   "priority": "Urgent",
+   "route_to": "P018",
+   "action": "Wrong mailbox: forward to Repairs straight away and raise a heating job today - no heating or hot water with a child with asthma in November should be treated as Emergency/Urgent. Call Rhys back with the appointment.",
+   "sla": "Same working day",
+   "flags": [
+    "wrong mailbox",
+    "no heating",
+    "child with asthma"
+   ],
+   "notes": "Rhys is also in arrears at Stage 2. Don't let that colour the response - repairs and arrears are separate. The 'asthma' detail is the vulnerability signal."
+  }
+ },
+ {
+  "id": "inb-rent-11",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Automatic reply: Your rent account statement",
+  "summary": "Tenant's email auto-reply saying she is travelling until 20 November.",
+  "messages": [
+   {
+    "from": {
+     "name": "Jasmine Williams",
+     "email": "jasmine.williams56@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-10-30T09:00",
+    "body": "I'm away until 20th November with limited signal. I'll reply when I'm back.\n\nJasmine"
+   }
+  ],
+  "triage": {
+   "category": "Information only",
+   "priority": "Low",
+   "route_to": "Text: no owner - mark as read",
+   "action": "No action.",
+   "sla": "None",
+   "flags": [
+    "auto-reply"
+   ],
+   "notes": "Noise - auto-reply to a bulk statement email."
+  }
+ },
+ {
+  "id": "inb-rent-12",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Income Management Network - November bulletin",
+  "summary": "Sector bulletin on UC managed migration completion, pre-action protocol updates and a free webinar.",
+  "messages": [
+   {
+    "from": {
+     "name": "Income Management Network",
+     "email": "bulletin@incomemanagementnetwork.example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-02T06:00",
+    "body": "INCOME MANAGEMENT NETWORK | November bulletin\n\n- Managed migration to Universal Credit: lessons from landlords who have completed it\n- Pre-action protocol for possession claims: a reminder of what courts expect\n- Breathing Space: avoiding the common mistakes\n- Free webinar 26 Nov: 'Kind but firm arrears letters'\n\nView in browser | Unsubscribe"
+   }
+  ],
+  "triage": {
+   "category": "Information only",
+   "priority": "Low",
+   "route_to": "Text: no owner - mark as read",
+   "action": "No action - optionally share the Breathing Space item with the Income Manager.",
+   "sla": "None",
+   "flags": [
+    "newsletter"
+   ],
+   "notes": "Noise."
+  }
+ },
+ {
+  "id": "inb-rent-13",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Housing Benefit schedule - week ending 01/11/2026",
+  "summary": "Borough council Housing Benefit section sends the weekly HB payment schedule for pension-age tenants.",
+  "messages": [
+   {
+    "from": {
+     "name": "Housing Benefit Payments",
+     "email": "hb.payments@borough-council.example.gov.uk"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-03T10:00",
+    "body": "Please find attached the Housing Benefit landlord payment schedule for week ending 01/11/2026. Payment will reach your account within 3 working days.\n\nThis mailbox is not monitored.\n\nRevenues & Benefits\nThe borough council"
+   }
+  ],
+  "triage": {
+   "category": "Rent & Universal Credit",
+   "priority": "Low",
+   "route_to": "P016",
+   "action": "Forward the schedule to Finance (Ian Mackie) for reconciliation and posting to rent accounts.",
+   "sla": "3 working days",
+   "flags": [
+    "remittance"
+   ],
+   "notes": "Routine remittance."
+  }
+ },
+ {
+  "id": "inb-rent-14",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Rent increase letter?? Flat 21 Vinters Rise",
+  "summary": "Leaseholder at Vinters Rise asks why he received an arrears notice when he only pays ground rent and service charges.",
+  "messages": [
+   {
+    "from": {
+     "name": "Scott Hart",
+     "email": "scott.hart74@example.com"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-10-29T17:15",
+    "body": "I own my flat (21 Vinters Rise - bought it under right to buy). I've had a letter about 'rent arrears' and something about a notice. I don't pay rent! I pay the service charge, which I dispute because the cleaning of the stairs never happens. Who do I speak to?\n\nScott Hart"
+   }
+  ],
+  "triage": {
+   "category": "Home ownership & service charges",
+   "priority": "High",
+   "route_to": "P015",
+   "action": "Income Manager (Bev Saunders) to review the account: a leaseholder's service charge arrears must be pursued under the lease, not by a rent-arrears NOSP. Check the wording of the letter sent, respond within 1 working day, and pass the cleaning dispute to the Complaints team as a possible stage 1 complaint.",
+   "sla": "1 working day",
+   "flags": [
+    "leaseholder",
+    "possible wrong process",
+    "service charge dispute",
+    "possible complaint"
+   ],
+   "notes": "Planted data issue: rent account RA700430 (leasehold) shows recovery stage 'NOSP served'. A NOSP under the Housing Act 1988 doesn't apply to a long leaseholder, so either the data or the process is wrong."
+  }
+ },
+ {
+  "id": "inb-rent-15",
+  "type": "email",
+  "mailbox": "rents@silvering-homes.org.uk",
+  "subject": "Re: Statement request",
+  "summary": "Housing support worker asks for a rent statement for a Linton Lodge resident to support a Pension Credit claim; consent is mentioned but not attached.",
+  "messages": [
+   {
+    "from": {
+     "name": "Priya Nandra",
+     "email": "priya.nandra@age-wellkent.example.org"
+    },
+    "to": [
+     {
+      "name": "Silvering Rents & Income",
+      "email": "rents@silvering-homes.org.uk"
+     }
+    ],
+    "date": "2026-11-04T14:50",
+    "body": "Hi,\n\nI'm supporting Mrs Rosie Knowles (Flat 3, Linton Lodge) with a Pension Credit and Housing Benefit claim. Please could you send me a rent statement for the last 12 months and confirmation of the weekly rent and service charges?\n\nMrs Knowles has signed our consent form - I'll send it over.\n\nMany thanks\n\nPriya Nandra\nHousing Support Worker, AgeWell Kent"
+   }
+  ],
+  "triage": {
+   "category": "Rent & Universal Credit",
+   "priority": "Normal",
+   "route_to": "Text: Priya Chauhan (Income Officer)",
+   "action": "Do not send the statement until signed consent is received (or Mrs Knowles confirms by phone). Reply asking for the consent form, then the Income Officer sends the statement securely.",
+   "sla": "3 working days",
+   "flags": [
+    "third party",
+    "consent needed",
+    "data protection"
+   ],
+   "notes": "Third-party request - the consent form is promised but not attached. A good test of whether Copilot drafts a reply that includes personal data too early."
+  }
+ }
+]

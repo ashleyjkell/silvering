@@ -1,0 +1,75 @@
+﻿employee_id,full_name,job_title,department,manager_id,location,start_date,email,trade,contract,fte,salary_gbp,status
+E0901,Tom Reed,Housing Officer (Maidstone North & Town),tenancy,P011,Field-based,2017-04-03,tom.reed@silvering-homes.org.uk,,Fixed term,1.0,37000,Active
+E0902,Sasha Kemp,Housing Officer (Maidstone East & Villages),tenancy,P011,Field-based,2020-08-24,sasha.kemp@silvering-homes.org.uk,,Permanent,0.8,41000,Active
+E0903,Joel Mensah,"Housing Officer (Tonbridge, Medway, Swale & Ashford)",tenancy,P011,Field-based,2023-11-06,joel.mensah@silvering-homes.org.uk,,Permanent,1.0,34000,Active
+E0904,Marcus Adebayo,Damp & Mould Surveyor,repairs,P008,Field-based,2025-09-15,marcus.adebayo@silvering-homes.org.uk,,Permanent,0.6,41000,Active
+E0905,Leah Foster,Complaints Officer,customer,P012,Maidstone,2024-06-03,leah.foster@silvering-homes.org.uk,,Permanent,0.6,37000,Active
+E0906,Priya Chauhan,Income Officer,tenancy,P015,Maidstone,2019-02-11,priya.chauhan@silvering-homes.org.uk,,Permanent,1.0,36000,Active
+E0907,Sam Odukoya,Income Officer,tenancy,P015,Maidstone,2021-10-04,sam.odukoya@silvering-homes.org.uk,,Permanent,1.0,37000,Active
+P001,Catherine Ellwood,Chief Executive,board,,Maidstone,2019-09-02,catherine.ellwood@silvering-homes.org.uk,,Permanent,1.0,128000,Active
+P002,Martin Okafor,Director of Finance & Resources,finance,P001,Maidstone,2017-01-09,martin.okafor@silvering-homes.org.uk,,Permanent,0.6,104000,Active
+P003,Rachel Dunmore,Director of Customer Experience,customer,P001,Maidstone,2021-04-12,rachel.dunmore@silvering-homes.org.uk,,Permanent,1.0,98000,Active
+P004,Gareth Price,Director of Property,repairs,P001,Aylesford depot,2020-06-01,gareth.price@silvering-homes.org.uk,,Permanent,1.0,98000,Active
+P005,Simone Achterberg,Director of People & Change,people,P001,Maidstone,2022-02-14,simone.achterberg@silvering-homes.org.uk,,Permanent,0.8,96000,Active
+P006,Hilary Brandwood,Chair of the Board,board,,Board member (non-executive),2021-07-01,hilary.brandwood@silvering-homes.org.uk,,Permanent,0.6,18000,Active
+P007,Joanne Pike,Head of Governance & Company Secretary,board,P001,Maidstone,2016-03-07,joanne.pike@silvering-homes.org.uk,,Permanent,1.0,62000,Active
+P008,Daniel Kerr,Head of Repairs & Maintenance,repairs,P004,Aylesford depot,2021-05-04,daniel.kerr@silvering-homes.org.uk,,Permanent,1.0,56000,Active
+P009,Priti Banerjee,Head of Assets & Building Safety,assets,P004,Maidstone,2018-10-15,priti.banerjee@silvering-homes.org.uk,,Permanent,1.0,57000,Active
+P010,Tom Lyle,Head of Development & Sales,development,P002,Maidstone,2015-08-03,tom.lyle@silvering-homes.org.uk,,Permanent,1.0,54000,Active
+P011,Nadia Rahman,Head of Neighbourhoods,tenancy,P003,Maidstone,2018-01-08,nadia.rahman@silvering-homes.org.uk,,Permanent,1.0,57000,Active
+P012,Owen Fletcher,Customer Resolutions Manager,customer,P003,Maidstone,2022-09-05,owen.fletcher@silvering-homes.org.uk,,Permanent,1.0,45000,Active
+P013,Lauren Hughes,Head of People,people,P005,Maidstone,2019-03-18,lauren.hughes@silvering-homes.org.uk,,Permanent,1.0,63000,Active
+P014,Craig Whitmore,IT & Data Manager,people,P005,Maidstone,2017-11-20,craig.whitmore@silvering-homes.org.uk,,Permanent,1.0,48000,Active
+P015,Bev Saunders,Income Manager,tenancy,P011,Maidstone,2012-06-11,bev.saunders@silvering-homes.org.uk,,Permanent,1.0,49000,Active
+P016,Ian Mackie,Financial Controller,finance,P002,Maidstone,2016-05-23,ian.mackie@silvering-homes.org.uk,,Permanent,1.0,47000,Active
+P017,Sophie Grant,Management Accountant,finance,P016,Maidstone,2023-01-16,sophie.grant@silvering-homes.org.uk,,Permanent,0.6,30000,Active
+P018,Kwame Asante,Repairs Planning Manager,repairs,P008,Aylesford depot,2021-07-19,kwame.asante@silvering-homes.org.uk,,Fixed term,1.0,50000,Active
+P019,Lee Barton,Multi-trade Operative (Plumbing),repairs,P018,Field-based,2021-05-04,lee.barton@silvering-homes.org.uk,Plumbing,Permanent,1.0,40000,Active
+P020,Ellie Novak,Damp & Mould Surveyor,repairs,P008,Field-based,2024-02-05,ellie.novak@silvering-homes.org.uk,,Permanent,0.6,38000,Active
+P021,Steve Harlow,Voids Supervisor,repairs,P008,Aylesford depot,2014-09-01,steve.harlow@silvering-homes.org.uk,,Permanent,1.0,30000,Active
+P022,Fatima Begum,Building Safety Manager,assets,P009,Maidstone,2022-05-09,fatima.begum@silvering-homes.org.uk,,Permanent,1.0,42000,Active
+P023,Rob Quinlan,Compliance Officer (Gas & Electrical),assets,P022,Maidstone,2020-10-12,rob.quinlan@silvering-homes.org.uk,Electrical,Permanent,1.0,34000,Active
+P024,Jess Moreland,Asset Data Analyst,assets,P009,Maidstone,2023-06-26,jess.moreland@silvering-homes.org.uk,,Permanent,1.0,29000,Active
+P025,Amira Haddad,Housing Officer (Maidstone South),tenancy,P011,Field-based,2022-01-10,amira.haddad@silvering-homes.org.uk,,Permanent,0.6,36000,Active
+P026,Gary Doyle,ASB & Tenancy Enforcement Officer,tenancy,P011,Maidstone,2015-02-16,gary.doyle@silvering-homes.org.uk,,Permanent,1.0,40000,Active
+P027,Margaret Ogunleye,SilverLiving Coordinator,tenancy,P011,Linton Lodge,2013-04-22,margaret.ogunleye@silvering-homes.org.uk,,Permanent,1.0,27000,Active
+P028,Chloe Benson,Lettings Officer,tenancy,P011,Maidstone,2023-09-04,chloe.benson@silvering-homes.org.uk,,Permanent,1.0,41000,Active
+P029,Ryan Tait,Income Officer,tenancy,P015,Maidstone,2024-03-11,ryan.tait@silvering-homes.org.uk,,Permanent,0.8,39000,Active
+P030,Hannah Lowe,Customer Service Team Leader,customer,P003,Maidstone,2019-11-04,hannah.lowe@silvering-homes.org.uk,,Permanent,1.0,28000,Active
+P031,Zainab Ali,Customer Service Adviser,customer,P030,Maidstone,2025-05-19,zainab.ali@silvering-homes.org.uk,,Permanent,1.0,26000,Active
+P032,Mark Pennington,Complaints Officer,customer,P012,Maidstone,2023-02-27,mark.pennington@silvering-homes.org.uk,,Permanent,1.0,38000,Active
+P033,Grace Osei,Resident Involvement & Insight Officer,customer,P012,Maidstone,2021-10-11,grace.osei@silvering-homes.org.uk,,Permanent,1.0,40000,Active
+P034,Paul Whitaker,Development Manager,development,P010,Maidstone,2019-06-17,paul.whitaker@silvering-homes.org.uk,,Permanent,1.0,49000,Active
+P035,Kirsty Lambert,Sales & Shared Ownership Officer,development,P010,Maidstone,2022-04-04,kirsty.lambert@silvering-homes.org.uk,,Permanent,1.0,39000,Active
+P036,Dev Malhotra,HR Business Partner,people,P013,Maidstone,2021-08-16,dev.malhotra@silvering-homes.org.uk,,Permanent,1.0,31000,Active
+P037,Lucy Carver,Communications Manager,hub,P005,Maidstone,2020-01-13,lucy.carver@silvering-homes.org.uk,,Permanent,1.0,50000,Active
+P038,Ben Ashdown,Procurement & Contracts Officer,finance,P016,Maidstone,2022-11-07,ben.ashdown@silvering-homes.org.uk,,Permanent,1.0,37000,Active
+P039,Tessa Morgan,Executive Assistant,board,P001,Maidstone,2018-07-02,tessa.morgan@silvering-homes.org.uk,,Permanent,1.0,27000,Active
+P040,Anil Kapoor-Reeves,Planned Works Surveyor,assets,P009,Field-based,2021-03-01,anil.kapoor-reeves@silvering-homes.org.uk,,Permanent,0.6,37000,Active
+E1001,Dennis Jones,Multi-trade Operative (Plumbing),repairs,P018,Field-based,2025-11-07,dennis.jones@silvering-homes.org.uk,Plumbing,Permanent,1.0,39000,Active
+E1002,Harriet Chapman,Multi-trade Operative (Plumbing),repairs,P018,Field-based,2024-05-13,harriet.chapman@silvering-homes.org.uk,Plumbing,Permanent,1.0,36000,Active
+E1003,Callum Marsh,Multi-trade Operative (Plumbing),repairs,P018,Field-based,2015-10-12,callum.marsh@silvering-homes.org.uk,Plumbing,Permanent,1.0,39000,Active
+E1004,Justin Owen,Electrician,repairs,P018,Field-based,2017-06-30,justin.owen@silvering-homes.org.uk,Electrical,Permanent,1.0,39000,Active
+E1005,Pamela Nash,Electrician,repairs,P018,Field-based,2012-06-25,pamela.nash@silvering-homes.org.uk,Electrical,Permanent,1.0,36000,Active
+E1006,Gareth Powell,Gas Engineer,repairs,P018,Field-based,2021-05-12,gareth.powell@silvering-homes.org.uk,Gas & heating,Permanent,1.0,40000,Active
+E1007,Lauren Turner,Gas Engineer,repairs,P018,Field-based,2020-02-12,lauren.turner@silvering-homes.org.uk,Gas & heating,Permanent,1.0,39000,Active
+E1008,Pauline Powell,Gas Engineer,repairs,P018,Field-based,2019-05-17,pauline.powell@silvering-homes.org.uk,Gas & heating,Permanent,1.0,37000,Active
+E1009,Jamie Dixon,Carpenter,repairs,P018,Field-based,2019-01-22,jamie.dixon@silvering-homes.org.uk,Carpentry,Permanent,1.0,41000,Active
+E1010,Aimee Harrison,Carpenter,repairs,P018,Field-based,2021-09-30,aimee.harrison@silvering-homes.org.uk,Carpentry,Permanent,1.0,37000,Active
+E1011,Arthur Lloyd,Carpenter,repairs,P018,Field-based,2014-02-13,arthur.lloyd@silvering-homes.org.uk,Carpentry,Permanent,1.0,41000,Active
+E1012,James Ahmed,Operative Decorator (Damp & Mould),repairs,P008,Field-based,2015-01-26,james.ahmed@silvering-homes.org.uk,Damp & mould,Permanent,1.0,40000,Active
+E1013,Robin King,Operative Decorator (Damp & Mould),repairs,P008,Field-based,2025-07-14,robin.king@silvering-homes.org.uk,Damp & mould,Permanent,1.0,37000,Active
+E1014,Jacqueline Sinclair,Plasterer,repairs,P018,Field-based,2016-09-02,jacqueline.sinclair@silvering-homes.org.uk,Damp & mould,Fixed term,1.0,38000,Active
+E1015,Michael Howe,Multi-trade Operative,repairs,P018,Field-based,2026-08-07,michael.howe@silvering-homes.org.uk,Multi-trade,Permanent,1.0,41000,Active
+E1016,Kayleigh Alexander,Multi-trade Operative,repairs,P018,Field-based,2014-11-11,kayleigh.alexander@silvering-homes.org.uk,Multi-trade,Permanent,1.0,36000,Active
+E1017,Adrian Patel,Multi-trade Operative,repairs,P018,Field-based,2014-01-07,adrian.patel@silvering-homes.org.uk,Multi-trade,Permanent,1.0,34000,Active
+E1018,Guy Kirby,Clearance Operative (Voids),repairs,P021,Field-based,2023-01-27,guy.kirby@silvering-homes.org.uk,Voids clearance,Permanent,1.0,35000,Active
+E1019,Naomi Wood,Clearance Operative (Voids),repairs,P021,Field-based,2024-12-30,naomi.wood@silvering-homes.org.uk,Voids clearance,Permanent,1.0,36000,Active
+E1020,Bradley Jordan,Repairs Planner,repairs,P018,Aylesford depot,2024-06-14,bradley.jordan@silvering-homes.org.uk,,Permanent,1.0,31000,Active
+E1021,Diana Edwards,Customer Service Adviser,customer,P030,Maidstone,2025-06-05,diana.edwards@silvering-homes.org.uk,,Permanent,1.0,26000,Active
+E1022,Jordan Baker,Customer Service Adviser,customer,P030,Maidstone,2016-10-25,jordan.baker@silvering-homes.org.uk,,Permanent,0.6,26000,Active
+E1023,Linda Jones,Customer Service Adviser,customer,P030,Maidstone,2024-04-15,linda.jones@silvering-homes.org.uk,,Permanent,1.0,31000,Active
+E1024,Daniel Hill,Customer Service Adviser,customer,P030,Maidstone,2014-09-03,daniel.hill@silvering-homes.org.uk,,Permanent,0.6,29000,Active
+E1025,John Stone,SilverLiving Scheme Officer,tenancy,P027,Linton Lodge,2022-10-13,john.stone@silvering-homes.org.uk,,Permanent,1.0,35000,Active
+E1026,Carly Baker,Finance Assistant,finance,P016,Maidstone,2020-12-14,carly.baker@silvering-homes.org.uk,,Permanent,1.0,29000,Active
+E1027,Carolyn Lawrence,IT Support Analyst,people,P014,Maidstone,2019-04-05,carolyn.lawrence@silvering-homes.org.uk,,Permanent,1.0,25000,Active

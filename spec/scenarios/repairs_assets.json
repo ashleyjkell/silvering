@@ -1,0 +1,216 @@
+[
+ {
+  "id": "S-REP-01",
+  "title": "'Is this an emergency?' repairs triage agent",
+  "level": "Foundation",
+  "module": "Copilot Studio basics",
+  "persona": "P031",
+  "context": "Contact centre advisers are unsure how to prioritise repairs, especially where damp, vulnerability or Awaab's Law apply. Getting it wrong means residents wait too long or emergency slots are wasted.",
+  "goal": "Build an agent grounded in the Repairs Policy and Damp & Mould Policy that tells an adviser the correct priority, target time and any damp screening steps for a described repair.",
+  "task_steps": [
+   "Create an agent and add the Repairs and Maintenance Policy and the Damp and Mould Policy as knowledge",
+   "Write instructions: answer only from the policies, give the priority, the target time and the reason, and always flag damp screening questions",
+   "Test with the sample prompts, including vulnerability cases",
+   "Add the draft Awaab's Law process map as knowledge and see whether the agent's answer on timescales changes; then remove it and explain why"
+  ],
+  "sample_prompts": [
+   "A resident in her 80s has no heating at all and it's November. What priority is this?",
+   "Dripping kitchen tap, no other issues - how long do we have?",
+   "Caller says there's black mould in the baby's bedroom and the window is wet. What do I do?",
+   "How long do we have to send the written summary after a damp inspection?",
+   "Resident locked out after losing keys - do we charge?"
+  ],
+  "success_criteria": [
+   "No heating for a resident over 75 between October and April is treated as an Emergency (24 hours)",
+   "Routine is 28 calendar days, Urgent 5 working days, Planned 90 days",
+   "Black mould in a baby's room triggers screening and a possible emergency hazard under Awaab's Law",
+   "Written summary within 3 working days of the investigation (not 5)",
+   "Lock change recharge of £95 quoted from the policy"
+  ],
+  "data_sources": [
+   "rep-repairs-policy",
+   "rep-damp-mould-policy",
+   "rep-awaabs-process-map"
+  ],
+  "fact_ids": [
+   "rep_priority_targets",
+   "rep_dm_awaab_timescales"
+  ],
+  "agent_instructions": "You are the Silvering Repairs Triage helper for contact centre advisers. Use only the Repairs and Maintenance Policy (v4.1) and the Damp and Mould Policy (v3.0). For every repair described, give: the priority (Emergency, Urgent, Routine or Planned), the target time, and a one-line reason quoting the policy. If the repair mentions damp, mould, condensation or leaks, list the damp screening questions and say whether it may be an Awaab's Law emergency hazard. If a resident is vulnerable, say whether the priority should go up. If the policy does not cover it, say so and suggest the adviser asks a repairs planner. Never advise residents to 'just open a window'.",
+  "trainer_notes": "Planted trap: the draft process map (rep-awaabs-process-map, v0.9, Sept 2025) says investigation within 14 calendar days and written summary within 5 working days. The approved policy says 10 working days and 3 working days. If learners add every file in the Damp & Mould library, the agent may quote the draft - a good discussion about curating knowledge and document status. Also: the Damp & Mould Policy review date (27 Oct 2026) has passed; the policy says it stays in force until replaced."
+ },
+ {
+  "id": "S-REP-02",
+  "title": "Awaab's Law breach analysis and action plan",
+  "level": "Advanced",
+  "module": "Copilot in Excel and Word - analysis",
+  "persona": "P008",
+  "context": "The Head of Repairs must explain to the Executive Team how often Silvering is breaching Awaab's Law timescales, where and why, and what will change.",
+  "goal": "Analyse the damp and mould case data, identify breach patterns, and draft a one-page action plan.",
+  "task_steps": [
+   "Open the damp_mould_cases data (Databases folder or export) in Excel with Copilot",
+   "Ask Copilot to count Awaab's Law cases and breaches by type, scheme, surveyor and month",
+   "Find open cases that are already past a deadline",
+   "Cross-check your figures with the October performance report",
+   "Use Copilot in Word to draft a one-page action plan with owners and dates"
+  ],
+  "sample_prompts": [
+   "Of the cases where awaabs_law = 1, how many have a timescale_breach and of what types?",
+   "Which schemes have the most breaches? Show as a table and chart.",
+   "List open cases where the written summary or investigation is overdue as of 5 November 2026.",
+   "Draft a one-page action plan for the Executive Team to reduce Awaab's Law breaches, based on this analysis and the October repairs performance report."
+  ],
+  "success_criteria": [
+   "Breach rate of {{fact:rep_awaab_breach_rate}} ({{fact:damp_breaches}} of {{fact:damp_cases_awaab}} cases)",
+   "Late written summaries identified as the most common breach ({{fact:rep_summary_late}})",
+   "Spots the {{fact:rep_awaiting_summary_overdue}} open cases awaiting a summary long after investigation",
+   "Brenchley Gardens identified as the biggest share of cases",
+   "Action plan has owners and dates and links causes to actions (same-day summaries, surveyor capacity, rebooking missed visits)"
+  ],
+  "data_sources": [
+   "damp_mould_cases",
+   "rep-performance-report-oct26",
+   "rep-damp-mould-policy",
+   "rep-email-damp-escalation",
+   "rep-chat-planners"
+  ],
+  "fact_ids": [
+   "rep_awaab_breach_rate",
+   "rep_summary_late",
+   "rep_awaiting_summary_overdue",
+   "damp_breaches",
+   "damp_cases_awaab",
+   "damp_brenchley_share"
+  ],
+  "trainer_notes": "The three 'Open - awaiting written summary' cases (DM1160, DM1005, DM1171) were investigated between December 2025 and March 2026. The Planners chat shows the summaries were never sent and went out on 3 November, but the data extract does not reflect that yet - a good prompt for 'check the date of your data'. DM1188 (88 Brenchley Gardens) is a worked example of an investigation breach - see the email thread."
+ },
+ {
+  "id": "S-REP-03",
+  "title": "Turn an operative's job sheet and the stand-up whiteboard into a job summary",
+  "level": "Intermediate",
+  "module": "Copilot with images and scanned documents",
+  "persona": "P018",
+  "context": "Lee Barton completed a paper job sheet at 75 Brenchley Gardens when FieldLoop had no signal, and the daily stand-up actions are on a whiteboard photo. The planner needs to key the job, raise follow-on work and a damp case, and circulate actions.",
+  "goal": "Extract the information from a scanned, handwritten job sheet and a whiteboard photo and produce a structured job summary and action list.",
+  "task_steps": [
+   "Ask Copilot (in SharePoint or Teams) what job sheet RJ405857 says - notice that it cannot read an image-only scan",
+   "Upload the scan to Copilot chat and ask it to transcribe the fields",
+   "Ask Copilot to write a FieldLoop job update: work done, materials, follow-on jobs (trade and priority) and the damp observation",
+   "Do the same with the stand-up whiteboard photo to produce an action list with owners",
+   "Compare with the stand-up meeting recap and note differences"
+  ],
+  "sample_prompts": [
+   "Read this job sheet and give me the job number, address, times, work done and materials as a table.",
+   "What follow-on jobs need raising, with the trade and the right priority under our Repairs Policy?",
+   "Does this job sheet mean we need to open a damp and mould case? When did the Awaab's Law clock start?",
+   "Turn this whiteboard photo into an action list with owner initials expanded to names."
+  ],
+  "success_criteria": [
+   "Correctly transcribes RJ405857, 75 Brenchley Gardens, 08:20-09:55, bath trap replaced",
+   "Raises follow-ons: overflow kit (plumbing), floor panel (carpentry), possible ceiling repair below (plastering)",
+   "Recognises the damp observation needs a DM case and that the clock starts when Silvering was told (4 Nov), not when the sheet is keyed",
+   "Whiteboard initials resolved: KA Kwame Asante, EN Ellie Novak, DK Daniel Kerr, SH Steve Harlow"
+  ],
+  "data_sources": [
+   "rep-scan-jobsheet-rj405857",
+   "rep-img-standup-whiteboard",
+   "mtg-rep-standup-2026-11-04",
+   "rep-chat-planners",
+   "rep-van-stock-procedure",
+   "rep-repairs-policy"
+  ],
+  "fact_ids": [
+   "rep_priority_targets"
+  ],
+  "trainer_notes": "The scan is image-only: Copilot search cannot read it until it is uploaded or OCR'd. The handwriting says a grandson stays most weeks, but the Keystone tenancy record shows no children in the household - a data quality point. FieldLoop still shows RJ405857 as 'Appointment booked' because the sheet has not been keyed (24-hour rule in the van stock procedure). The whiteboard says 'Flat 121 sockets - chase' while the chat says it was brought in-house, and the stand-up reveals the allocated electrician is off sick."
+ },
+ {
+  "id": "S-AST-01",
+  "title": "Compliance assurance report for the board",
+  "level": "Intermediate",
+  "module": "Copilot in Word - reports from data",
+  "persona": "P009",
+  "context": "The Head of Assets must give the Board a short, honest assurance summary on the big six compliance areas ahead of the Audit & Risk Committee.",
+  "goal": "Use Copilot with the compliance dashboard, the Q2 assurance report and the Building Safety Group recap to draft a two-page board assurance summary with a RAG rating per area.",
+  "task_steps": [
+   "Ground Copilot in the Big Six Compliance Dashboard, the Q2 Compliance Assurance Report and the Building Safety Group recap",
+   "Ask for compliance percentages and exceptions by area",
+   "Ask Copilot to propose an assurance level (reasonable / limited) and RAG for each area with reasons",
+   "Draft the two-page board summary in Word with the key risks and decisions needed",
+   "Check every number against the dashboard"
+  ],
+  "sample_prompts": [
+   "Summarise gas, electrical, fire, water, asbestos and lift compliance at 31 October with the exceptions.",
+   "Which communal checks are overdue and why?",
+   "What is the position on Rosemount Tower fire doors, and is it consistent with what we told the Building Safety Regulator?",
+   "Draft a two-page board assurance summary with a RAG table and three decisions for the Board."
+  ],
+  "success_criteria": [
+   "Gas {{fact:gas_compliance}}, EICR {{fact:eicr_compliance}} with {{fact:eicr_overdue}} overdue ({{fact:ast_eicr_no_access_3plus}} with 3+ failed access attempts)",
+   "Overdue communal checks: {{fact:communal_overdue}}",
+   "Rosemount Tower FRA actions {{fact:ast_rosemount_fra_actions}}; fire door inspection {{fact:ast_rosemount_firedoor_actions}}",
+   "Notes the missed 30 September fire door date in the safety case summary v1.2 and the BSR request",
+   "Recommends limited assurance for electrical and fire safety"
+  ],
+  "data_sources": [
+   "ast-big-six-dashboard",
+   "ast-compliance-report-q2",
+   "mtg-ast-bsg-2026-10-21",
+   "ast-eicr-recovery-plan",
+   "ast-bsc-summary-rosemount",
+   "ast-email-bsr-rosemount",
+   "compliance_checks",
+   "building_safety"
+  ],
+  "fact_ids": [
+   "gas_compliance",
+   "eicr_compliance",
+   "eicr_overdue",
+   "communal_overdue",
+   "ast_rosemount_fra_actions",
+   "ast_rosemount_firedoor_actions",
+   "ast_eicr_no_access_3plus"
+  ],
+  "trainer_notes": "Planted: the Safety Case Report Summary v1.2 (Aug 2026) says the six failed flat entrance doors will be replaced by 30 September 2026. That date was missed (fitting from 16 Nov), and the action to update the summary to v1.3 (due 31 Oct in the BSG recap) was also missed - Fatima's 30 Oct email says she has not done it. A learner who grounds only in the safety case summary will tell the Board the doors are done. The Q2 report is labelled Q2 but its tables are a 31 October refresh."
+ },
+ {
+  "id": "S-AST-02",
+  "title": "Building safety letter to Rosemount Tower residents",
+  "level": "Foundation",
+  "module": "Copilot in Word - drafting",
+  "persona": "P022",
+  "context": "Ahead of the residents' building safety meeting on 12 November, the Building Safety Manager needs to write to all 88 households about the fire door works, access and what to do in a fire.",
+  "goal": "Draft a clear, plain-English resident letter grounded in the FRA, the Resident Engagement Strategy and the meeting invite, then a short version for the lobby noticeboard.",
+  "task_steps": [
+   "Ask Copilot in Word to draft a letter using the FRA, the Resident Engagement Strategy and the meeting agenda",
+   "Make sure it explains stay put, why fire doors matter, the works dates and access arrangements",
+   "Ask for a reading-age check and a shorter noticeboard version",
+   "Ask Copilot to list anything in the letter that is not supported by the source documents"
+  ],
+  "sample_prompts": [
+   "Draft a letter to Rosemount Tower residents about the fire door replacement works starting 16 November and the residents' meeting on 12 November. Use plain English.",
+   "Explain the stay-put strategy in three sentences a 12-year-old would understand.",
+   "Make a one-paragraph version for the lift lobby noticeboard.",
+   "What should we say to residents who don't want a new door fitted?"
+  ],
+  "success_criteria": [
+   "Correct dates: meeting 12 November 2026 at 6.30pm in the ground-floor community room; fitting from 16 November",
+   "Explains stay put and self-closing doors correctly",
+   "Mentions notice of access, evening/Saturday slots and that legal action is a last resort",
+   "Offers translations and large print; explains how to raise a concern, including the BSR route",
+   "Does not claim the work is already complete"
+  ],
+  "data_sources": [
+   "ast-fra-rosemount-2026",
+   "ast-resident-engagement-rosemount",
+   "mtg-ast-rosemount-residents-2026-11-12",
+   "ast-email-bsr-rosemount",
+   "ast-bsc-summary-rosemount"
+  ],
+  "fact_ids": [
+   "ast_rosemount_fra_actions",
+   "ast_rosemount_firedoor_actions"
+  ],
+  "trainer_notes": "Watch for Copilot picking up the outdated 30 September completion date from the safety case summary v1.2. The letter must not name individual residents who refused access or who need help to evacuate (data minimisation - oversharing of vulnerability data is the Copilot pilot's main worry)."
+ }
+]

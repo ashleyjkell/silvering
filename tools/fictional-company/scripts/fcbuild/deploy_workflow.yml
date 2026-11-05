@@ -1,0 +1,57 @@
+# Builds the fictional-company training pack from spec/ and publishes the dashboard + zip to GitHub Pages.
+# One-off: repo Settings > Pages > Build and deployment > Source = "GitHub Actions".
+name: Build and deploy training pack
+
+on:
+  push:
+    branches: [main]
+    paths: ["spec/**", "research/**", "tools/**", ".github/workflows/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install dependencies
+        run: |
+          pip install --quiet -r tools/fictional-company/requirements.txt
+          sudo apt-get install -y -qq fonts-dejavu-core > /dev/null
+      - name: Build pack
+        run: python tools/fictional-company/scripts/build_pack.py .
+      - name: Build report
+        run: |
+          cat build/build_report.txt >> "$GITHUB_STEP_SUMMARY"
+          if grep -q "^Warnings (0)" build/build_report.txt; then echo "No warnings"; else echo "::warning::Build has warnings - see the job summary"; fi
+      - name: Assemble site
+        run: |
+          pack="$(find build -mindepth 1 -maxdepth 1 -type d | head -1)"
+          mkdir -p _site
+          cp -r "$pack"/. _site/
+          cp ./*.zip _site/
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

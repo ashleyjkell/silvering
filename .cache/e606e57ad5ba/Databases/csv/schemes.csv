@@ -1,0 +1,30 @@
+﻿scheme_id,scheme_name,local_authority,town,postcode_sector,scheme_type,build_year,max_storeys,has_lift,homes,higher_risk_building,patch_officer
+SCH01,Rosemount Tower,Maidstone,Maidstone,ME16 8,General needs block,1968,12,1,88,1,Tom Reed
+SCH02,Parkwood Court,Maidstone,Maidstone,ME15 9,General needs block,1972,5,1,60,0,Amira Haddad
+SCH03,Brenchley Gardens,Maidstone,Maidstone,ME15 8,General needs estate,1964,3,0,164,0,Amira Haddad
+SCH04,Heron Way,Maidstone,Maidstone,ME15 7,General needs estate,1978,2,0,100,0,Amira Haddad
+SCH05,Vinters Rise,Maidstone,Maidstone,ME14 5,General needs estate,1985,2,0,96,0,Sasha Kemp
+SCH06,Shepway Green,Maidstone,Maidstone,ME15 8,General needs estate,1958,2,0,150,0,Amira Haddad
+SCH07,Coxheath Lane,Maidstone,Coxheath,ME17 4,General needs estate,1952,2,0,54,0,Sasha Kemp
+SCH08,Allington Mews,Maidstone,Maidstone,ME16 0,General needs block,2011,3,0,36,0,Tom Reed
+SCH09,Ringlestone Crescent,Maidstone,Maidstone,ME14 2,General needs estate,1961,2,0,92,0,Tom Reed
+SCH10,Bearsted Court,Maidstone,Bearsted,ME14 4,Sheltered (SilverLiving),1979,3,1,48,0,Margaret Ogunleye
+SCH11,Willow House,Maidstone,Maidstone,ME16 9,Sheltered (SilverLiving),1986,3,1,42,0,Margaret Ogunleye
+SCH12,Linton Lodge,Maidstone,Loose,ME15 0,Extra care (SilverLiving),2014,3,1,60,0,Margaret Ogunleye
+SCH13,Oakwood Place,Maidstone,Maidstone,ME16 8,Supported housing,1998,2,0,18,0,Tom Reed
+SCH14,Orchard Fields,Maidstone,Maidstone,ME15 9,New build mixed tenure,2026,4,1,62,0,Amira Haddad
+SCH15,Hop Pocket Way,Maidstone,Maidstone,ME15 6,New build mixed tenure,2019,3,0,84,0,Sasha Kemp
+SCH16,Lenham Meadows,Maidstone,Lenham,ME17 2,New build mixed tenure,2022,2,0,70,0,Sasha Kemp
+SCH17,Headcorn & Villages,Maidstone,Headcorn,TN27 9,Street properties,1950,2,0,62,0,Sasha Kemp
+SCH18,Larkfield Close,Tonbridge & Malling,Larkfield,ME20 6,General needs estate,1970,2,0,48,0,Joel Mensah
+SCH19,Kings Hill Quarter,Tonbridge & Malling,Kings Hill,ME19 4,New build mixed tenure,2017,3,0,58,0,Joel Mensah
+SCH20,Snodland Riverside,Tonbridge & Malling,Snodland,ME6 5,General needs block,2009,4,1,30,0,Joel Mensah
+SCH21,Chatham Hill Court,Medway,Chatham,ME5 7,General needs block,1974,4,0,40,0,Joel Mensah
+SCH22,Strood Wharf,Medway,Strood,ME2 4,New build mixed tenure,2021,5,1,46,0,Joel Mensah
+SCH23,Kennington Grange,Ashford,Ashford,TN24 9,New build mixed tenure,2018,3,0,52,0,Joel Mensah
+SCH24,Mill Court,Swale,Sittingbourne,ME10 3,General needs block,2006,3,0,28,0,Joel Mensah
+SCH25,Station Road,Tunbridge Wells,Paddock Wood,TN12 6,New build mixed tenure,2023,3,0,48,0,Sasha Kemp
+SCH26,Marden & Staplehurst Cottages,Maidstone,Marden,TN12 9,Street properties,1948,2,0,34,0,Sasha Kemp
+SCH27,Maidstone Town Street Properties,Maidstone,Maidstone,ME14 1,Street properties,1930,2,0,90,0,Tom Reed
+SCH28,Week Street Apartments,Maidstone,Maidstone,ME14 1,Market rent,2020,5,1,40,0,Tom Reed
+SCH29,Leybourne Court,Tonbridge & Malling,Leybourne,ME19 5,Sheltered (SilverLiving),1982,2,1,40,0,Margaret Ogunleye

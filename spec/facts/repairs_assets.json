@@ -1,0 +1,133 @@
+[
+ {
+  "id": "rep_priority_targets",
+  "category": "Repairs",
+  "question": "What are Silvering's repair priority categories and target times?",
+  "answer": "Emergency: attend and make safe within 24 hours; Urgent: complete within 5 working days; Routine: complete within 28 calendar days; Planned: complete within 90 calendar days",
+  "sources": [
+   "rep-repairs-policy"
+  ],
+  "notes": "Repairs Policy v4.1, section 4."
+ },
+ {
+  "id": "rep_dm_awaab_timescales",
+  "category": "Damp & mould",
+  "question": "What timescales does the Damp & Mould Policy set for Awaab's Law cases?",
+  "answer": "Emergency hazards made safe within 24 hours; significant damp and mould investigated within 10 working days of the report; written summary to the resident within 3 working days of the investigation; safety works started within 5 working days of the investigation (or alternative accommodation offered)",
+  "sources": [
+   "rep-damp-mould-policy"
+  ],
+  "notes": "Policy v3.0 (27 Oct 2025). The draft process map rep-awaabs-process-map v0.9 wrongly says 5 working days for the written summary and 14 calendar days for investigation - a planted inconsistency."
+ },
+ {
+  "id": "rep_awaab_breach_rate",
+  "category": "Damp & mould",
+  "question": "What share of Awaab's Law damp and mould cases breached at least one legal timescale?",
+  "sql": "SELECT 1.0 * SUM(timescale_breach IS NOT NULL) / COUNT(*) FROM damp_mould_cases WHERE awaabs_law = 1",
+  "format": "pct",
+  "sources": [
+   "damp_mould_cases",
+   "rep-performance-report-oct26"
+  ]
+ },
+ {
+  "id": "rep_summary_late",
+  "category": "Damp & mould",
+  "question": "How many Awaab's Law cases had the written summary sent late?",
+  "sql": "SELECT COUNT(*) FROM damp_mould_cases WHERE awaabs_law = 1 AND timescale_breach LIKE '%Written summary late%'",
+  "format": "int",
+  "sources": [
+   "damp_mould_cases"
+  ],
+  "notes": "The most common breach type."
+ },
+ {
+  "id": "rep_awaiting_summary_overdue",
+  "category": "Damp & mould",
+  "question": "How many open damp and mould cases are still waiting for a written summary (all well past the 3-working-day deadline)?",
+  "sql": "SELECT COUNT(*) FROM damp_mould_cases WHERE status = 'Open - awaiting written summary'",
+  "format": "int",
+  "sources": [
+   "damp_mould_cases",
+   "rep-chat-planners"
+  ],
+  "notes": "Trap: these cases were investigated months ago (the oldest in December 2025) and have never had a summary. Two are at Brenchley Gardens."
+ },
+ {
+  "id": "rep_brightline_in_target",
+  "category": "Repairs",
+  "question": "What percentage of completed jobs given to Brightline Electrical were completed within target?",
+  "sql": "SELECT AVG(in_target) FROM repairs WHERE contractor = 'Brightline Electrical Ltd' AND status = 'Completed'",
+  "format": "pct",
+  "sources": [
+   "repairs",
+   "rep-email-brightline-invoices"
+  ]
+ },
+ {
+  "id": "rep_electrical_routine_6m",
+  "category": "Repairs",
+  "question": "What share of routine electrical repairs completed May-October 2026 were in target?",
+  "sql": "SELECT AVG(in_target) FROM repairs WHERE status = 'Completed' AND priority = 'Routine' AND trade = 'Electrical' AND completed_date >= '2026-05-01' AND completed_date < '2026-11-01'",
+  "format": "pct",
+  "sources": [
+   "repairs",
+   "rep-performance-report-oct26"
+  ],
+  "notes": "The weakest trade; two electrician vacancies."
+ },
+ {
+  "id": "ast_rosemount_fra_actions",
+  "category": "Building safety",
+  "question": "How many actions are open and overdue from the March 2026 fire risk assessment at Rosemount Tower?",
+  "sql": "SELECT open_actions || ' open, ' || overdue_actions || ' overdue' FROM building_safety WHERE scheme_id = 'SCH01' AND check_type = 'Fire risk assessment'",
+  "sources": [
+   "building_safety",
+   "ast-fra-rosemount-2026"
+  ]
+ },
+ {
+  "id": "ast_rosemount_firedoor_actions",
+  "category": "Building safety",
+  "question": "How many fire door actions are open and overdue at Rosemount Tower after the October 2026 quarterly inspection?",
+  "sql": "SELECT open_actions || ' open, ' || overdue_actions || ' overdue' FROM building_safety WHERE scheme_id = 'SCH01' AND check_type = 'Communal fire door inspection'",
+  "sources": [
+   "building_safety",
+   "mtg-ast-bsg-2026-10-21"
+  ],
+  "notes": "The Building Safety Case summary v1.2 (Aug 2026) says fire door works would be complete by 30 Sep 2026 - outdated, planted."
+ },
+ {
+  "id": "ast_epc_below_c",
+  "category": "Assets",
+  "question": "How many homes are below EPC band C?",
+  "sql": "SELECT COUNT(*) FROM properties WHERE epc_rating IN ('D', 'E', 'F')",
+  "format": "int",
+  "sources": [
+   "properties",
+   "ast-asset-strategy"
+  ]
+ },
+ {
+  "id": "ast_no_recent_survey",
+  "category": "Assets",
+  "question": "How many homes have no stock condition survey in the last five years?",
+  "sql": "SELECT COUNT(*) FROM properties WHERE last_stock_survey IS NULL OR last_stock_survey < '2021-11-05'",
+  "format": "int",
+  "sources": [
+   "properties",
+   "ast-stock-condition-summary"
+  ]
+ },
+ {
+  "id": "ast_eicr_no_access_3plus",
+  "category": "Compliance",
+  "question": "How many overdue EICRs have had three or more failed access attempts?",
+  "sql": "SELECT COUNT(*) FROM compliance_checks WHERE check_type LIKE 'Electrical%' AND status = 'Overdue' AND no_access_attempts >= 3",
+  "format": "int",
+  "sources": [
+   "compliance_checks",
+   "ast-eicr-recovery-plan"
+  ]
+ }
+]
